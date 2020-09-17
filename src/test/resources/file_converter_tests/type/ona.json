@@ -1,0 +1,589 @@
+{
+  "data": {
+    "Media": {
+      "id": 3167,
+      "title": {
+        "userPreferred": "Eve no Jikan",
+        "romaji": "Eve no Jikan",
+        "english": "Time of Eve",
+        "native": "\u30a4\u30f4\u306e\u6642\u9593"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/3167.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/3167-e2qIc6utiYEC.jpg",
+      "startDate": {
+        "year": 2008,
+        "month": 8,
+        "day": 1
+      },
+      "endDate": {
+        "year": 2009,
+        "month": 9,
+        "day": 18
+      },
+      "description": "The future, probably Japan. Robots have long been put into practical use, and androids have just come into use.<br><br>\nInfluenced by the Robot Ethics Committee, it's become common sense for people to treat androids like household appliances. Their appearance - indistinguishable from humans except for the ring over each android's head - has led some people to empathize unnecessarily with androids. Known as \"android-holics\", such people have become a social problem.<br><br>\nRikuo, a high school student, has been taught from childhood that androids are not to be viewed as humans, and has always used them as convenient tools. One day Rikuo discovers some strange data in the behavior records of his family's household android, Sammy.<br><br>\nRikuo and his friend Masaki trace Sammy's movements, only to discover a mysterious caf&eacute; that features a house rule that \"humans and robots are to be treated the same\"...<br><br>\n(Source: Official Website - English)",
+      "season": "SUMMER",
+      "type": "ANIME",
+      "format": "ONA",
+      "status": "FINISHED",
+      "episodes": 6,
+      "duration": 17,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Sci-Fi",
+        "Slice of Life"
+      ],
+      "synonyms": [
+        "Eve's Time"
+      ],
+      "source": null,
+      "isAdult": false,
+      "meanScore": 80,
+      "averageScore": 79,
+      "popularity": 14203,
+      "favourites": 171,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 4161,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 49478,
+              "title": {
+                "userPreferred": "Eve no Jikan"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/19478.jpg"
+              }
+            }
+          },
+          {
+            "id": 10207,
+            "relationType": "ALTERNATIVE",
+            "node": {
+              "id": 7465,
+              "title": {
+                "userPreferred": "Eve no Jikan Movie"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx7465-LS2see8TGexC.png"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 11244,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95086,
+                "name": {
+                  "first": "Jun",
+                  "last": "Fukuyama"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95086-oWe2P6dm8cbk.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 14542,
+              "name": {
+                "first": "Rikuo",
+                "last": "Sakisaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14542.jpg"
+              }
+            }
+          },
+          {
+            "id": 9546,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95074,
+                "name": {
+                  "first": "Kenji",
+                  "last": "Nojima"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95074-7zbitxEDoWbn.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 14543,
+              "name": {
+                "first": "Masakazu",
+                "last": "Masaki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14543.jpg"
+              }
+            }
+          },
+          {
+            "id": 7715,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95060,
+                "name": {
+                  "first": "Rie",
+                  "last": "Tanaka"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95060-HOMOR8Kthjr5.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 14573,
+              "name": {
+                "first": "Sammy",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14573.jpg"
+              }
+            }
+          },
+          {
+            "id": 24830,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95241,
+                "name": {
+                  "first": "Rina",
+                  "last": "Satou"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95241-dSrfterc7OZc.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 14574,
+              "name": {
+                "first": "Nagi",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14574.jpg"
+              }
+            }
+          },
+          {
+            "id": 16687,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95140,
+                "name": {
+                  "first": "",
+                  "last": "Yukana"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/140.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 14575,
+              "name": {
+                "first": "Akiko",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14575.jpg"
+              }
+            }
+          },
+          {
+            "id": 14761,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95121,
+                "name": {
+                  "first": "Miki",
+                  "last": "Itou"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95121-FCp9NcoFgKZk.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 17580,
+              "name": {
+                "first": "Rina",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/17580.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 469,
+            "role": "Theme Song Performance  (episode 6 ED \"Yasashii Jikan no Naka de\")",
+            "node": {
+              "id": 95060,
+              "name": {
+                "first": "Rie",
+                "last": "Tanaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95060-HOMOR8Kthjr5.png"
+              }
+            }
+          },
+          {
+            "id": 13583,
+            "role": "Director",
+            "node": {
+              "id": 101072,
+              "name": {
+                "first": "Yasuhiro",
+                "last": "Yoshiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6072.jpg"
+              }
+            }
+          },
+          {
+            "id": 13584,
+            "role": "Original Creator",
+            "node": {
+              "id": 101072,
+              "name": {
+                "first": "Yasuhiro",
+                "last": "Yoshiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6072.jpg"
+              }
+            }
+          },
+          {
+            "id": 13585,
+            "role": "Screenplay",
+            "node": {
+              "id": 101072,
+              "name": {
+                "first": "Yasuhiro",
+                "last": "Yoshiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6072.jpg"
+              }
+            }
+          },
+          {
+            "id": 38101,
+            "role": "Theme Song Arrangement  (ED)",
+            "node": {
+              "id": 107656,
+              "name": {
+                "first": "Tohru",
+                "last": "Okada"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12656.jpg"
+              }
+            }
+          },
+          {
+            "id": 38102,
+            "role": "Music",
+            "node": {
+              "id": 107656,
+              "name": {
+                "first": "Tohru",
+                "last": "Okada"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12656.jpg"
+              }
+            }
+          },
+          {
+            "id": 38103,
+            "role": "Theme Song Composition  (ED)",
+            "node": {
+              "id": 107656,
+              "name": {
+                "first": "Tohru",
+                "last": "Okada"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12656.jpg"
+              }
+            }
+          },
+          {
+            "id": 43694,
+            "role": "Animation Director",
+            "node": {
+              "id": 111455,
+              "name": {
+                "first": "Ryusuke",
+                "last": "Chayama"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16455.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 84,
+              "name": "Studio Rikka"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 324,
+              "name": "Directions"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 325,
+              "name": "Code"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 384,
+              "name": "Trick Block"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Akiko",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/09192008\/e\/5\/a\/c\/e5aca5693f7210_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve\/episode-1-akiko-452708"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - Sammy",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/09252008\/d\/3\/8\/3\/d38369a063c9d0_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve\/episode-2-sammy-456432"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - Koji & Rina",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/6e5426f3cd766e14baf0324206f0bb261228198821_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve\/episode-3-koji-rina-497398"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - Nameless",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/4fb9198561d7cea6f0c963f23c9a06571240984354_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve\/episode-4-nameless-527892"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - Chie & Shimei",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/a2d20b2c263bf4bfb190c8073358aec81245964704_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve\/episode-5-chie-shimei-531044"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - Masaki",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/cb677367cc243c354e7d7adf12d8fbae1253525845_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/time-of-eve\/episode-6-masaki-534004"
+        }
+      ],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 16472,
+          "rank": 3,
+          "type": "RATED",
+          "format": "ONA",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 16526,
+          "rank": 7,
+          "type": "POPULAR",
+          "format": "ONA",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "most popular all time"
+        },
+        {
+          "id": 16708,
+          "rank": 1,
+          "type": "RATED",
+          "format": "ONA",
+          "year": 2008,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 16723,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "ONA",
+          "year": 2008,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 175,
+          "name": "Robots",
+          "description": "Prominently features humanoid machines.",
+          "rank": 90,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 50,
+          "name": "Seinen",
+          "description": "Target demographic is adult males.",
+          "rank": 68,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 161,
+          "name": "Bar",
+          "description": "Partly or completely set in a bar.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 517,
+          "name": "Artificial Intelligence",
+          "description": "Intelligent non-organic machines that work and react similarly to humans.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 215
+          },
+          {
+            "status": "PLANNING",
+            "amount": 5833
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 7809
+          },
+          {
+            "status": "DROPPED",
+            "amount": 137
+          },
+          {
+            "status": "PAUSED",
+            "amount": 209
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 17
+          },
+          {
+            "score": 20,
+            "amount": 4
+          },
+          {
+            "score": 30,
+            "amount": 12
+          },
+          {
+            "score": 40,
+            "amount": 40
+          },
+          {
+            "score": 50,
+            "amount": 150
+          },
+          {
+            "score": 60,
+            "amount": 423
+          },
+          {
+            "score": 70,
+            "amount": 1168
+          },
+          {
+            "score": 80,
+            "amount": 2008
+          },
+          {
+            "score": 90,
+            "amount": 1672
+          },
+          {
+            "score": 100,
+            "amount": 680
+          }
+        ]
+      }
+    }
+  }
+}

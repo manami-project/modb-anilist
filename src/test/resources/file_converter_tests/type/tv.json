@@ -1,0 +1,1191 @@
+{
+  "data": {
+    "Media": {
+      "id": 5114,
+      "title": {
+        "userPreferred": "Hagane no Renkinjutsushi: Fullmetal Alchemist",
+        "romaji": "Hagane no Renkinjutsushi: Fullmetal Alchemist",
+        "english": "Fullmetal Alchemist: Brotherhood",
+        "native": "\u92fc\u306e\u932c\u91d1\u8853\u5e2b FULLMETAL ALCHEMIST"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5114-OqQOY03Fc4Ni.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/5114-7SftH58z5UXy.jpg",
+      "startDate": {
+        "year": 2009,
+        "month": 4,
+        "day": 5
+      },
+      "endDate": {
+        "year": 2010,
+        "month": 7,
+        "day": 4
+      },
+      "description": "In this world, alchemists are those who study and perform the art of alchemical transmutation\u2014the science of manipulating and transforming matter. They are bounded by the Law of Equivalent Exchange: in order to gain something, one must sacrifice something of equal value.<br><br>\nYoung Edward Elric, nicknamed the \"Fullmetal Alchemist\", is a State Alchemist working for the government of Amestris. As a child, Edward and his little brother Alphonse attempted the forbidden art of human transmutation to revive their late mother. In the accident that ensued, Edward lost his left leg and right arm, and Alphonse's soul was sealed in a large suit of armor. To reclaim their original bodies, the Elric brothers embark on a journey to find the Philosopher's Stone, a mythical object said to allow its user to perform alchemical miracles.<br><br>\nFullmetal Alchemist: Brotherhood is a re-adaptation of the original manga that follows the source material closer than its predecessor, the 2003 Fullmetal Alchemist anime.",
+      "season": "SPRING",
+      "type": "ANIME",
+      "format": "TV",
+      "status": "FINISHED",
+      "episodes": 64,
+      "duration": 24,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Comedy"
+      ],
+      "synonyms": [
+        "FMA",
+        "FMAB",
+        "Hagaren"
+      ],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 91,
+      "averageScore": 91,
+      "popularity": 101669,
+      "favourites": 10746,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 5146,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 30025,
+              "title": {
+                "userPreferred": "Hagane no Renkinjutsushi"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx30025-H2Es0tn49tir.png"
+              }
+            }
+          },
+          {
+            "id": 5147,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 6421,
+              "title": {
+                "userPreferred": "Hagane no Renkinjutsushi: Fullmetal Alchemist Specials"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6421.jpg"
+              }
+            }
+          },
+          {
+            "id": 5148,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 9135,
+              "title": {
+                "userPreferred": "Hagane no Renkinjutsushi: Milos no Seinaru Hoshi"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx9135-VRYqW2Hjjtng.jpg"
+              }
+            }
+          },
+          {
+            "id": 5149,
+            "relationType": "ALTERNATIVE",
+            "node": {
+              "id": 121,
+              "title": {
+                "userPreferred": "Hagane no Renkinjutsushi"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx121-lcStiEjYkFuH.jpg"
+              }
+            }
+          },
+          {
+            "id": 18134,
+            "relationType": "SPIN_OFF",
+            "node": {
+              "id": 7902,
+              "title": {
+                "userPreferred": "Hagane no Renkinjutsushi: Fullmetal Alchemist: 4-Koma Theater"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/7902.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 6625,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95082,
+                "name": {
+                  "first": "Romi",
+                  "last": "Park"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95082-nGwB1pPlLDs0.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 11,
+              "name": {
+                "first": "Edward",
+                "last": "Elric"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n11-k3dR0ZXPTwLd.jpg"
+              }
+            }
+          },
+          {
+            "id": 2030,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95008,
+                "name": {
+                  "first": "Rie",
+                  "last": "Kugimiya"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95008-pZsjXbQKVySl.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 12,
+              "name": {
+                "first": "Alphonse",
+                "last": "Elric"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n12-IsVPL3Fh1XM8.jpg"
+              }
+            }
+          },
+          {
+            "id": 6835,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95046,
+                "name": {
+                  "first": "Megumi",
+                  "last": "Takamoto"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/46.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 63,
+              "name": {
+                "first": "Winry",
+                "last": "Rockbell"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/63-xloedtYxiJ2E.jpg"
+              }
+            }
+          },
+          {
+            "id": 22064,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95571,
+                "name": {
+                  "first": "Mami",
+                  "last": "Koyama"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95571-PFdygvrWicTN.png"
+                }
+              },
+              {
+                "id": 96542,
+                "name": {
+                  "first": "Miyoko",
+                  "last": "Asou"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1542.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 65,
+              "name": {
+                "first": "Pinako",
+                "last": "Rockbell"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/65.jpg"
+              }
+            }
+          },
+          {
+            "id": 44258,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95720,
+                "name": {
+                  "first": "Kenta",
+                  "last": "Miyake"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95720-enxx6kZKuwGi.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 66,
+              "name": {
+                "first": "Scar",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/66.jpg"
+              }
+            }
+          },
+          {
+            "id": 38311,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 96664,
+                "name": {
+                  "first": "Shouko",
+                  "last": "Tsuda"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1664.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 67,
+              "name": {
+                "first": "Izumi",
+                "last": "Curtis"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b67-ggB3aC6DzQqB.png"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 1209,
+            "role": "ADR Director",
+            "node": {
+              "id": 95202,
+              "name": {
+                "first": "Mike",
+                "last": "McFarland"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/202.jpg"
+              }
+            }
+          },
+          {
+            "id": 1264,
+            "role": "Producer",
+            "node": {
+              "id": 95203,
+              "name": {
+                "first": "Justin",
+                "last": "Cook"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95203-pLacWJ09D59h.png"
+              }
+            }
+          },
+          {
+            "id": 1432,
+            "role": "Script",
+            "node": {
+              "id": 95251,
+              "name": {
+                "first": "John",
+                "last": "Burgmeier"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/251.jpg"
+              }
+            }
+          },
+          {
+            "id": 1605,
+            "role": "ADR Director",
+            "node": {
+              "id": 95313,
+              "name": {
+                "first": "Caitlin",
+                "last": "Glass"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95313-C9X9AT0e4TIZ.png"
+              }
+            }
+          },
+          {
+            "id": 3098,
+            "role": "Original Creator",
+            "node": {
+              "id": 96874,
+              "name": {
+                "first": "Hiromu",
+                "last": "Arakawa"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96874-d9h1JB9uPa8L.jpg"
+              }
+            }
+          },
+          {
+            "id": 5835,
+            "role": "Script",
+            "node": {
+              "id": 97701,
+              "name": {
+                "first": "Hiroshi",
+                "last": "Ohnogi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 8696,
+            "role": "Theme Song Performance",
+            "node": {
+              "id": 100110,
+              "name": {
+                "first": "Shoko",
+                "last": "Nakagawa"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100110-egDwRWF59beo.png"
+              }
+            }
+          },
+          {
+            "id": 9479,
+            "role": "Theme Song Composition (OP 1)",
+            "node": {
+              "id": 100287,
+              "name": {
+                "first": "",
+                "last": "Yui"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100287-PJcFoYvW8wZT.png"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 4,
+              "name": "BONES"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 17,
+              "name": "Aniplex"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 58,
+              "name": "Square Enix"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 143,
+              "name": "Mainichi Broadcasting"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 2435,
+            "summary": "Watch this show like really it's a must watch. Everything here was just flawless.",
+            "rating": 63,
+            "ratingAmount": 94,
+            "user": {
+              "id": 118296,
+              "name": "PARADOX101",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/118296-Q7GSKwx5NsdM.jpg"
+              }
+            }
+          },
+          {
+            "id": 2672,
+            "summary": "Do not watch this if you're new to anime.",
+            "rating": 56,
+            "ratingAmount": 107,
+            "user": {
+              "id": 114393,
+              "name": "taven",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n114393-wlKCY02xLzXd.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Netflix",
+          "url": "http:\/\/movies.netflix.com\/WiMovie\/Fullmetal_Alchemist_Brotherhood\/70204981"
+        },
+        {
+          "site": "Animelab",
+          "url": "https:\/\/www.animelab.com\/shows\/fullmetal-alchemist-brotherhood"
+        },
+        {
+          "site": "Hulu",
+          "url": "http:\/\/www.hulu.com\/fullmetal-alchemist-brotherhood"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood"
+        },
+        {
+          "site": "Amazon",
+          "url": "https:\/\/www.amazon.com\/One-All\/dp\/B002T8C202\/ref=sr_1_52\/146-1307517-0174061?s=instant-video&rps=1&ie=UTF8&qid=1528858933&sr=1-52&refinements=p_n_theme_browse-bin%3A2650364011%2Cp_85%3A2470955011%2Cp_n_entity_type%3A14069184011%7C14069185011"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Fullmetal Alchemist",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/bba713cd933d6eadd690fcf477cfb2c21471054462_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-1-fullmetal-alchemist-718109"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - The First Day",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/ddf59534e12f0ce000c42b163132071f1471781407_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-2-the-first-day-718111"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - City of Heresy",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/f132b5b37031a79cb9dad9c6826a14ad1471053084_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-3-city-of-heresy-718113"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - An Alchemist\u2019s Anguish",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/3f276f5812009f0eceb394917a4d28041471054353_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-4-an-alchemists-anguish-718115"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - Rain of Sorrows",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/6837dd1a4853c5d8a556dd40301260f51471049493_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-5-rain-of-sorrows-718117"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - Road of Hope",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/44815092fbd3d76f6980e9e408af7e9f1471054997_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-6-road-of-hope-718119"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 7 - Hidden Truths",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/353b4791800e453713e426ab440f5e201471784450_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-7-hidden-truths-718121"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 8 - The Fifth Laboratory",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/32620e41b79eb560488b05c36975b3291471054426_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-8-the-fifth-laboratory-718123"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 9 - Created Feelings",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/b5fe2a53343b221a4c06dbb7294a17b11471054510_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-9-created-feelings-718125"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 10 - Separate Destinations",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/cca64a13f77b6a96ff818a48bb72dbb31471049386_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-10-separate-destinations-718127"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 11 - Miracle at Rush Valley",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/7f237db5ebf586198a69fca41d845bb11471782253_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-11-miracle-at-rush-valley-718129"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 12 - One is All, All is One",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/f535a96df93fcdd8f70dda121aca4a3b1471055029_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-12-one-is-all-all-is-one-718131"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 13 - Beasts of Dublith",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/6c61966b2e4f6224fd357b5ec51644ac1471049944_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-13-beasts-of-dublith-718133"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 14 - Those Who Lurk Underground",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/7fb526fbe4e131006fa277ea5ca1dfc91471781665_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-14-those-who-lurk-underground-718135"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 15 - Envoy From the East",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/4b07a711d83fca5135e22d6043b75f4f1471049756_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-15-envoy-from-the-east-718137"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 16 - Footsteps of a Comrade-in-Arms",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/6bae119bdafa361f9432c6d8195549191471782115_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-16-footsteps-of-a-comrade-in-arms-718139"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 17 - Cold Flame",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/755e5d51c03721e8c4e0136045935b7c1471056127_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-17-cold-flame-718141"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 18 - The Arrogant Palm of a Small Human",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/240a1335962b9b7261f38156169fcc041471052879_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-18-the-arrogant-palm-of-a-small-human-718143"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 19 - Death of the Undying",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/aa5d685cd7ced5c7475f0556c1a9114a1471781639_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-19-death-of-the-undying-718145"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 20 - Father Before the Grave",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/45940446a8424027ba861f7423ffbefc1471053136_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-20-father-before-the-grave-718147"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 21 - Advance of the Fool",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/9692408d417358ce710d144e9d77947c1471053706_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-21-advance-of-the-fool-718149"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 22 - Backs in the Distance",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/5126658855f4711d7ab89cc5d6e9a1ab1471055443_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-22-backs-in-the-distance-718151"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 23 - Girl on the Battlefield",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/f8ad33ebb815ae52d363d397472adfa61471055077_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-23-girl-on-the-battlefield-718153"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 24 - Inside the Belly",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/7437f5aef721ae50c414bd2988845bce1471054915_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-24-inside-the-belly-718155"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 25 - Doorway of Darkness",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/c6812d1d97fb121c25c410668babc9b51471056988_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-25-doorway-of-darkness-718157"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 26 - Reunion",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/a48711012d30405aa3749a25545a0b891471783403_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-26-reunion-718159"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 27 - Interlude Party",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/ce651b20725be2998a9df948727b5ee31471058653_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-27-interlude-party-718161"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 28 - Father",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/1e12b10852f06837ea9eb0491a5e9c531471782265_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-28-father-718163"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 29 - Struggle of the Fool",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/18fc6a38f464b5ea5ae7693fbfd09b661471053013_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-29-struggle-of-the-fool-718165"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 30 - The Ishvalan War of Extermination",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/dcfa5c6fa35983128f92923962b7f6a71471055665_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-30-the-ishvalan-war-of-extermination-718167"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 31 - The 520 Cens Promise",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/ed4ef86f073cd0dbd34b9606ea43b8f61471060817_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-31-the-520-cens-promise-718169"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 32 - The Fuhrer\u2019s Son",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/e2160ae5cb15c4ebc8d8615f152687f91471053518_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-32-the-fuhrers-son-718171"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 33 - The Northern Wall of Briggs",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/f6394ea43e6a315510d13d6a96931a551471053289_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-33-the-northern-wall-of-briggs-718173"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 34 - Ice Queen",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/1e5d49f2afa150d966fb67ce2dbaf2fd1471053762_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-34-ice-queen-718175"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 35 - The Shape of This Country",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/151ac212a245d056099aeaf80470fd261471782225_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-35-the-shape-of-this-country-718177"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 36 - Family Portrait",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/4cc8c52e318ee3beebb2fa46b8e7490e1471059131_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-36-family-portrait-718179"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 37 - The First Homunculus",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/df86700c54e42c5cc001e93e27a31f801471057635_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-37-the-first-homunculus-718181"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 38 - Conflict at Baschool",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/4394c4ea1cb82a2f3cf108b132a66e951471059761_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-38-conflict-at-baschool-718183"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 39 - Daydream",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/cd8352ec9d46a56288bdb5940e73f4e51471059202_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-39-daydream-718185"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 40 - The Dwarf in the Flask",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/926517771447b0195ffdb3dbacf169ac1471782675_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-40-the-dwarf-in-the-flask-718187"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 41 - The Abyss",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/1565738078493be54cfe5cd15a526fd61471058277_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-41-the-abyss-718189"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 42 - Signs of a Counter Offensive",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/897383e517691af8743415bd2c79eef71471782308_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-42-signs-of-a-counter-offensive-718191"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 43 - Bite of the Ant",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/8d1fef9d4e70e3cd1c36558bec9955381471055912_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-43-bite-of-the-ant-718193"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 44 - Revving at Full-throttle",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/6e18562b69a331c82a525ceef9f0a3ce1471781701_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-44-revving-at-full-throttle-718195"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 45 - The Promised Day",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/bd76f32b57e8fb867d0572458b72b8821471059711_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-45-the-promised-day-718197"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 46 - Looming Shadows",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/05d79e1888feb976d789d304c57e16e81471058470_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-46-looming-shadows-718199"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 47 - Emissary of Darkness",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/b7f740cfcc046848f23f301acdafbeba1471783427_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-47-emissary-of-darkness-718201"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 48 - The Oath in the Tunnel",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/95fdc3ed7b11382ceb14366b846110941471783842_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-48-the-oath-in-the-tunnel-718203"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 49 - Filial Affection",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/65af7cdf9cd2dbb624da27de40e425711471058352_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-49-filial-affection-718205"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 50 - Upheaval in Central",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/e66015f840b3b244913ed1b3891196ec1471058511_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-50-upheaval-in-central-718207"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 51 - The Immortal Legion",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/84235ec4fda16d078a63ea69a3c725d51471064471_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-51-the-immortal-legion-718209"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 52 - Combined Strength",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/fcc79aaff2babc7eed1f0143fa12b0031471057490_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-52-combined-strength-718211"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 53 - Flame of Vengeance",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/c37fb892d9f62da17ecc964595da830c1471782621_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-53-flame-of-vengeance-718213"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 54 - Beyond the Inferno",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/9f2fa3bfe17a9d24e35a20b8f7cefbf91471782785_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-54-beyond-the-inferno-718215"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 55 - The Adults\u2019 Way of Life",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/bb27f89efdeef3ed0748692d649361911471057902_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-55-the-adults-way-of-life-718217"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 56 - The Return of the Fuhrer",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/5dbab0804b253650f17682e2ed719b2e1471058497_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-56-the-return-of-the-fuhrer-718219"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 57 - Eternal Leave",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/8f58854a2675b64c7a4dab8f73cca9811471058545_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-57-eternal-leave-718221"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 58 - Sacrifices",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/c0cc716285a741a55e186838819c9b171471057948_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-58-sacrifices-718223"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 59 - Lost Light",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/dd1ad059c34b58a0ce0cab6561eb73e21471060319_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-59-lost-light-718225"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 60 - Eye of Heaven, Gateway of Earth",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/83c85caf88997245e2ca277da6cf032d1471058073_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-60-eye-of-heaven-gateway-of-earth-718227"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 61 - He Who Would Swallow God",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/5eb57d377008fa70ce770e98050cc5f41471059037_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-61-he-who-would-swallow-god-718229"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 62 - A Fierce Counterattack",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/de2744450ce30aaf3e98ee386cea84ca1471058627_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-62-a-fierce-counterattack-718231"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 63 - The Other Side of the Gateway",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/61fb8fa09a2ace04a151190a8785edb01471058569_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-63-the-other-side-of-the-gateway-718233"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 64 - Journey\u2019s End",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/01c4d20e33d9a76506a126ee39c3caaa1472605226_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/fullmetal-alchemist-brotherhood\/episode-64-journeys-end-718811"
+        }
+      ],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 1,
+          "rank": 1,
+          "type": "RATED",
+          "format": "TV",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 505,
+          "rank": 5,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "most popular all time"
+        },
+        {
+          "id": 4494,
+          "rank": 1,
+          "type": "RATED",
+          "format": "TV",
+          "year": 2009,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 4594,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": 2009,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        },
+        {
+          "id": 4739,
+          "rank": 1,
+          "type": "RATED",
+          "format": "TV",
+          "year": 2009,
+          "season": "SPRING",
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 4769,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": 2009,
+          "season": "SPRING",
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 111,
+          "name": "War",
+          "description": "Partly or completely set during wartime.",
+          "rank": 92,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 456,
+          "name": "Conspiracy",
+          "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+          "rank": 90,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 34,
+          "name": "Military",
+          "description": "Centered around the life and activities of military personnel.",
+          "rank": 89,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 29,
+          "name": "Magic",
+          "description": "Prominently features magical elements or the use of magic.",
+          "rank": 85,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 103,
+          "name": "Politics",
+          "description": "Centers around politics, politicians, or government activities.",
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 391,
+          "name": "Philosophy",
+          "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+          "rank": 74,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 74,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 95,
+          "name": "Steampunk",
+          "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
+          "rank": 68,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 324,
+          "name": "Chibi",
+          "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+          "rank": 65,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 198,
+          "name": "Foreign",
+          "description": "Partly or completely set in a country outside of Japan.",
+          "rank": 62,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 466,
+          "name": "Lost Civilization",
+          "description": "Featuring a civilization with few ruins or records that exist in present day knowledge.",
+          "rank": 54,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 157,
+          "name": "Guns",
+          "description": "Prominently features the use of guns in combat.",
+          "rank": 52,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 25,
+          "name": "Historical",
+          "description": "Partly or completely set during a real period of world history.",
+          "rank": 47,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 94,
+          "name": "Gore",
+          "description": "Prominently features graphic bloodshed and violence.",
+          "rank": 46,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 43,
+          "name": "Swordplay",
+          "description": "Prominently features the use of swords in combat.",
+          "rank": 43,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 152,
+          "name": "Zombie",
+          "description": "Prominently features reanimated corpses which often prey on live humans and turn them into zombies.",
+          "rank": 21,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 20,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 639,
+          "name": "Body Horror",
+          "description": "Features characters who undergo horrific transformations and\/or disfigurement, often to their own detriment.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 174,
+          "name": "Tanks",
+          "description": "Prominently features the use of tanks or other armoured vehicles.",
+          "rank": 18,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 5136
+          },
+          {
+            "status": "PLANNING",
+            "amount": 14552
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 76469
+          },
+          {
+            "status": "DROPPED",
+            "amount": 1375
+          },
+          {
+            "status": "PAUSED",
+            "amount": 4137
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 146
+          },
+          {
+            "score": 20,
+            "amount": 23
+          },
+          {
+            "score": 30,
+            "amount": 57
+          },
+          {
+            "score": 40,
+            "amount": 93
+          },
+          {
+            "score": 50,
+            "amount": 303
+          },
+          {
+            "score": 60,
+            "amount": 534
+          },
+          {
+            "score": 70,
+            "amount": 1934
+          },
+          {
+            "score": 80,
+            "amount": 5275
+          },
+          {
+            "score": 90,
+            "amount": 12615
+          },
+          {
+            "score": 100,
+            "amount": 20479
+          }
+        ]
+      }
+    }
+  }
+}

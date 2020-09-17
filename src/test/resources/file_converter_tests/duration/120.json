@@ -1,0 +1,267 @@
+{
+  "data": {
+    "Media": {
+      "id": 100290,
+      "title": {
+        "userPreferred": "Crayon Shin-chan Movie 25: Shuurai! Uchuujin Shiriri",
+        "romaji": "Crayon Shin-chan Movie 25: Shuurai! Uchuujin Shiriri",
+        "english": "Crayon Shin-chan Movie 25: Shuurai! Uchuujin Shiriri",
+        "native": "\u6620\u753b \u30af\u30ec\u30e8\u30f3\u3057\u3093\u3061\u3083\u3093 \u8972\u6765!!\u5b87\u5b99\u4eba\u30b7\u30ea\u30ea"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100290-P4R8MUvxxwv2.jpg"
+      },
+      "bannerImage": null,
+      "startDate": {
+        "year": 2017,
+        "month": 4,
+        "day": 15
+      },
+      "endDate": {
+        "year": 2017,
+        "month": 4,
+        "day": 15
+      },
+      "description": "The film's story begins when Shiriri, an alien, arrives and turns Hiroshi and Misae into children. To turn them back, Shinnosuke must travel the length of Japan with Shiriri hidden in his butt. Meanwhile, Shiriri's father is moving forward with a huge conspiracy.\n\n(Source: ANN)",
+      "season": "SPRING",
+      "type": "ANIME",
+      "format": "MOVIE",
+      "status": "FINISHED",
+      "episodes": 1,
+      "duration": 120,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Comedy"
+      ],
+      "synonyms": [],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 69,
+      "averageScore": null,
+      "popularity": 134,
+      "favourites": 0,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 21312,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 32435,
+              "title": {
+                "userPreferred": "Crayon Shin-chan"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/2435.jpg"
+              }
+            }
+          },
+          {
+            "id": 21314,
+            "relationType": "PARENT",
+            "node": {
+              "id": 966,
+              "title": {
+                "userPreferred": "Crayon Shin-chan"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "RELEASING",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/966.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": []
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 102979,
+            "role": "Director",
+            "node": {
+              "id": 111395,
+              "name": {
+                "first": "Masakazu",
+                "last": "Hashimoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16395.jpg"
+              }
+            }
+          },
+          {
+            "id": 102980,
+            "role": "Screenplay",
+            "node": {
+              "id": 111395,
+              "name": {
+                "first": "Masakazu",
+                "last": "Hashimoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16395.jpg"
+              }
+            }
+          },
+          {
+            "id": 102981,
+            "role": "Storyboard",
+            "node": {
+              "id": 111395,
+              "name": {
+                "first": "Masakazu",
+                "last": "Hashimoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16395.jpg"
+              }
+            }
+          },
+          {
+            "id": 102982,
+            "role": "Storyboard",
+            "node": {
+              "id": 118513,
+              "name": {
+                "first": "Wataru",
+                "last": "Takahashi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/23513.jpg"
+              }
+            }
+          },
+          {
+            "id": 102983,
+            "role": "Music",
+            "node": {
+              "id": 116579,
+              "name": {
+                "first": "Toshiyuki",
+                "last": "Arakawa"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 102984,
+            "role": "Original Creator",
+            "node": {
+              "id": 98293,
+              "name": {
+                "first": "Yoshito",
+                "last": "Usui"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3293.jpg"
+              }
+            }
+          },
+          {
+            "id": 102985,
+            "role": "Art Director",
+            "node": {
+              "id": 118516,
+              "name": {
+                "first": "Shinji",
+                "last": "Kawaai"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/23516.jpg"
+              }
+            }
+          },
+          {
+            "id": 102986,
+            "role": "Sound Director",
+            "node": {
+              "id": 117345,
+              "name": {
+                "first": "Akira",
+                "last": "Ookuma"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 247,
+              "name": "Shin-Ei Animation"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/www.shinchan-movie.com\/"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 14221,
+          "rank": 71,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": 2017,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 2
+          },
+          {
+            "status": "PLANNING",
+            "amount": 62
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 62
+          },
+          {
+            "status": "DROPPED",
+            "amount": 5
+          },
+          {
+            "status": "PAUSED",
+            "amount": 3
+          }
+        ],
+        "scoreDistribution": []
+      }
+    }
+  }
+}

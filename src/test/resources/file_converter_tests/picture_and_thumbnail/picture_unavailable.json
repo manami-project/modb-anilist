@@ -1,0 +1,175 @@
+{
+  "data": {
+    "Media": {
+      "id": 109125,
+      "title": {
+        "userPreferred": "Omoi, Omoware, Furi, Furare",
+        "romaji": "Omoi, Omoware, Furi, Furare",
+        "english": null,
+        "native": "\u601d\u3044\u3001\u601d\u308f\u308c\u3001\u3075\u308a\u3001\u3075\u3089\u308c"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/default.jpg"
+      },
+      "bannerImage": null,
+      "startDate": {
+        "year": 2020,
+        "month": 5,
+        "day": null
+      },
+      "endDate": {
+        "year": null,
+        "month": null,
+        "day": null
+      },
+      "description": "The story centers around Yuna and Akari who have two very different views of love: Yuna is someone who sees love as a dream and Akari is someone who is very realistic about her romance choices. Meanwhile, there are two boys, Kazuomi and Rio, who also have different views of love: Kazuomi's an airhead and doesn't understand the concept of love, while Rio grabs the opportunity when confessed to as long as the girl looks cute.\n<br><br>\n(Source: MAL News)",
+      "season": "SPRING",
+      "type": "ANIME",
+      "format": "MOVIE",
+      "status": "NOT_YET_RELEASED",
+      "episodes": 1,
+      "duration": null,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Romance"
+      ],
+      "synonyms": [
+        "Love, Be Loved, Leave, Be Left"
+      ],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": null,
+      "averageScore": null,
+      "popularity": 170,
+      "favourites": 1,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 32091,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 86219,
+              "title": {
+                "userPreferred": "Omoi, Omoware, Furi, Furare"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/56219-YRz6t0TSXl0a.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": []
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 126360,
+            "role": "Original Creator",
+            "node": {
+              "id": 99142,
+              "name": {
+                "first": "Io",
+                "last": "Sakisaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/4142.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 561,
+              "name": "A-1 Pictures"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [],
+      "streamingEpisodes": [],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 14475,
+          "rank": 17,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": 2020,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 53,
+          "name": "Shoujo",
+          "description": "Target demographic is teenage and young adult females.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 46,
+          "name": "School",
+          "description": "Partly or completely set in a primary or secondary educational institution.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 105,
+          "name": "Ensemble Cast",
+          "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 1
+          },
+          {
+            "status": "PLANNING",
+            "amount": 166
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 0
+          },
+          {
+            "status": "DROPPED",
+            "amount": 2
+          },
+          {
+            "status": "PAUSED",
+            "amount": 1
+          }
+        ],
+        "scoreDistribution": []
+      }
+    }
+  }
+}

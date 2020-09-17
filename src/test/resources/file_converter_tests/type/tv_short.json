@@ -1,0 +1,668 @@
+{
+  "data": {
+    "Media": {
+      "id": 98291,
+      "title": {
+        "userPreferred": "Tsurezure Children",
+        "romaji": "Tsurezure Children",
+        "english": "Tsuredure Children",
+        "native": "\u5f92\u7136\u30c1\u30eb\u30c9\u30ec\u30f3"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx98291-LY6txxZTX8We.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n98291-cRLmqm7It2rZ.jpg",
+      "startDate": {
+        "year": 2017,
+        "month": 7,
+        "day": 4
+      },
+      "endDate": {
+        "year": 2017,
+        "month": 9,
+        "day": 19
+      },
+      "description": "To those of you out there who never could say \"I love you\"\u2014 This story is about ordinary highschoolers and how love makes them fired up, shaken, laugh, cry, and hurt. Whether things go well or not, this story of adolescence and romance will show you how they spend their precious youth. Every character is the main character here, and you're sure to find one you can sympathize with.<br><br>\n\n(Source: Crunchyroll)",
+      "season": "SUMMER",
+      "type": "ANIME",
+      "format": "TV_SHORT",
+      "status": "FINISHED",
+      "episodes": 12,
+      "duration": 13,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Slice of Life"
+      ],
+      "synonyms": [
+        "Tsure x dure children"
+      ],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 76,
+      "averageScore": 76,
+      "popularity": 36810,
+      "favourites": 610,
+      "hashtag": "#\u5f92\u7136\u30c1\u30eb\u30c9\u30ec\u30f3",
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 18427,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 86481,
+              "title": {
+                "userPreferred": "Tsurezure Children"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/56481-tHHR8Bslsrx2.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 149315,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 115156,
+                "name": {
+                  "first": "Kaito",
+                  "last": "Ishikawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/115156-A03oJosfg2Y0.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 122998,
+              "name": {
+                "first": "Takuro",
+                "last": "Sugawara"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b122998-JwK6xAyS0wBw.png"
+              }
+            }
+          },
+          {
+            "id": 149327,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95819,
+                "name": {
+                  "first": "Kensho",
+                  "last": "Ono"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/819.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 123022,
+              "name": {
+                "first": "Masafumi",
+                "last": "Akagi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/123022-SSWjeqljPAvS.jpg"
+              }
+            }
+          },
+          {
+            "id": 149328,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95185,
+                "name": {
+                  "first": "Kana",
+                  "last": "Hanazawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95185-wzI7XLTwk1Go.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 123023,
+              "name": {
+                "first": "Yuki",
+                "last": "Minagawa"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b123023-YGCaYfsXVq1H.jpg"
+              }
+            }
+          },
+          {
+            "id": 149329,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95087,
+                "name": {
+                  "first": "Daisuke",
+                  "last": "Namikawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95087-yd2UdZN2wRG4.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 123024,
+              "name": {
+                "first": "Shinichi",
+                "last": "Katori"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/123024-oXJ27mPZrpPA.jpg"
+              }
+            }
+          },
+          {
+            "id": 149330,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 96489,
+                "name": {
+                  "first": "Tomoaki",
+                  "last": "Maeno"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96489-d2X6BHul0zus.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 123025,
+              "name": {
+                "first": "Takeru",
+                "last": "Gouda"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b123025-fO3v2SoYFDVE.png"
+              }
+            }
+          },
+          {
+            "id": 149347,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 118249,
+                "name": {
+                  "first": "Seiichirou",
+                  "last": "Yamashita"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/23249-KK6Eh0h4Xnnx.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 123047,
+              "name": {
+                "first": "Chiaki",
+                "last": "Uchimura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/123047-OshP6k3FvOF9.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 89585,
+            "role": "Original Creator",
+            "node": {
+              "id": 119353,
+              "name": {
+                "first": "Toshiya",
+                "last": "Wakabayashi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119353-pdSUbMdTWJEV.jpg"
+              }
+            }
+          },
+          {
+            "id": 90819,
+            "role": "Director",
+            "node": {
+              "id": 107537,
+              "name": {
+                "first": "Hiraku",
+                "last": "Kaneko"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/107537-66j89pEuAM1u.jpg"
+              }
+            }
+          },
+          {
+            "id": 90820,
+            "role": "Series Composition",
+            "node": {
+              "id": 102191,
+              "name": {
+                "first": "Tatsuhiko",
+                "last": "Urahata"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/102191-GRvM8dB4Zinq.jpg"
+              }
+            }
+          },
+          {
+            "id": 93874,
+            "role": "Theme Song Performance (OP)",
+            "node": {
+              "id": 106297,
+              "name": {
+                "first": "Inori",
+                "last": "Minase"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/106297-ysFPeWJPnrhq.jpg"
+              }
+            }
+          },
+          {
+            "id": 93875,
+            "role": "Theme Song Performance (ED)",
+            "node": {
+              "id": 105981,
+              "name": {
+                "first": "Yui",
+                "last": "Ogura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/105981-V7ySgKdwSzjd.jpg"
+              }
+            }
+          },
+          {
+            "id": 93876,
+            "role": "Character Design",
+            "node": {
+              "id": 121676,
+              "name": {
+                "first": "Etsuko",
+                "last": "Sumimoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 95486,
+            "role": "Music",
+            "node": {
+              "id": 100065,
+              "name": {
+                "first": "",
+                "last": "Tenmon"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100065-Jk79oRdAMdvd.png"
+              }
+            }
+          },
+          {
+            "id": 95487,
+            "role": "Chief Animation Director",
+            "node": {
+              "id": 121676,
+              "name": {
+                "first": "Etsuko",
+                "last": "Sumimoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 418,
+              "name": "Studio Gokumi"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 2278,
+            "summary": "It's like getting a highlight reel of all the best shoujo anime moments.",
+            "rating": 29,
+            "ratingAmount": 31,
+            "user": {
+              "id": 84799,
+              "name": "cupid",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n84799-E795ieoeD7ik.jpg"
+              }
+            }
+          },
+          {
+            "id": 3863,
+            "summary": "This 'Cute Couples Doing Cute Things' show is a heartwarming glimpse into the many ways love can affect young people.",
+            "rating": 26,
+            "ratingAmount": 29,
+            "user": {
+              "id": 122706,
+              "name": "OVERPOWERED99",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b122706-DtflicOnIteC.png"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/tsuredure-project.jp\/"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/tsuredure_anime"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children"
+        },
+        {
+          "site": "Funimation",
+          "url": "https:\/\/www.funimation.com\/shows\/tsuredure-children\/"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Confession",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/fd46670a5165a5b442860fafb5ea66de1499177814_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-1-confession-768001"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - Spring",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/7906f0682fa59d574cbc40e46428a6ab1499751121_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-2-spring-768005"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - Point-Blank Relationship",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/57fdef783dcce499489f0f2debd954751500352456_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-3-point-blank-relationship-768033"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - Romantic Comedy",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/eeead8bd7f09c9c638502a7b268fbf0e1500938640_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-4-romantic-comedy-768065"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - Watching You From Afar",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/c1e37efb5ed875641f4b2e569f775d721501537296_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-5-watching-you-from-afar-768069"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - We Don't Need Girls",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/1969dbed51c945f5fda7b80da7e7ddd51502141811_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-6-we-dont-need-girls-768071"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 7 - It's All the Fever's Fault",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/ab2ede5343138ef9c6760fdbbb442e851502766152_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-7-its-all-the-fevers-fault-768075"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 8 - Bruised-Up Angel",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/354a335fc8893248fd18994ee630cc771503374225_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-8-bruised-up-angel-768081"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 9 - Square One",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/2160eb7512cfd2b84ac0dbd3ef2a35e31504014801_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-9-square-one-768085"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 10 - Lovers",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/d045bc00ba3d07ca0b65fd51fd891d701504574343_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-10-lovers-768089"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 11 - Tuning",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/d07663ef1394569a0008b34df978d3ff1505186125_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-11-tuning-768095"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 12 - Summer Begins",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/fcc87dfbf14b5250fe2c9e7a6f47da671505778048_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/tsuredure-children\/episode-12-summer-begins-768099"
+        }
+      ],
+      "trailer": {
+        "id": "g2LxeRRzD4w",
+        "site": "youtube"
+      },
+      "rankings": [
+        {
+          "id": 9253,
+          "rank": 2,
+          "type": "RATED",
+          "format": "TV_SHORT",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 9302,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV_SHORT",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "most popular all time"
+        },
+        {
+          "id": 10803,
+          "rank": 1,
+          "type": "RATED",
+          "format": "TV_SHORT",
+          "year": 2017,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 10833,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV_SHORT",
+          "year": 2017,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        },
+        {
+          "id": 10917,
+          "rank": 1,
+          "type": "RATED",
+          "format": "TV_SHORT",
+          "year": 2017,
+          "season": "SUMMER",
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 10927,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV_SHORT",
+          "year": 2017,
+          "season": "SUMMER",
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 105,
+          "name": "Ensemble Cast",
+          "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+          "rank": 95,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 46,
+          "name": "School",
+          "description": "Partly or completely set in a primary or secondary educational institution.",
+          "rank": 91,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 193,
+          "name": "Episodic",
+          "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+          "rank": 71,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 206,
+          "name": "4-koma",
+          "description": "A manga in the 'yonkoma' format, which consists of four equal-sized panels arranged in a vertical strip.",
+          "rank": 70,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 84,
+          "name": "School Club",
+          "description": "Partly or completely set in a school club scene.",
+          "rank": 46,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 1789
+          },
+          {
+            "status": "PLANNING",
+            "amount": 7443
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 25725
+          },
+          {
+            "status": "DROPPED",
+            "amount": 884
+          },
+          {
+            "status": "PAUSED",
+            "amount": 969
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 51
+          },
+          {
+            "score": 20,
+            "amount": 43
+          },
+          {
+            "score": 30,
+            "amount": 98
+          },
+          {
+            "score": 40,
+            "amount": 183
+          },
+          {
+            "score": 50,
+            "amount": 713
+          },
+          {
+            "score": 60,
+            "amount": 1642
+          },
+          {
+            "score": 70,
+            "amount": 4901
+          },
+          {
+            "score": 80,
+            "amount": 6872
+          },
+          {
+            "score": 90,
+            "amount": 3687
+          },
+          {
+            "score": 100,
+            "amount": 1345
+          }
+        ]
+      }
+    }
+  }
+}

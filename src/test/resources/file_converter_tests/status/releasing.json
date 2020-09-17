@@ -1,0 +1,164 @@
+{
+  "data": {
+    "Media": {
+      "id": 105191,
+      "title": {
+        "userPreferred": "Monkey Peak",
+        "romaji": "Monkey Peak",
+        "english": null,
+        "native": "\u30e2\u30f3\u30ad\u30fc\u30d4\u30fc\u30af"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx105191-dnBOQQ5lm8M6.jpg"
+      },
+      "bannerImage": null,
+      "startDate": {
+        "year": 2018,
+        "month": 10,
+        "day": 26
+      },
+      "endDate": {
+        "year": null,
+        "month": null,
+        "day": null
+      },
+      "description": "The story centers on a group of pharmaceutical company employees who embark on a mountain-climbing trip together and who encounter tragedy at the hands of mysterious monkeys when they reach the top.<br><br>\n\n(Source: ANN)",
+      "season": "FALL",
+      "type": "ANIME",
+      "format": "ONA",
+      "status": "RELEASING",
+      "episodes": null,
+      "duration": 0,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Action",
+        "Mystery"
+      ],
+      "synonyms": [],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 35,
+      "averageScore": null,
+      "popularity": 49,
+      "favourites": 0,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 26612,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 104781,
+              "title": {
+                "userPreferred": "Monkey Peak"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "RELEASING",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/nx104781-71iajQGR4JZL.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": []
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 114241,
+            "role": "Original Story",
+            "node": {
+              "id": 111327,
+              "name": {
+                "first": "Koji",
+                "last": "Shinasaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/111327-EBVZZd4beEoo.jpg"
+              }
+            }
+          },
+          {
+            "id": 114242,
+            "role": "Original Character Design",
+            "node": {
+              "id": 128268,
+              "name": {
+                "first": "Takahiro",
+                "last": "Kumeta"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 6079,
+              "name": "Tomovies"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [],
+      "streamingEpisodes": [],
+      "trailer": {
+        "id": "XodYucVbUX4",
+        "site": "youtube"
+      },
+      "rankings": [],
+      "tags": [
+        {
+          "id": 433,
+          "name": "Animals",
+          "description": "Prominently features animal characters in a leading role.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 7
+          },
+          {
+            "status": "PLANNING",
+            "amount": 35
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 0
+          },
+          {
+            "status": "DROPPED",
+            "amount": 5
+          },
+          {
+            "status": "PAUSED",
+            "amount": 2
+          }
+        ],
+        "scoreDistribution": []
+      }
+    }
+  }
+}

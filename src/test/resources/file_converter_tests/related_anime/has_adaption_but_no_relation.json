@@ -1,0 +1,649 @@
+{
+  "data": {
+    "Media": {
+      "id": 100,
+      "title": {
+        "userPreferred": "Shin Shirayuki-hime Densetsu Pretear",
+        "romaji": "Shin Shirayuki-hime Densetsu Pretear",
+        "english": "Pr\u00e9tear: The New Legend of Snow White",
+        "native": "\u65b0\u767d\u96ea\u59eb\u4f1d\u8aac\u30d7\u30ea\u30fc\u30c6\u30a3\u30a2"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/100-7OrYM39mGaom.jpg",
+      "startDate": {
+        "year": 2001,
+        "month": 4,
+        "day": 4
+      },
+      "endDate": {
+        "year": 2001,
+        "month": 6,
+        "day": 21
+      },
+      "description": "A sixteen year old girl is struggling to adjust to a new step-family when seven guys appear on the scene revealing that she possesses a special magical power. Shying away from the strange group, she later joins them when a monster places her friend's life in jeopardy. Without training, she must prove herself capable to take up the sacred duty of the Pretear. They must resolve their differences and work together to defeat the evil princess intent on destruction. <br><br>\n(Source: FUNimation) ",
+      "season": "SPRING",
+      "type": "ANIME",
+      "format": "TV",
+      "status": "FINISHED",
+      "episodes": 13,
+      "duration": 23,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy",
+        "Mahou Shoujo",
+        "Romance"
+      ],
+      "synonyms": [],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 67,
+      "averageScore": 66,
+      "popularity": 2975,
+      "favourites": 30,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 281,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 31248,
+              "title": {
+                "userPreferred": "Shin Shirayuki-hime Densetsu Pretear"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/1248.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 21614,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 100246,
+                "name": {
+                  "first": "Sayuri",
+                  "last": "Yoshida"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5246.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 545,
+              "name": {
+                "first": "Himeno",
+                "last": "Awayuki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/545.jpg"
+              }
+            }
+          },
+          {
+            "id": 12938,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95097,
+                "name": {
+                  "first": "Kousuke",
+                  "last": "Toriumi"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95097-2mrv5eKymDgR.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 546,
+              "name": {
+                "first": "Hayate",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/546.jpg"
+              }
+            }
+          },
+          {
+            "id": 10259,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95079,
+                "name": {
+                  "first": "Takahiro",
+                  "last": "Sakurai"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-8pPLkBqFtPnE.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 547,
+              "name": {
+                "first": "Sasame",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/547.jpg"
+              }
+            }
+          },
+          {
+            "id": 5164,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95028,
+                "name": {
+                  "first": "Yui",
+                  "last": "Horie"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-UCWwNd4715Mu.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 553,
+              "name": {
+                "first": "Takako",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/553.jpg"
+              }
+            }
+          },
+          {
+            "id": 65950,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 101145,
+                "name": {
+                  "first": "Makoto",
+                  "last": "Naruse"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6145.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 548,
+              "name": {
+                "first": "Kei",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/548.jpg"
+              }
+            }
+          },
+          {
+            "id": 17786,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95178,
+                "name": {
+                  "first": "Shoutarou",
+                  "last": "Morikubo"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95178-k8kPRRBPyLBc.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 549,
+              "name": {
+                "first": "Goh",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/549.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 579,
+            "role": "Inserted Song Performance",
+            "node": {
+              "id": 95079,
+              "name": {
+                "first": "Takahiro",
+                "last": "Sakurai"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-8pPLkBqFtPnE.jpg"
+              }
+            }
+          },
+          {
+            "id": 782,
+            "role": "Inserted Song Performance",
+            "node": {
+              "id": 95097,
+              "name": {
+                "first": "Kousuke",
+                "last": "Toriumi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95097-2mrv5eKymDgR.jpg"
+              }
+            }
+          },
+          {
+            "id": 6039,
+            "role": "Original Creator",
+            "node": {
+              "id": 97837,
+              "name": {
+                "first": "Kaori",
+                "last": "Naruse"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 7195,
+            "role": "Director",
+            "node": {
+              "id": 99002,
+              "name": {
+                "first": "Junichi",
+                "last": "Satou"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n99002-nigbktOoWgUE.png"
+              }
+            }
+          },
+          {
+            "id": 7196,
+            "role": "Original Creator",
+            "node": {
+              "id": 99002,
+              "name": {
+                "first": "Junichi",
+                "last": "Satou"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n99002-nigbktOoWgUE.png"
+              }
+            }
+          },
+          {
+            "id": 7680,
+            "role": "Script  (7, 10, 12)",
+            "node": {
+              "id": 99801,
+              "name": {
+                "first": "Hiroyuki",
+                "last": "Kawasaki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/4801.jpg"
+              }
+            }
+          },
+          {
+            "id": 9381,
+            "role": "Theme Song Performance  (ED)",
+            "node": {
+              "id": 100246,
+              "name": {
+                "first": "Sayuri",
+                "last": "Yoshida"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5246.jpg"
+              }
+            }
+          },
+          {
+            "id": 9639,
+            "role": "Storyboard  (6, OP)",
+            "node": {
+              "id": 100315,
+              "name": {
+                "first": "Yuu",
+                "last": "Kou"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5315.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 34,
+              "name": "Hal Film Maker"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 97,
+              "name": "ADV Films"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 102,
+              "name": "FUNimation Entertainment"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 113,
+              "name": "Kadokawa Shoten"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 160,
+              "name": "Rondo Robe"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 3718,
+            "summary": "An imperfect thing that every magical girl fan should give a chance.",
+            "rating": 7,
+            "ratingAmount": 7,
+            "user": {
+              "id": 204707,
+              "name": "doodlemancy",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n204707-tDlYY3pBvI4L.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Funimation",
+          "url": "http:\/\/www.funimation.com\/shows\/pretear\/videos\/episodes"
+        },
+        {
+          "site": "Hulu",
+          "url": "http:\/\/www.hulu.com\/pretear"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/pretear"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Winds of Destiny",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/e59db50614915a453d95247d90c7e0181500787130_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-1-winds-of-destiny-743703"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - Let Me Hear Your Heart Flutter",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/ec4991afd95c63b55921f4af438376b31500787544_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-2-let-me-hear-your-heart-flutter-743705"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - The Way of Becoming Pretear",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/2801720d2ef68afff396e53329fec7111500787866_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-3-the-way-of-becoming-pretear-743709"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - A Promise Made Under the Sunlight",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/9ce7bb6d2cf91c1bcc9675a9eed4befb1500788255_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-4-a-promise-made-under-the-sunlight-743711"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - Smile of Darkness",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/728a87238a0534a32ef14d5fc55ce0ae1500788595_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-5-smile-of-darkness-743717"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - Secret of Rouge",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/19ae8cd2caefb9f247ddca7ebf7a76e01500788960_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-6-secret-of-rouge-743719"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 7 - Can't Protect Anyone Anymore",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/a2b00c2749d93636c7570825218da96c1500789329_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-7-cant-protect-anyone-anymore-743723"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 8 - Moment of Awakening",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/806421517d45188e820afe7a410699f11500789775_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-8-moment-of-awakening-743727"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 9 - Unreaching Melody",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/deaeac2d54631ee339e95bd3c0eb607c1500790123_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-9-unreaching-melody-743731"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 10 - The Furthest Ends of One's Emotions",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/73c8ea1187c0ac600285765bcf22ddae1500800048_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-10-the-furthest-ends-of-ones-emotions-743741"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 11 - Eyes of Glass",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/8d3d380a2d13f4f4486d9c3759d6dd6b1500800537_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-11-eyes-of-glass-743743"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 12 - Warmth, Once More",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/0ea6f55a71f96fe1e7f2a15b10e74f541500800812_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-12-warmth-once-more-743745"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 13 - The Legend of White Snow",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/491bff742512f009e9967df3607873e01500801207_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/pretear\/episode-13-the-legend-of-white-snow-743747"
+        }
+      ],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 1736,
+          "rank": 24,
+          "type": "RATED",
+          "format": "TV",
+          "year": 2001,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 1792,
+          "rank": 15,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": 2001,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 29,
+          "name": "Magic",
+          "description": "Prominently features magical elements or the use of magic.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 53,
+          "name": "Shoujo",
+          "description": "Target demographic is teenage and young adult females.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 99,
+          "name": "Henshin",
+          "description": "Prominently features character or costume transformations which often grant special abilities.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 123,
+          "name": "Reverse Harem",
+          "description": "Main cast features one female character plus several male characters who are romantically interested in her.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 98,
+          "name": "Female Protagonist",
+          "description": "Main character is female.",
+          "rank": 66,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 400,
+          "name": "Fairy Tale",
+          "description": "This work tells a fairy tale, centers around fairy tales, or is based on a classic fairy tale.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 139,
+          "name": "Love Triangle",
+          "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+          "rank": 33,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 59
+          },
+          {
+            "status": "PLANNING",
+            "amount": 1267
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 1443
+          },
+          {
+            "status": "DROPPED",
+            "amount": 118
+          },
+          {
+            "status": "PAUSED",
+            "amount": 88
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 11
+          },
+          {
+            "score": 20,
+            "amount": 10
+          },
+          {
+            "score": 30,
+            "amount": 23
+          },
+          {
+            "score": 40,
+            "amount": 44
+          },
+          {
+            "score": 50,
+            "amount": 145
+          },
+          {
+            "score": 60,
+            "amount": 208
+          },
+          {
+            "score": 70,
+            "amount": 287
+          },
+          {
+            "score": 80,
+            "amount": 170
+          },
+          {
+            "score": 90,
+            "amount": 110
+          },
+          {
+            "score": 100,
+            "amount": 53
+          }
+        ]
+      }
+    }
+  }
+}

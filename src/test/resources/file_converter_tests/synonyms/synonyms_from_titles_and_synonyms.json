@@ -1,0 +1,320 @@
+{
+  "data": {
+    "Media": {
+      "id": 21453,
+      "title": {
+        "userPreferred": "Tobidasu PriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
+        "romaji": "Tobidasu PriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
+        "english": null,
+        "native": "\u3068\u3073\u3060\u3059\u30d7\u30ea\u30d1\u30e9\u3000\u307f\uff5e\u3093\u306a\u3067\u3081\u3056\u305b\uff01\u30a2\u30a4\u30c9\u30eb\u2606\u30b0\u30e9\u30f3\u30d7\u30ea"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/21453-SC6MIZkMjNBn.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n21453-X1ifvPF5WBOG.jpg",
+      "startDate": {
+        "year": 2015,
+        "month": 10,
+        "day": 24
+      },
+      "endDate": {
+        "year": 2015,
+        "month": 10,
+        "day": 24
+      },
+      "description": "The 2nd PriPara film, unlike the first is shown in stereoscopic 3D.\n\n(Source: MAL)",
+      "season": "FALL",
+      "type": "ANIME",
+      "format": "MOVIE",
+      "status": "FINISHED",
+      "episodes": 1,
+      "duration": 60,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Music"
+      ],
+      "synonyms": [
+        "Tobidasu PuriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
+        "Prism Paradise ",
+        "Tobidasu PriPara: Minna de Mezase! Idol\u2606Grand Prix"
+      ],
+      "source": "ORIGINAL",
+      "isAdult": false,
+      "meanScore": 62,
+      "averageScore": null,
+      "popularity": 162,
+      "favourites": 0,
+      "hashtag": "#pripara",
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 10695,
+            "relationType": "OTHER",
+            "node": {
+              "id": 20742,
+              "title": {
+                "userPreferred": "PriPara"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/20742.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 160027,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 119203,
+                "name": {
+                  "first": "Himika",
+                  "last": "Akaneya"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119203-X6raRaGoN1iy.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 88927,
+              "name": {
+                "first": "Lala",
+                "last": "Manaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n88927-u0LjjmO70eTt.jpg"
+              }
+            }
+          },
+          {
+            "id": 160031,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 119204,
+                "name": {
+                  "first": "Miyu",
+                  "last": "Kubota"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/24204-Uihx0xiTnHQp.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 88928,
+              "name": {
+                "first": "Sophie",
+                "last": "Hojo"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/88928-t2sAsmc2gK9x.jpg"
+              }
+            }
+          },
+          {
+            "id": 160030,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 116515,
+                "name": {
+                  "first": "Yuu",
+                  "last": "Serizawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n116515-20dnjeJXT4CK.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 88929,
+              "name": {
+                "first": "Mirei",
+                "last": "Minami"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n88929-isORs70EWHWl.jpg"
+              }
+            }
+          },
+          {
+            "id": 160028,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 126076,
+                "name": {
+                  "first": "Azuki",
+                  "last": "Shibuya"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/126076-CKDVXBwOXzoj.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 126762,
+              "name": {
+                "first": "Dorothy",
+                "last": "West"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/126762-ckhpxI1C95mf.jpg"
+              }
+            }
+          },
+          {
+            "id": 153480,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 117183,
+                "name": {
+                  "first": "Saki",
+                  "last": "Yamakita"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/117183-N5qX8xgxpOpg.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 126886,
+              "name": {
+                "first": "Shion",
+                "last": "Toudou"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/126886-8piet7d0oib0.jpg"
+              }
+            }
+          },
+          {
+            "id": 160036,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 122697,
+                "name": {
+                  "first": "Yuki",
+                  "last": "Wakai"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/122697-poFlBk7ieqEL.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 127780,
+              "name": {
+                "first": "Leona",
+                "last": "West"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n127780-51y8hHVPUdTn.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": []
+      },
+      "studios": {
+        "edges": []
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/pripara_PR"
+        },
+        {
+          "site": "Official Site",
+          "url": "http:\/\/pp-movie.com\/02\/"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": {
+        "id": "bSj9qsTnATs",
+        "site": "youtube"
+      },
+      "rankings": [
+        {
+          "id": 13896,
+          "rank": 62,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": 2015,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 28,
+          "name": "Kids",
+          "description": "Target demographic is young children.",
+          "rank": 50,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 115,
+          "name": "Idol",
+          "description": "Centers around the life and activities of an idol.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 3
+          },
+          {
+            "status": "PLANNING",
+            "amount": 103
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 39
+          },
+          {
+            "status": "DROPPED",
+            "amount": 13
+          },
+          {
+            "status": "PAUSED",
+            "amount": 4
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 90,
+            "amount": 1
+          }
+        ]
+      }
+    }
+  }
+}

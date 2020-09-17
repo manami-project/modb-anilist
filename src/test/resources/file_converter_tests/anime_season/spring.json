@@ -1,0 +1,880 @@
+{
+  "data": {
+    "Media": {
+      "id": 101922,
+      "title": {
+        "userPreferred": "Kimetsu no Yaiba",
+        "romaji": "Kimetsu no Yaiba",
+        "english": "Demon Slayer: Kimetsu no Yaiba",
+        "native": "\u9b3c\u6ec5\u306e\u5203"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101922-PEn1CTc93blC.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101922-YfZhKBUDDS6L.jpg",
+      "startDate": {
+        "year": 2019,
+        "month": 4,
+        "day": 6
+      },
+      "endDate": {
+        "year": 2019,
+        "month": 9,
+        "day": 28
+      },
+      "description": "Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjoy a relatively peaceful and happy life. One day, Tanjirou decides to go down to the local village to make a little money selling charcoal. On his way back, night falls, forcing Tanjirou to take shelter in the house of a strange man, who warns him of the existence of flesh-eating demons that lurk in the woods at night.\n<br><br>\nWhen he finally arrives back home the next day, he is met with a horrifying sight\u2014his whole family has been slaughtered. Worse still, the sole survivor is his sister Nezuko, who has been turned into a bloodthirsty demon. Consumed by rage and hatred, Tanjirou swears to avenge his family and stay by his only remaining sibling. Alongside the mysterious group calling themselves the Demon Slayer Corps, Tanjirou will do whatever it takes to slay the demons and protect the remnants of his beloved sister's humanity.\n<br><br>\n[Written by MAL Rewrite]",
+      "season": "SPRING",
+      "type": "ANIME",
+      "format": "TV",
+      "status": "FINISHED",
+      "episodes": 26,
+      "duration": 24,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Supernatural",
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "synonyms": [
+        "Kimetsu no Yaiba: Kyoudai no Kizuna",
+        "Demon Slayer: Kimetsu no Yaiba: Bonds of Siblings",
+        "\u9b3c\u6ec5\u306e\u5203-\u5144\u59b9\u306e\u7d46-"
+      ],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 86,
+      "averageScore": 86,
+      "popularity": 129546,
+      "favourites": 11357,
+      "hashtag": "#\u9b3c\u6ec5 #DemonSlayer",
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 23106,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 87216,
+              "title": {
+                "userPreferred": "Kimetsu no Yaiba"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx87216-VN3Jo4AFR6e5.jpg"
+              }
+            }
+          },
+          {
+            "id": 35282,
+            "relationType": "SEQUEL",
+            "node": {
+              "id": 112151,
+              "title": {
+                "userPreferred": "Kimetsu no Yaiba: Mugen Ressha-hen"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "NOT_YET_RELEASED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx112151-EQ2GdCpOLKCo.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 171550,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 111635,
+                "name": {
+                  "first": "Natsuki",
+                  "last": "Hanae"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n111635-jL1n6ao0vMVq.png"
+                }
+              },
+              {
+                "id": 101560,
+                "name": {
+                  "first": "Satomi",
+                  "last": "Satou"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101560-AEvjR7VjDMTI.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 126071,
+              "name": {
+                "first": "Tanjirou",
+                "last": "Kamado"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126071-DEPUfKs1oWsp.png"
+              }
+            }
+          },
+          {
+            "id": 171554,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 119722,
+                "name": {
+                  "first": "Akari",
+                  "last": "Kitou"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119722-WfAIkZZEZROB.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 127518,
+              "name": {
+                "first": "Nezuko",
+                "last": "Kamado"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127518-7b4XKjasQE29.png"
+              }
+            }
+          },
+          {
+            "id": 171549,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 106817,
+                "name": {
+                  "first": "Yoshitsugu",
+                  "last": "Matsuoka"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n106817-n8MHe49QJU3s.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 129130,
+              "name": {
+                "first": "Inosuke",
+                "last": "Hashibira"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n129130-SJC0Kn1DU39E.jpg"
+              }
+            }
+          },
+          {
+            "id": 171552,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95356,
+                "name": {
+                  "first": "Hiro",
+                  "last": "Shimono"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95356-PFaZRlI9oJ56.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 129131,
+              "name": {
+                "first": "Zenitsu",
+                "last": "Agatsuma"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129131-oSy6b121Hetw.png"
+              }
+            }
+          },
+          {
+            "id": 173535,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95129,
+                "name": {
+                  "first": "Toshihiko",
+                  "last": "Seki"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95129-AAL7kfwAPpgR.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 129132,
+              "name": {
+                "first": "Muzan",
+                "last": "Kibutsuji"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129132-rijE8icKGFr3.png"
+              }
+            }
+          },
+          {
+            "id": 183938,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95245,
+                "name": {
+                  "first": "Satoshi",
+                  "last": "Hino"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95245-BD9Y8rfAr8Cs.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 129133,
+              "name": {
+                "first": "Kyoujurou",
+                "last": "Rengoku"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129133-VlTPowwt68rJ.png"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 108735,
+            "role": "Original Creator",
+            "node": {
+              "id": 119973,
+              "name": {
+                "first": "Koyoharu",
+                "last": "Gotouge"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119973-pzMtyCVGBWNt.jpg"
+              }
+            }
+          },
+          {
+            "id": 115664,
+            "role": "Music",
+            "node": {
+              "id": 109341,
+              "name": {
+                "first": "Go",
+                "last": "Shiina"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/14341.jpg"
+              }
+            }
+          },
+          {
+            "id": 115665,
+            "role": "Character Design",
+            "node": {
+              "id": 119808,
+              "name": {
+                "first": "Akira",
+                "last": "Matsushima"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 115666,
+            "role": "Music",
+            "node": {
+              "id": 100077,
+              "name": {
+                "first": "Yuki",
+                "last": "Kajiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-EQO5m2lkmUQk.jpg"
+              }
+            }
+          },
+          {
+            "id": 115667,
+            "role": "Director",
+            "node": {
+              "id": 99006,
+              "name": {
+                "first": "Haruo",
+                "last": "Sotozaki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/4006.jpg"
+              }
+            }
+          },
+          {
+            "id": 115668,
+            "role": "Director of Photography",
+            "node": {
+              "id": 130063,
+              "name": {
+                "first": "Yuuichi",
+                "last": "Terao"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n130063-gAHigd0d68EO.png"
+              }
+            }
+          },
+          {
+            "id": 125206,
+            "role": "Theme Song Performance (OP, ED)",
+            "node": {
+              "id": 105561,
+              "name": {
+                "first": "LiSA",
+                "last": ""
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105561-GwH4Nze0xMu0.png"
+              }
+            }
+          },
+          {
+            "id": 126117,
+            "role": "Theme Song Performance (ED)",
+            "node": {
+              "id": 103691,
+              "name": {
+                "first": "FictionJunction",
+                "last": ""
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/8691.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 43,
+              "name": "ufotable"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 17,
+              "name": "Aniplex"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 493,
+              "name": "Aniplex of America"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 5251,
+            "summary": "Atrocious story, horrible writing, boring characters, pointlessly graced with amazing animation.",
+            "rating": 277,
+            "ratingAmount": 752,
+            "user": {
+              "id": 328724,
+              "name": "Jimbionicles",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b328724-vv6GLLtGTaYn.jpg"
+              }
+            }
+          },
+          {
+            "id": 6054,
+            "summary": "One of the most overrated Shounen of all time, which is highly praised for the wrong reasons because of Ufotable",
+            "rating": 165,
+            "ratingAmount": 219,
+            "user": {
+              "id": 39336,
+              "name": "KaizokuOtaku",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b39336-a5uEc8brVFlv.png"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/kimetsu.com\/"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/kimetsu_off"
+        },
+        {
+          "site": "Funimation",
+          "url": "https:\/\/www.funimation.com\/shows\/demon-slayer-kimetsu-no-yaiba\/"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "https:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba"
+        },
+        {
+          "site": "AnimeLab",
+          "url": "https:\/\/www.animelab.com\/shows\/demon-slayer"
+        },
+        {
+          "site": "Hulu",
+          "url": "https:\/\/www.hulu.com\/demon-slayer-kimetsu-no-yaiba"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/GY5P48XEY\/Demon-Slayer-Kimetsu-no-Yaiba"
+        },
+        {
+          "site": "Official Site",
+          "url": "https:\/\/www.adultswim.com\/videos\/demon-slayer"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/DemonSlayerUSA"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Cruelty",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/db617c3bb6a6097394baf707239ff1091554542829_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-1-cruelty-782932"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - Trainer Sakonji Urokodaki",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/086240450f344f53dbc50765c0ba80cc1555138178_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-2-trainer-sakonji-urokodaki-782933"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - Sabito and Makomo",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/249734bc86fa3b6c96697b4c0fb623671555745937_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-3-sabito-and-makomo-782934"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - Final Selection",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/4558b0fe17cec9f89c4e49142be8841a1556355701_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-4-final-selection-782935"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - My Own Steel ",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/ef38749be1f8c847f6cf3c543f731d861556965651_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-5-my-own-steel-782936"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - Swordsman Accompanying a Demon",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/130e542a4c0e9b2a641f415b307c061c1557582919_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-6-swordsman-accompanying-a-demon-782937"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 7 - Muzan Kibutsuji",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/e37f49ef0692223e459b05861a988bd71558163856_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-7-muzan-kibutsuji-782938"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 8 - The Smell of Enchanting Blood",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/fcedf99908b2ac57874878fb01dbeaf31558769599_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-8-the-smell-of-enchanting-blood-782939"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 9 - Temari Demon and Arrow Demon",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/d28b6a5b34e7a0655ecd215c27762ec91559369980_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-9-temari-demon-and-arrow-demon-782940"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 10 - Together Forever",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/64a13c0d70d63e7c138a618ed2312d861559984760_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-10-together-forever-782941"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 11 - Tsuzumi Mansion",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/f514e4165a990f016f5459d92c5b0ef81560592929_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-11-tsuzumi-mansion-782942"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 12 - The Boar Bares Its Fangs, Zenitsu Sleeps",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/6070dc5bcb56020bbcb0c1981378ac261561190278_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-12-the-boar-bares-its-fangs-zenitsu-sleeps-782943"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 13 - Something More Important Than Life",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/e42ec5184d3d7d13897586c3744098fe1561800656_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-13-something-more-important-than-life-782944"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 14 - The House with the Wisteria Family Crest",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/6c70ee54a26bd84c1a1052abba7c819d1562413909_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-14-the-house-with-the-wisteria-family-crest-786927"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 15 - Mount Natagumo",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/6ba9f2d38cdc6ff21e6a586dc36b28a81563019836_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-15-mount-natagumo-786928"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 16 - Letting Someone Else Go First",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/c15001b5a9ca894ef00d38bfaa1c54a21563622283_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-16-letting-someone-else-go-first-786929"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 17 - You Must Master a Single Thing",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/f40566dcc7a6841da2cdc35680dde5021564216522_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-17-you-must-master-a-single-thing-786930"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 18 - A Forged Bond",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/d4902643472940221c95439b1e6724121564822696_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-18-a-forged-bond-786931"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 19 - Hinokami",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/d3813c988231fda747d02614e8caa4b61565438538_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-19-hinokami-786932"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 20 - Pretend Family",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/7bb29c047f587150e6ef46b7cc24cb141566045641_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-20-pretend-family-786933"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 21 - Against Corps Rules",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/3dfb5c42ad0601cef2cae9c7294fa0791566633737_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-21-against-corps-rules-786934"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 22 - Master of the Mansion",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/a68639577c99f83aec8a64b72c74860e1567236590_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-22-master-of-the-mansion-786935"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 23 - Hashira Meeting",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/3e6560351787e6940f7f523c02d937591567839099_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-23-hashira-meeting-786936"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 24 - Rehabilitation Training",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/935b6e5afc1f948277e938756820a8c81568458699_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-24-rehabilitation-training-786937"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 25 - Tsuguko, Kanao Tsuyuri",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/dbf9b3cce83780ea5e49fad38f45aedf1569067593_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-25-tsuguko-kanao-tsuyuri-786938"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 26 - New Mission",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/e326d8be303eecf03d3e5812ffcfc7ce1569672152_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/demon-slayer-kimetsu-no-yaiba\/episode-26-new-mission-786939"
+        }
+      ],
+      "trailer": {
+        "id": "6vMuWuWlW4I",
+        "site": "youtube"
+      },
+      "rankings": [
+        {
+          "id": 20,
+          "rank": 20,
+          "type": "RATED",
+          "format": "TV",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 513,
+          "rank": 13,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "most popular all time"
+        },
+        {
+          "id": 8771,
+          "rank": 3,
+          "type": "RATED",
+          "format": "TV",
+          "year": 2019,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 8869,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": 2019,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        },
+        {
+          "id": 9030,
+          "rank": 2,
+          "type": "RATED",
+          "format": "TV",
+          "year": 2019,
+          "season": "SPRING",
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 9059,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": 2019,
+          "season": "SPRING",
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 15,
+          "name": "Demons",
+          "description": "Prominently features malevolent otherworldly creatures.",
+          "rank": 96,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 90,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 43,
+          "name": "Swordplay",
+          "description": "Prominently features the use of swords in combat.",
+          "rank": 86,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 208,
+          "name": "Mythology",
+          "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 78,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 94,
+          "name": "Gore",
+          "description": "Prominently features graphic bloodshed and violence.",
+          "rank": 64,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 88,
+          "name": "Primarily Male Cast",
+          "description": "Main cast is mostly composed of male characters.",
+          "rank": 63,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 90,
+          "name": "CGI",
+          "description": "Prominently features scenes created with computer-generated imagery.",
+          "rank": 63,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 250,
+          "name": "Rural",
+          "description": "Partly or completely set in the countryside.",
+          "rank": 57,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 639,
+          "name": "Body Horror",
+          "description": "Features characters who undergo horrific transformations and\/or disfigurement, often to their own detriment.",
+          "rank": 56,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 25,
+          "name": "Historical",
+          "description": "Partly or completely set during a real period of world history.",
+          "rank": 48,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 536,
+          "name": "Dissociative Identities",
+          "description": "A case where one or more people share the same body.",
+          "rank": 33,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 683,
+          "name": "Rotoscoping",
+          "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
+          "rank": 23,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 19726
+          },
+          {
+            "status": "PLANNING",
+            "amount": 17624
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 87028
+          },
+          {
+            "status": "DROPPED",
+            "amount": 2252
+          },
+          {
+            "status": "PAUSED",
+            "amount": 2916
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 322
+          },
+          {
+            "score": 20,
+            "amount": 81
+          },
+          {
+            "score": 30,
+            "amount": 175
+          },
+          {
+            "score": 40,
+            "amount": 338
+          },
+          {
+            "score": 50,
+            "amount": 862
+          },
+          {
+            "score": 60,
+            "amount": 1546
+          },
+          {
+            "score": 70,
+            "amount": 4798
+          },
+          {
+            "score": 80,
+            "amount": 12901
+          },
+          {
+            "score": 90,
+            "amount": 21996
+          },
+          {
+            "score": 100,
+            "amount": 19288
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "data": {
+    "Media": {
+      "id": 10323,
+      "title": {
+        "userPreferred": "Golden Kids",
+        "romaji": "Golden Kids",
+        "english": null,
+        "native": "\u30b4\u30fc\u30eb\u30c7\u30f3\u2605\u30ad\u30c3\u30ba"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10323.jpg"
+      },
+      "bannerImage": null,
+      "startDate": {
+        "year": 2011,
+        "month": 1,
+        "day": 21
+      },
+      "endDate": {
+        "year": 2011,
+        "month": 1,
+        "day": 21
+      },
+      "description": "The Koganedai Downtown FC Golden Kids haven't won a single game since they formed. The captain and goal keeper, Goal Kitagawa is determined to win a game with the current members before he moves away next month. However, even after all the determination to win the next game they lose terribly, extending their losing streak to 22 games. Even the adults in the community who support the team begin to get fed up with all the losses.<br><br>\nAt school, the constantly losing Golden Kids members start to get picked on and bullied, and the adults worry that the bullying will only get worse. When the team members become depressed and lose their will to play, they see Goal practicing outside, silently and as hard as he can. Once again, the Golden Kids start to practice intensely to get that one win. The next game for the Golden Kids will be against the second best team in the Jonan League, the Wild Tigers.<br><br>\nWill the Golden Kids finally get their first win ever? What will the adults decide to do with the team?<br><br>\n(Source: Official Website)",
+      "season": "WINTER",
+      "type": "ANIME",
+      "format": null,
+      "status": "FINISHED",
+      "episodes": 2,
+      "duration": 11,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Sports"
+      ],
+      "synonyms": [],
+      "source": null,
+      "isAdult": false,
+      "meanScore": 33,
+      "averageScore": null,
+      "popularity": 45,
+      "favourites": 0,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": []
+      },
+      "characters": {
+        "edges": []
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 4025,
+            "role": "Series Composition",
+            "node": {
+              "id": 97076,
+              "name": {
+                "first": "Reiko",
+                "last": "Yoshida"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2076.jpg"
+              }
+            }
+          },
+          {
+            "id": 7082,
+            "role": "Original Creator",
+            "node": {
+              "id": 98927,
+              "name": {
+                "first": "Yoichi",
+                "last": "Takahashi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3927.jpg"
+              }
+            }
+          },
+          {
+            "id": 18715,
+            "role": "Director",
+            "node": {
+              "id": 101952,
+              "name": {
+                "first": "Takayuki",
+                "last": "Hamana"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6952.jpg"
+              }
+            }
+          },
+          {
+            "id": 24272,
+            "role": "Character Design",
+            "node": {
+              "id": 103337,
+              "name": {
+                "first": "Jouji",
+                "last": "Sawada"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 40099,
+            "role": "Music",
+            "node": {
+              "id": 109739,
+              "name": {
+                "first": "Seikou",
+                "last": "Nagaoka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/14739.jpg"
+              }
+            }
+          },
+          {
+            "id": 42457,
+            "role": "Sound Director",
+            "node": {
+              "id": 110943,
+              "name": {
+                "first": "Takuya",
+                "last": "Hiramitsu"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/15943.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": []
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [],
+      "streamingEpisodes": [],
+      "trailer": null,
+      "rankings": [],
+      "tags": [
+        {
+          "id": 46,
+          "name": "School",
+          "description": "Partly or completely set in a primary or secondary educational institution.",
+          "rank": 50,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 3
+          },
+          {
+            "status": "PLANNING",
+            "amount": 23
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 13
+          },
+          {
+            "status": "DROPPED",
+            "amount": 6
+          },
+          {
+            "status": "PAUSED",
+            "amount": 0
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 70,
+            "amount": 1
+          },
+          {
+            "score": 80,
+            "amount": 1
+          }
+        ]
+      }
+    }
+  }
+}

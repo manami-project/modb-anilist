@@ -1,0 +1,660 @@
+{
+  "data": {
+    "Media": {
+      "id": 106286,
+      "title": {
+        "userPreferred": "Tenki no Ko",
+        "romaji": "Tenki no Ko",
+        "english": "Weathering With You",
+        "native": "\u5929\u6c17\u306e\u5b50"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx106286-5COcpd0J9VbL.png"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/106286-09fyYBntN8rR.jpg",
+      "startDate": {
+        "year": 2019,
+        "month": 7,
+        "day": 19
+      },
+      "endDate": {
+        "year": 2019,
+        "month": 7,
+        "day": 19
+      },
+      "description": "High school student Hodaka leaves his home on an isolated island and moves to Tokyo, but he immediately becomes broke. He lives his days in isolation, but finally finds a job as a writer for a shady occult magazine. After he starts his job, the weather has been rainy day after day. In a corner of the crowded and busy city, Hodaka meets a young woman named Hina. Due to certain circumstances, Hina and her younger brother live together, but have a cheerful and sturdy life. Hina also has a certain power: the power to stop the rain and clear the sky.\n<br><br>\n(Source: Anime News Network)",
+      "season": "SUMMER",
+      "type": "ANIME",
+      "format": "MOVIE",
+      "status": "FINISHED",
+      "episodes": 1,
+      "duration": 115,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Drama",
+        "Slice of Life",
+        "Fantasy",
+        "Romance",
+        "Supernatural"
+      ],
+      "synonyms": [
+        "El Tiempo Contigo",
+        "Weathering With You - Das M\u00e4dchen, das die Sonne ber\u00fchrte"
+      ],
+      "source": "ORIGINAL",
+      "isAdult": false,
+      "meanScore": 84,
+      "averageScore": 84,
+      "popularity": 40274,
+      "favourites": 2043,
+      "hashtag": "#\u5929\u6c17\u306e\u5b50",
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 33288,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 110218,
+              "title": {
+                "userPreferred": "Tenki no Ko"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "RELEASING",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx110218-ERwbZRK7glfN.jpg"
+              }
+            }
+          },
+          {
+            "id": 40799,
+            "relationType": "CHARACTER",
+            "node": {
+              "id": 21519,
+              "title": {
+                "userPreferred": "Kimi no Na wa."
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21519-XIr3PeczUjjF.png"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 175300,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 139713,
+                "name": {
+                  "first": "Kotarou",
+                  "last": "Daigo"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n139713-XKZ4iGllz7bF.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 139709,
+              "name": {
+                "first": "Hodaka",
+                "last": "Morishima"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b139709-LipsW9CYvlu1.png"
+              }
+            }
+          },
+          {
+            "id": 175299,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 139712,
+                "name": {
+                  "first": "Nana",
+                  "last": "Mori"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n139712-A7Opr8MOlYnM.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 139710,
+              "name": {
+                "first": "Hina",
+                "last": "Amano"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b139710-bipjXJCxBF6k.png"
+              }
+            }
+          },
+          {
+            "id": 175294,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 139715,
+                "name": {
+                  "first": "Sakura",
+                  "last": "Kiryu"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n139715-MH8W7FrJbecO.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 139703,
+              "name": {
+                "first": "Nagi",
+                "last": "Amano"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b139703-A9GVtE2EscpF.png"
+              }
+            }
+          },
+          {
+            "id": 175296,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 96056,
+                "name": {
+                  "first": "Chieko",
+                  "last": "Baisho"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1056.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 139704,
+              "name": {
+                "first": "Fumi",
+                "last": "Tachibana"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b139704-wtkqueYgLPMw.png"
+              }
+            }
+          },
+          {
+            "id": 175297,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 139716,
+                "name": {
+                  "first": "Tsubasa",
+                  "last": "Honda"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n139716-xf2FQvaHdcSc.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 139705,
+              "name": {
+                "first": "Natsumi",
+                "last": "Suga"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b139705-65t4At2MN9q8.png"
+              }
+            }
+          },
+          {
+            "id": 175293,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95672,
+                "name": {
+                  "first": "Yuuki",
+                  "last": "Kaji"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95672-GAZEiT78Y61C.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 139706,
+              "name": {
+                "first": "Takai",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b139706-aOA7CZxlfjPV.png"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 117503,
+            "role": "Original Creator",
+            "node": {
+              "id": 96117,
+              "name": {
+                "first": "Makoto",
+                "last": "Shinkai"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96117-X0ivK1cAvdzA.png"
+              }
+            }
+          },
+          {
+            "id": 117504,
+            "role": "Director",
+            "node": {
+              "id": 96117,
+              "name": {
+                "first": "Makoto",
+                "last": "Shinkai"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96117-X0ivK1cAvdzA.png"
+              }
+            }
+          },
+          {
+            "id": 117505,
+            "role": "Art Director",
+            "node": {
+              "id": 124621,
+              "name": {
+                "first": "Hiroshi",
+                "last": "Takiguchi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/124621-pNZzi6Luu72L.jpg"
+              }
+            }
+          },
+          {
+            "id": 117506,
+            "role": "Script",
+            "node": {
+              "id": 96117,
+              "name": {
+                "first": "Makoto",
+                "last": "Shinkai"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96117-X0ivK1cAvdzA.png"
+              }
+            }
+          },
+          {
+            "id": 117507,
+            "role": "Character Design",
+            "node": {
+              "id": 101863,
+              "name": {
+                "first": "Masayoshi",
+                "last": "Tanaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101863-WvRgKpR7FzXv.png"
+              }
+            }
+          },
+          {
+            "id": 125832,
+            "role": "Theme Song Performance",
+            "node": {
+              "id": 126955,
+              "name": {
+                "first": "RADWIMPS",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/126955-IKkEpBhJEu0p.png"
+              }
+            }
+          },
+          {
+            "id": 144951,
+            "role": "Inserted Song Performance",
+            "node": {
+              "id": 126955,
+              "name": {
+                "first": "RADWIMPS",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/126955-IKkEpBhJEu0p.png"
+              }
+            }
+          },
+          {
+            "id": 144952,
+            "role": "Inserted Song Lyrics",
+            "node": {
+              "id": 149790,
+              "name": {
+                "first": "Youjirou",
+                "last": "Noda"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n149790-41rW4wQ6Q4bq.png"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 291,
+              "name": "CoMix Wave"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6432,
+              "name": "JR Higashi Nihon Kikaku"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 245,
+              "name": "Toho Company"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6430,
+              "name": "Lawson Entertainment"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 113,
+              "name": "Kadokawa Shoten"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6433,
+              "name": "Story"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 5041,
+            "summary": "This movie is not Your Name. But it's greater because of it.",
+            "rating": 72,
+            "ratingAmount": 89,
+            "user": {
+              "id": 151115,
+              "name": "Wavieff",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b151115-Cu0uMYt5yXG2.png"
+              }
+            }
+          },
+          {
+            "id": 5851,
+            "summary": "Shinkai returns with Weathering With You, and once again, strikes gold.",
+            "rating": 43,
+            "ratingAmount": 53,
+            "user": {
+              "id": 135302,
+              "name": "CaninnTurtle",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n135302-LU93bccbGcLS.png"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "https:\/\/www.tenkinoko.com\/"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/tenkinoko_movie"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": {
+        "id": "Q6iK6DjV_iE",
+        "site": "youtube"
+      },
+      "rankings": [
+        {
+          "id": 11720,
+          "rank": 15,
+          "type": "RATED",
+          "format": "MOVIE",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 12029,
+          "rank": 24,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "most popular all time"
+        },
+        {
+          "id": 15102,
+          "rank": 4,
+          "type": "RATED",
+          "format": "MOVIE",
+          "year": 2019,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 15162,
+          "rank": 2,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": 2019,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 321,
+          "name": "Urban Fantasy",
+          "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+          "rank": 92,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 66,
+          "name": "Super Power",
+          "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+          "rank": 89,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 342,
+          "name": "Environmental",
+          "description": "Concern with the state of the natural world and how humans interact with it.",
+          "rank": 85,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 104,
+          "name": "Anti-Hero",
+          "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
+          "rank": 78,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 226,
+          "name": "Fugitive",
+          "description": "Prominently features a character evading capture by an individual or organization.",
+          "rank": 76,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 40,
+          "name": "Police",
+          "description": "Centers around the life and activities of law enforcement officers.",
+          "rank": 69,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 145,
+          "name": "Work",
+          "description": "Centers around the activities of a certain occupation.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 157,
+          "name": "Guns",
+          "description": "Prominently features the use of guns in combat.",
+          "rank": 42,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 158,
+          "name": "Crossover",
+          "description": "Centers around the placement of two or more otherwise discrete fictional characters, settings, or universes into the context of a single story.",
+          "rank": 33,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 153,
+          "name": "Time Skip",
+          "description": "Features a gap in time used to advance the story.",
+          "rank": 26,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 176,
+          "name": "Mopeds",
+          "description": "Prominently features mopeds.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 1137
+          },
+          {
+            "status": "PLANNING",
+            "amount": 18115
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 20794
+          },
+          {
+            "status": "DROPPED",
+            "amount": 40
+          },
+          {
+            "status": "PAUSED",
+            "amount": 188
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 120
+          },
+          {
+            "score": 20,
+            "amount": 31
+          },
+          {
+            "score": 30,
+            "amount": 59
+          },
+          {
+            "score": 40,
+            "amount": 109
+          },
+          {
+            "score": 50,
+            "amount": 285
+          },
+          {
+            "score": 60,
+            "amount": 526
+          },
+          {
+            "score": 70,
+            "amount": 1498
+          },
+          {
+            "score": 80,
+            "amount": 3444
+          },
+          {
+            "score": 90,
+            "amount": 5035
+          },
+          {
+            "score": 100,
+            "amount": 3891
+          }
+        ]
+      }
+    }
+  }
+}

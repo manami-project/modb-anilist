@@ -1,0 +1,610 @@
+{
+  "data": {
+    "Media": {
+      "id": 1251,
+      "title": {
+        "userPreferred": "Fushigi no Umi no Nadia",
+        "romaji": "Fushigi no Umi no Nadia",
+        "english": "Nadia: The Secret of Blue Water",
+        "native": "\u3075\u3057\u304e\u306e\u6d77\u306e\u30ca\u30c7\u30a3\u30a2"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx1251-XesYUD1YSCh9.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1251-2oEwIJlFWpe3.jpg",
+      "startDate": {
+        "year": 1990,
+        "month": 4,
+        "day": 13
+      },
+      "endDate": {
+        "year": 1991,
+        "month": 4,
+        "day": 12
+      },
+      "description": "In 1889, the world is on the pinnacle of great discoveries in technology. In mankind's grasp for the future, a sinister foe known only as Gargoyle, obsessed with restoring the former Atlantean empire to the glory it once held, begins his plans to take over the world. Nadia, with the help of a young inventor, Jean Ratlique, and Captain Nemo of the submarine Nautilus, must fight to save the world from Gargoyle and Neo-Atlantis. Based on the Novel '20,000 Leagues Under the Sea' by Jules Verne.<br><br>\n(Source: ANN)",
+      "season": "SPRING",
+      "type": "ANIME",
+      "format": "TV",
+      "status": "FINISHED",
+      "episodes": 39,
+      "duration": 25,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Romance",
+        "Sci-Fi"
+      ],
+      "synonyms": [],
+      "source": "ORIGINAL",
+      "isAdult": false,
+      "meanScore": 73,
+      "averageScore": 72,
+      "popularity": 5583,
+      "favourites": 76,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 2078,
+            "relationType": "SEQUEL",
+            "node": {
+              "id": 1252,
+              "title": {
+                "userPreferred": "Fushigi no Umi no Nadia: Original Movie"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1252.jpg"
+              }
+            }
+          },
+          {
+            "id": 2079,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 3381,
+              "title": {
+                "userPreferred": "Fushigi no Umi no Nadia Specials"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/3381.jpg"
+              }
+            }
+          },
+          {
+            "id": 24943,
+            "relationType": "SUMMARY",
+            "node": {
+              "id": 104067,
+              "title": {
+                "userPreferred": "Fushigi no Umi no Nadia: Nautilus Story"
+              },
+              "format": "OVA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/104067-1rKBXWoPothn.png"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 5873,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 96057,
+                "name": {
+                  "first": "Yoshino",
+                  "last": "Takamori"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1057.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 7547,
+              "name": {
+                "first": "Nadia",
+                "last": "la Arwall"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7547-pDq21XZQgLLu.jpg"
+              }
+            }
+          },
+          {
+            "id": 20621,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95181,
+                "name": {
+                  "first": "Noriko",
+                  "last": "Hidaka"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/181.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 7893,
+              "name": {
+                "first": "Jean",
+                "last": "Roque Raltique"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7893-ndlhSbPbhJ2p.png"
+              }
+            }
+          },
+          {
+            "id": 54179,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 96141,
+                "name": {
+                  "first": "Toshiharu",
+                  "last": "Sakurai"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96141-LJxWEAa2JCo3.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 7937,
+              "name": {
+                "first": "King",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7937-WX7l64mXXGOc.jpg"
+              }
+            }
+          },
+          {
+            "id": 22269,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95195,
+                "name": {
+                  "first": "Kikuko",
+                  "last": "Inoue"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95195-B4CqTvMtfuK8.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 7894,
+              "name": {
+                "first": "Electra",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7894-cphbQg8DsToT.png"
+              }
+            }
+          },
+          {
+            "id": 30267,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95333,
+                "name": {
+                  "first": "Motomu",
+                  "last": "Kiyokawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/333.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 8527,
+              "name": {
+                "first": "Gargoyle",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b8527-WbOgWYgUpiFg.png"
+              }
+            }
+          },
+          {
+            "id": 17348,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95146,
+                "name": {
+                  "first": "Akio",
+                  "last": "Ootsuka"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95146-tJWDZXabrRy7.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 8528,
+              "name": {
+                "first": "Nemo",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b8528-UqoKRG4zyExq.png"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 5970,
+            "role": "Storyboard",
+            "node": {
+              "id": 97797,
+              "name": {
+                "first": "Takeshi",
+                "last": "Mori"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2797.jpg"
+              }
+            }
+          },
+          {
+            "id": 6609,
+            "role": "Character Design",
+            "node": {
+              "id": 98158,
+              "name": {
+                "first": "Yoshiyuki",
+                "last": "Sadamoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3158.jpg"
+              }
+            }
+          },
+          {
+            "id": 6610,
+            "role": "Key Animation  (eps 8, 21, 39)",
+            "node": {
+              "id": 98158,
+              "name": {
+                "first": "Yoshiyuki",
+                "last": "Sadamoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3158.jpg"
+              }
+            }
+          },
+          {
+            "id": 8816,
+            "role": "Music",
+            "node": {
+              "id": 100147,
+              "name": {
+                "first": "Shiro",
+                "last": "Sagisu"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100147-n4luOPlTogw2.jpg"
+              }
+            }
+          },
+          {
+            "id": 10456,
+            "role": "Original Creator",
+            "node": {
+              "id": 100392,
+              "name": {
+                "first": "Mahiro",
+                "last": "Maeda"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5392.jpg"
+              }
+            }
+          },
+          {
+            "id": 10457,
+            "role": "Storyboard",
+            "node": {
+              "id": 100392,
+              "name": {
+                "first": "Mahiro",
+                "last": "Maeda"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5392.jpg"
+              }
+            }
+          },
+          {
+            "id": 12788,
+            "role": "ADR Director",
+            "node": {
+              "id": 100990,
+              "name": {
+                "first": "Charles",
+                "last": "Campbell"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5990.jpg"
+              }
+            }
+          },
+          {
+            "id": 13628,
+            "role": "Animation Director  (ep 31,39)",
+            "node": {
+              "id": 101076,
+              "name": {
+                "first": "Kazuya",
+                "last": "Tsurumaki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6076.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 6,
+              "name": "Gainax"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 97,
+              "name": "ADV Films"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 111,
+              "name": "NHK"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 161,
+              "name": "Sogo Vision"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6273,
+              "name": "Sei Young Animation"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 3649,
+            "summary": "Extremely likeable but flawed and uneven fan favorites series from Gainax. Best watched episodes 1-22, 30, 31, & 35-39.",
+            "rating": 7,
+            "ratingAmount": 7,
+            "user": {
+              "id": 91709,
+              "name": "JTurner82",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/default.png"
+              }
+            }
+          },
+          {
+            "id": 3446,
+            "summary": "Despite how tumultuous the voyage ended up being, it\u2019s still one I\u2019d thoroughly recommend, if only with a few caveats.",
+            "rating": 4,
+            "ratingAmount": 6,
+            "user": {
+              "id": 164274,
+              "name": "CodeBlazeFate",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b164274-od15kTPvhzrV.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Hulu",
+          "url": "http:\/\/www.hulu.com\/nadia-the-secret-of-blue-water"
+        },
+        {
+          "site": "Hidive",
+          "url": "https:\/\/www.hidive.com\/tv\/nadia-the-secret-of-blue-water"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 1002,
+          "rank": 2,
+          "type": "RATED",
+          "format": "TV",
+          "year": 1990,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 1008,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV",
+          "year": 1990,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 25,
+          "name": "Historical",
+          "description": "Partly or completely set during a real period of world history.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 95,
+          "name": "Steampunk",
+          "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
+          "rank": 66,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 305,
+          "name": "Ships",
+          "description": "Prominently features the use of sea-based transportation vessels.",
+          "rank": 66,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 198,
+          "name": "Foreign",
+          "description": "Partly or completely set in a country outside of Japan.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 28,
+          "name": "Kids",
+          "description": "Target demographic is young children.",
+          "rank": 50,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 466,
+          "name": "Lost Civilization",
+          "description": "Featuring a civilization with few ruins or records that exist in present day knowledge.",
+          "rank": 40,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 476,
+          "name": "Circus",
+          "description": "Prominently features a circus.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 253
+          },
+          {
+            "status": "PLANNING",
+            "amount": 3281
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 1646
+          },
+          {
+            "status": "DROPPED",
+            "amount": 124
+          },
+          {
+            "status": "PAUSED",
+            "amount": 279
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 10
+          },
+          {
+            "score": 20,
+            "amount": 6
+          },
+          {
+            "score": 30,
+            "amount": 8
+          },
+          {
+            "score": 40,
+            "amount": 23
+          },
+          {
+            "score": 50,
+            "amount": 71
+          },
+          {
+            "score": 60,
+            "amount": 194
+          },
+          {
+            "score": 70,
+            "amount": 394
+          },
+          {
+            "score": 80,
+            "amount": 369
+          },
+          {
+            "score": 90,
+            "amount": 209
+          },
+          {
+            "score": 100,
+            "amount": 73
+          }
+        ]
+      }
+    }
+  }
+}

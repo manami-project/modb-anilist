@@ -1,0 +1,415 @@
+{
+  "data": {
+    "Media": {
+      "id": 100133,
+      "title": {
+        "userPreferred": "One Room 2",
+        "romaji": "One Room 2",
+        "english": "One Room SECOND SEASON",
+        "native": "One Room 2"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx100133-ON96W9oFFvZL.jpg"
+      },
+      "bannerImage": null,
+      "startDate": {
+        "year": 2018,
+        "month": 7,
+        "day": 3
+      },
+      "endDate": {
+        "year": 2018,
+        "month": 9,
+        "day": 25
+      },
+      "description": "The second season of <i>One Room<\/i>.<br><br>\n\n<i>Excludes episode 0, Hanasaka Yui's Prologue.<\/i>",
+      "season": "SUMMER",
+      "type": "ANIME",
+      "format": "TV_SHORT",
+      "status": "FINISHED",
+      "episodes": 12,
+      "duration": 5,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Slice of Life"
+      ],
+      "synonyms": [
+        "\u30ef\u30f3\u30eb\u30fc\u30e0"
+      ],
+      "source": "ORIGINAL",
+      "isAdult": false,
+      "meanScore": 60,
+      "averageScore": 59,
+      "popularity": 4416,
+      "favourites": 33,
+      "hashtag": "#OneRoom",
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 27929,
+            "relationType": "PREQUEL",
+            "node": {
+              "id": 97857,
+              "title": {
+                "userPreferred": "One Room"
+              },
+              "format": "TV_SHORT",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx97857-ICKs86L2ymjU.jpg"
+              }
+            }
+          },
+          {
+            "id": 29143,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 107298,
+              "title": {
+                "userPreferred": "One Room: Extra"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx107298-Y8h5Sd3lRBtM.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 154325,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 118510,
+                "name": {
+                  "first": "Mao",
+                  "last": "Ichimichi"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118510-LOJDMU9uvuU6.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 127267,
+              "name": {
+                "first": "Hanasaka",
+                "last": "Yui"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/127267-C7XFtpIkFOBj.jpg"
+              }
+            }
+          },
+          {
+            "id": 154674,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 119331,
+                "name": {
+                  "first": "Rie",
+                  "last": "Takahashi"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119331-FJnrKPINpcAt.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 127410,
+              "name": {
+                "first": "Minori",
+                "last": "Nanahashi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/127410-nSSnyQYZYOly.png"
+              }
+            }
+          },
+          {
+            "id": 156188,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 106297,
+                "name": {
+                  "first": "Inori",
+                  "last": "Minase"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/106297-ysFPeWJPnrhq.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 127479,
+              "name": {
+                "first": "Mashiro",
+                "last": "Amatsuki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/127479-rjIaTTmZAo5O.png"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": []
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 6117,
+              "name": "Zero-G"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/anime_one_room"
+        },
+        {
+          "site": "Official Site",
+          "url": "http:\/\/oneroom-anime.com\/"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Hanasaka Yui Makes a Request",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/2e43502912cccfb6e26ea53f2e3951e01484150876_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-1-hanasaka-yui-makes-a-request-728827"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - Hanasaka Yui Makes a Promise",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/de8c06055ab373f7ca6ea70a699c7c881484744284_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-2-hanasaka-yui-makes-a-promise-729171"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - Hanasaka Yui Dozes Off",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/bb9f947b860d01c6a3d12979df1a01901485219269_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-3-hanasaka-yui-dozes-off-729173"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - Holding Hands With Hanasaka Yui",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/5d75e24db9b2b021f51f8ba53b7bf4f91485827591_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-4-holding-hands-with-hanasaka-yui-729175"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - Momohara Natsuki Meddles\"",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/74d3de3fbe6befc4b7dd611e9fddc6e31486419246_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-5-momohara-natsuki-meddles-729177"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - Momohara Natsuki Blushes",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/367a87571abf5fad4f05b60042b3f1c71487148140_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-6-momohara-natsuki-blushes-729179"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 7 - Momohara Natsuki Gets Embarrassed and Plays Things Off",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/d0a4bd05f277e81a35a86b4644cd1fca1487722017_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-7-momohara-natsuki-gets-embarrassed-and-plays-things-off-729181"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 8 - Momohara Natsuki Can't be Honest",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/056c8770da48dde1b190f9ce423f1e661488164754_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-8-momohara-natsuki-cant-be-honest-729183"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 9 - Aoshima Moka Remembers",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/7345ef427a16982d43707cecc784078b1488914687_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-9-aoshima-moka-remembers-729185"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 10 - Aoshima Moka is Troubled",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/a35a33f40c63eaa4fe51316f18ba55ec1489570059_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-10-aoshima-moka-is-troubled-729187"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 11 - Aoshima Moka Understands",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/c060668480ea1dff479fb92f75b60c2e1490044314_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-11-aoshima-moka-understands-729189"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 12 - Aoshima Moka is Singing",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/799ce5f08499e2b2b1ae2982e2177f4d1490787155_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oneroom\/episode-12-aoshima-moka-is-singing-729191"
+        }
+      ],
+      "trailer": {
+        "id": "yqmd4CAB3FA",
+        "site": "youtube"
+      },
+      "rankings": [
+        {
+          "id": 10976,
+          "rank": 17,
+          "type": "RATED",
+          "format": "TV_SHORT",
+          "year": 2018,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 10997,
+          "rank": 8,
+          "type": "POPULAR",
+          "format": "TV_SHORT",
+          "year": 2018,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        },
+        {
+          "id": 11072,
+          "rank": 5,
+          "type": "RATED",
+          "format": "TV_SHORT",
+          "year": 2018,
+          "season": "SUMMER",
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 11075,
+          "rank": 1,
+          "type": "POPULAR",
+          "format": "TV_SHORT",
+          "year": 2018,
+          "season": "SUMMER",
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 92,
+          "name": "Cute Girls Doing Cute Things",
+          "description": "Centers around, well, cute girls doing cute things.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 23,
+          "name": "Harem",
+          "description": "Main cast features one male character plus several female characters who are romantically interested in him.",
+          "rank": 46,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 262,
+          "name": "Outdoor",
+          "description": "Centers around hiking, camping or other outdoor activities.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 395
+          },
+          {
+            "status": "PLANNING",
+            "amount": 1427
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 2318
+          },
+          {
+            "status": "DROPPED",
+            "amount": 168
+          },
+          {
+            "status": "PAUSED",
+            "amount": 108
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 55
+          },
+          {
+            "score": 20,
+            "amount": 52
+          },
+          {
+            "score": 30,
+            "amount": 103
+          },
+          {
+            "score": 40,
+            "amount": 135
+          },
+          {
+            "score": 50,
+            "amount": 284
+          },
+          {
+            "score": 60,
+            "amount": 391
+          },
+          {
+            "score": 70,
+            "amount": 359
+          },
+          {
+            "score": 80,
+            "amount": 195
+          },
+          {
+            "score": 90,
+            "amount": 99
+          },
+          {
+            "score": 100,
+            "amount": 94
+          }
+        ]
+      }
+    }
+  }
+}

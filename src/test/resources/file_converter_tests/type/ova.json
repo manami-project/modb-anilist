@@ -1,0 +1,534 @@
+{
+  "data": {
+    "Media": {
+      "id": 2685,
+      "title": {
+        "userPreferred": "Tsubasa: Tokyo Revelations",
+        "romaji": "Tsubasa: Tokyo Revelations",
+        "english": "Tsubasa: Tokyo Revelations",
+        "native": "\u30c4\u30d0\u30b5 TOKYO REVELATIONS"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b2685-jqvoTjYHYLuJ.png"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/2685-wIe1ft3foqaB.jpg",
+      "startDate": {
+        "year": 2007,
+        "month": 11,
+        "day": 16
+      },
+      "endDate": {
+        "year": 2008,
+        "month": 3,
+        "day": 17
+      },
+      "description": "Continuing their journey from Record Country (the place that held the book of memories), Syaoran and company land into Tokyo Country, a blood-filled country under war from opposing factions for natural resources and survival. While reluctantly involved in the race to live, the group faces their own problems as certain revelations are made, changing their journey forever.<br><br>\nA shocking betrayal and a battle that risks all of their lives. After this revelation, they will never be the same again.",
+      "season": "FALL",
+      "type": "ANIME",
+      "format": "OVA",
+      "status": "FINISHED",
+      "episodes": 3,
+      "duration": 30,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "synonyms": [
+        "Tsubasa Reservoir Chronicle OVA",
+        "Tsubasa Reservoir Chronicle: Tokyo Revelations"
+      ],
+      "source": null,
+      "isAdult": false,
+      "meanScore": 80,
+      "averageScore": 80,
+      "popularity": 5009,
+      "favourites": 56,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 3805,
+            "relationType": "PREQUEL",
+            "node": {
+              "id": 969,
+              "title": {
+                "userPreferred": "Tsubasa Chronicle 2nd Season"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/969.jpg"
+              }
+            }
+          },
+          {
+            "id": 3806,
+            "relationType": "SEQUEL",
+            "node": {
+              "id": 4938,
+              "title": {
+                "userPreferred": "Tsubasa: Shunraiki"
+              },
+              "format": "OVA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/4938.jpg"
+              }
+            }
+          },
+          {
+            "id": 3807,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 30009,
+              "title": {
+                "userPreferred": "Tsubasa: RESERVoir CHRoNiCLE"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/9-IayNt8GY5lSF.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 11731,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95088,
+                "name": {
+                  "first": "Miyu",
+                  "last": "Irino"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-kuBf7BA7I78P.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 126,
+              "name": {
+                "first": "Syaoran",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126-taqeFzhqc583.png"
+              }
+            }
+          },
+          {
+            "id": 11778,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95089,
+                "name": {
+                  "first": "Yui",
+                  "last": "Makino"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95089-9Is1xOUME00X.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 127,
+              "name": {
+                "first": "Sakura",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127-tY9Jz4MnwxYj.png"
+              }
+            }
+          },
+          {
+            "id": 25790,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95395,
+                "name": {
+                  "first": "Tetsu",
+                  "last": "Inada"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95395-oH7IYnNdcvL2.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 129,
+              "name": {
+                "first": "Kurogane",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/129.jpg"
+              }
+            }
+          },
+          {
+            "id": 30043,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95375,
+                "name": {
+                  "first": "Mika",
+                  "last": "Kikuchi"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/375.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 2074,
+              "name": {
+                "first": "Mokona",
+                "last": "Modoki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/2074.jpg"
+              }
+            }
+          },
+          {
+            "id": 11732,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95088,
+                "name": {
+                  "first": "Miyu",
+                  "last": "Irino"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-kuBf7BA7I78P.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 4713,
+              "name": {
+                "first": "Syaoran",
+                "last": "Li"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b4713-633RJzJw5mMs.png"
+              }
+            }
+          },
+          {
+            "id": 6718,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95087,
+                "name": {
+                  "first": "Daisuke",
+                  "last": "Namikawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95087-yd2UdZN2wRG4.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 9702,
+              "name": {
+                "first": "Fai D.",
+                "last": "Flourite"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/9702.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 695,
+            "role": "Theme Song Performance (OP)",
+            "node": {
+              "id": 95089,
+              "name": {
+                "first": "Yui",
+                "last": "Makino"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95089-9Is1xOUME00X.png"
+              }
+            }
+          },
+          {
+            "id": 731,
+            "role": "Theme Song Performance (ED)",
+            "node": {
+              "id": 95090,
+              "name": {
+                "first": "Maaya",
+                "last": "Sakamoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-9Y0LQEqfFT6r.jpg"
+              }
+            }
+          },
+          {
+            "id": 732,
+            "role": "Theme Song Lyrics",
+            "node": {
+              "id": 95090,
+              "name": {
+                "first": "Maaya",
+                "last": "Sakamoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-9Y0LQEqfFT6r.jpg"
+              }
+            }
+          },
+          {
+            "id": 3161,
+            "role": "Original Creator",
+            "node": {
+              "id": 96877,
+              "name": {
+                "first": "",
+                "last": "CLAMP"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96877-DZl7R4Zr0iFx.jpg"
+              }
+            }
+          },
+          {
+            "id": 4517,
+            "role": "Script",
+            "node": {
+              "id": 97292,
+              "name": {
+                "first": "Nanase",
+                "last": "Ohkawa"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2292.jpg"
+              }
+            }
+          },
+          {
+            "id": 8318,
+            "role": "Music",
+            "node": {
+              "id": 100077,
+              "name": {
+                "first": "Yuki",
+                "last": "Kajiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-oqLUFyNpTKpJ.jpg"
+              }
+            }
+          },
+          {
+            "id": 8319,
+            "role": "Theme Song Arrangement  (OP)",
+            "node": {
+              "id": 100077,
+              "name": {
+                "first": "Yuki",
+                "last": "Kajiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-oqLUFyNpTKpJ.jpg"
+              }
+            }
+          },
+          {
+            "id": 8320,
+            "role": "Theme Song Composition  (OP)",
+            "node": {
+              "id": 100077,
+              "name": {
+                "first": "Yuki",
+                "last": "Kajiura"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-oqLUFyNpTKpJ.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 10,
+              "name": "Production I.G"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 102,
+              "name": "FUNimation Entertainment"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 159,
+              "name": "Kodansha"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Funimation",
+          "url": "http:\/\/www.funimation.com\/shows\/tsubasa-reservoir-chronicle\/videos\/episodes"
+        },
+        {
+          "site": "Hulu",
+          "url": "http:\/\/www.hulu.com\/tsubasa-tokyo-revelations"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 14500,
+          "rank": 18,
+          "type": "RATED",
+          "format": "OVA",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 15689,
+          "rank": 1,
+          "type": "RATED",
+          "format": "OVA",
+          "year": 2007,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 15720,
+          "rank": 2,
+          "type": "POPULAR",
+          "format": "OVA",
+          "year": 2007,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 50,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 79
+          },
+          {
+            "status": "PLANNING",
+            "amount": 1472
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 3348
+          },
+          {
+            "status": "DROPPED",
+            "amount": 50
+          },
+          {
+            "status": "PAUSED",
+            "amount": 60
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 12
+          },
+          {
+            "score": 20,
+            "amount": 5
+          },
+          {
+            "score": 30,
+            "amount": 9
+          },
+          {
+            "score": 40,
+            "amount": 22
+          },
+          {
+            "score": 50,
+            "amount": 67
+          },
+          {
+            "score": 60,
+            "amount": 151
+          },
+          {
+            "score": 70,
+            "amount": 426
+          },
+          {
+            "score": 80,
+            "amount": 630
+          },
+          {
+            "score": 90,
+            "amount": 618
+          },
+          {
+            "score": 100,
+            "amount": 401
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "data": {
+    "Media": {
+      "id": 98635,
+      "title": {
+        "userPreferred": "ReLIFE Kanketsu-hen",
+        "romaji": "ReLIFE Kanketsu-hen",
+        "english": "ReLIFE OVA",
+        "native": "ReLIFE \u5b8c\u7d50\u7de8"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx98635-FyHK34rRXrcN.jpg"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/98635-NoUpOE940WyV.jpg",
+      "startDate": {
+        "year": 2018,
+        "month": 3,
+        "day": 21
+      },
+      "endDate": {
+        "year": 2018,
+        "month": 3,
+        "day": 21
+      },
+      "description": "The conclusion to the ReLife TV series.",
+      "season": "WINTER",
+      "type": "ANIME",
+      "format": "SPECIAL",
+      "status": "FINISHED",
+      "episodes": 4,
+      "duration": 24,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Slice of Life"
+      ],
+      "synonyms": [],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 80,
+      "averageScore": 80,
+      "popularity": 18856,
+      "favourites": 317,
+      "hashtag": "#ReLIFE",
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 18787,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 85849,
+              "title": {
+                "userPreferred": "ReLife"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/nx85849-TYAa7nhwSvbx.jpg"
+              }
+            }
+          },
+          {
+            "id": 18789,
+            "relationType": "PREQUEL",
+            "node": {
+              "id": 21049,
+              "title": {
+                "userPreferred": "ReLife"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b21049-Og9VboJRRSi5.jpg"
+              }
+            }
+          },
+          {
+            "id": 31869,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 108939,
+              "title": {
+                "userPreferred": "Shagahai ReLIFE Kenkyuujo Support-ka"
+              },
+              "format": "ONA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b108939-t99SwYtxtBuR.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 150596,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95819,
+                "name": {
+                  "first": "Kensho",
+                  "last": "Ono"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/819.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 89425,
+              "name": {
+                "first": "Arata",
+                "last": "Kaizaki"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89425-QAefxSLf5puB.jpg"
+              }
+            }
+          },
+          {
+            "id": 150597,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 105765,
+                "name": {
+                  "first": "Ai",
+                  "last": "Kayano"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105765-SanVMpfIwSFM.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 89426,
+              "name": {
+                "first": "Chizuru",
+                "last": "Hishiro"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b89426-u8HAl1H5jIRX.jpg"
+              }
+            }
+          },
+          {
+            "id": 150598,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 96762,
+                "name": {
+                  "first": "Ryouhei",
+                  "last": "Kimura"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96762-vxLbfg9Ysg20.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 89427,
+              "name": {
+                "first": "Ryou",
+                "last": "Yoake"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89427-qqKKmpyubabB.jpg"
+              }
+            }
+          },
+          {
+            "id": 150599,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 118602,
+                "name": {
+                  "first": "Reina\r\n",
+                  "last": "Ueda"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118602-nkBhINBtNYRW.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 89428,
+              "name": {
+                "first": "An",
+                "last": "Onoya"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89428-NcqBkBGSw0y2.jpg"
+              }
+            }
+          },
+          {
+            "id": 150600,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95890,
+                "name": {
+                  "first": "Haruka",
+                  "last": "Tomatsu"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95890-wJpIh2qz9agR.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 89632,
+              "name": {
+                "first": "Rena",
+                "last": "Kariu"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89632-sP88VkpJGIIx.jpg"
+              }
+            }
+          },
+          {
+            "id": 150601,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 119617,
+                "name": {
+                  "first": "Yuuma",
+                  "last": "Uchida"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119617-xfQmuKjxVBAL.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 89633,
+              "name": {
+                "first": "Kazuomi",
+                "last": "Ooga"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89633-kEDyJFjodViI.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 93637,
+            "role": "Original Creator",
+            "node": {
+              "id": 119025,
+              "name": {
+                "first": "Yayoiso",
+                "last": ""
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/119025-RNLBrPwTcYJB.png"
+              }
+            }
+          },
+          {
+            "id": 105790,
+            "role": "Director",
+            "node": {
+              "id": 120091,
+              "name": {
+                "first": "Tomo",
+                "last": "Kosaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120091-l4Fa79a0ogOd.jpg"
+              }
+            }
+          },
+          {
+            "id": 105791,
+            "role": "Series Composition",
+            "node": {
+              "id": 112681,
+              "name": {
+                "first": "Kazuho",
+                "last": "Hyodo"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 105792,
+            "role": "Character Design",
+            "node": {
+              "id": 119349,
+              "name": {
+                "first": "Junko",
+                "last": "Yamanaka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 105793,
+            "role": "Music",
+            "node": {
+              "id": 120092,
+              "name": {
+                "first": "Masayasu",
+                "last": "Tsuboguchi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120092-RwJzHRWL6Lgg.jpg"
+              }
+            }
+          },
+          {
+            "id": 105794,
+            "role": "Art Director",
+            "node": {
+              "id": 107601,
+              "name": {
+                "first": "Kentaro",
+                "last": "Akiyama"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 105795,
+            "role": "Sound Director",
+            "node": {
+              "id": 120066,
+              "name": {
+                "first": "Shouji",
+                "last": "Hata"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120066-2VOeki0B1ygY.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 73,
+              "name": "TMS Entertainment"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 2403,
+            "summary": "RELife and comparison of reality of two stages of life",
+            "rating": 23,
+            "ratingAmount": 25,
+            "user": {
+              "id": 88528,
+              "name": "Animelover33",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n88528-dl0QiYsd4PG3.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/relife-anime.com\/"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/ReLIFE_anime"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/relife"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "PV",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/0b2343f4f65763beb35e777760562f3e1465594231_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/relife-pv-714665"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1 - Kaizaki Arata (27), Unemployed",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/a3b6b1d99a0f528ac78feab63e7722d91467311690_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-1-kaizaki-arata-27-unemployed-714853"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 2 - Communication Skills: Zero",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/f4733dce1deedf5d927d9e35e450afc61467311788_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-2-communication-skills-zero-714855"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 3 - You're Old Now",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/8260bb1022269b4d49edc570b48179c81467311799_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-3-youre-old-now-714857"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 4 - Fall",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/6778ee4b95dbf9c25bfd44803a79d1b61467311823_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-4-fall-714859"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 5 - Overlap",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/3ea2d1258b74a24b9d209a8a3d97389b1467311811_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-5-overlap-714861"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 6 - This Isn't the First Time",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/dfe86375f533d79901d707263cd71eec1467311871_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-6-this-isnt-the-first-time-714863"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 7 - Test Subject 001 -> 002",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/23a4a26e17c67de376e4ba2cf39fdf791467311885_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-7-test-subject-001-002-714865"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 8 - Rift",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/f847fa6460f8cdea1359a0ed6758ce8a1467091469_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-8-rift-714867"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 9 - Revenge",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/389fa3c76238605a411611d82d157b321467161098_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-9-revenge-714869"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 10 - Everyone's Selfish Desires",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/599b0189f46a6646f91e3ad6d2f7b8581467160159_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-10-everyones-selfish-desires-714871"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 11 - A Trip to the Past",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/c63291fcfd207a628efbd0ed82d5f4e41467311907_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-11-a-trip-to-the-past-714873"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 12 - Double Panic",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/51f11e1d68d6f14b4b7e40ec917a8dc21467311949_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-12-double-panic-714875"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 13 - Confession",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/7844792436df0ee8b4209de354d3838d1467311923_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-13-confession-714877"
+        }
+      ],
+      "trailer": null,
+      "rankings": [],
+      "tags": [
+        {
+          "id": 488,
+          "name": "Age Regression",
+          "description": "Prominently features a character who was returned to a younger state.",
+          "rank": 96,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 311,
+          "name": "Rehabilitation",
+          "description": "Prominently features the recovery of a character who became incapable of social life or work.",
+          "rank": 95,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 46,
+          "name": "School",
+          "description": "Partly or completely set in a primary or secondary educational institution.",
+          "rank": 85,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 365,
+          "name": "Memory Manipulation",
+          "description": "Prominently features a character(s) who has had their memories altered.",
+          "rank": 83,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 53,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 96,
+          "name": "Time Manipulation",
+          "description": "Prominently features time-traveling or other time-warping phenomena.",
+          "rank": 51,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": true
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 430
+          },
+          {
+            "status": "PLANNING",
+            "amount": 4779
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 13407
+          },
+          {
+            "status": "DROPPED",
+            "amount": 82
+          },
+          {
+            "status": "PAUSED",
+            "amount": 158
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 20
+          },
+          {
+            "score": 20,
+            "amount": 17
+          },
+          {
+            "score": 30,
+            "amount": 36
+          },
+          {
+            "score": 40,
+            "amount": 104
+          },
+          {
+            "score": 50,
+            "amount": 241
+          },
+          {
+            "score": 60,
+            "amount": 579
+          },
+          {
+            "score": 70,
+            "amount": 1523
+          },
+          {
+            "score": 80,
+            "amount": 2930
+          },
+          {
+            "score": 90,
+            "amount": 2481
+          },
+          {
+            "score": 100,
+            "amount": 1383
+          }
+        ]
+      }
+    }
+  }
+}

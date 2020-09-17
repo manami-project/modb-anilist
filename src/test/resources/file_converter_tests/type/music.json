@@ -1,0 +1,398 @@
+{
+  "data": {
+    "Media": {
+      "id": 97731,
+      "title": {
+        "userPreferred": "Shelter",
+        "romaji": "Shelter",
+        "english": "Shelter",
+        "native": "\u30b7\u30a7\u30eb\u30bf\u30fc"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx97731-gYxm0WorfNPM.png"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/97731-4M6wls7IOoQA.jpg",
+      "startDate": {
+        "year": 2016,
+        "month": 10,
+        "day": 18
+      },
+      "endDate": {
+        "year": 2016,
+        "month": 10,
+        "day": 18
+      },
+      "description": "Rin, a 17-year-old girl, lives inside a futuristic simulator in infinite, beautiful loneliness. Each day, she awakens in virtual reality to create a world for herself, yet in real life, Rin\u2019s comatose body floats through the universe, forever trapped inside a virtual simulation she will never wake up from...<br>\n<br>\n(Source: Official Site)",
+      "season": null,
+      "type": "ANIME",
+      "format": "MUSIC",
+      "status": "FINISHED",
+      "episodes": 1,
+      "duration": 6,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Sci-Fi",
+        "Music"
+      ],
+      "synonyms": [
+        "Shelter The Animation"
+      ],
+      "source": "ORIGINAL",
+      "isAdult": false,
+      "meanScore": 80,
+      "averageScore": 80,
+      "popularity": 24089,
+      "favourites": 429,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": []
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 146902,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 102337,
+                "name": {
+                  "first": "Sachika",
+                  "last": "Misawa"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n102337-iHJMCOTE1eVT.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 120607,
+              "name": {
+                "first": "Rin",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n120607-egSyypZmZ4CF.jpg"
+              }
+            }
+          },
+          {
+            "id": 165199,
+            "role": "MAIN",
+            "voiceActors": [],
+            "node": {
+              "id": 133566,
+              "name": {
+                "first": "Shigeru",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n133566-M57kWxqmgEZx.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 87437,
+            "role": "Director",
+            "node": {
+              "id": 110949,
+              "name": {
+                "first": "Toshifumi",
+                "last": "Akai"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/110949-DaCi5Jg9XFg0.jpg"
+              }
+            }
+          },
+          {
+            "id": 87438,
+            "role": "Character Design",
+            "node": {
+              "id": 120602,
+              "name": {
+                "first": "Megumi",
+                "last": "Kouno"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120602-UEc0VzppHzA6.jpg"
+              }
+            }
+          },
+          {
+            "id": 87439,
+            "role": "Writer",
+            "node": {
+              "id": 120603,
+              "name": {
+                "first": "Porter",
+                "last": "Robinson"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120603-5GSp4sbq0ZVR.jpg"
+              }
+            }
+          },
+          {
+            "id": 87440,
+            "role": "Executive Producer",
+            "node": {
+              "id": 120603,
+              "name": {
+                "first": "Porter",
+                "last": "Robinson"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120603-5GSp4sbq0ZVR.jpg"
+              }
+            }
+          },
+          {
+            "id": 87446,
+            "role": "Art Director",
+            "node": {
+              "id": 103102,
+              "name": {
+                "first": "Yusuke",
+                "last": "Takeda"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n103102-Jno4cad2IDqX.jpg"
+              }
+            }
+          },
+          {
+            "id": 87447,
+            "role": "Key Animation",
+            "node": {
+              "id": 120602,
+              "name": {
+                "first": "Megumi",
+                "last": "Kouno"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120602-UEc0VzppHzA6.jpg"
+              }
+            }
+          },
+          {
+            "id": 111576,
+            "role": "Animation Director",
+            "node": {
+              "id": 120602,
+              "name": {
+                "first": "Megumi",
+                "last": "Kouno"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120602-UEc0VzppHzA6.jpg"
+              }
+            }
+          },
+          {
+            "id": 118309,
+            "role": "Music",
+            "node": {
+              "id": 132282,
+              "name": {
+                "first": "Madeon",
+                "last": null
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n132282-ihaOykiwxO4a.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 561,
+              "name": "A-1 Pictures"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 4090,
+            "summary": "A simple yet touching narrative, gorgeous stylized visuals, and a beautiful electronic song to guide you through it all",
+            "rating": 40,
+            "ratingAmount": 42,
+            "user": {
+              "id": 134935,
+              "name": "mochiko",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b134935-pNVdvZ6kRss6.png"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/sheltertheanimation.com\/"
+        },
+        {
+          "site": "Youtube",
+          "url": "https:\/\/www.youtube.com\/watch?v=fzQ6gRAEoy0"
+        },
+        {
+          "site": "Crunchyroll",
+          "url": "http:\/\/www.crunchyroll.com\/shelter"
+        }
+      ],
+      "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Porter Robinson presents Shelter the Animation",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/a53a80007afc84fdcfe33e51a8fad0f71476754944_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/shelter\/shelter-porter-robinson-presents-shelter-the-animation-722793"
+        }
+      ],
+      "trailer": {
+        "id": "fzQ6gRAEoy0",
+        "site": "youtube"
+      },
+      "rankings": [],
+      "tags": [
+        {
+          "id": 112,
+          "name": "Virtual World",
+          "description": "Partly or completely set in the world inside a video game.",
+          "rank": 92,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 265,
+          "name": "Musical",
+          "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
+          "rank": 91,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 90,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 93,
+          "name": "Post-Apocalyptic",
+          "description": "Partly or completely set in a world or civilization after a global disaster.",
+          "rank": 82,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 98,
+          "name": "Female Protagonist",
+          "description": "Main character is female.",
+          "rank": 81,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 240,
+          "name": "Amnesia",
+          "description": "Prominently features a character(s) with memory loss.",
+          "rank": 71,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 63,
+          "name": "Space",
+          "description": "Partly or completely set in outer space.",
+          "rank": 60,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 116
+          },
+          {
+            "status": "PLANNING",
+            "amount": 1442
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 22470
+          },
+          {
+            "status": "DROPPED",
+            "amount": 31
+          },
+          {
+            "status": "PAUSED",
+            "amount": 30
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 88
+          },
+          {
+            "score": 20,
+            "amount": 69
+          },
+          {
+            "score": 30,
+            "amount": 116
+          },
+          {
+            "score": 40,
+            "amount": 271
+          },
+          {
+            "score": 50,
+            "amount": 708
+          },
+          {
+            "score": 60,
+            "amount": 1152
+          },
+          {
+            "score": 70,
+            "amount": 2479
+          },
+          {
+            "score": 80,
+            "amount": 4255
+          },
+          {
+            "score": 90,
+            "amount": 3854
+          },
+          {
+            "score": 100,
+            "amount": 3168
+          }
+        ]
+      }
+    }
+  }
+}

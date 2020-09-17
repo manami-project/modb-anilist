@@ -1,0 +1,247 @@
+{
+  "data": {
+    "Media": {
+      "id": 100081,
+      "title": {
+        "userPreferred": "Zero Seiki Movie 1: Emeraldas",
+        "romaji": "Zero Seiki Movie 1: Emeraldas",
+        "english": null,
+        "native": "\u96f6\u4e16\u7d00 \u30a8\u30e1\u30e9\u30eb\u30c0\u30b9"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx100081-SkiKHz5hPTtD.jpg"
+      },
+      "bannerImage": null,
+      "startDate": {
+        "year": 2020,
+        "month": null,
+        "day": null
+      },
+      "endDate": {
+        "year": null,
+        "month": null,
+        "day": null
+      },
+      "description": "An anime movie that was announced at Japan Expo which will air in 2020.",
+      "season": null,
+      "type": "ANIME",
+      "format": "MOVIE",
+      "status": "NOT_YET_RELEASED",
+      "episodes": 1,
+      "duration": null,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "synonyms": [
+        "The Zero Century Movie 1: Emeraldas",
+        "The Zero Century: Emeraldas"
+      ],
+      "source": null,
+      "isAdult": false,
+      "meanScore": null,
+      "averageScore": null,
+      "popularity": 336,
+      "favourites": 5,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 21067,
+            "relationType": "ALTERNATIVE",
+            "node": {
+              "id": 1553,
+              "title": {
+                "userPreferred": "Queen Emeraldas"
+              },
+              "format": "OVA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx1553-KvFiw3uwx136.jpg"
+              }
+            }
+          },
+          {
+            "id": 21069,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 56486,
+              "title": {
+                "userPreferred": "Queen Emeraldas"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/26486.jpg"
+              }
+            }
+          },
+          {
+            "id": 21151,
+            "relationType": "SEQUEL",
+            "node": {
+              "id": 100148,
+              "title": {
+                "userPreferred": "Zero Seiki Movie 2: Herlock"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "NOT_YET_RELEASED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx100148-0tfdtJVMCyMm.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": []
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 101620,
+            "role": "Director",
+            "node": {
+              "id": 100988,
+              "name": {
+                "first": "Hiroyuki",
+                "last": "Yamaga"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5988.jpg"
+              }
+            }
+          },
+          {
+            "id": 101621,
+            "role": "Script",
+            "node": {
+              "id": 115288,
+              "name": {
+                "first": "Masaki",
+                "last": "Wachi"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/115288-GLGBGmslaro2.jpg"
+              }
+            }
+          },
+          {
+            "id": 101622,
+            "role": "Original Creator",
+            "node": {
+              "id": 97597,
+              "name": {
+                "first": "Leiji",
+                "last": "Matsumoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2597.jpg"
+              }
+            }
+          },
+          {
+            "id": 101623,
+            "role": "Character Design",
+            "node": {
+              "id": 98158,
+              "name": {
+                "first": "Yoshiyuki",
+                "last": "Sadamoto"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3158.jpg"
+              }
+            }
+          },
+          {
+            "id": 120288,
+            "role": "Chief Animation Director",
+            "node": {
+              "id": 130405,
+              "name": {
+                "first": "Toshihisa",
+                "last": "Kaiya"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n130405-e0DZBcVxlYfK.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": []
+      },
+      "reviews": {
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/zero-century.net\/"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": null,
+      "rankings": [
+        {
+          "id": 14472,
+          "rank": 14,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": 2020,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 63,
+          "name": "Space",
+          "description": "Partly or completely set in outer space.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 6
+          },
+          {
+            "status": "PLANNING",
+            "amount": 326
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 1
+          },
+          {
+            "status": "DROPPED",
+            "amount": 3
+          },
+          {
+            "status": "PAUSED",
+            "amount": 0
+          }
+        ],
+        "scoreDistribution": []
+      }
+    }
+  }
+}

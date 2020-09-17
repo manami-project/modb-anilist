@@ -1,0 +1,617 @@
+{
+  "data": {
+    "Media": {
+      "id": 20954,
+      "title": {
+        "userPreferred": "Koe no Katachi",
+        "romaji": "Koe no Katachi",
+        "english": "A Silent Voice",
+        "native": "\u8072\u306e\u5f62"
+      },
+      "coverImage": {
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx20954-RYEF5mWglzV8.png"
+      },
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20954-nxoAsLl8Iwya.jpg",
+      "startDate": {
+        "year": 2016,
+        "month": 9,
+        "day": 17
+      },
+      "endDate": {
+        "year": 2016,
+        "month": 9,
+        "day": 17
+      },
+      "description": "I wish we had never met. I wish we could meet once again. A boy who can hear, Shoya Ishida, and a transfer student who can't, Shoko Nishimiya. One fateful day, the two meet, and Shoya leads the class in bullying Shoko. But before long, the class shifts its target from Shoko to Shoya. Years later, Shoya feels strongly that he must see Shoko once again.<br>\r\n<br>\r\n(Source: Crunchyroll)",
+      "season": "SUMMER",
+      "type": "ANIME",
+      "format": "UNKNOWN",
+      "status": "FINISHED",
+      "episodes": 1,
+      "duration": 131,
+      "chapters": null,
+      "volumes": null,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "synonyms": [
+        "the shape of voice"
+      ],
+      "source": "MANGA",
+      "isAdult": false,
+      "meanScore": 89,
+      "averageScore": 89,
+      "popularity": 72991,
+      "favourites": 6568,
+      "hashtag": null,
+      "countryOfOrigin": "JP",
+      "isLicensed": true,
+      "isFavourite": false,
+      "nextAiringEpisode": null,
+      "relations": {
+        "edges": [
+          {
+            "id": 25770,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 85135,
+              "title": {
+                "userPreferred": "Koe no Katachi"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx85135-11OOnyaqV71k.png"
+              }
+            }
+          },
+          {
+            "id": 29731,
+            "relationType": "OTHER",
+            "node": {
+              "id": 107764,
+              "title": {
+                "userPreferred": "Koe no Katachi Specials"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx107764-AOA6o9Pukejl.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "characters": {
+        "edges": [
+          {
+            "id": 101166,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95869,
+                "name": {
+                  "first": "Saori",
+                  "last": "Hayami"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95869-ywVBREdfbVHW.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 80243,
+              "name": {
+                "first": "Shouko",
+                "last": "Nishimiya"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b80243-IulaT2p4MrKw.png"
+              }
+            }
+          },
+          {
+            "id": 101165,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95088,
+                "name": {
+                  "first": "Miyu",
+                  "last": "Irino"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-kuBf7BA7I78P.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 80491,
+              "name": {
+                "first": "Shouya",
+                "last": "Ishida"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b80491-jYhoexGTPwT2.png"
+              }
+            }
+          },
+          {
+            "id": 150174,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 101686,
+                "name": {
+                  "first": "Aoi",
+                  "last": "Yuuki"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/101686-sJfpvFltMBlK.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 89335,
+              "name": {
+                "first": "Yuzuru",
+                "last": "Nishimiya"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b89335-3fy5a7Qa9h9J.jpg"
+              }
+            }
+          },
+          {
+            "id": 150176,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 114854,
+                "name": {
+                  "first": "Yuuki",
+                  "last": "Kaneko"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/19854.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 124026,
+              "name": {
+                "first": "Naoka",
+                "last": "Ueno"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/124026-KcQmX7heg7im.jpg"
+              }
+            }
+          },
+          {
+            "id": 150177,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95003,
+                "name": {
+                  "first": "Satsuki",
+                  "last": "Yukino"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95003-RvHYI2ZWRjpk.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 124030,
+              "name": {
+                "first": "Miyako",
+                "last": "Ishida"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/124030-YoZ0Drg5cHXX.jpg"
+              }
+            }
+          },
+          {
+            "id": 150178,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 124032,
+                "name": {
+                  "first": "Erena",
+                  "last": "Kamata"
+                },
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/124032-qsEy6ekPVuS4.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 124031,
+              "name": {
+                "first": "Maria",
+                "last": "Ishida"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/124031-ErVGKjxFH56V.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staff": {
+        "edges": [
+          {
+            "id": 53948,
+            "role": "Original Creator",
+            "node": {
+              "id": 105951,
+              "name": {
+                "first": "Yoshitoki",
+                "last": "Ooima"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/10951.jpg"
+              }
+            }
+          },
+          {
+            "id": 55109,
+            "role": "Director",
+            "node": {
+              "id": 102498,
+              "name": {
+                "first": "Naoko",
+                "last": "Yamada"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/102498-yyYRk73kvkTD.jpg"
+              }
+            }
+          },
+          {
+            "id": 56045,
+            "role": "Series Composition",
+            "node": {
+              "id": 97076,
+              "name": {
+                "first": "Reiko",
+                "last": "Yoshida"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2076.jpg"
+              }
+            }
+          },
+          {
+            "id": 56046,
+            "role": "Character Design",
+            "node": {
+              "id": 102729,
+              "name": {
+                "first": "Futoshi",
+                "last": "Nishiya"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/7729.jpg"
+              }
+            }
+          },
+          {
+            "id": 56519,
+            "role": "Art Director",
+            "node": {
+              "id": 103091,
+              "name": {
+                "first": "Mutsuo",
+                "last": "Shinohara"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/103091-M6s8WhROlsyU.png"
+              }
+            }
+          },
+          {
+            "id": 56520,
+            "role": "Sound Director",
+            "node": {
+              "id": 102194,
+              "name": {
+                "first": "Youta",
+                "last": "Tsuruoka"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/7194.jpg"
+              }
+            }
+          },
+          {
+            "id": 56521,
+            "role": "Music",
+            "node": {
+              "id": 119254,
+              "name": {
+                "first": "Kensuke",
+                "last": "Ushio"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119254-eTuigYQ0wYuf.png"
+              }
+            }
+          },
+          {
+            "id": 108163,
+            "role": "Chief Key Animator",
+            "node": {
+              "id": 125597,
+              "name": {
+                "first": "Tatsuya",
+                "last": "Satou"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 2,
+              "name": "Kyoto Animation"
+            }
+          }
+        ]
+      },
+      "reviews": {
+        "nodes": [
+          {
+            "id": 3342,
+            "summary": "The Shouya Ishida's redemption.",
+            "rating": 47,
+            "ratingAmount": 54,
+            "user": {
+              "id": 113175,
+              "name": "BrianStorm",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b113175-1N4IjO64ndRS.png"
+              }
+            }
+          },
+          {
+            "id": 2220,
+            "summary": "A heartfelt exploration of bullying, guilt, and isolation",
+            "rating": 30,
+            "ratingAmount": 67,
+            "user": {
+              "id": 30949,
+              "name": "Peng",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n30949-ajmzQkLu2UeS.png"
+              }
+            }
+          }
+        ]
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/koenokatachi-movie.com\/"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/koenokatachi_M"
+        },
+        {
+          "site": "Netflix",
+          "url": "https:\/\/www.netflix.com\/title\/80223226"
+        }
+      ],
+      "streamingEpisodes": [],
+      "trailer": {
+        "id": "aJSXEsoT-ZI",
+        "site": "youtube"
+      },
+      "rankings": [
+        {
+          "id": 11216,
+          "rank": 1,
+          "type": "RATED",
+          "format": "MOVIE",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "highest rated all time"
+        },
+        {
+          "id": 11517,
+          "rank": 2,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": null,
+          "season": null,
+          "allTime": true,
+          "context": "most popular all time"
+        },
+        {
+          "id": 13926,
+          "rank": 1,
+          "type": "RATED",
+          "format": "MOVIE",
+          "year": 2016,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 13991,
+          "rank": 2,
+          "type": "POPULAR",
+          "format": "MOVIE",
+          "year": 2016,
+          "season": null,
+          "allTime": false,
+          "context": "most popular"
+        }
+      ],
+      "tags": [
+        {
+          "id": 311,
+          "name": "Rehabilitation",
+          "description": "Prominently features the recovery of a character who became incapable of social life or work.",
+          "rank": 95,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 171,
+          "name": "Bullying",
+          "description": "Prominently features the use of force for intimidation, often in a school setting.",
+          "rank": 93,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 516,
+          "name": "Language Barrier",
+          "description": "A barrier to communication between people who are unable to speak a common language.",
+          "rank": 85,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 46,
+          "name": "School",
+          "description": "Partly or completely set in a primary or secondary educational institution.",
+          "rank": 75,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 75,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 72,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "description": "Centers around a character's transition from childhood to adulthood.",
+          "rank": 71,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 153,
+          "name": "Time Skip",
+          "description": "Features a gap in time used to advance the story.",
+          "rank": 57,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 20,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 595,
+          "name": "Urban",
+          "description": "Partly or completely set in a city.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        }
+      ],
+      "mediaListEntry": null,
+      "stats": {
+        "statusDistribution": [
+          {
+            "status": "CURRENT",
+            "amount": 894
+          },
+          {
+            "status": "PLANNING",
+            "amount": 12663
+          },
+          {
+            "status": "COMPLETED",
+            "amount": 59082
+          },
+          {
+            "status": "DROPPED",
+            "amount": 101
+          },
+          {
+            "status": "PAUSED",
+            "amount": 251
+          }
+        ],
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 125
+          },
+          {
+            "score": 20,
+            "amount": 50
+          },
+          {
+            "score": 30,
+            "amount": 105
+          },
+          {
+            "score": 40,
+            "amount": 211
+          },
+          {
+            "score": 50,
+            "amount": 495
+          },
+          {
+            "score": 60,
+            "amount": 976
+          },
+          {
+            "score": 70,
+            "amount": 2940
+          },
+          {
+            "score": 80,
+            "amount": 6976
+          },
+          {
+            "score": 90,
+            "amount": 14873
+          },
+          {
+            "score": 100,
+            "amount": 18219
+          }
+        ]
+      }
+    }
+  }
+}
