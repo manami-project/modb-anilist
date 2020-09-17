@@ -21,11 +21,12 @@ class AnilistDownloader(
     private val httpClient: HttpClient = DefaultHttpClient()
 ) : Downloader {
 
+    private val requestBody = loadResource("anime_download_request.graphql")
+
     override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String {
-        val body = loadResource("anime_download_request.graphql")
         val requestBody =  RequestBody(
             mediaType = APPLICATION_JSON,
-            body = body
+            body = requestBody
         )
 
         val requestUrl = config.buildAnimeLinkUrl(id)
