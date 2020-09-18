@@ -6,7 +6,7 @@ package io.github.manamiproject.modb.anilist
  * @param cookie Value for cookies header parameter
  * @param csrfToken Value for CSRF token header parameter
  */
-data class AnilistToken (
+public data class AnilistToken (
     val cookie: String,
     val csrfToken: String,
 )

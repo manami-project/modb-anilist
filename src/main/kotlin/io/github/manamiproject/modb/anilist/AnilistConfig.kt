@@ -9,7 +9,7 @@ import java.net.URL
  * Configuration for downloading and converting anime data from anilist.co
  * @since 1.0.0
  */
-object AnilistConfig : MetaDataProviderConfig {
+public object AnilistConfig : MetaDataProviderConfig {
 
     override fun buildDataDownloadUrl(id: String): URL = URL("https://${hostname()}/graphql")
 

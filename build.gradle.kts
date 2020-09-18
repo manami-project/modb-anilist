@@ -27,6 +27,10 @@ dependencies {
     testImplementation("io.github.manamiproject:modb-test:1.0.4")
 }
 
+kotlin {
+    explicitApi()
+}
+
 val compileKotlin: org.jetbrains.kotlin.gradle.tasks.KotlinCompile by tasks
 compileKotlin.kotlinOptions {
     jvmTarget = Versions.JVM_TARGET

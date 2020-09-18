@@ -16,7 +16,7 @@ import io.github.manamiproject.modb.core.loadResource
  * @param config Configuration for downloading data.
  * @param httpClient To actually download the anime data.
  */
-class AnilistDownloader(
+public class AnilistDownloader(
     private val config: MetaDataProviderConfig,
     private val httpClient: HttpClient = DefaultHttpClient()
 ) : Downloader {

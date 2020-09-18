@@ -6,7 +6,7 @@ import io.github.manamiproject.modb.core.extensions.EMPTY
  * Central place to store the current anilist token so that the same token is always being used.
  * @since 1.0.0
  */
-object AnilistTokenRepository {
+public object AnilistTokenRepository {
 
     private var currentToken = AnilistToken(EMPTY, EMPTY)
 
@@ -15,7 +15,7 @@ object AnilistTokenRepository {
      * The token is only accepted if both cookie and csrf field are not blank.
      * @since 1.0.0
      */
-    var token: AnilistToken
+    public var token: AnilistToken
         get() = currentToken
         set(value) {
             require(value.cookie.isNotBlank()) { "Cookie must not blank" }

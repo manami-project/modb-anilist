@@ -20,7 +20,7 @@ private const val CSRF_TOKEN_PREFIX = "window.al_token"
  * @param config Configuration for retrieving the token.
  * @param httpClient To download the site from which the token will be extracted
  */
-class AnilistDefaultTokenRetriever(
+public class AnilistDefaultTokenRetriever(
     private val config: MetaDataProviderConfig = AnilistDefaultTokenRetrieverConfig,
     private val httpClient: HttpClient = DefaultHttpClient()
 ): AnilistTokenRetriever {
@@ -79,7 +79,7 @@ class AnilistDefaultTokenRetriever(
         RetryableRegistry.register(config.hostname(), retryBehaviorConfig)
     }
 
-    companion object {
+    private companion object {
         private val log by LoggerDelegate()
     }
 }

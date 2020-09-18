@@ -7,7 +7,7 @@ import java.net.URL
  * Creates all necessary header parameter for an anilist GraphQL request.
  * @since 1.0.0
  */
-object AnilistHeaderCreator {
+public object AnilistHeaderCreator {
 
     /**
      * Creates all headers necessary for an anilist GraphQL request.
@@ -16,7 +16,7 @@ object AnilistHeaderCreator {
      * @param referer The referer [URL]. **Default**: _https://anilist.co_
      * @return A [Map] of header parameter. Key is the name of the parameter itself and value is a list of values for this specific header parameter.
      */
-    fun createAnilistHeaders(requestBody: RequestBody, referer: URL = URL("https://anilist.co")): Map<String, List<String>> {
+    public fun createAnilistHeaders(requestBody: RequestBody, referer: URL = URL("https://anilist.co")): Map<String, List<String>> {
         val url = "https://anilist.co"
 
         return mapOf(

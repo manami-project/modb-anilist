@@ -19,7 +19,7 @@ import java.net.URL
  * @since 1.0.0
  * @param config Configuration for converting data.
  */
-class AnilistConverter(
+public class AnilistConverter(
     private val config: MetaDataProviderConfig = AnilistConfig
 ) : AnimeConverter {
 
