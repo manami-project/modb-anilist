@@ -67,7 +67,7 @@ public class AnilistDefaultTokenRetriever(
     private fun registerRetryBehavior() {
         val retryBehaviorConfig = RetryBehavior(
             waitDuration = { random(4000, 8000) },
-            retryOnResponsePredicate = { httpResponse -> httpResponse.code in listOf(403, 500, 502) }
+            retryOnResponsePredicate = { httpResponse -> httpResponse.code in listOf(403, 500, 502, 520) }
         ).apply {
             addExecuteBeforeRetryPredicate(403) {
                 log.warn("Anilist responds with 403. Refreshing token.")
