@@ -30,8 +30,8 @@ public object AnilistHeaderCreator {
             "content-type" to listOf(requestBody.mediaType),
             "origin" to listOf(url),
             "schema" to listOf("default"),
-            "cookie" to listOf(AnilistTokenRepository.token.cookie),
-            "x-csrf-token" to listOf(AnilistTokenRepository.token.csrfToken),
+            "cookie" to listOf(AnilistDefaultTokenRepository.token.cookie),
+            "x-csrf-token" to listOf(AnilistDefaultTokenRepository.token.csrfToken),
             "referer" to listOf(referer.toString())
         )
     }

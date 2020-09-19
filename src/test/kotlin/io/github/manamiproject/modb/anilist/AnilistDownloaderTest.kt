@@ -29,7 +29,6 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             override fun hostname(): Hostname = "localhost"
             override fun buildDataDownloadUrl(id: String): URL = URL("http:localhost:$port")
         }
-
         AnilistDefaultTokenRetriever(testConfig)
     }
 
@@ -37,6 +36,40 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
     override fun afterEach() {
         serverInstance.stop()
         RetryableRegistry.clear()
+    }
+
+    @Test
+    fun `retrieves a token upon creation and stores it in the token repository in case no token has been added yet`() {
+        // given
+        val testToken = AnilistToken("fresh-cookies", "fresh-csrf")
+        var hasBeenInvoked = false
+
+        val testAnilistTokenRetriever = object: AnilistTokenRetriever {
+            override fun retrieveToken(): AnilistToken {
+                hasBeenInvoked = true
+                return testToken
+            }
+        }
+
+        val testAnilistTokenRepository = object: AnilistTokenRepository {
+            private var currentToken: AnilistToken = AnilistToken(EMPTY, EMPTY)
+
+            override var token: AnilistToken
+                get() = currentToken
+                set(value) { currentToken = value }
+
+        }
+
+        // when
+        AnilistDownloader(
+                config = MetaDataProviderTestConfig,
+                anilistTokenRetriever = testAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository
+        )
+
+        // then
+        assertThat(hasBeenInvoked).isTrue()
+        assertThat(testAnilistTokenRepository.token).isEqualTo(testToken)
     }
 
     @Test
@@ -51,6 +84,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
+        @Suppress("UNUSED_PARAMETER")
+        val testAnilistTokenRepository = object: AnilistTokenRepository {
+            override var token: AnilistToken
+                get() = AnilistToken("value", "value")
+                set(value) { shouldNotBeInvoked() }
+        }
+
         val responseBody = "{ \"anilistId\": $id }"
 
         serverInstance.stubFor(
@@ -62,7 +102,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             )
         )
 
-        val downloader = AnilistDownloader(testAnilistConfig)
+        val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
+        )
 
         // when
         val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
@@ -83,6 +127,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
+        @Suppress("UNUSED_PARAMETER")
+        val testAnilistTokenRepository = object: AnilistTokenRepository {
+            override var token: AnilistToken
+                get() = AnilistToken("value", "value")
+                set(value) { shouldNotBeInvoked() }
+        }
+
         serverInstance.stubFor(
             post(urlPathEqualTo("/graphql")).willReturn(
                 aResponse()
@@ -92,7 +143,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             )
         )
 
-        val downloader = AnilistDownloader(testAnilistConfig)
+        val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
+        )
 
         // when
         val result = org.junit.jupiter.api.assertThrows<IllegalStateException> {
@@ -116,6 +171,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
             }
 
+            @Suppress("UNUSED_PARAMETER")
+            val testAnilistTokenRepository = object: AnilistTokenRepository {
+                override var token: AnilistToken
+                    get() = AnilistToken("value", "value")
+                    set(value) { shouldNotBeInvoked() }
+            }
+
             serverInstance.stubFor(
                 post(urlPathEqualTo("/graphql"))
                     .willReturn(
@@ -126,7 +188,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                     )
             )
 
-            val downloader = AnilistDownloader(testAnilistConfig)
+            val downloader = AnilistDownloader(
+                    config = testAnilistConfig,
+                    anilistTokenRetriever = TestAnilistTokenRetriever,
+                    anilistTokenRepository = testAnilistTokenRepository,
+            )
 
             var deadEntriesId = EMPTY
 
@@ -151,7 +217,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
-        AnilistTokenRepository.token = AnilistToken("valid-cookie", "valid-csrf-token")
+        AnilistDefaultTokenRepository.token = AnilistToken("valid-cookie", "valid-csrf-token")
 
         val responseBody = "{ \"anilistId\": $id }"
 
@@ -182,9 +248,9 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                         .withHeader("accept-language", equalTo("en-US;q=0.9,en;q=0.8"))
                         .withHeader("content-length", equalTo(requestBody.length.toString()))
                         .withHeader("content-type", equalTo("application/json"))
-                        .withHeader("cookie", equalTo("valid-cookie"))
                         .withHeader("referer", equalTo("https://anilist.co/anime/$id"))
                         .withHeader("schema", equalTo("default"))
+                        .withHeader("cookie", equalTo("valid-cookie"))
                         .withHeader("x-csrf-token", equalTo("valid-csrf-token"))
                         .withRequestBody(EqualToJsonPattern(requestBody, true, true))
         )
@@ -206,7 +272,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             config = testAnilistConfig
         )
 
-        AnilistTokenRepository.token = AnilistToken("my-cookie", "my-csrf-token")
+        AnilistDefaultTokenRepository.token = AnilistToken("my-cookie", "my-csrf-token")
 
         val refreshedTokenResponseBody = loadTestResource("downloader_tests/page_containing_token.html")
 
@@ -273,6 +339,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
+        @Suppress("UNUSED_PARAMETER")
+        val testAnilistTokenRepository = object: AnilistTokenRepository {
+            override var token: AnilistToken
+                get() = AnilistToken("value", "value")
+                set(value) { shouldNotBeInvoked() }
+        }
+
         val responseBody = "<html><head><title>ERROR</title></head></html>"
 
         serverInstance.stubFor(
@@ -284,7 +357,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             )
         )
 
-        val downloader = AnilistDownloader(testAnilistConfig)
+        val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
+        )
 
         // when
         val result = org.junit.jupiter.api.assertThrows<IllegalStateException> {
@@ -307,6 +384,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                 override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
                 override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
+
+            @Suppress("UNUSED_PARAMETER")
+            val testAnilistTokenRepository = object: AnilistTokenRepository {
+                override var token: AnilistToken
+                    get() = AnilistToken("value", "value")
+                    set(value) { shouldNotBeInvoked() }
             }
 
             serverInstance.stubFor(
@@ -336,7 +420,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                             )
             )
 
-            val downloader = AnilistDownloader(testAnilistConfig)
+            val downloader = AnilistDownloader(
+                    config = testAnilistConfig,
+                    anilistTokenRetriever = TestAnilistTokenRetriever,
+                    anilistTokenRepository = testAnilistTokenRepository,
+            )
 
             // when
             val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
@@ -355,6 +443,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                 override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
                 override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
+
+            @Suppress("UNUSED_PARAMETER")
+            val testAnilistTokenRepository = object: AnilistTokenRepository {
+                override var token: AnilistToken
+                    get() = AnilistToken("value", "value")
+                    set(value) { shouldNotBeInvoked() }
             }
 
             serverInstance.stubFor(
@@ -384,7 +479,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                             )
             )
 
-            val downloader = AnilistDownloader(testAnilistConfig)
+            val downloader = AnilistDownloader(
+                    config = testAnilistConfig,
+                    anilistTokenRetriever = TestAnilistTokenRetriever,
+                    anilistTokenRepository = testAnilistTokenRepository,
+            )
 
             // when
             val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
@@ -403,6 +502,13 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                 override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
                 override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
+
+            @Suppress("UNUSED_PARAMETER")
+            val testAnilistTokenRepository = object: AnilistTokenRepository {
+                override var token: AnilistToken
+                    get() = AnilistToken("value", "value")
+                    set(value) { shouldNotBeInvoked() }
             }
 
             serverInstance.stubFor(
@@ -432,7 +538,11 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                             )
             )
 
-            val downloader = AnilistDownloader(testAnilistConfig)
+            val downloader = AnilistDownloader(
+                    config = testAnilistConfig,
+                    anilistTokenRetriever = TestAnilistTokenRetriever,
+                    anilistTokenRepository = testAnilistTokenRepository,
+            )
 
             // when
             val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }

@@ -10,7 +10,7 @@ internal class AnilistHeaderCreatorTest {
     @Test
     fun `default referer`() {
         // given
-        AnilistTokenRepository.token = AnilistToken("cookie-value", "csrf-token-value")
+        AnilistDefaultTokenRepository.token = AnilistToken("cookie-value", "csrf-token-value")
 
         val requestBody = RequestBody(
             mediaType = "used media type",

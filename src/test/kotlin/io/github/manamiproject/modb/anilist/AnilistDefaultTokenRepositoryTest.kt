@@ -5,7 +5,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 
-internal class AnilistTokenRepositoryTest {
+internal class AnilistDefaultTokenRepositoryTest {
 
     @Test
     fun `successfully set token`() {
@@ -13,17 +13,17 @@ internal class AnilistTokenRepositoryTest {
         val token = AnilistToken("my-cookie-value", "my-csrf-token-value")
 
         // when
-        AnilistTokenRepository.token = token
+        AnilistDefaultTokenRepository.token = token
 
         // then
-        assertThat(AnilistTokenRepository.token).isEqualTo(token)
+        assertThat(AnilistDefaultTokenRepository.token).isEqualTo(token)
     }
 
     @Test
     fun `throws exception if cookie is blank`() {
         // when
         val result = assertThrows<IllegalArgumentException> {
-            AnilistTokenRepository.token = AnilistToken("    ", "test")
+            AnilistDefaultTokenRepository.token = AnilistToken("    ", "test")
         }
 
         // then
@@ -34,7 +34,7 @@ internal class AnilistTokenRepositoryTest {
     fun `throws exception if cookie is empty`() {
         // when
         val result = assertThrows<IllegalArgumentException> {
-            AnilistTokenRepository.token = AnilistToken(EMPTY, "test")
+            AnilistDefaultTokenRepository.token = AnilistToken(EMPTY, "test")
         }
 
         // then
@@ -45,7 +45,7 @@ internal class AnilistTokenRepositoryTest {
     fun `throws exception if csrf token is blank`() {
         // when
         val result = assertThrows<IllegalArgumentException> {
-            AnilistTokenRepository.token = AnilistToken("test", "    ")
+            AnilistDefaultTokenRepository.token = AnilistToken("test", "    ")
         }
 
         // then
@@ -56,7 +56,7 @@ internal class AnilistTokenRepositoryTest {
     fun `throws exception if csrf token is empty`() {
         // when
         val result = assertThrows<IllegalArgumentException> {
-            AnilistTokenRepository.token = AnilistToken("test", EMPTY)
+            AnilistDefaultTokenRepository.token = AnilistToken("test", EMPTY)
         }
 
         // then

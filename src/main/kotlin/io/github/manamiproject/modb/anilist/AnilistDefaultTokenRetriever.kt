@@ -22,7 +22,8 @@ private const val CSRF_TOKEN_PREFIX = "window.al_token"
  */
 public class AnilistDefaultTokenRetriever(
     private val config: MetaDataProviderConfig = AnilistDefaultTokenRetrieverConfig,
-    private val httpClient: HttpClient = DefaultHttpClient()
+    private val httpClient: HttpClient = DefaultHttpClient(),
+    private val anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ): AnilistTokenRetriever {
 
     init {
@@ -71,7 +72,7 @@ public class AnilistDefaultTokenRetriever(
         ).apply {
             addExecuteBeforeRetryPredicate(403) {
                 log.warn("Anilist responds with 403. Refreshing token.")
-                AnilistTokenRepository.token = retrieveToken()
+                anilistTokenRepository.token = retrieveToken()
                 log.info("Token has been renewed")
             }
         }

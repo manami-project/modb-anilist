@@ -14,3 +14,7 @@ internal object MetaDataProviderTestConfig : MetaDataProviderConfig {
     override fun buildDataDownloadUrl(id: String): URL = shouldNotBeInvoked()
     override fun fileSuffix(): FileSuffix = shouldNotBeInvoked()
 }
+
+internal object TestAnilistTokenRetriever : AnilistTokenRetriever {
+    override fun retrieveToken(): AnilistToken = shouldNotBeInvoked()
+}

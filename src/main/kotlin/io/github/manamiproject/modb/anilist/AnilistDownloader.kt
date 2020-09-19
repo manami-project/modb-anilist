@@ -18,10 +18,18 @@ import io.github.manamiproject.modb.core.loadResource
  */
 public class AnilistDownloader(
     private val config: MetaDataProviderConfig,
-    private val httpClient: HttpClient = DefaultHttpClient()
+    private val httpClient: HttpClient = DefaultHttpClient(),
+    anilistTokenRetriever: AnilistTokenRetriever = AnilistDefaultTokenRetriever(),
+    anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ) : Downloader {
 
     private val requestBody: String = loadResource("anime_download_request.graphql")
+
+    init {
+        if (anilistTokenRepository.token == AnilistToken(EMPTY, EMPTY)) {
+            anilistTokenRepository.token = anilistTokenRetriever.retrieveToken()
+        }
+    }
 
     override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String {
         val requestBody =  RequestBody(
