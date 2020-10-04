@@ -18,6 +18,8 @@ import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.ValueSource
 import java.net.URL
 
 internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
@@ -372,183 +374,63 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         assertThat(result).hasMessage("Unable to determine the correct case for [anilistId=$id], [responseCode=400]")
     }
 
-    @Nested
-    inner class RetryTests {
-        @Test
-        fun `response code 500 will result in retry`() {
-            // given
-            val id = 1535
+    @ParameterizedTest
+    @ValueSource(ints = [500, 502, 520])
+    fun `pause and retry on response code`(responseCode: Int) {
+        // given
+        val id = 1535
 
-            val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-                override fun hostname(): Hostname = "localhost"
-                override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-                override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
-                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-            }
-
-            @Suppress("UNUSED_PARAMETER")
-            val testAnilistTokenRepository = object: AnilistTokenRepository {
-                override var token: AnilistToken
-                    get() = AnilistToken("value", "value")
-                    set(value) { shouldNotBeInvoked() }
-            }
-
-            serverInstance.stubFor(
-                    post(urlPathEqualTo("/graphql"))
-                            .inScenario("pause and retry")
-                            .whenScenarioStateIs(STARTED)
-                            .willSetStateTo("successful retrieval")
-                            .willReturn(
-                                    aResponse()
-                                            .withHeader("Content-Type", "text/plain")
-                                            .withStatus(500)
-                                            .withBody("Internal Server error")
-                            )
-            )
-
-            val responseBody = "{ \"anilistId\": $id }"
-
-            serverInstance.stubFor(
-                    post(urlPathEqualTo("/graphql"))
-                            .inScenario("pause and retry")
-                            .whenScenarioStateIs("successful retrieval")
-                            .willReturn(
-                                    aResponse()
-                                            .withHeader("Content-Type", APPLICATION_JSON)
-                                            .withStatus(200)
-                                            .withBody(responseBody)
-                            )
-            )
-
-            val downloader = AnilistDownloader(
-                    config = testAnilistConfig,
-                    anilistTokenRetriever = TestAnilistTokenRetriever,
-                    anilistTokenRepository = testAnilistTokenRepository,
-            )
-
-            // when
-            val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
-
-            // then
-            assertThat(result).isEqualTo(responseBody)
+        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
+            override fun hostname(): Hostname = "localhost"
+            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
+            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
-        @Test
-        fun `response code 520 will result in retry`() {
-            // given
-            val id = 1535
-
-            val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-                override fun hostname(): Hostname = "localhost"
-                override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-                override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
-                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-            }
-
-            @Suppress("UNUSED_PARAMETER")
-            val testAnilistTokenRepository = object: AnilistTokenRepository {
-                override var token: AnilistToken
-                    get() = AnilistToken("value", "value")
-                    set(value) { shouldNotBeInvoked() }
-            }
-
-            serverInstance.stubFor(
-                    post(urlPathEqualTo("/graphql"))
-                            .inScenario("pause and retry")
-                            .whenScenarioStateIs(STARTED)
-                            .willSetStateTo("successful retrieval")
-                            .willReturn(
-                                    aResponse()
-                                            .withHeader("Content-Type", "text/plain")
-                                            .withStatus(520)
-                                            .withBody("Cloudflare error")
-                            )
-            )
-
-            val responseBody = "{ \"anilistId\": $id }"
-
-            serverInstance.stubFor(
-                    post(urlPathEqualTo("/graphql"))
-                            .inScenario("pause and retry")
-                            .whenScenarioStateIs("successful retrieval")
-                            .willReturn(
-                                    aResponse()
-                                            .withHeader("Content-Type", APPLICATION_JSON)
-                                            .withStatus(200)
-                                            .withBody(responseBody)
-                            )
-            )
-
-            val downloader = AnilistDownloader(
-                    config = testAnilistConfig,
-                    anilistTokenRetriever = TestAnilistTokenRetriever,
-                    anilistTokenRepository = testAnilistTokenRepository,
-            )
-
-            // when
-            val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
-
-            // then
-            assertThat(result).isEqualTo(responseBody)
+        @Suppress("UNUSED_PARAMETER")
+        val testAnilistTokenRepository = object: AnilistTokenRepository {
+            override var token: AnilistToken
+                get() = AnilistToken("value", "value")
+                set(value) { shouldNotBeInvoked() }
         }
 
-        @Test
-        fun `response code 502 will result in retry`() {
-            // given
-            val id = 1535
+        serverInstance.stubFor(
+                post(urlPathEqualTo("/graphql"))
+                        .inScenario("pause and retry")
+                        .whenScenarioStateIs(STARTED)
+                        .willSetStateTo("successful retrieval")
+                        .willReturn(
+                                aResponse()
+                                        .withHeader("Content-Type", "text/plain")
+                                        .withStatus(responseCode)
+                                        .withBody("Internal Server error")
+                        )
+        )
 
-            val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-                override fun hostname(): Hostname = "localhost"
-                override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-                override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
-                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-            }
+        val responseBody = "{ \"anilistId\": $id }"
 
-            @Suppress("UNUSED_PARAMETER")
-            val testAnilistTokenRepository = object: AnilistTokenRepository {
-                override var token: AnilistToken
-                    get() = AnilistToken("value", "value")
-                    set(value) { shouldNotBeInvoked() }
-            }
+        serverInstance.stubFor(
+                post(urlPathEqualTo("/graphql"))
+                        .inScenario("pause and retry")
+                        .whenScenarioStateIs("successful retrieval")
+                        .willReturn(
+                                aResponse()
+                                        .withHeader("Content-Type", APPLICATION_JSON)
+                                        .withStatus(200)
+                                        .withBody(responseBody)
+                        )
+        )
 
-            serverInstance.stubFor(
-                    post(urlPathEqualTo("/graphql"))
-                            .inScenario("pause and retry")
-                            .whenScenarioStateIs(STARTED)
-                            .willSetStateTo("successful retrieval")
-                            .willReturn(
-                                    aResponse()
-                                            .withHeader("Content-Type", "text/plain")
-                                            .withStatus(502)
-                                            .withBody("Bad Gateway")
-                            )
-            )
+        val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
+        )
 
-            val responseBody = "{ \"anilistId\": $id }"
+        // when
+        val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
 
-            serverInstance.stubFor(
-                    post(urlPathEqualTo("/graphql"))
-                            .inScenario("pause and retry")
-                            .whenScenarioStateIs("successful retrieval")
-                            .willReturn(
-                                    aResponse()
-                                            .withHeader("Content-Type", APPLICATION_JSON)
-                                            .withStatus(200)
-                                            .withBody(responseBody)
-                            )
-            )
-
-            val downloader = AnilistDownloader(
-                    config = testAnilistConfig,
-                    anilistTokenRetriever = TestAnilistTokenRetriever,
-                    anilistTokenRepository = testAnilistTokenRepository,
-            )
-
-            // when
-            val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
-
-            // then
-            assertThat(result).isEqualTo(responseBody)
-        }
+        // then
+        assertThat(result).isEqualTo(responseBody)
     }
 }
