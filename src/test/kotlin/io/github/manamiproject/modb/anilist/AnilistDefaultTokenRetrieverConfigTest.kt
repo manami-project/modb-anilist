@@ -2,6 +2,7 @@ package io.github.manamiproject.modb.anilist
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
+import java.net.URI
 import java.net.URL
 
 internal class AnilistDefaultTokenRetrieverConfigTest {
@@ -16,27 +17,27 @@ internal class AnilistDefaultTokenRetrieverConfigTest {
     }
 
     @Test
-    fun `build anime link URL correctly`() {
+    fun `build anime link correctly`() {
         // given
         val id = "4563"
 
         // when
-        val result = AnilistDefaultTokenRetrieverConfig.buildAnimeLinkUrl(id)
+        val result = AnilistDefaultTokenRetrieverConfig.buildAnimeLink(id)
 
         // then
-        assertThat(result).isEqualTo(URL("https://anilist.co/anime/4563"))
+        assertThat(result).isEqualTo(URI("https://anilist.co/anime/4563"))
     }
 
     @Test
-    fun `build data download URL correctly`() {
+    fun `build data download link correctly`() {
         // given
         val type = "music"
 
         // when
-        val result = AnilistDefaultTokenRetrieverConfig.buildDataDownloadUrl(type)
+        val result = AnilistDefaultTokenRetrieverConfig.buildDataDownloadLink(type)
 
         // then
-        assertThat(result).isEqualTo(URL("https://anilist.co"))
+        assertThat(result).isEqualTo(URI("https://anilist.co"))
     }
 
     @Test

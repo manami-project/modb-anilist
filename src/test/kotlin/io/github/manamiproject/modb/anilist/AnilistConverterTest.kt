@@ -10,7 +10,7 @@ import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
-import java.net.URL
+import java.net.URI
 
 internal class AnilistConverterTest {
 
@@ -224,8 +224,8 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.picture).isEqualTo(URL("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2167-EgfXVBt6MztP.png"))
-            assertThat(result.thumbnail).isEqualTo(URL("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2167-EgfXVBt6MztP.png"))
+            assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2167-EgfXVBt6MztP.png"))
+            assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2167-EgfXVBt6MztP.png"))
         }
 
         @Test
@@ -239,8 +239,8 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.picture).isEqualTo(URL("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
-            assertThat(result.thumbnail).isEqualTo(URL("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
+            assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
+            assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
         }
     }
 
@@ -281,7 +281,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.sources.first()).isEqualTo(URL("https://anilist.co/anime/15689"))
+            assertThat(result.sources.first()).isEqualTo(URI("https://anilist.co/anime/15689"))
         }
     }
 
@@ -314,8 +314,8 @@ internal class AnilistConverterTest {
 
             // then
             assertThat(result.relatedAnime).containsExactly(
-                URL("https://anilist.co/anime/107298"),
-                URL("https://anilist.co/anime/97857")
+                URI("https://anilist.co/anime/107298"),
+                URI("https://anilist.co/anime/97857")
             )
         }
 
@@ -331,7 +331,7 @@ internal class AnilistConverterTest {
 
             // then
             assertThat(result.relatedAnime).containsExactly(
-                URL("https://anilist.co/anime/2337")
+                URI("https://anilist.co/anime/2337")
             )
         }
 
@@ -347,17 +347,17 @@ internal class AnilistConverterTest {
 
             // then
             assertThat(result.relatedAnime).containsExactly(
-                URL("https://anilist.co/anime/100148"),
-                URL("https://anilist.co/anime/1081"),
-                URL("https://anilist.co/anime/1301"),
-                URL("https://anilist.co/anime/1302"),
-                URL("https://anilist.co/anime/1491"),
-                URL("https://anilist.co/anime/1645"),
-                URL("https://anilist.co/anime/1676"),
-                URL("https://anilist.co/anime/17269"),
-                URL("https://anilist.co/anime/2202"),
-                URL("https://anilist.co/anime/2203"),
-                URL("https://anilist.co/anime/2470")
+                URI("https://anilist.co/anime/100148"),
+                URI("https://anilist.co/anime/1081"),
+                URI("https://anilist.co/anime/1301"),
+                URI("https://anilist.co/anime/1302"),
+                URI("https://anilist.co/anime/1491"),
+                URI("https://anilist.co/anime/1645"),
+                URI("https://anilist.co/anime/1676"),
+                URI("https://anilist.co/anime/17269"),
+                URI("https://anilist.co/anime/2202"),
+                URI("https://anilist.co/anime/2203"),
+                URI("https://anilist.co/anime/2470")
             )
         }
 

@@ -16,11 +16,10 @@ import io.github.manamiproject.modb.test.*
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
-import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
-import java.net.URL
+import java.net.URI
 
 internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
 
@@ -29,7 +28,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         // populate RetryableRegisty
         val testConfig = object: MetaDataProviderConfig by AnilistDefaultTokenRetrieverConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildDataDownloadUrl(id: String): URL = URL("http:localhost:$port")
+            override fun buildDataDownloadLink(id: String): URI = URI("http:localhost:$port")
         }
         AnilistDefaultTokenRetriever(testConfig)
     }
@@ -81,8 +80,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
@@ -124,8 +123,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
@@ -168,8 +167,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
             val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
                 override fun hostname(): Hostname = "localhost"
-                override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-                override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+                override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
             }
 
@@ -214,8 +213,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
@@ -265,8 +264,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
@@ -336,8 +335,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
@@ -382,8 +381,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLinkUrl(id: AnimeId): URL = AnilistConfig.buildAnimeLinkUrl(id)
-            override fun buildDataDownloadUrl(id: String): URL = URL("http://${hostname()}:$port/graphql")
+            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 

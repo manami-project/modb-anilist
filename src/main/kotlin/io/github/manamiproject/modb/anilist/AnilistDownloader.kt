@@ -37,16 +37,16 @@ public class AnilistDownloader(
             body = requestBody.replace("<<ANIME_ID>>", id)
         )
 
-        val requestUrl = config.buildAnimeLinkUrl(id)
+        val requestUri = config.buildAnimeLink(id)
 
         val response = httpClient.executeRetryable(config.hostname()) {
             val requestHeaders = AnilistHeaderCreator.createAnilistHeaders(
                 requestBody = requestBody,
-                referer = requestUrl
+                referer = requestUri.toURL()
             )
 
             httpClient.post(
-                url = config.buildDataDownloadUrl(id),
+                url = config.buildDataDownloadLink(id).toURL(),
                 headers = requestHeaders,
                 requestBody = requestBody
             )

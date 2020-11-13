@@ -4,15 +4,13 @@ import io.github.manamiproject.modb.core.Json.parseJson
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
 import io.github.manamiproject.modb.core.extensions.EMPTY
-import io.github.manamiproject.modb.core.models.Anime
+import io.github.manamiproject.modb.core.models.*
 import io.github.manamiproject.modb.core.models.Anime.Status
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type
 import io.github.manamiproject.modb.core.models.Anime.Type.*
-import io.github.manamiproject.modb.core.models.AnimeSeason
-import io.github.manamiproject.modb.core.models.Duration
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
-import java.net.URL
+import java.net.URI
 
 /**
  * Converts raw data to an [Anime].
@@ -65,13 +63,13 @@ public class AnilistConverter(
         }
     }
 
-    private fun extractPicture(document: AnilistDocument): URL {
+    private fun extractPicture(document: AnilistDocument): URI {
         val link = document.data.Media.coverImage["large"] ?: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"
 
-        return URL(link)
+        return URI(link)
     }
 
-    private fun extractSynonyms(document: AnilistDocument): MutableList<String> {
+    private fun extractSynonyms(document: AnilistDocument): MutableList<Title> {
         return document.data.Media.title.filterKeys { it != "userPreferred" }
             .map { it.value }
             .union(document.data.Media.synonyms)
@@ -79,13 +77,13 @@ public class AnilistConverter(
     }
 
     private fun extractSourcesEntry(document: AnilistDocument) = mutableListOf(
-        config.buildAnimeLinkUrl(document.data.Media.id.toString())
+        config.buildAnimeLink(document.data.Media.id.toString())
     )
 
-    private fun extractRelatedAnime(document: AnilistDocument): MutableList<URL> {
+    private fun extractRelatedAnime(document: AnilistDocument): MutableList<URI> {
         return document.data.Media.relations.edges.map { it.node }
             .filter { it.type == "ANIME" }
-            .map { config.buildAnimeLinkUrl(it.id.toString()) }
+            .map { config.buildAnimeLink(it.id.toString()) }
             .toMutableList()
     }
 
@@ -116,7 +114,7 @@ public class AnilistConverter(
         )
     }
 
-    private fun extractTags(document: AnilistDocument): MutableList<String> {
+    private fun extractTags(document: AnilistDocument): MutableList<Tag> {
         val genres = document.data.Media.genres
         val tags = document.data.Media.tags.map { it.name }
 

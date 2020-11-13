@@ -1,7 +1,7 @@
 package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
-import java.net.URL
+import java.net.URI
 
 /**
  * Configuration for retrieving the CSRF token
@@ -9,5 +9,5 @@ import java.net.URL
  */
 public object AnilistDefaultTokenRetrieverConfig : MetaDataProviderConfig by AnilistConfig {
 
-    override fun buildDataDownloadUrl(id: String): URL = URL("https://${hostname()}")
+    override fun buildDataDownloadLink(id: String): URI = URI("https://${hostname()}")
 }

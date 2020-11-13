@@ -32,7 +32,7 @@ public class AnilistDefaultTokenRetriever(
 
     override fun retrieveToken(): AnilistToken {
         val response = httpClient.get(
-            url = config.buildDataDownloadUrl(),
+            url = config.buildDataDownloadLink().toURL(),
             retryWith = config.hostname()
         )
 
