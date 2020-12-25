@@ -110,7 +110,7 @@ public class AnilistConverter(
 
         return AnimeSeason(
             season = season,
-            _year = year
+            year = year
         )
     }
 
