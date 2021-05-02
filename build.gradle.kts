@@ -94,7 +94,7 @@ publishing {
                 packaging = "jar"
                 name.set(projectName)
                 description.set("This lib contains downloader and converter for downloading raw data from anilist.co and convert it to an anime object.")
-                url.set("https://github.com/manami-project/$projectName")
+                url.set("https://github.com/$githubUsername/$projectName")
 
                 licenses {
                     license {
@@ -104,9 +104,9 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git@github.com:manami-project/$projectName.git")
-                    developerConnection.set("scm:git:ssh://github.com:manami-project/$projectName.git")
-                    url.set("https://github.com/manami-project/$projectName")
+                    connection.set("scm:git@github.com:$githubUsername/$projectName.git")
+                    developerConnection.set("scm:git:ssh://github.com:$githubUsername/$projectName.git")
+                    url.set("https://github.com/$githubUsername/$projectName")
                 }
             }
         }
