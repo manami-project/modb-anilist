@@ -1,5 +1,6 @@
 package io.github.manamiproject.modb.anilist
 
+import io.github.manamiproject.modb.core.models.Anime
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type.*
 import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
@@ -74,7 +75,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.type).isEqualTo(Special)
+            assertThat(result.type).isEqualTo(SPECIAL)
         }
 
         @Test
@@ -116,7 +117,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.type).isEqualTo(Movie)
+            assertThat(result.type).isEqualTo(MOVIE)
         }
 
         @Test
@@ -130,11 +131,11 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.type).isEqualTo(Special)
+            assertThat(result.type).isEqualTo(SPECIAL)
         }
 
         @Test
-        fun `type is null and is mapped to tv`() {
+        fun `type is null and is mapped to UNKNOWN`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/type/null.json")
 
@@ -144,11 +145,11 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.type).isEqualTo(TV)
+            assertThat(result.type).isEqualTo(Anime.Type.UNKNOWN)
         }
 
         @Test
-        fun `throws an exception, because the type is unknown`() {
+        fun `throws an exception, because the type is UNKNOWN`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/type/unknown.json")
 
@@ -404,7 +405,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.status).isEqualTo(CURRENTLY)
+            assertThat(result.status).isEqualTo(ONGOING)
         }
 
         @Test
@@ -432,7 +433,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.status).isEqualTo(UNKNOWN)
+            assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
         }
 
         @Test
@@ -446,7 +447,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.status).isEqualTo(UNKNOWN)
+            assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
         }
 
         @Test

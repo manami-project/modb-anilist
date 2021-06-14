@@ -53,12 +53,12 @@ public class AnilistConverter(
         return when(document.data.Media.format) {
             "TV" -> TV
             "TV_SHORT" -> TV
-            null -> TV
-            "MOVIE" -> Movie
+            null -> Type.UNKNOWN
+            "MOVIE" -> MOVIE
             "ONA" -> ONA
             "OVA" -> OVA
-            "SPECIAL" -> Special
-            "MUSIC" -> Special
+            "SPECIAL" -> SPECIAL
+            "MUSIC" -> SPECIAL
             else -> throw IllegalStateException("Unknown type [${document.data.Media.format}]")
         }
     }
@@ -90,10 +90,10 @@ public class AnilistConverter(
     private fun extractStatus(document: AnilistDocument): Status {
         return when(document.data.Media.status) {
             "FINISHED" -> FINISHED
-            "RELEASING" -> CURRENTLY
+            "RELEASING" -> ONGOING
             "NOT_YET_RELEASED" -> UPCOMING
-            "CANCELLED" -> UNKNOWN
-            null -> UNKNOWN
+            "CANCELLED" -> Status.UNKNOWN
+            null -> Status.UNKNOWN
             else -> throw IllegalStateException("Unknown status [${document.data.Media.status}]")
         }
     }
