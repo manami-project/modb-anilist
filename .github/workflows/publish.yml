@@ -1,4 +1,4 @@
-name: Publish
+name: Releases
 
 on:
   release:
@@ -21,5 +21,5 @@ jobs:
         run: chmod +x gradlew
       - name: Execute tests and upload release
         env:
-          GITHUB_PACKAGES_ACCESS_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
-        run: ./gradlew test publish -Prelease.version=$RELEASE_VERSION -Pgpr.key=$GITHUB_PACKAGES_ACCESS_TOKEN
+          GH_PACKAGES_RELEASE_TOKEN: ${{ secrets.PACKAGES_RELEASE_TOKEN }}
+        run: ./gradlew test publish -Prelease.version=$RELEASE_VERSION
