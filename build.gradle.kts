@@ -11,7 +11,15 @@ repositories {
     mavenCentral()
     maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/$githubUsername/$projectName")
+        url = uri("https://maven.pkg.github.com/$githubUsername/modb-core")
+        credentials {
+            username = parameter("GH_USERNAME", githubUsername)
+            password = parameter("GH_PACKAGES_READ_TOKEN")
+        }
+    }
+    maven {
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/$githubUsername/modb-test")
         credentials {
             username = parameter("GH_USERNAME", githubUsername)
             password = parameter("GH_PACKAGES_READ_TOKEN")
@@ -30,7 +38,7 @@ dependencies {
     implementation("org.jsoup:jsoup:1.14.1")
 
     testImplementation("ch.qos.logback:logback-classic:1.2.3")
-    testImplementation("io.github.manamiproject:modb-test:1.2.5")
+    testImplementation("io.github.manamiproject:modb-test:1.2.6")
 }
 
 kotlin {
