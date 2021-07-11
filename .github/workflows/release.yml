@@ -21,5 +21,6 @@ jobs:
         run: chmod +x gradlew
       - name: Execute tests and upload release
         env:
+          GH_PACKAGES_READ_TOKEN: ${{ secrets.PACKAGES_READ_TOKEN }}
           GH_PACKAGES_RELEASE_TOKEN: ${{ secrets.PACKAGES_RELEASE_TOKEN }}
         run: ./gradlew test publish -Prelease.version=$RELEASE_VERSION
