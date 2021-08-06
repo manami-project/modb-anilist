@@ -58,8 +58,8 @@ compileTestKotlin.kotlinOptions {
 
 tasks.withType<Test> {
     useJUnitPlatform()
-    reports.html.isEnabled = false
-    reports.junitXml.isEnabled = false
+    reports.html.required.set(false)
+    reports.junitXml.required.set(false)
     maxParallelForks = Runtime.getRuntime().availableProcessors()
 }
 
