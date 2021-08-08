@@ -1,6 +1,20 @@
 version: 2
+registries:
+  modb-core:
+    type: maven-repository
+    url: https://maven.pkg.github.com/manami-project/modb-core
+    username: manami-project
+    password: ${{secrets.PACKAGES_READ_TOKEN}}
+  modb-test:
+    type: maven-repository
+    url: https://maven.pkg.github.com/manami-project/modb-test
+    username: manami-project
+    password: ${{secrets.PACKAGES_READ_TOKEN}}
 updates:
   - package-ecosystem: "gradle"
     directory: "/"
+    registries:
+      - modb-core
+      - modb-test
     schedule:
       interval: "daily"
