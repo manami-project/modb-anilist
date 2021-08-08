@@ -10,7 +10,7 @@ val githubUsername = "manami-project"
 repositories {
     mavenCentral()
     maven {
-        name = "GitHubPackages"
+        name = "modb-core"
         url = uri("https://maven.pkg.github.com/$githubUsername/modb-core")
         credentials {
             username = parameter("GH_USERNAME", githubUsername)
@@ -18,7 +18,7 @@ repositories {
         }
     }
     maven {
-        name = "GitHubPackages"
+        name = "modb-test"
         url = uri("https://maven.pkg.github.com/$githubUsername/modb-test")
         credentials {
             username = parameter("GH_USERNAME", githubUsername)
@@ -76,7 +76,7 @@ val javaDoc by tasks.registering(Jar::class) {
 publishing {
     repositories {
         maven {
-            name = "GitHubPackages"
+            name = projectName
             url = uri("https://maven.pkg.github.com/$githubUsername/$projectName")
             credentials {
                 username = parameter("GH_USERNAME", githubUsername)
