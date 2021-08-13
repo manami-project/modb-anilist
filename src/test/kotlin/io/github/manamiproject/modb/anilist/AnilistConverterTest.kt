@@ -449,22 +449,6 @@ internal class AnilistConverterTest {
             // then
             assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
         }
-
-        @Test
-        fun `throws an exception if the status is not mapped`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/status/not_mapped.json")
-
-            val converter = AnilistConverter()
-
-            // when
-            val result = assertThrows<IllegalStateException> {
-                converter.convert(testFileContent)
-            }
-
-            // then
-            assertThat(result).hasMessage("Unknown status [anything else]")
-        }
     }
 
     @Nested
