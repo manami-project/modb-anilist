@@ -1,29 +1,31 @@
 {
   "data": {
     "Media": {
-      "id": 109125,
+      "id": 133124,
       "title": {
-        "userPreferred": "Omoi, Omoware, Furi, Furare",
-        "romaji": "Omoi, Omoware, Furi, Furare",
+        "userPreferred": "Free!: the Final Stroke - Kouhen",
+        "romaji": "Free!: the Final Stroke - Kouhen",
         "english": null,
-        "native": "\u601d\u3044\u3001\u601d\u308f\u308c\u3001\u3075\u308a\u3001\u3075\u3089\u308c"
+        "native": "\u5287\u5834\u7248 Free!\u2013the Final Stroke\u2013 \u5f8c\u7de8"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/default.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/default.jpg"
       },
       "bannerImage": null,
       "startDate": {
-        "year": 2020,
-        "month": 5,
-        "day": null
+        "year": 2022,
+        "month": 4,
+        "day": 22
       },
       "endDate": {
-        "year": null,
-        "month": null,
-        "day": null
+        "year": 2022,
+        "month": 4,
+        "day": 22
       },
-      "description": "The story centers around Yuna and Akari who have two very different views of love: Yuna is someone who sees love as a dream and Akari is someone who is very realistic about her romance choices. Meanwhile, there are two boys, Kazuomi and Rio, who also have different views of love: Kazuomi's an airhead and doesn't understand the concept of love, while Rio grabs the opportunity when confessed to as long as the girl looks cute.\n<br><br>\n(Source: MAL News)",
+      "description": null,
       "season": "SPRING",
+      "seasonYear": 2022,
       "type": "ANIME",
       "format": "MOVIE",
       "status": "NOT_YET_RELEASED",
@@ -32,58 +34,92 @@
       "chapters": null,
       "volumes": null,
       "genres": [
-        "Romance"
+        "Drama",
+        "Sports"
       ],
       "synonyms": [
-        "Love, Be Loved, Leave, Be Left"
+        "Free!: the Final Stroke Part 2"
       ],
-      "source": "MANGA",
+      "source": "ORIGINAL",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": null,
       "averageScore": null,
-      "popularity": 170,
-      "favourites": 1,
-      "hashtag": null,
+      "popularity": 1401,
+      "favourites": 8,
+      "hashtag": "#Free_Final",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
-      "nextAiringEpisode": null,
+      "isRecommendationBlocked": false,
+      "nextAiringEpisode": {
+        "airingAt": 1650553200,
+        "timeUntilAiring": 21620588,
+        "episode": 1
+      },
       "relations": {
         "edges": [
           {
-            "id": 32091,
-            "relationType": "ADAPTATION",
+            "id": 56631,
+            "relationType": "PREQUEL",
             "node": {
-              "id": 86219,
+              "id": 107203,
               "title": {
-                "userPreferred": "Omoi, Omoware, Furi, Furare"
+                "userPreferred": "Free!: the Final Stroke - Zenpen"
               },
-              "format": "MANGA",
-              "type": "MANGA",
-              "status": "FINISHED",
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "NOT_YET_RELEASED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/56219-YRz6t0TSXl0a.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b107203-Mxm9faqiRlAQ.png"
               }
             }
           }
         ]
       },
-      "characters": {
-        "edges": []
-      },
-      "staff": {
+      "characterPreview": {
         "edges": [
           {
-            "id": 126360,
-            "role": "Original Creator",
+            "id": 298049,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 105989,
+                "name": {
+                  "full": "Nobunaga Shimazaki"
+                },
+                "language": "JAPANESE",
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105989-nDrcsXXUmpN7.png"
+                }
+              }
+            ],
             "node": {
-              "id": 99142,
+              "id": 83023,
               "name": {
-                "first": "Io",
-                "last": "Sakisaka"
+                "full": "Haruka Nanase"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/4142.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b83023-l6SV5nBLfVkv.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "staffPreview": {
+        "edges": [
+          {
+            "id": 310468,
+            "role": "Director",
+            "node": {
+              "id": 103116,
+              "name": {
+                "full": "Eisaku Kawanami"
+              },
+              "language": "JAPANESE",
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
             }
           }
@@ -94,25 +130,46 @@
           {
             "isMain": true,
             "node": {
-              "id": 561,
-              "name": "A-1 Pictures"
+              "id": 2,
+              "name": "Kyoto Animation"
             }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
       },
-      "externalLinks": [],
+      "recommendations": {
+        "pageInfo": {
+          "total": 0
+        },
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Official Site",
+          "url": "http:\/\/fs.iwatobi-sc.com\/"
+        },
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/iwatobi_sc"
+        }
+      ],
       "streamingEpisodes": [],
-      "trailer": null,
+      "trailer": {
+        "id": "x5-dovT_dgs",
+        "site": "youtube"
+      },
       "rankings": [
         {
-          "id": 14475,
-          "rank": 17,
+          "id": 16601,
+          "rank": 7,
           "type": "POPULAR",
           "format": "MOVIE",
-          "year": 2020,
+          "year": 2022,
           "season": null,
           "allTime": false,
           "context": "most popular"
@@ -120,27 +177,27 @@
       ],
       "tags": [
         {
-          "id": 53,
-          "name": "Shoujo",
-          "description": "Target demographic is teenage and young adult females.",
-          "rank": 20,
+          "id": 483,
+          "name": "LGBTQ+ Themes",
+          "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+          "rank": 79,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 46,
-          "name": "School",
-          "description": "Partly or completely set in a primary or secondary educational institution.",
-          "rank": 20,
+          "id": 150,
+          "name": "Swimming",
+          "description": "Centers around the sport of swimming.",
+          "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 105,
-          "name": "Ensemble Cast",
-          "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+          "id": 152,
+          "name": "Zombie",
+          "description": "Prominently features reanimated corpses which often prey on live humans and turn them into zombies.",
           "rank": 20,
-          "isMediaSpoiler": false,
+          "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         }
       ],
@@ -149,23 +206,23 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 1
+            "amount": 13
           },
           {
             "status": "PLANNING",
-            "amount": 166
+            "amount": 1361
           },
           {
             "status": "COMPLETED",
-            "amount": 0
+            "amount": 10
           },
           {
             "status": "DROPPED",
-            "amount": 2
+            "amount": 4
           },
           {
             "status": "PAUSED",
-            "amount": 1
+            "amount": 13
           }
         ],
         "scoreDistribution": []

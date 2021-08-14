@@ -6,12 +6,13 @@
         "userPreferred": "Nekomonogatari (Kuro)",
         "romaji": "Nekomonogatari (Kuro)",
         "english": "Nekomonogatari Black",
-        "native": "\u732b\u7269\u8a9e(\u9ed2)"
+        "native": "\u732b\u7269\u8a9e\uff08\u9ed2\uff09"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/nx15689-dUVKJCvuDffq.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx15689-dUVKJCvuDffq.jpg"
       },
-      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/15689-UiJi4dYx2ID3.png",
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/15689-OkvbPqAXnJd5.jpg",
       "startDate": {
         "year": 2012,
         "month": 12,
@@ -22,32 +23,36 @@
         "month": 12,
         "day": 31
       },
-      "description": "First season of the Monogatari Series, part 6\/6. Contains the arc Tsubasa Family from the Nekomonogatari: Kuro light novel.\n<br><br>\nSpring break is over, but Golden Week is here. When Koyomi Araragi runs into his friend and savior Tsubasa Hanekawa, he notices something is off. Even though Hanekawa is clearly wearing a bandage on her face, she insists that it is no cause for concern. Later, when the two encounter a dead white cat and bury the body, they unknowingly trigger another supernatural event. Hanekawa becomes possessed by the demonic spirit of the cat, and goes on a violent rampage across town. It's now up to Araragi to save the girl who saved him, all the while figuring out if his passionate feelings toward her may be love after all.\n",
+      "description": "First season of the Monogatari Series, part 6\/6. Contains the arc Tsubasa Family from the Nekomonogatari Black light novel.\n<br><br>\nOn his way to the bookstore, Koyomi Araragi encounters Tsubasa Hanekawa whose face is covered with a bandage. The incident allows Koyomi to learn what has been happening in the Hanekawa household, but Tsubasa begs him not to tell anyone about it, saying she\u2019ll do anything to keep him quiet. Without revealing her family\u2019s circumstances, Koyomi tells of the day\u2019s incident - he and Tsubasa buried a \u201ccat\u201d that had been hit by a car- to Meme Oshino. Meme tells Koyomi that he must immediately go to confirm Hanekawa\u2019s safety. He heads to her house, only to find...\n<br><br>\nSo begins the nightmarish nine days of Golden Week.\n<br><br>\n(Source: Aniplex)",
       "season": "FALL",
+      "seasonYear": 2012,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
       "episodes": 4,
-      "duration": 26,
+      "duration": 27,
       "chapters": null,
       "volumes": null,
       "genres": [
         "Drama",
         "Mystery",
         "Psychological",
+        "Romance",
         "Supernatural"
       ],
       "synonyms": [],
       "source": "LIGHT_NOVEL",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 78,
       "averageScore": 78,
-      "popularity": 39479,
-      "favourites": 440,
-      "hashtag": null,
+      "popularity": 85003,
+      "favourites": 1086,
+      "hashtag": "#\u7269\u8a9e\u30b7\u30ea\u30fc\u30ba",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
@@ -62,14 +67,15 @@
               "format": "TV",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n5081-0Zcn5GOFYHMc.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx5081-4RLo87fu8TsC.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5081-YpAE43HLQKqz.png"
               }
             }
           },
           {
             "id": 8163,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 44893,
               "title": {
@@ -78,6 +84,7 @@
               "format": "NOVEL",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/44893-jbbmgNjs6564.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/14893.jpg"
               }
@@ -94,14 +101,15 @@
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21400-UBdU5Ef1KCgw.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx21400-tRkljKT3V9wY.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21400-1OpNcuEs7osA.png"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 14490,
@@ -110,22 +118,21 @@
               {
                 "id": 95118,
                 "name": {
-                  "first": "Hiroshi",
-                  "last": "Kamiya"
+                  "full": "Hiroshi Kamiya"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95118-8fZ4yNuKn0BT.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95118-nasGMbrvnju1.png"
                 }
               }
             ],
             "node": {
               "id": 22036,
               "name": {
-                "first": "Koyomi",
-                "last": "Araragi"
+                "full": "Koyomi Araragi"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n22036-JW3qjHHsVqOf.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b22036-Ed3CjwPlDLp4.png"
               }
             }
           },
@@ -136,22 +143,21 @@
               {
                 "id": 95028,
                 "name": {
-                  "first": "Yui",
-                  "last": "Horie"
+                  "full": "Yui Horie"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-UCWwNd4715Mu.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-RevZP52ibrne.png"
                 }
               }
             ],
             "node": {
               "id": 22055,
               "name": {
-                "first": "Tsubasa",
-                "last": "Hanekawa"
+                "full": "Tsubasa Hanekawa"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/22055-nvHucscPUtxB.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b22055-gMEwJMWVZesx.png"
               }
             }
           },
@@ -162,22 +168,21 @@
               {
                 "id": 95079,
                 "name": {
-                  "first": "Takahiro",
-                  "last": "Sakurai"
+                  "full": "Takahiro Sakurai"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-8pPLkBqFtPnE.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-EQ1nAsUh11Y2.png"
                 }
               }
             ],
             "node": {
               "id": 22552,
               "name": {
-                "first": "Meme",
-                "last": "Oshino"
+                "full": "Meme Oshino"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/22552.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b22552-CZz1T3AjRyVd.png"
               }
             }
           },
@@ -188,22 +193,21 @@
               {
                 "id": 95090,
                 "name": {
-                  "first": "Maaya",
-                  "last": "Sakamoto"
+                  "full": "Maaya Sakamoto"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-9Y0LQEqfFT6r.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-oARRP42NEhu0.jpg"
                 }
               }
             ],
             "node": {
               "id": 23602,
               "name": {
-                "first": "Shinobu",
-                "last": "Oshino"
+                "full": "Shinobu Oshino"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/23602-dScjNHLhIJr4.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b23602-Z4MDNYcoAWZu.png"
               }
             }
           },
@@ -214,19 +218,18 @@
               {
                 "id": 95413,
                 "name": {
-                  "first": "Eri",
-                  "last": "Kitamura"
+                  "full": "Eri Kitamura"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95413-eHtpN7gFM41s.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95413-FwAIrc8Ishpt.png"
                 }
               }
             ],
             "node": {
               "id": 24194,
               "name": {
-                "first": "Karen",
-                "last": "Araragi"
+                "full": "Karen Araragi"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n24194-SZwAIpP4IDum.jpg"
@@ -240,19 +243,18 @@
               {
                 "id": 95885,
                 "name": {
-                  "first": "Yuka",
-                  "last": "Iguchi"
+                  "full": "Yuka Iguchi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95885-vfORkXburtjb.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95885-8Le2NWyACKNt.png"
                 }
               }
             ],
             "node": {
               "id": 24195,
               "name": {
-                "first": "Tsukihi",
-                "last": "Araragi"
+                "full": "Tsukihi Araragi"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/24195-iKisWgh6a4kl.jpg"
@@ -261,117 +263,117 @@
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 266,
-            "role": "Theme Song Performance  (OP)",
+            "role": "Theme Song Composition (OP)",
             "node": {
               "id": 95028,
               "name": {
-                "first": "Yui",
-                "last": "Horie"
+                "full": "Yui Horie"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-UCWwNd4715Mu.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-RevZP52ibrne.png"
               }
             }
           },
           {
-            "id": 8514,
-            "role": "Director  (Chief Director)",
+            "id": 16327,
+            "role": "Theme Song Composition (OP, ED)",
             "node": {
-              "id": 100089,
+              "id": 101555,
               "name": {
-                "first": "Akiyuki",
-                "last": "Shinbou"
+                "full": "Satoru Kousaki"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5089.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101555-4BxalX32Zq0a.png"
               }
             }
           },
           {
-            "id": 8515,
-            "role": "Series Composition",
+            "id": 16328,
+            "role": "Theme Song Arrangement (OP, ED)",
             "node": {
-              "id": 100089,
+              "id": 101555,
               "name": {
-                "first": "Akiyuki",
-                "last": "Shinbou"
+                "full": "Satoru Kousaki"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5089.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101555-4BxalX32Zq0a.png"
               }
             }
           },
           {
-            "id": 9463,
+            "id": 36590,
+            "role": "Theme Song Performance (ED)",
+            "node": {
+              "id": 107072,
+              "name": {
+                "full": "Marina Kawano"
+              },
+              "language": "JAPANESE",
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12072.jpg"
+              }
+            }
+          },
+          {
+            "id": 347581,
+            "role": "Planning",
+            "node": {
+              "id": 150449,
+              "name": {
+                "full": "Kouichirou Natsume"
+              },
+              "language": "JAPANESE",
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n150449-8zlAiIsLqUDo.png"
+              }
+            }
+          },
+          {
+            "id": 347582,
+            "role": "Planning",
+            "node": {
+              "id": 151829,
+              "name": {
+                "full": "Tomio Yoshioka"
+              },
+              "language": "JAPANESE",
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+              }
+            }
+          },
+          {
+            "id": 347583,
             "role": "Original Creator",
             "node": {
               "id": 100254,
               "name": {
-                "first": "Nisio",
-                "last": "Isin"
+                "full": "NISIOISIN"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100254-nf19KPLgk62C.jpg"
               }
             }
           },
           {
-            "id": 11664,
-            "role": "Chief Animation Director",
+            "id": 347584,
+            "role": "Chief Animation Director (eps 1-4)",
             "node": {
               "id": 100724,
               "name": {
-                "first": "Akio",
-                "last": "Watanabe"
+                "full": "Akio Watanabe"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5724.jpg"
-              }
-            }
-          },
-          {
-            "id": 11665,
-            "role": "Character Design",
-            "node": {
-              "id": 100724,
-              "name": {
-                "first": "Akio",
-                "last": "Watanabe"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5724.jpg"
-              }
-            }
-          },
-          {
-            "id": 16327,
-            "role": "Theme Song Composition  (OP, ED)",
-            "node": {
-              "id": 101555,
-              "name": {
-                "first": "Satoru",
-                "last": "Kousaki"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101555-Pm5vCx6tGb0y.png"
-              }
-            }
-          },
-          {
-            "id": 16328,
-            "role": "Theme Song Arrangement  (OP, ED)",
-            "node": {
-              "id": 101555,
-              "name": {
-                "first": "Satoru",
-                "last": "Kousaki"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101555-Pm5vCx6tGb0y.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100724-bZxekioUpzXS.jpg"
               }
             }
           }
@@ -402,18 +404,216 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 3
+        },
         "nodes": [
           {
-            "id": 2893,
-            "summary": "A short, but in depth, analysis of one of the more interesting characters in the Monogatari series: Tsubasa Hanekawa.",
-            "rating": 12,
-            "ratingAmount": 14,
+            "id": 5529,
+            "summary": "A short entry that brings to light the events of Golden Week while further developing Araragi and Hanekawa effectively",
+            "rating": 21,
+            "ratingAmount": 25,
             "user": {
-              "id": 124111,
-              "name": "Grassman",
+              "id": 347882,
+              "name": "Vollerei",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n124111-A2iiMA5hPmrG.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b347882-Sj6IiHSVbJZ4.jpg"
+              }
+            }
+          },
+          {
+            "id": 12442,
+            "summary": "The somewhat lacking Nekomonogatari: Kuro is not exactly Monogatari's strongest, but it is still perfectly watchable.",
+            "rating": 21,
+            "ratingAmount": 62,
+            "user": {
+              "id": 518605,
+              "name": "CreativeUsername39",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b518605-UALhBEIp0aDW.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 7
+        },
+        "nodes": [
+          {
+            "id": 8450,
+            "rating": 40,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 9260,
+              "title": {
+                "userPreferred": "Kizumonogatari I: Tekketsu-hen"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/9260-pWGH4aPINpiw.png",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx9260-tbZARfVq8JoX.png"
+              }
+            },
+            "user": {
+              "id": 163755,
+              "name": "Ayako",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b163755-TAIvFOaJMUzR.png"
+              }
+            }
+          },
+          {
+            "id": 8448,
+            "rating": 34,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21399,
+              "title": {
+                "userPreferred": "Kizumonogatari II: Nekketsu-hen"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21399-QY9SJKimmSKQ.png",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21399-VTAdAqc8u5AE.png"
+              }
+            },
+            "user": {
+              "id": 163755,
+              "name": "Ayako",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b163755-TAIvFOaJMUzR.png"
+              }
+            }
+          },
+          {
+            "id": 27574,
+            "rating": 23,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20593,
+              "title": {
+                "userPreferred": "Hanamonogatari"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20593-axzVzexiYwqs.png",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20593-Y7r9YayAjo9g.jpg"
+              }
+            },
+            "user": {
+              "id": 362371,
+              "name": "WingTree",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b362371-GZqo28sp6Iut.png"
+              }
+            }
+          },
+          {
+            "id": 8442,
+            "rating": 22,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 101291,
+              "title": {
+                "userPreferred": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n101291-fqIUvQ6apEtD.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101291-Hjz1ToFL5sCG.png"
+              }
+            },
+            "user": {
+              "id": 163755,
+              "name": "Ayako",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b163755-TAIvFOaJMUzR.png"
+              }
+            }
+          },
+          {
+            "id": 48804,
+            "rating": 20,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 17074,
+              "title": {
+                "userPreferred": "Monogatari Series: Second Season"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/17074-4tGsvEIjba22.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx17074-9lBqEOzptpam.png"
+              }
+            },
+            "user": {
+              "id": 97275,
+              "name": "Alufei",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b97275-r19Jc5TxHyPb.png"
+              }
+            }
+          },
+          {
+            "id": 69883,
+            "rating": 17,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 11597,
+              "title": {
+                "userPreferred": "Nisemonogatari"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/11597-aaxZHSMUR3Aa.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx11597-ApDcMuPvRhgr.jpg"
+              }
+            },
+            "user": {
+              "id": 772066,
+              "name": "Gyrowo",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b772066-r5aOOyLdtFW9.png"
+              }
+            }
+          },
+          {
+            "id": 78413,
+            "rating": 7,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21520,
+              "title": {
+                "userPreferred": "Koyomimonogatari"
+              },
+              "format": "ONA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21520-iaWBW3LJHil9.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21520-nZKCr7PZrv7e.png"
+              }
+            },
+            "user": {
+              "id": 784598,
+              "name": "vitor773216",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b784598-1AYqdPAkNVeb.png"
               }
             }
           }
@@ -435,6 +635,14 @@
         {
           "site": "Twitter",
           "url": "https:\/\/twitter.com\/nisioisin_anime"
+        },
+        {
+          "site": "Funimation",
+          "url": "https:\/\/www.funimation.com\/shows\/nekomonogatari-black\/"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/GY49M09ZR\/Nekomonogatari-Black"
         }
       ],
       "streamingEpisodes": [
@@ -463,11 +671,14 @@
           "url": "http:\/\/www.crunchyroll.com\/nekomonogatari-black\/episode-4-tsubasa-family-part-4-677673"
         }
       ],
-      "trailer": null,
+      "trailer": {
+        "id": "bHef90RByXI",
+        "site": "youtube"
+      },
       "rankings": [
         {
-          "id": 237,
-          "rank": 237,
+          "id": 311,
+          "rank": 311,
           "type": "RATED",
           "format": "TV",
           "year": null,
@@ -476,8 +687,8 @@
           "context": "highest rated all time"
         },
         {
-          "id": 658,
-          "rank": 158,
+          "id": 754,
+          "rank": 254,
           "type": "POPULAR",
           "format": "TV",
           "year": null,
@@ -486,8 +697,8 @@
           "context": "most popular all time"
         },
         {
-          "id": 5685,
-          "rank": 16,
+          "id": 5819,
+          "rank": 18,
           "type": "RATED",
           "format": "TV",
           "year": 2012,
@@ -496,7 +707,7 @@
           "context": "highest rated"
         },
         {
-          "id": 5788,
+          "id": 5920,
           "rank": 19,
           "type": "POPULAR",
           "format": "TV",
@@ -506,7 +717,7 @@
           "context": "most popular"
         },
         {
-          "id": 6295,
+          "id": 6432,
           "rank": 2,
           "type": "RATED",
           "format": "TV",
@@ -516,7 +727,7 @@
           "context": "highest rated"
         },
         {
-          "id": 6318,
+          "id": 6455,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -531,7 +742,7 @@
           "id": 113,
           "name": "Nekomimi",
           "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
-          "rank": 90,
+          "rank": 92,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -539,7 +750,7 @@
           "id": 321,
           "name": "Urban Fantasy",
           "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
-          "rank": 83,
+          "rank": 88,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -547,7 +758,15 @@
           "id": 50,
           "name": "Seinen",
           "description": "Target demographic is adult males.",
-          "rank": 79,
+          "rank": 83,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 391,
+          "name": "Philosophy",
+          "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+          "rank": 75,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -562,16 +781,24 @@
         {
           "id": 156,
           "name": "Achronological Order",
-          "description": "Chapters\/episodes do not occur in chronological order.",
-          "rank": 65,
+          "description": "Chapters or episodes do not occur in chronological order.",
+          "rank": 73,
           "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 536,
+          "name": "Dissociative Identities",
+          "description": "A case where one or more people share the same body.",
+          "rank": 71,
+          "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
         {
           "id": 82,
           "name": "Male Protagonist",
           "description": "Main character is male.",
-          "rank": 60,
+          "rank": 68,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -579,15 +806,39 @@
           "id": 233,
           "name": "Youkai",
           "description": "Prominently features supernatural creatures from Japanese folklore.",
+          "rank": 64,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 100,
+          "name": "Nudity",
+          "description": "Features a character wearing no clothing or exposing intimate body parts.",
+          "rank": 60,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 80,
+          "name": "Satire",
+          "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
           "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 391,
-          "name": "Philosophy",
-          "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
-          "rank": 55,
+          "id": 254,
+          "name": "Kemonomimi",
+          "description": "Prominently features humanoid characters with animal ears.",
+          "rank": 36,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 1045,
+          "name": "Heterosexual",
+          "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+          "rank": 20,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -597,65 +848,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 545
+            "amount": 1185
           },
           {
             "status": "PLANNING",
-            "amount": 5577
+            "amount": 14557
           },
           {
             "status": "COMPLETED",
-            "amount": 32922
+            "amount": 68332
           },
           {
             "status": "DROPPED",
-            "amount": 118
+            "amount": 281
           },
           {
             "status": "PAUSED",
-            "amount": 317
+            "amount": 648
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 62
+            "amount": 171
           },
           {
             "score": 20,
-            "amount": 32
+            "amount": 82
           },
           {
             "score": 30,
-            "amount": 86
+            "amount": 192
           },
           {
             "score": 40,
-            "amount": 228
+            "amount": 479
           },
           {
             "score": 50,
-            "amount": 715
+            "amount": 1462
           },
           {
             "score": 60,
-            "amount": 1691
+            "amount": 3519
           },
           {
             "score": 70,
-            "amount": 5125
+            "amount": 11239
           },
           {
             "score": 80,
-            "amount": 8329
+            "amount": 18568
           },
           {
             "score": 90,
-            "amount": 5010
+            "amount": 10419
           },
           {
             "score": 100,
-            "amount": 2630
+            "amount": 4997
           }
         ]
       }

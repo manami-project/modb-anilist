@@ -9,6 +9,7 @@
         "native": "\u4ffa\u3092\u597d\u304d\u306a\u306e\u306f\u304a\u524d\u3060\u3051\u304b\u3088"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx104464-VOIqGSQs1aiR.png",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx104464-VOIqGSQs1aiR.png"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/104464-XbfWyamahIAu.jpg",
@@ -24,6 +25,7 @@
       },
       "description": "Amatsuyu \"Joro\" Kisaragi finds himself in a rather delightful situation, two lovely girls asked him out on a date in the same week. Little does he know he's not the actual target of their love, instead, he ends up as a love consultant forced to juggle a web of relationships more complex than initially thought. \n\n\n",
       "season": "FALL",
+      "seasonYear": 2019,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
@@ -33,27 +35,30 @@
       "volumes": null,
       "genres": [
         "Comedy",
-        "Romance",
         "Drama",
+        "Ecchi",
+        "Romance",
         "Slice of Life"
       ],
       "synonyms": [],
       "source": "LIGHT_NOVEL",
       "isAdult": false,
-      "meanScore": 72,
-      "averageScore": 72,
-      "popularity": 29858,
-      "favourites": 790,
+      "isLocked": false,
+      "meanScore": 71,
+      "averageScore": 71,
+      "popularity": 64693,
+      "favourites": 1533,
       "hashtag": "#\u4ffa\u597d\u304d",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 32320,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 96855,
               "title": {
@@ -61,9 +66,10 @@
               },
               "format": "NOVEL",
               "type": "MANGA",
-              "status": "RELEASING",
+              "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/96855-eWWKDXz2w5K5.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx96855-05KE0yCcoTuE.jpg"
               }
             }
           },
@@ -77,7 +83,8 @@
               },
               "format": "MANGA",
               "type": "MANGA",
-              "status": "RELEASING",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/98648-l0CwnPVGE5o3.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx98648-EVKqEoMUu6Xm.png"
               }
@@ -93,7 +100,8 @@
               },
               "format": "OVA",
               "type": "ANIME",
-              "status": "NOT_YET_RELEASED",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/114195-op9SJ1D86eNI.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx114195-3h9rxnFnNkzw.png"
               }
@@ -101,7 +109,7 @@
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 173742,
@@ -110,9 +118,9 @@
               {
                 "id": 95890,
                 "name": {
-                  "first": "Haruka",
-                  "last": "Tomatsu"
+                  "full": "Haruka Tomatsu"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95890-q12rftV2jhmF.png"
                 }
@@ -121,8 +129,7 @@
             "node": {
               "id": 138897,
               "name": {
-                "first": "Sumireko",
-                "last": "Sanshokuin"
+                "full": "Sumireko Sanshokuin"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b138897-rhOv1iU3ttl4.jpg"
@@ -136,19 +143,18 @@
               {
                 "id": 112629,
                 "name": {
-                  "first": "Haruka",
-                  "last": "Shiraishi"
+                  "full": "Haruka Shiraishi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n112629-D86hWUvxRBHb.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n112629-7VH5IJtDBTn3.jpg"
                 }
               }
             ],
             "node": {
               "id": 138898,
               "name": {
-                "first": "Aoi",
-                "last": "Hinata"
+                "full": "Aoi Hinata"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b138898-RiwcvR4bvXeg.jpg"
@@ -162,9 +168,9 @@
               {
                 "id": 102337,
                 "name": {
-                  "first": "Sachika",
-                  "last": "Misawa"
+                  "full": "Sachika Misawa"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n102337-iHJMCOTE1eVT.jpg"
                 }
@@ -173,11 +179,10 @@
             "node": {
               "id": 138899,
               "name": {
-                "first": "Sakura",
-                "last": "Akino"
+                "full": "Sakura Akino"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b138899-CEcBc9RWe5KB.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b138899-UEFDbnFBTHeh.png"
               }
             }
           },
@@ -188,9 +193,9 @@
               {
                 "id": 116971,
                 "name": {
-                  "first": "Daiki",
-                  "last": "Yamashita"
+                  "full": "Daiki Yamashita"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n116971-r6Yn9mDyzBqU.png"
                 }
@@ -199,8 +204,7 @@
             "node": {
               "id": 138900,
               "name": {
-                "first": "Amatsuyu",
-                "last": "Kisaragi"
+                "full": "Amatsuyu Kisaragi"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b138900-P0tW8IG5l33t.jpg"
@@ -214,9 +218,9 @@
               {
                 "id": 119617,
                 "name": {
-                  "first": "Yuuma",
-                  "last": "Uchida"
+                  "full": "Yuuma Uchida"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119617-JrszQbQjwLCD.png"
                 }
@@ -225,8 +229,7 @@
             "node": {
               "id": 138901,
               "name": {
-                "first": "Taiyou",
-                "last": "Ooga"
+                "full": "Taiyou Ooga"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b138901-VLwUGemkn5UQ.png"
@@ -240,9 +243,9 @@
               {
                 "id": 106236,
                 "name": {
-                  "first": "Shiori",
-                  "last": "Mikami"
+                  "full": "Shiori Mikami"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n106236-aGhlIhHPPtjc.png"
                 }
@@ -251,17 +254,16 @@
             "node": {
               "id": 149583,
               "name": {
-                "first": "Hina",
-                "last": "Hanetachi"
+                "full": "Hina Hanetachi"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b149583-njZMl9GShwJX.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b149583-XzGtMDNV2gy9.png"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 111991,
@@ -269,9 +271,9 @@
             "node": {
               "id": 121592,
               "name": {
-                "first": "Rakuda",
-                "last": null
+                "full": "Rakuda"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n121592-JsBdCbndZfo2.jpg"
               }
@@ -283,9 +285,9 @@
             "node": {
               "id": 106008,
               "name": {
-                "first": "",
-                "last": "Buriki"
+                "full": "Buriki"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
@@ -297,9 +299,9 @@
             "node": {
               "id": 119394,
               "name": {
-                "first": "Noriaki",
-                "last": "Akitaya"
+                "full": "Noriaki Akitaya"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119394-Yxp8RGVIRMcX.jpg"
               }
@@ -311,11 +313,11 @@
             "node": {
               "id": 121285,
               "name": {
-                "first": "Shouko",
-                "last": "Takimoto"
+                "full": "Shouko Takimoto"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n121285-BJETDypMul9u.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n121285-Gcs45b8UXfGN.png"
               }
             }
           },
@@ -325,9 +327,9 @@
             "node": {
               "id": 128761,
               "name": {
-                "first": "Geisei",
-                "last": "Morita"
+                "full": "Geisei Morita"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
@@ -339,9 +341,9 @@
             "node": {
               "id": 121856,
               "name": {
-                "first": "Fumiyuki",
-                "last": "Gou"
+                "full": "Fumiyuki Gou"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n121856-8edNVlALSYNy.jpg"
               }
@@ -353,9 +355,9 @@
             "node": {
               "id": 142411,
               "name": {
-                "first": "Katsuhiro",
-                "last": "Nakano"
+                "full": "Katsuhiro Nakano"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
@@ -367,11 +369,11 @@
             "node": {
               "id": 119903,
               "name": {
-                "first": "Shuka",
-                "last": "Saitou"
+                "full": "Shuka Saitou"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119903-ZlisVIOntyeu.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119903-CjaQw8ojQjB5.jpg"
               }
             }
           }
@@ -385,29 +387,33 @@
               "id": 957,
               "name": "CONNECT"
             }
-          }
-        ]
-      },
-      "reviews": {
-        "nodes": [
+          },
           {
-            "id": 5697,
-            "summary": "RomCom that does something more with the already known troupe to add even more spice and flavor ",
-            "rating": 44,
-            "ratingAmount": 59,
-            "user": {
-              "id": 39336,
-              "name": "KaizokuOtaku",
-              "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b39336-a5uEc8brVFlv.png"
-              }
+            "isMain": false,
+            "node": {
+              "id": 493,
+              "name": "Aniplex of America"
             }
           },
           {
+            "isMain": false,
+            "node": {
+              "id": 271,
+              "name": "Barnum Studio"
+            }
+          }
+        ]
+      },
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 9
+        },
+        "nodes": [
+          {
             "id": 5805,
             "summary": "An oblivious, poorly-written anime with few differences to any other cliche, trope-infested harem. ",
-            "rating": 41,
-            "ratingAmount": 98,
+            "rating": 76,
+            "ratingAmount": 173,
             "user": {
               "id": 362964,
               "name": "steinn",
@@ -415,14 +421,205 @@
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b362964-I0maAACkPD5s.jpg"
               }
             }
+          },
+          {
+            "id": 7735,
+            "summary": "Got potential to be a unique RomCom but quickly went back to its root, but was a fun ride all things considered",
+            "rating": 59,
+            "ratingAmount": 67,
+            "user": {
+              "id": 39336,
+              "name": "KayiZokuOtaku",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b39336-IIDd5aSfknaV.gif"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 30
+        },
+        "nodes": [
+          {
+            "id": 5208,
+            "rating": 152,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 101921,
+              "title": {
+                "userPreferred": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101921-GgvvFhlNhzlF.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101921-qSV6zMacSDm4.png"
+              }
+            },
+            "user": {
+              "id": 237657,
+              "name": "shaheer07",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b237657-ar5gG5YKSV4m.png"
+              }
+            }
+          },
+          {
+            "id": 6649,
+            "rating": 144,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 14813,
+              "title": {
+                "userPreferred": "Yahari Ore no Seishun Love Come wa Machigatteiru."
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/14813-urImBxyWJUEw.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx14813-BC8aanHK9fju.jpg"
+              }
+            },
+            "user": {
+              "id": 124847,
+              "name": "Zakutorai",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b124847-krQxl8rSdprY.png"
+              }
+            }
+          },
+          {
+            "id": 3913,
+            "rating": 109,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20698,
+              "title": {
+                "userPreferred": "Yahari Ore no Seishun Love Come wa Machigatteiru. Zoku"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20698-iw7Sh61XPXt3.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20698-YZIYor2zW3Ta.png"
+              }
+            },
+            "user": {
+              "id": 138946,
+              "name": "OBJECTION",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b138946-60pP0b3PZll0.png"
+              }
+            }
+          },
+          {
+            "id": 2994,
+            "rating": 98,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 18897,
+              "title": {
+                "userPreferred": "Nisekoi"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/18897-Ze0HBgRDO10E.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx18897-nKg8cQ0io9Mv.png"
+              }
+            },
+            "user": {
+              "id": 253567,
+              "name": "Lichthagel",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b253567-VFB9B1tLas4T.png"
+              }
+            }
+          },
+          {
+            "id": 36303,
+            "rating": 90,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 113813,
+              "title": {
+                "userPreferred": "Kanojo, Okarishimasu"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/113813-Al8VofQuNQHV.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx113813-UCgSIGyWvLgl.jpg"
+              }
+            },
+            "user": {
+              "id": 325973,
+              "name": "Jemplix",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b325973-MTovkyu5PcUI.png"
+              }
+            }
+          },
+          {
+            "id": 6502,
+            "rating": 77,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 107961,
+              "title": {
+                "userPreferred": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/107961-n4S7m1LqtUO8.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx107961-8aQlUDwwRpQS.jpg"
+              }
+            },
+            "user": {
+              "id": 141657,
+              "name": "whitetwinsaber",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b141657-upi0nt02e2HK.png"
+              }
+            }
+          },
+          {
+            "id": 72131,
+            "rating": 71,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 124675,
+              "title": {
+                "userPreferred": "Osananajimi ga Zettai ni Makenai Love Come"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/124675-zPcpWLkxjcSE.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx124675-fNI06ipb65vy.jpg"
+              }
+            },
+            "user": {
+              "id": 212541,
+              "name": "Spring76",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b212541-4Cck3pFqvY5f.png"
+              }
+            }
           }
         ]
       },
       "externalLinks": [
-        {
-          "site": "Official Site",
-          "url": "https:\/\/oresuki-anime.com\/"
-        },
         {
           "site": "Twitter",
           "url": "https:\/\/twitter.com\/oresuki_anime"
@@ -446,6 +643,10 @@
         {
           "site": "VRV",
           "url": "https:\/\/vrv.co\/series\/GR0X45JVY\/Oresuki-Are-you-the-only-one-who-loves-me"
+        },
+        {
+          "site": "Official Site",
+          "url": "https:\/\/ore.ski\/tv\/"
         }
       ],
       "streamingEpisodes": [
@@ -526,6 +727,12 @@
           "title": "Episode 12 - The One I Love Is\u2026",
           "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/0a7fc72064ad566f8e740dfd9dbde2561577290144_full.jpg",
           "url": "http:\/\/www.crunchyroll.com\/oresuki-are-you-the-only-one-who-loves-me\/episode-12-the-one-i-love-is-790240"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Our Playball \/ Our End Run \/ Our Game",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/d7121a3a5b6b5fbd05a61edb495574001598997728_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/oresuki-are-you-the-only-one-who-loves-me\/oresuki-are-you-the-only-one-who-loves-me-our-playball-our-end-run-our-game-797398"
         }
       ],
       "trailer": {
@@ -534,8 +741,8 @@
       },
       "rankings": [
         {
-          "id": 904,
-          "rank": 404,
+          "id": 849,
+          "rank": 349,
           "type": "POPULAR",
           "format": "TV",
           "year": null,
@@ -544,8 +751,8 @@
           "context": "most popular all time"
         },
         {
-          "id": 8820,
-          "rank": 52,
+          "id": 8900,
+          "rank": 53,
           "type": "RATED",
           "format": "TV",
           "year": 2019,
@@ -554,8 +761,8 @@
           "context": "highest rated"
         },
         {
-          "id": 8897,
-          "rank": 29,
+          "id": 8974,
+          "rank": 27,
           "type": "POPULAR",
           "format": "TV",
           "year": 2019,
@@ -564,7 +771,7 @@
           "context": "most popular"
         },
         {
-          "id": 9164,
+          "id": 9243,
           "rank": 16,
           "type": "RATED",
           "format": "TV",
@@ -574,7 +781,7 @@
           "context": "highest rated"
         },
         {
-          "id": 9185,
+          "id": 9264,
           "rank": 7,
           "type": "POPULAR",
           "format": "TV",
@@ -594,18 +801,10 @@
           "isGeneralSpoiler": false
         },
         {
-          "id": 104,
-          "name": "Anti-Hero",
-          "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
-          "rank": 86,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
           "id": 46,
           "name": "School",
           "description": "Partly or completely set in a primary or secondary educational institution.",
-          "rank": 84,
+          "rank": 85,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -613,23 +812,15 @@
           "id": 139,
           "name": "Love Triangle",
           "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
-          "rank": 83,
+          "rank": 85,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
           "id": 23,
-          "name": "Harem",
-          "description": "Main cast features one male character plus several female characters who are romantically interested in him.",
-          "rank": 79,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 694,
-          "name": "Detective",
-          "description": "Features a character who investigates and solves crimes.",
-          "rank": 79,
+          "name": "Female Harem",
+          "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+          "rank": 81,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -637,7 +828,23 @@
           "id": 144,
           "name": "Meta",
           "description": "Features fourth wall-breaking references to itself or genre tropes.",
-          "rank": 78,
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 104,
+          "name": "Anti-Hero",
+          "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 86,
+          "name": "Primarily Female Cast",
+          "description": "Main cast is mostly composed of female characters.",
+          "rank": 79,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -645,7 +852,7 @@
           "id": 252,
           "name": "Revenge",
           "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
-          "rank": 73,
+          "rank": 78,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
@@ -653,8 +860,24 @@
           "id": 171,
           "name": "Bullying",
           "description": "Prominently features the use of force for intimidation, often in a school setting.",
-          "rank": 66,
+          "rank": 64,
           "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 694,
+          "name": "Detective",
+          "description": "Features a character who investigates and solves crimes.",
+          "rank": 55,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
@@ -669,7 +892,15 @@
           "id": 149,
           "name": "Baseball",
           "description": "Centers around the sport of baseball.",
-          "rank": 34,
+          "rank": 35,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 1045,
+          "name": "Heterosexual",
+          "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+          "rank": 20,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -679,65 +910,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 4164
+            "amount": 4553
           },
           {
             "status": "PLANNING",
-            "amount": 6405
+            "amount": 15851
           },
           {
             "status": "COMPLETED",
-            "amount": 16924
+            "amount": 39898
           },
           {
             "status": "DROPPED",
-            "amount": 1618
+            "amount": 2879
           },
           {
             "status": "PAUSED",
-            "amount": 747
+            "amount": 1512
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 132
+            "amount": 243
           },
           {
             "score": 20,
-            "amount": 106
+            "amount": 255
           },
           {
             "score": 30,
-            "amount": 257
+            "amount": 517
           },
           {
             "score": 40,
-            "amount": 425
+            "amount": 903
           },
           {
             "score": 50,
-            "amount": 761
+            "amount": 1758
           },
           {
             "score": 60,
-            "amount": 1456
+            "amount": 3338
           },
           {
             "score": 70,
-            "amount": 3367
+            "amount": 7622
           },
           {
             "score": 80,
-            "amount": 3781
+            "amount": 7983
           },
           {
             "score": 90,
-            "amount": 1972
+            "amount": 4044
           },
           {
             "score": 100,
-            "amount": 935
+            "amount": 1786
           }
         ]
       }

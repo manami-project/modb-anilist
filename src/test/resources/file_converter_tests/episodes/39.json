@@ -9,7 +9,8 @@
         "native": "\u3075\u3057\u304e\u306e\u6d77\u306e\u30ca\u30c7\u30a3\u30a2"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx1251-XesYUD1YSCh9.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx1251-fir0uALjd3Av.jpg",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1251-fir0uALjd3Av.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1251-2oEwIJlFWpe3.jpg",
       "startDate": {
@@ -22,8 +23,9 @@
         "month": 4,
         "day": 12
       },
-      "description": "In 1889, the world is on the pinnacle of great discoveries in technology. In mankind's grasp for the future, a sinister foe known only as Gargoyle, obsessed with restoring the former Atlantean empire to the glory it once held, begins his plans to take over the world. Nadia, with the help of a young inventor, Jean Ratlique, and Captain Nemo of the submarine Nautilus, must fight to save the world from Gargoyle and Neo-Atlantis. Based on the Novel '20,000 Leagues Under the Sea' by Jules Verne.<br><br>\n(Source: ANN)",
+      "description": "In 1889, the world is on the pinnacle of great discoveries in technology. In mankind's grasp for the future, a sinister foe known only as Gargoyle, obsessed with restoring the former Atlantean empire to the glory it once held, begins his plans to take over the world. Nadia, with the help of a young inventor, Jean Raltique, and the mysterious captain Nemo of the submarine Nautilus, must fight to save the world from Gargoyle and Neo-Atlantis. Based on the Novel '20,000 Leagues Under the Sea' by Jules Verne.<br><br>\n(Source: Anime News Network)",
       "season": "SPRING",
+      "seasonYear": 1990,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
@@ -37,17 +39,21 @@
         "Romance",
         "Sci-Fi"
       ],
-      "synonyms": [],
+      "synonyms": [
+        "Nadia - Il mistero della pietra azzurra"
+      ],
       "source": "ORIGINAL",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 73,
       "averageScore": 72,
-      "popularity": 5583,
-      "favourites": 76,
+      "popularity": 10557,
+      "favourites": 157,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
@@ -62,6 +68,7 @@
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1252-hBBb9g4HB97B.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1252.jpg"
               }
@@ -78,6 +85,7 @@
               "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/3381.jpg"
               }
@@ -94,6 +102,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/104067-1rKBXWoPothn.png"
               }
@@ -101,7 +110,7 @@
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 5873,
@@ -110,19 +119,18 @@
               {
                 "id": 96057,
                 "name": {
-                  "first": "Yoshino",
-                  "last": "Takamori"
+                  "full": "Yoshino Takamori"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1057.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96057-sTfYZjMdWTRu.png"
                 }
               }
             ],
             "node": {
               "id": 7547,
               "name": {
-                "first": "Nadia",
-                "last": "la Arwall"
+                "full": "Nadia la Arwall"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7547-pDq21XZQgLLu.jpg"
@@ -136,19 +144,18 @@
               {
                 "id": 95181,
                 "name": {
-                  "first": "Noriko",
-                  "last": "Hidaka"
+                  "full": "Noriko Hidaka"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/181.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95181-vMjqcku6ZHtF.jpg"
                 }
               }
             ],
             "node": {
               "id": 7893,
               "name": {
-                "first": "Jean",
-                "last": "Roque Raltique"
+                "full": "Jean Roque Raltique"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7893-ndlhSbPbhJ2p.png"
@@ -162,9 +169,9 @@
               {
                 "id": 96141,
                 "name": {
-                  "first": "Toshiharu",
-                  "last": "Sakurai"
+                  "full": "Toshiharu Sakurai"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96141-LJxWEAa2JCo3.png"
                 }
@@ -173,8 +180,7 @@
             "node": {
               "id": 7937,
               "name": {
-                "first": "King",
-                "last": null
+                "full": "King"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7937-WX7l64mXXGOc.jpg"
@@ -188,19 +194,18 @@
               {
                 "id": 95195,
                 "name": {
-                  "first": "Kikuko",
-                  "last": "Inoue"
+                  "full": "Kikuko Inoue"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95195-B4CqTvMtfuK8.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95195-nLvtZl5sCK0D.png"
                 }
               }
             ],
             "node": {
               "id": 7894,
               "name": {
-                "first": "Electra",
-                "last": null
+                "full": "Electra"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b7894-cphbQg8DsToT.png"
@@ -214,19 +219,18 @@
               {
                 "id": 95333,
                 "name": {
-                  "first": "Motomu",
-                  "last": "Kiyokawa"
+                  "full": "Motomu Kiyokawa"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/333.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95333-11aYjXsaWLIp.png"
                 }
               }
             ],
             "node": {
               "id": 8527,
               "name": {
-                "first": "Gargoyle",
-                "last": null
+                "full": "Gargoyle"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b8527-WbOgWYgUpiFg.png"
@@ -240,19 +244,18 @@
               {
                 "id": 95146,
                 "name": {
-                  "first": "Akio",
-                  "last": "Ootsuka"
+                  "full": "Akio Ootsuka"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95146-tJWDZXabrRy7.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95146-ImWIzHsmEsFV.png"
                 }
               }
             ],
             "node": {
               "id": 8528,
               "name": {
-                "first": "Nemo",
-                "last": null
+                "full": "Nemo"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b8528-UqoKRG4zyExq.png"
@@ -261,19 +264,19 @@
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 5970,
-            "role": "Storyboard",
+            "role": "Storyboard (eps 5, 6, 8, 9, 11, 14, 17, 19, 23, 24, 27, 29, 32, 34, 37)",
             "node": {
               "id": 97797,
               "name": {
-                "first": "Takeshi",
-                "last": "Mori"
+                "full": "Takeshi Mori"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2797.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n97797-emmV1J6Q3GCq.png"
               }
             }
           },
@@ -283,9 +286,9 @@
             "node": {
               "id": 98158,
               "name": {
-                "first": "Yoshiyuki",
-                "last": "Sadamoto"
+                "full": "Yoshiyuki Sadamoto"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3158.jpg"
               }
@@ -293,13 +296,13 @@
           },
           {
             "id": 6610,
-            "role": "Key Animation  (eps 8, 21, 39)",
+            "role": "Animation Director (eps 8, 21, 39)",
             "node": {
               "id": 98158,
               "name": {
-                "first": "Yoshiyuki",
-                "last": "Sadamoto"
+                "full": "Yoshiyuki Sadamoto"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3158.jpg"
               }
@@ -311,9 +314,9 @@
             "node": {
               "id": 100147,
               "name": {
-                "first": "Shiro",
-                "last": "Sagisu"
+                "full": "Shirou Sagisu"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100147-n4luOPlTogw2.jpg"
               }
@@ -321,29 +324,29 @@
           },
           {
             "id": 10456,
-            "role": "Original Creator",
+            "role": "Design",
             "node": {
               "id": 100392,
               "name": {
-                "first": "Mahiro",
-                "last": "Maeda"
+                "full": "Mahiro Maeda"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5392.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100392-t48zYvB0zkq3.png"
               }
             }
           },
           {
             "id": 10457,
-            "role": "Storyboard",
+            "role": "Storyboard (eps 10, 16, 22, 35)",
             "node": {
               "id": 100392,
               "name": {
-                "first": "Mahiro",
-                "last": "Maeda"
+                "full": "Mahiro Maeda"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5392.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100392-t48zYvB0zkq3.png"
               }
             }
           },
@@ -353,9 +356,9 @@
             "node": {
               "id": 100990,
               "name": {
-                "first": "Charles",
-                "last": "Campbell"
+                "full": "Charles Campbell"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5990.jpg"
               }
@@ -363,15 +366,15 @@
           },
           {
             "id": 13628,
-            "role": "Animation Director  (ep 31,39)",
+            "role": "Animation Director (eps 31, 39)",
             "node": {
               "id": 101076,
               "name": {
-                "first": "Kazuya",
-                "last": "Tsurumaki"
+                "full": "Kazuya Tsurumaki"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6076.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101076-IGLwMtC3rfbC.jpg"
               }
             }
           }
@@ -384,13 +387,6 @@
             "node": {
               "id": 6,
               "name": "Gainax"
-            }
-          },
-          {
-            "isMain": false,
-            "node": {
-              "id": 97,
-              "name": "ADV Films"
             }
           },
           {
@@ -413,16 +409,33 @@
               "id": 6273,
               "name": "Sei Young Animation"
             }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 376,
+              "name": "Sentai Filmworks"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6557,
+              "name": "Animatsu Entertainment"
+            }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 4
+        },
         "nodes": [
           {
             "id": 3649,
             "summary": "Extremely likeable but flawed and uneven fan favorites series from Gainax. Best watched episodes 1-22, 30, 31, & 35-39.",
-            "rating": 7,
-            "ratingAmount": 7,
+            "rating": 20,
+            "ratingAmount": 21,
             "user": {
               "id": 91709,
               "name": "JTurner82",
@@ -432,15 +445,197 @@
             }
           },
           {
-            "id": 3446,
-            "summary": "Despite how tumultuous the voyage ended up being, it\u2019s still one I\u2019d thoroughly recommend, if only with a few caveats.",
-            "rating": 4,
-            "ratingAmount": 6,
+            "id": 10140,
+            "summary": "This anime has a lot of plot holes.",
+            "rating": 6,
+            "ratingAmount": 10,
             "user": {
-              "id": 164274,
-              "name": "CodeBlazeFate",
+              "id": 5209121,
+              "name": "crystalgirl1010",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b164274-od15kTPvhzrV.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b5209121-iiyaX9GjRFl7.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 18
+        },
+        "nodes": [
+          {
+            "id": 1671,
+            "rating": 16,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 302,
+              "title": {
+                "userPreferred": "Mirai Shounen Conan"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/302-6lfV0hg7KVj1.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/302-S5gpJhVePiNq.png"
+              }
+            },
+            "user": {
+              "id": 95746,
+              "name": "hoh",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b95746-XE3cub3Vwv4V.png"
+              }
+            }
+          },
+          {
+            "id": 1666,
+            "rating": 15,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 513,
+              "title": {
+                "userPreferred": "Tenkuu no Shiro Laputa"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/513-3zMLMyA0qH5n.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx513-G47zqEhndFBY.jpg"
+              }
+            },
+            "user": {
+              "id": 95746,
+              "name": "hoh",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b95746-XE3cub3Vwv4V.png"
+              }
+            }
+          },
+          {
+            "id": 2810,
+            "rating": 11,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 30,
+              "title": {
+                "userPreferred": "Shin Seiki Evangelion"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/30-gEMoHHIqxDgN.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx30-1Ro1NFFg28bu.jpg"
+              }
+            },
+            "user": {
+              "id": 3,
+              "name": "Removed",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/3.jpg"
+              }
+            }
+          },
+          {
+            "id": 62742,
+            "rating": 6,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1650,
+              "title": {
+                "userPreferred": "Uchuu Senkan Yamato"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1650-Zge6M0RZ1Q7Q.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx1650-v2eMjvOfnLCc.jpg"
+              }
+            },
+            "user": {
+              "id": 415318,
+              "name": "Athenza",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b415318-oO9UM2qlQgaj.png"
+              }
+            }
+          },
+          {
+            "id": 9676,
+            "rating": 5,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1279,
+              "title": {
+                "userPreferred": "Taiyou no Ko Esteban"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1279-hgTJF1oO4MP3.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1279-m4VozI4m665B.jpg"
+              }
+            },
+            "user": {
+              "id": 173449,
+              "name": "Arlek1",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b173449-xV9irVXLGPPA.png"
+              }
+            }
+          },
+          {
+            "id": 68549,
+            "rating": 5,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 3786,
+              "title": {
+                "userPreferred": "Shin Evangelion Movie:||"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/3786-IfWKqRp9grgo.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx3786-FPo09WTuoTCV.jpg"
+              }
+            },
+            "user": {
+              "id": 415318,
+              "name": "Athenza",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b415318-oO9UM2qlQgaj.png"
+              }
+            }
+          },
+          {
+            "id": 1641,
+            "rating": 4,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 160,
+              "title": {
+                "userPreferred": "Ima, Soko ni Iru Boku"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/160-LbiEyoQyuDaL.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/160-SqQmd8SR1n8b.jpg"
+              }
+            },
+            "user": {
+              "id": 95746,
+              "name": "hoh",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b95746-XE3cub3Vwv4V.png"
               }
             }
           }
@@ -470,7 +665,7 @@
           "context": "highest rated"
         },
         {
-          "id": 1008,
+          "id": 1012,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -482,6 +677,22 @@
       ],
       "tags": [
         {
+          "id": 95,
+          "name": "Steampunk",
+          "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 305,
+          "name": "Ships",
+          "description": "Prominently features the use of sea-based transportation vessels.",
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
           "id": 25,
           "name": "Historical",
           "description": "Partly or completely set during a real period of world history.",
@@ -490,34 +701,10 @@
           "isGeneralSpoiler": false
         },
         {
-          "id": 95,
-          "name": "Steampunk",
-          "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
-          "rank": 66,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 305,
-          "name": "Ships",
-          "description": "Prominently features the use of sea-based transportation vessels.",
-          "rank": 66,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
           "id": 198,
           "name": "Foreign",
-          "description": "Partly or completely set in a country outside of Japan.",
-          "rank": 60,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 28,
-          "name": "Kids",
-          "description": "Target demographic is young children.",
-          "rank": 50,
+          "description": "Partly or completely set in a country outside the country of origin. ",
+          "rank": 74,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -525,7 +712,7 @@
           "id": 466,
           "name": "Lost Civilization",
           "description": "Featuring a civilization with few ruins or records that exist in present day knowledge.",
-          "rank": 40,
+          "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -533,8 +720,32 @@
           "id": 476,
           "name": "Circus",
           "description": "Prominently features a circus.",
-          "rank": 20,
+          "rank": 60,
           "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 175,
+          "name": "Robots",
+          "description": "Prominently features humanoid machines.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "description": "Centers around a character's transition from childhood to adulthood.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 191,
+          "name": "Aliens",
+          "description": "Prominently features extraterrestrial lifeforms.",
+          "rank": 20,
+          "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         }
       ],
@@ -543,65 +754,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 253
+            "amount": 490
           },
           {
             "status": "PLANNING",
-            "amount": 3281
+            "amount": 6388
           },
           {
             "status": "COMPLETED",
-            "amount": 1646
+            "amount": 2957
           },
           {
             "status": "DROPPED",
-            "amount": 124
+            "amount": 242
           },
           {
             "status": "PAUSED",
-            "amount": 279
+            "amount": 480
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 10
+            "amount": 16
           },
           {
             "score": 20,
-            "amount": 6
+            "amount": 14
           },
           {
             "score": 30,
-            "amount": 8
+            "amount": 17
           },
           {
             "score": 40,
-            "amount": 23
+            "amount": 45
           },
           {
             "score": 50,
-            "amount": 71
+            "amount": 147
           },
           {
             "score": 60,
-            "amount": 194
+            "amount": 293
           },
           {
             "score": 70,
-            "amount": 394
+            "amount": 647
           },
           {
             "score": 80,
-            "amount": 369
+            "amount": 611
           },
           {
             "score": 90,
-            "amount": 209
+            "amount": 385
           },
           {
             "score": 100,
-            "amount": 73
+            "amount": 139
           }
         ]
       }

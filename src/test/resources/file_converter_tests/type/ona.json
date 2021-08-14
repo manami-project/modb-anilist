@@ -9,7 +9,8 @@
         "native": "\u30a4\u30f4\u306e\u6642\u9593"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/3167.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx3167-IBEzQTk9wvbr.jpg",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx3167-IBEzQTk9wvbr.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/3167-e2qIc6utiYEC.jpg",
       "startDate": {
@@ -24,6 +25,7 @@
       },
       "description": "The future, probably Japan. Robots have long been put into practical use, and androids have just come into use.<br><br>\nInfluenced by the Robot Ethics Committee, it's become common sense for people to treat androids like household appliances. Their appearance - indistinguishable from humans except for the ring over each android's head - has led some people to empathize unnecessarily with androids. Known as \"android-holics\", such people have become a social problem.<br><br>\nRikuo, a high school student, has been taught from childhood that androids are not to be viewed as humans, and has always used them as convenient tools. One day Rikuo discovers some strange data in the behavior records of his family's household android, Sammy.<br><br>\nRikuo and his friend Masaki trace Sammy's movements, only to discover a mysterious caf&eacute; that features a house rule that \"humans and robots are to be treated the same\"...<br><br>\n(Source: Official Website - English)",
       "season": "SUMMER",
+      "seasonYear": 2008,
       "type": "ANIME",
       "format": "ONA",
       "status": "FINISHED",
@@ -38,35 +40,21 @@
       "synonyms": [
         "Eve's Time"
       ],
-      "source": null,
+      "source": "ORIGINAL",
       "isAdult": false,
-      "meanScore": 80,
-      "averageScore": 79,
-      "popularity": 14203,
-      "favourites": 171,
+      "isLocked": false,
+      "meanScore": 78,
+      "averageScore": 78,
+      "popularity": 23388,
+      "favourites": 274,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
-          {
-            "id": 4161,
-            "relationType": "ADAPTATION",
-            "node": {
-              "id": 49478,
-              "title": {
-                "userPreferred": "Eve no Jikan"
-              },
-              "format": "MANGA",
-              "type": "MANGA",
-              "status": "FINISHED",
-              "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/19478.jpg"
-              }
-            }
-          },
           {
             "id": 10207,
             "relationType": "ALTERNATIVE",
@@ -78,14 +66,32 @@
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/7465.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx7465-LS2see8TGexC.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx7465-gBh82FNppI9h.png"
+              }
+            }
+          },
+          {
+            "id": 55723,
+            "relationType": "ADAPTATION",
+            "node": {
+              "id": 49478,
+              "title": {
+                "userPreferred": "Eve no Jikan"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx49478-hj7FgPiaWQMK.jpg"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 11244,
@@ -94,19 +100,18 @@
               {
                 "id": 95086,
                 "name": {
-                  "first": "Jun",
-                  "last": "Fukuyama"
+                  "full": "Jun Fukuyama"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95086-oWe2P6dm8cbk.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95086-kFidWVaw1LpB.png"
                 }
               }
             ],
             "node": {
               "id": 14542,
               "name": {
-                "first": "Rikuo",
-                "last": "Sakisaka"
+                "full": "Rikuo Sakisaka"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14542.jpg"
@@ -120,22 +125,21 @@
               {
                 "id": 95074,
                 "name": {
-                  "first": "Kenji",
-                  "last": "Nojima"
+                  "full": "Kenji Nojima"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95074-7zbitxEDoWbn.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95074-ilLCdbpWIgrF.png"
                 }
               }
             ],
             "node": {
               "id": 14543,
               "name": {
-                "first": "Masakazu",
-                "last": "Masaki"
+                "full": "Masakazu Masaki"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14543.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b14543-5PqyxleNaMPC.png"
               }
             }
           },
@@ -146,22 +150,21 @@
               {
                 "id": 95060,
                 "name": {
-                  "first": "Rie",
-                  "last": "Tanaka"
+                  "full": "Rie Tanaka"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95060-HOMOR8Kthjr5.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95060-Rw0HZghxH1hF.jpg"
                 }
               }
             ],
             "node": {
               "id": 14573,
               "name": {
-                "first": "Sammy",
-                "last": null
+                "full": "Sammy"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14573.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b14573-dhm9pzXRuLzO.png"
               }
             }
           },
@@ -172,22 +175,21 @@
               {
                 "id": 95241,
                 "name": {
-                  "first": "Rina",
-                  "last": "Satou"
+                  "full": "Rina Satou"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95241-dSrfterc7OZc.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95241-4XvR64oguxwS.png"
                 }
               }
             ],
             "node": {
               "id": 14574,
               "name": {
-                "first": "Nagi",
-                "last": null
+                "full": "Nagi"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14574.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b14574-b1HCLnLl1hYd.png"
               }
             }
           },
@@ -198,9 +200,9 @@
               {
                 "id": 95140,
                 "name": {
-                  "first": "",
-                  "last": "Yukana"
+                  "full": "Yukana"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/140.jpg"
                 }
@@ -209,11 +211,10 @@
             "node": {
               "id": 14575,
               "name": {
-                "first": "Akiko",
-                "last": null
+                "full": "Akiko"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/14575.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b14575-HhAOMkccPnih.png"
               }
             }
           },
@@ -224,9 +225,9 @@
               {
                 "id": 95121,
                 "name": {
-                  "first": "Miki",
-                  "last": "Itou"
+                  "full": "Miki Itou"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95121-FCp9NcoFgKZk.png"
                 }
@@ -235,17 +236,16 @@
             "node": {
               "id": 17580,
               "name": {
-                "first": "Rina",
-                "last": null
+                "full": "Rina"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/17580.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b17580-16CAkd0YL6UW.png"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 469,
@@ -253,11 +253,11 @@
             "node": {
               "id": 95060,
               "name": {
-                "first": "Rie",
-                "last": "Tanaka"
+                "full": "Rie Tanaka"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95060-HOMOR8Kthjr5.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95060-Rw0HZghxH1hF.jpg"
               }
             }
           },
@@ -267,9 +267,9 @@
             "node": {
               "id": 101072,
               "name": {
-                "first": "Yasuhiro",
-                "last": "Yoshiura"
+                "full": "Yasuhiro Yoshiura"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6072.jpg"
               }
@@ -281,9 +281,9 @@
             "node": {
               "id": 101072,
               "name": {
-                "first": "Yasuhiro",
-                "last": "Yoshiura"
+                "full": "Yasuhiro Yoshiura"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6072.jpg"
               }
@@ -295,9 +295,9 @@
             "node": {
               "id": 101072,
               "name": {
-                "first": "Yasuhiro",
-                "last": "Yoshiura"
+                "full": "Yasuhiro Yoshiura"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6072.jpg"
               }
@@ -309,11 +309,11 @@
             "node": {
               "id": 107656,
               "name": {
-                "first": "Tohru",
-                "last": "Okada"
+                "full": "Tohru Okada"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12656.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n107656-sX4rPtjS8U3y.png"
               }
             }
           },
@@ -323,11 +323,11 @@
             "node": {
               "id": 107656,
               "name": {
-                "first": "Tohru",
-                "last": "Okada"
+                "full": "Tohru Okada"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12656.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n107656-sX4rPtjS8U3y.png"
               }
             }
           },
@@ -337,11 +337,11 @@
             "node": {
               "id": 107656,
               "name": {
-                "first": "Tohru",
-                "last": "Okada"
+                "full": "Tohru Okada"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12656.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n107656-sX4rPtjS8U3y.png"
               }
             }
           },
@@ -351,9 +351,9 @@
             "node": {
               "id": 111455,
               "name": {
-                "first": "Ryusuke",
-                "last": "Chayama"
+                "full": "Ryuusuke Chayama"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16455.jpg"
               }
@@ -393,8 +393,193 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 12
+        },
+        "nodes": [
+          {
+            "id": 69541,
+            "rating": 32,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 128546,
+              "title": {
+                "userPreferred": "Vivy: Fluorite Eye\u2019s Song"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/128546-V5KVgbzQwFYm.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx128546-UIwyhuhjxmL0.jpg"
+              }
+            },
+            "user": {
+              "id": 535680,
+              "name": "tajemnica",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b535680-EKTfXYZWverL.png"
+              }
+            }
+          },
+          {
+            "id": 9848,
+            "rating": 14,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 2235,
+              "title": {
+                "userPreferred": "Mizu no Kotoba"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/2235-yoOjgip58aSO.jpg"
+              }
+            },
+            "user": {
+              "id": 140403,
+              "name": "Gardex",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n140403-5m4CSfadtkMx.jpg"
+              }
+            }
+          },
+          {
+            "id": 11999,
+            "rating": 11,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21732,
+              "title": {
+                "userPreferred": "Planetarian: Chiisana Hoshi no Yume"
+              },
+              "format": "ONA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21732-Xp8L2tSBimh0.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx21732-uOgNB5Y4FH5h.jpg"
+              }
+            },
+            "user": {
+              "id": 225419,
+              "name": "Flueckli",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n225419-QXLjyd4FS4Ir.png"
+              }
+            }
+          },
+          {
+            "id": 18960,
+            "rating": 8,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20931,
+              "title": {
+                "userPreferred": "Death Parade"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20931-xDhiTPZmtS3u.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx20931-bktYqOcxPERi.jpg"
+              }
+            },
+            "user": {
+              "id": 277631,
+              "name": "moonskk",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b277631-lTZDdH8xeEJW.png"
+              }
+            }
+          },
+          {
+            "id": 25026,
+            "rating": 6,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20872,
+              "title": {
+                "userPreferred": "Plastic Memories"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20872-RlrRw6pnwLWK.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20872-j5PBzzVtrYDM.jpg"
+              }
+            },
+            "user": {
+              "id": 106844,
+              "name": "SMaWaRu",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b106844-GXr65RjTNx69.png"
+              }
+            }
+          },
+          {
+            "id": 12015,
+            "rating": 4,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20932,
+              "title": {
+                "userPreferred": "Harmony"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20932-I5AdEwovwgUC.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20932-kw702YuhGeH5.jpg"
+              }
+            },
+            "user": {
+              "id": 225419,
+              "name": "Flueckli",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n225419-QXLjyd4FS4Ir.png"
+              }
+            }
+          },
+          {
+            "id": 16573,
+            "rating": 3,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1589,
+              "title": {
+                "userPreferred": "Bartender"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1589-u7jza0OrNy7T.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1589-DNBuqRpnVu8Y.png"
+              }
+            },
+            "user": {
+              "id": 367675,
+              "name": "Fivda",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b367675-t7gs6IdV9p7K.png"
+              }
+            }
+          }
+        ]
       },
       "externalLinks": [
         {
@@ -443,8 +628,8 @@
       "trailer": null,
       "rankings": [
         {
-          "id": 16472,
-          "rank": 3,
+          "id": 18713,
+          "rank": 17,
           "type": "RATED",
           "format": "ONA",
           "year": null,
@@ -453,8 +638,8 @@
           "context": "highest rated all time"
         },
         {
-          "id": 16526,
-          "rank": 7,
+          "id": 18773,
+          "rank": 27,
           "type": "POPULAR",
           "format": "ONA",
           "year": null,
@@ -463,7 +648,7 @@
           "context": "most popular all time"
         },
         {
-          "id": 16708,
+          "id": 18960,
           "rank": 1,
           "type": "RATED",
           "format": "ONA",
@@ -473,7 +658,7 @@
           "context": "highest rated"
         },
         {
-          "id": 16723,
+          "id": 18975,
           "rank": 1,
           "type": "POPULAR",
           "format": "ONA",
@@ -488,23 +673,7 @@
           "id": 175,
           "name": "Robots",
           "description": "Prominently features humanoid machines.",
-          "rank": 90,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 50,
-          "name": "Seinen",
-          "description": "Target demographic is adult males.",
-          "rank": 68,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 161,
-          "name": "Bar",
-          "description": "Partly or completely set in a bar.",
-          "rank": 60,
+          "rank": 93,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -512,7 +681,31 @@
           "id": 517,
           "name": "Artificial Intelligence",
           "description": "Intelligent non-organic machines that work and react similarly to humans.",
-          "rank": 60,
+          "rank": 90,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 391,
+          "name": "Philosophy",
+          "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+          "rank": 77,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 161,
+          "name": "Bar",
+          "description": "Partly or completely set in a bar.",
+          "rank": 76,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 50,
+          "name": "Seinen",
+          "description": "Target demographic is adult males.",
+          "rank": 73,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -522,65 +715,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 215
+            "amount": 369
           },
           {
             "status": "PLANNING",
-            "amount": 5833
+            "amount": 10634
           },
           {
             "status": "COMPLETED",
-            "amount": 7809
+            "amount": 11807
           },
           {
             "status": "DROPPED",
-            "amount": 137
+            "amount": 219
           },
           {
             "status": "PAUSED",
-            "amount": 209
+            "amount": 359
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 17
+            "amount": 28
           },
           {
             "score": 20,
-            "amount": 4
+            "amount": 11
           },
           {
             "score": 30,
-            "amount": 12
+            "amount": 38
           },
           {
             "score": 40,
-            "amount": 40
+            "amount": 71
           },
           {
             "score": 50,
-            "amount": 150
+            "amount": 291
           },
           {
             "score": 60,
-            "amount": 423
+            "amount": 713
           },
           {
             "score": 70,
-            "amount": 1168
+            "amount": 1912
           },
           {
             "score": 80,
-            "amount": 2008
+            "amount": 3016
           },
           {
             "score": 90,
-            "amount": 1672
+            "amount": 2232
           },
           {
             "score": 100,
-            "amount": 680
+            "amount": 895
           }
         ]
       }

@@ -9,7 +9,8 @@
         "native": "\u30c4\u30d0\u30b5 TOKYO REVELATIONS"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b2685-jqvoTjYHYLuJ.png"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx2685-ZP46utTR0mv8.jpg",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx2685-ZP46utTR0mv8.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/2685-wIe1ft3foqaB.jpg",
       "startDate": {
@@ -24,6 +25,7 @@
       },
       "description": "Continuing their journey from Record Country (the place that held the book of memories), Syaoran and company land into Tokyo Country, a blood-filled country under war from opposing factions for natural resources and survival. While reluctantly involved in the race to live, the group faces their own problems as certain revelations are made, changing their journey forever.<br><br>\nA shocking betrayal and a battle that risks all of their lives. After this revelation, they will never be the same again.",
       "season": "FALL",
+      "seasonYear": 2007,
       "type": "ANIME",
       "format": "OVA",
       "status": "FINISHED",
@@ -41,16 +43,18 @@
         "Tsubasa Reservoir Chronicle OVA",
         "Tsubasa Reservoir Chronicle: Tokyo Revelations"
       ],
-      "source": null,
+      "source": "MANGA",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 80,
-      "averageScore": 80,
-      "popularity": 5009,
-      "favourites": 56,
+      "averageScore": 79,
+      "popularity": 8259,
+      "favourites": 141,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
@@ -65,8 +69,9 @@
               "format": "TV",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/969-IGENhLYpqNKT.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/969.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx969-Q0kfuYZT2zpT.png"
               }
             }
           },
@@ -81,6 +86,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/4938-cfKO9S2kFuJz.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/4938.jpg"
               }
@@ -88,7 +94,7 @@
           },
           {
             "id": 3807,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 30009,
               "title": {
@@ -97,14 +103,15 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/30009-6uPhBYWFwFhm.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/9-IayNt8GY5lSF.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/b30009-tchjOdFt5CeE.jpg"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 11731,
@@ -113,22 +120,21 @@
               {
                 "id": 95088,
                 "name": {
-                  "first": "Miyu",
-                  "last": "Irino"
+                  "full": "Miyu Irino"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-kuBf7BA7I78P.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-dYaM22FZHCS2.png"
                 }
               }
             ],
             "node": {
               "id": 126,
               "name": {
-                "first": "Syaoran",
-                "last": null
+                "full": "Syaoran"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126-taqeFzhqc583.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126-Z2CUMIwmNvUv.png"
               }
             }
           },
@@ -139,22 +145,21 @@
               {
                 "id": 95089,
                 "name": {
-                  "first": "Yui",
-                  "last": "Makino"
+                  "full": "Yui Makino"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95089-9Is1xOUME00X.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95089-DCoCxSfkD1HC.png"
                 }
               }
             ],
             "node": {
               "id": 127,
               "name": {
-                "first": "Sakura",
-                "last": null
+                "full": "Sakura"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127-tY9Jz4MnwxYj.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127-3LOU7dHstVGM.jpg"
               }
             }
           },
@@ -165,19 +170,18 @@
               {
                 "id": 95395,
                 "name": {
-                  "first": "Tetsu",
-                  "last": "Inada"
+                  "full": "Tetsu Inada"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95395-oH7IYnNdcvL2.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95395-HpxLuh4ysrzJ.png"
                 }
               }
             ],
             "node": {
               "id": 129,
               "name": {
-                "first": "Kurogane",
-                "last": null
+                "full": "Kurogane"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/129.jpg"
@@ -191,22 +195,21 @@
               {
                 "id": 95375,
                 "name": {
-                  "first": "Mika",
-                  "last": "Kikuchi"
+                  "full": "Mika Kikuchi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/375.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95375-stpUfkuF5uEL.jpg"
                 }
               }
             ],
             "node": {
               "id": 2074,
               "name": {
-                "first": "Mokona",
-                "last": "Modoki"
+                "full": "Mokona Modoki"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/2074.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b2074-aq4JY9l74daJ.jpg"
               }
             }
           },
@@ -217,19 +220,18 @@
               {
                 "id": 95088,
                 "name": {
-                  "first": "Miyu",
-                  "last": "Irino"
+                  "full": "Miyu Irino"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-kuBf7BA7I78P.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-dYaM22FZHCS2.png"
                 }
               }
             ],
             "node": {
               "id": 4713,
               "name": {
-                "first": "Syaoran",
-                "last": "Li"
+                "full": "Syaoran Li"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b4713-633RJzJw5mMs.png"
@@ -243,28 +245,27 @@
               {
                 "id": 95087,
                 "name": {
-                  "first": "Daisuke",
-                  "last": "Namikawa"
+                  "full": "Daisuke Namikawa"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95087-yd2UdZN2wRG4.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95087-6dlBBbejsPyg.png"
                 }
               }
             ],
             "node": {
               "id": 9702,
               "name": {
-                "first": "Fai D.",
-                "last": "Flourite"
+                "full": "Fai D. Flourite"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/9702.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b9702-A0WuzIpRJFbv.jpg"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 695,
@@ -272,11 +273,11 @@
             "node": {
               "id": 95089,
               "name": {
-                "first": "Yui",
-                "last": "Makino"
+                "full": "Yui Makino"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95089-9Is1xOUME00X.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95089-DCoCxSfkD1HC.png"
               }
             }
           },
@@ -286,11 +287,11 @@
             "node": {
               "id": 95090,
               "name": {
-                "first": "Maaya",
-                "last": "Sakamoto"
+                "full": "Maaya Sakamoto"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-9Y0LQEqfFT6r.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-oARRP42NEhu0.jpg"
               }
             }
           },
@@ -300,11 +301,11 @@
             "node": {
               "id": 95090,
               "name": {
-                "first": "Maaya",
-                "last": "Sakamoto"
+                "full": "Maaya Sakamoto"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-9Y0LQEqfFT6r.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95090-oARRP42NEhu0.jpg"
               }
             }
           },
@@ -314,9 +315,9 @@
             "node": {
               "id": 96877,
               "name": {
-                "first": "",
-                "last": "CLAMP"
+                "full": "CLAMP"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96877-DZl7R4Zr0iFx.jpg"
               }
@@ -328,11 +329,11 @@
             "node": {
               "id": 97292,
               "name": {
-                "first": "Nanase",
-                "last": "Ohkawa"
+                "full": "Nanase Ohkawa"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2292.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n97292-w6P4g8e7MCwH.png"
               }
             }
           },
@@ -342,11 +343,11 @@
             "node": {
               "id": 100077,
               "name": {
-                "first": "Yuki",
-                "last": "Kajiura"
+                "full": "Yuki Kajiura"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-oqLUFyNpTKpJ.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-EQO5m2lkmUQk.jpg"
               }
             }
           },
@@ -356,11 +357,11 @@
             "node": {
               "id": 100077,
               "name": {
-                "first": "Yuki",
-                "last": "Kajiura"
+                "full": "Yuki Kajiura"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-oqLUFyNpTKpJ.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-EQO5m2lkmUQk.jpg"
               }
             }
           },
@@ -370,11 +371,11 @@
             "node": {
               "id": 100077,
               "name": {
-                "first": "Yuki",
-                "last": "Kajiura"
+                "full": "Yuki Kajiura"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-oqLUFyNpTKpJ.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-EQO5m2lkmUQk.jpg"
               }
             }
           }
@@ -405,25 +406,64 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 1
+        },
+        "nodes": [
+          {
+            "id": 19095,
+            "rating": 5,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 3091,
+              "title": {
+                "userPreferred": "xxxHOLiC Kei"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/3091-d4il9SnBf3gk.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx3091-97Yr9KdWI3Ou.jpg"
+              }
+            },
+            "user": {
+              "id": 237433,
+              "name": "Maykel",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b237433-ALAetvRsx4wB.jpg"
+              }
+            }
+          }
+        ]
       },
       "externalLinks": [
         {
           "site": "Funimation",
-          "url": "http:\/\/www.funimation.com\/shows\/tsubasa-reservoir-chronicle\/videos\/episodes"
+          "url": "http:\/\/www.funimation.com\/shows\/tsubasa-reservoir-chronicle\/"
         },
         {
           "site": "Hulu",
           "url": "http:\/\/www.hulu.com\/tsubasa-tokyo-revelations"
+        },
+        {
+          "site": "AnimeLab",
+          "url": "https:\/\/www.animelab.com\/shows\/tsubasa-reservoir-chronicle"
         }
       ],
       "streamingEpisodes": [],
       "trailer": null,
       "rankings": [
         {
-          "id": 14500,
-          "rank": 18,
+          "id": 16637,
+          "rank": 22,
           "type": "RATED",
           "format": "OVA",
           "year": null,
@@ -432,7 +472,7 @@
           "context": "highest rated all time"
         },
         {
-          "id": 15689,
+          "id": 17834,
           "rank": 1,
           "type": "RATED",
           "format": "OVA",
@@ -442,7 +482,7 @@
           "context": "highest rated"
         },
         {
-          "id": 15720,
+          "id": 17865,
           "rank": 2,
           "type": "POPULAR",
           "format": "OVA",
@@ -457,7 +497,23 @@
           "id": 56,
           "name": "Shounen",
           "description": "Target demographic is teenage and young adult males.",
-          "rank": 50,
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 158,
+          "name": "Crossover",
+          "description": "Centers around the placement of two or more otherwise discrete fictional characters, settings, or universes into the context of a single story.",
+          "rank": 73,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 244,
+          "name": "Isekai",
+          "description": "Features characters being transported into an alternate world setting and having to adapt to their new surroundings.",
+          "rank": 10,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -467,65 +523,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 79
+            "amount": 147
           },
           {
             "status": "PLANNING",
-            "amount": 1472
+            "amount": 2654
           },
           {
             "status": "COMPLETED",
-            "amount": 3348
+            "amount": 5260
           },
           {
             "status": "DROPPED",
-            "amount": 50
+            "amount": 83
           },
           {
             "status": "PAUSED",
-            "amount": 60
+            "amount": 115
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 12
+            "amount": 19
           },
           {
             "score": 20,
-            "amount": 5
-          },
-          {
-            "score": 30,
             "amount": 9
           },
           {
+            "score": 30,
+            "amount": 21
+          },
+          {
             "score": 40,
-            "amount": 22
+            "amount": 32
           },
           {
             "score": 50,
-            "amount": 67
+            "amount": 101
           },
           {
             "score": 60,
-            "amount": 151
+            "amount": 235
           },
           {
             "score": 70,
-            "amount": 426
+            "amount": 647
           },
           {
             "score": 80,
-            "amount": 630
+            "amount": 947
           },
           {
             "score": 90,
-            "amount": 618
+            "amount": 866
           },
           {
             "score": 100,
-            "amount": 401
+            "amount": 578
           }
         ]
       }

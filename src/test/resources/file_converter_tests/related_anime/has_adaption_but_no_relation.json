@@ -9,6 +9,7 @@
         "native": "\u65b0\u767d\u96ea\u59eb\u4f1d\u8aac\u30d7\u30ea\u30fc\u30c6\u30a3\u30a2"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/100-7OrYM39mGaom.jpg",
@@ -24,6 +25,7 @@
       },
       "description": "A sixteen year old girl is struggling to adjust to a new step-family when seven guys appear on the scene revealing that she possesses a special magical power. Shying away from the strange group, she later joins them when a monster places her friend's life in jeopardy. Without training, she must prove herself capable to take up the sacred duty of the Pretear. They must resolve their differences and work together to defeat the evil princess intent on destruction. <br><br>\n(Source: FUNimation) ",
       "season": "SPRING",
+      "seasonYear": 2001,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
@@ -41,20 +43,22 @@
       "synonyms": [],
       "source": "MANGA",
       "isAdult": false,
-      "meanScore": 67,
+      "isLocked": false,
+      "meanScore": 66,
       "averageScore": 66,
-      "popularity": 2975,
-      "favourites": 30,
+      "popularity": 5599,
+      "favourites": 65,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 281,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 31248,
               "title": {
@@ -63,6 +67,7 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/1248.jpg"
               }
@@ -70,7 +75,7 @@
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 21614,
@@ -79,22 +84,21 @@
               {
                 "id": 100246,
                 "name": {
-                  "first": "Sayuri",
-                  "last": "Yoshida"
+                  "full": "Sayuri Yoshida"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5246.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100246-24bKnOMquJaT.png"
                 }
               }
             ],
             "node": {
               "id": 545,
               "name": {
-                "first": "Himeno",
-                "last": "Awayuki"
+                "full": "Himeno Awayuki"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/545.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b545-LLpirnb38dQB.png"
               }
             }
           },
@@ -105,19 +109,18 @@
               {
                 "id": 95097,
                 "name": {
-                  "first": "Kousuke",
-                  "last": "Toriumi"
+                  "full": "Kousuke Toriumi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95097-2mrv5eKymDgR.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95097-BhSegy6KBLbE.png"
                 }
               }
             ],
             "node": {
               "id": 546,
               "name": {
-                "first": "Hayate",
-                "last": null
+                "full": "Hayate"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/546.jpg"
@@ -131,22 +134,21 @@
               {
                 "id": 95079,
                 "name": {
-                  "first": "Takahiro",
-                  "last": "Sakurai"
+                  "full": "Takahiro Sakurai"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-8pPLkBqFtPnE.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-EQ1nAsUh11Y2.png"
                 }
               }
             ],
             "node": {
               "id": 547,
               "name": {
-                "first": "Sasame",
-                "last": null
+                "full": "Sasame"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/547.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b547-1weguDMB0JCe.png"
               }
             }
           },
@@ -157,22 +159,21 @@
               {
                 "id": 95028,
                 "name": {
-                  "first": "Yui",
-                  "last": "Horie"
+                  "full": "Yui Horie"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-UCWwNd4715Mu.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95028-RevZP52ibrne.png"
                 }
               }
             ],
             "node": {
               "id": 553,
               "name": {
-                "first": "Takako",
-                "last": null
+                "full": "Takako"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/553.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b553-bUezQ0aiVvzW.png"
               }
             }
           },
@@ -183,9 +184,9 @@
               {
                 "id": 101145,
                 "name": {
-                  "first": "Makoto",
-                  "last": "Naruse"
+                  "full": "Makoto Naruse"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6145.jpg"
                 }
@@ -194,11 +195,10 @@
             "node": {
               "id": 548,
               "name": {
-                "first": "Kei",
-                "last": null
+                "full": "Kei"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/548.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b548-Ep9ioJ6ZmpN8.png"
               }
             }
           },
@@ -209,28 +209,27 @@
               {
                 "id": 95178,
                 "name": {
-                  "first": "Shoutarou",
-                  "last": "Morikubo"
+                  "full": "Shoutarou Morikubo"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95178-k8kPRRBPyLBc.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95178-8R9Itg3Y1v24.png"
                 }
               }
             ],
             "node": {
               "id": 549,
               "name": {
-                "first": "Goh",
-                "last": null
+                "full": "Goh"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/549.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b549-Kz9iTOs9jU5u.png"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 579,
@@ -238,11 +237,11 @@
             "node": {
               "id": 95079,
               "name": {
-                "first": "Takahiro",
-                "last": "Sakurai"
+                "full": "Takahiro Sakurai"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-8pPLkBqFtPnE.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95079-EQ1nAsUh11Y2.png"
               }
             }
           },
@@ -252,11 +251,11 @@
             "node": {
               "id": 95097,
               "name": {
-                "first": "Kousuke",
-                "last": "Toriumi"
+                "full": "Kousuke Toriumi"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/95097-2mrv5eKymDgR.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95097-BhSegy6KBLbE.png"
               }
             }
           },
@@ -266,9 +265,9 @@
             "node": {
               "id": 97837,
               "name": {
-                "first": "Kaori",
-                "last": "Naruse"
+                "full": "Kaori Naruse"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
@@ -280,9 +279,9 @@
             "node": {
               "id": 99002,
               "name": {
-                "first": "Junichi",
-                "last": "Satou"
+                "full": "Junichi Satou"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n99002-nigbktOoWgUE.png"
               }
@@ -294,9 +293,9 @@
             "node": {
               "id": 99002,
               "name": {
-                "first": "Junichi",
-                "last": "Satou"
+                "full": "Junichi Satou"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n99002-nigbktOoWgUE.png"
               }
@@ -308,11 +307,11 @@
             "node": {
               "id": 99801,
               "name": {
-                "first": "Hiroyuki",
-                "last": "Kawasaki"
+                "full": "Hiroyuki Kawasaki"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/4801.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n99801-0Gcp33ytxWND.png"
               }
             }
           },
@@ -322,11 +321,11 @@
             "node": {
               "id": 100246,
               "name": {
-                "first": "Sayuri",
-                "last": "Yoshida"
+                "full": "Sayuri Yoshida"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5246.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100246-24bKnOMquJaT.png"
               }
             }
           },
@@ -336,9 +335,9 @@
             "node": {
               "id": 100315,
               "name": {
-                "first": "Yuu",
-                "last": "Kou"
+                "full": "Yuu Kou"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5315.jpg"
               }
@@ -385,13 +384,16 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 1
+        },
         "nodes": [
           {
             "id": 3718,
             "summary": "An imperfect thing that every magical girl fan should give a chance.",
-            "rating": 7,
-            "ratingAmount": 7,
+            "rating": 9,
+            "ratingAmount": 9,
             "user": {
               "id": 204707,
               "name": "doodlemancy",
@@ -402,10 +404,117 @@
           }
         ]
       },
+      "recommendations": {
+        "pageInfo": {
+          "total": 4
+        },
+        "nodes": [
+          {
+            "id": 6728,
+            "rating": 4,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 721,
+              "title": {
+                "userPreferred": "Princess Tutu"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/721-VMX8ADMCHTMJ.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx721-yuQXUgrLoQ96.jpg"
+              }
+            },
+            "user": {
+              "id": 117432,
+              "name": "wonstein",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b117432-MEDi9SN6ahis.png"
+              }
+            }
+          },
+          {
+            "id": 14373,
+            "rating": 2,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21462,
+              "title": {
+                "userPreferred": "Bishoujo Senshi Sailor Moon: Crystal - Death Busters-hen"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21462-BJPi43k93pAn.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21462-bRbgZYf4Sgxj.jpg"
+              }
+            },
+            "user": {
+              "id": 46366,
+              "name": "kitt",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b46366-jDF8LIzr8b3a.png"
+              }
+            }
+          },
+          {
+            "id": 16546,
+            "rating": 2,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 530,
+              "title": {
+                "userPreferred": "Bishoujo Senshi Sailor Moon"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/530.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx530-DsF6LirJUEii.jpg"
+              }
+            },
+            "user": {
+              "id": 46366,
+              "name": "kitt",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b46366-jDF8LIzr8b3a.png"
+              }
+            }
+          },
+          {
+            "id": 38023,
+            "rating": 0,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 4551,
+              "title": {
+                "userPreferred": "Hakushaku to Yousei"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/4551.jpg"
+              }
+            },
+            "user": {
+              "id": 536465,
+              "name": "Delmy",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b536465-MiIzBzXpCcVF.jpg"
+              }
+            }
+          }
+        ]
+      },
       "externalLinks": [
         {
           "site": "Funimation",
-          "url": "http:\/\/www.funimation.com\/shows\/pretear\/videos\/episodes"
+          "url": "http:\/\/www.funimation.com\/shows\/pretear\/"
         },
         {
           "site": "Hulu",
@@ -499,8 +608,8 @@
       "trailer": null,
       "rankings": [
         {
-          "id": 1736,
-          "rank": 24,
+          "id": 1798,
+          "rank": 25,
           "type": "RATED",
           "format": "TV",
           "year": 2001,
@@ -509,8 +618,8 @@
           "context": "highest rated"
         },
         {
-          "id": 1792,
-          "rank": 15,
+          "id": 1861,
+          "rank": 17,
           "type": "POPULAR",
           "format": "TV",
           "year": 2001,
@@ -529,14 +638,6 @@
           "isGeneralSpoiler": false
         },
         {
-          "id": 53,
-          "name": "Shoujo",
-          "description": "Target demographic is teenage and young adult females.",
-          "rank": 79,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
           "id": 99,
           "name": "Henshin",
           "description": "Prominently features character or costume transformations which often grant special abilities.",
@@ -546,17 +647,17 @@
         },
         {
           "id": 123,
-          "name": "Reverse Harem",
-          "description": "Main cast features one female character plus several male characters who are romantically interested in her.",
+          "name": "Male Harem",
+          "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
           "rank": 79,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 98,
-          "name": "Female Protagonist",
-          "description": "Main character is female.",
-          "rank": 66,
+          "id": 249,
+          "name": "Maids",
+          "description": "Prominently features a character who is a maid.",
+          "rank": 70,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -569,11 +670,51 @@
           "isGeneralSpoiler": false
         },
         {
+          "id": 53,
+          "name": "Shoujo",
+          "description": "Target demographic is teenage and young adult females.",
+          "rank": 50,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 98,
+          "name": "Female Protagonist",
+          "description": "Main character is female.",
+          "rank": 50,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 40,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 87,
+          "name": "Family Life",
+          "description": "Centers around the activities of a family unit.",
+          "rank": 40,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
           "id": 139,
           "name": "Love Triangle",
           "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
           "rank": 33,
           "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 43,
+          "name": "Swordplay",
+          "description": "Prominently features the use of swords in combat.",
+          "rank": 20,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
       ],
@@ -582,65 +723,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 59
+            "amount": 132
           },
           {
             "status": "PLANNING",
-            "amount": 1267
+            "amount": 2332
           },
           {
             "status": "COMPLETED",
-            "amount": 1443
+            "amount": 2775
           },
           {
             "status": "DROPPED",
-            "amount": 118
+            "amount": 203
           },
           {
             "status": "PAUSED",
-            "amount": 88
+            "amount": 157
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 11
+            "amount": 22
           },
           {
             "score": 20,
-            "amount": 10
+            "amount": 17
           },
           {
             "score": 30,
-            "amount": 23
-          },
-          {
-            "score": 40,
             "amount": 44
           },
           {
+            "score": 40,
+            "amount": 82
+          },
+          {
             "score": 50,
-            "amount": 145
+            "amount": 259
           },
           {
             "score": 60,
-            "amount": 208
+            "amount": 384
           },
           {
             "score": 70,
-            "amount": 287
+            "amount": 471
           },
           {
             "score": 80,
-            "amount": 170
+            "amount": 297
           },
           {
             "score": 90,
-            "amount": 110
+            "amount": 190
           },
           {
             "score": 100,
-            "amount": 53
+            "amount": 103
           }
         ]
       }

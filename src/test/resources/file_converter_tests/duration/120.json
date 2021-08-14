@@ -3,12 +3,13 @@
     "Media": {
       "id": 100290,
       "title": {
-        "userPreferred": "Crayon Shin-chan Movie 25: Shuurai! Uchuujin Shiriri",
-        "romaji": "Crayon Shin-chan Movie 25: Shuurai! Uchuujin Shiriri",
-        "english": "Crayon Shin-chan Movie 25: Shuurai! Uchuujin Shiriri",
+        "userPreferred": "Crayon Shin-chan: Shuurai!! Uchuujin Shiriri",
+        "romaji": "Crayon Shin-chan: Shuurai!! Uchuujin Shiriri",
+        "english": null,
         "native": "\u6620\u753b \u30af\u30ec\u30e8\u30f3\u3057\u3093\u3061\u3083\u3093 \u8972\u6765!!\u5b87\u5b99\u4eba\u30b7\u30ea\u30ea"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100290-P4R8MUvxxwv2.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100290-P4R8MUvxxwv2.jpg"
       },
       "bannerImage": null,
@@ -22,8 +23,9 @@
         "month": 4,
         "day": 15
       },
-      "description": "The film's story begins when Shiriri, an alien, arrives and turns Hiroshi and Misae into children. To turn them back, Shinnosuke must travel the length of Japan with Shiriri hidden in his butt. Meanwhile, Shiriri's father is moving forward with a huge conspiracy.\n\n(Source: ANN)",
+      "description": "The film's story begins when Shiriri, an alien, arrives and turns Hiroshi and Misae into children. To turn them back, Shinnosuke must travel the length of Japan with Shiriri hidden in his butt. Meanwhile, Shiriri's father is moving forward with a huge conspiracy.\n\n\n<br><br>\n(Source: Anime News Network)",
       "season": "SPRING",
+      "seasonYear": 2017,
       "type": "ANIME",
       "format": "MOVIE",
       "status": "FINISHED",
@@ -34,23 +36,28 @@
       "genres": [
         "Comedy"
       ],
-      "synonyms": [],
+      "synonyms": [
+        "Crayon Shin-chan Movie 25",
+        "Shin-chan y kulETe el extraterrestre"
+      ],
       "source": "MANGA",
       "isAdult": false,
-      "meanScore": 69,
-      "averageScore": null,
-      "popularity": 134,
-      "favourites": 0,
+      "isLocked": false,
+      "meanScore": 68,
+      "averageScore": 62,
+      "popularity": 496,
+      "favourites": 2,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 21312,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 32435,
               "title": {
@@ -59,6 +66,7 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/32435-DefrPa6rbQrR.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/2435.jpg"
               }
@@ -75,17 +83,153 @@
               "format": "TV",
               "type": "ANIME",
               "status": "RELEASING",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/966-mrgCPWaq9Wtp.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/966.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b966-QUCdKAk4ls9J.jpg"
+              }
+            }
+          },
+          {
+            "id": 50638,
+            "relationType": "SEQUEL",
+            "node": {
+              "id": 103690,
+              "title": {
+                "userPreferred": "Crayon Shin-chan: Bakumori! Kung Fu Boys - Ramen Tairan"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx103690-zlhPdGJV63jB.jpg"
+              }
+            }
+          },
+          {
+            "id": 50639,
+            "relationType": "PREQUEL",
+            "node": {
+              "id": 100289,
+              "title": {
+                "userPreferred": "Crayon Shin-chan: Bakusui! Yumemi World Dai Totsugeki"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx100289-azWAQip0SRbc.jpg"
               }
             }
           }
         ]
       },
-      "characters": {
-        "edges": []
+      "characterPreview": {
+        "edges": [
+          {
+            "id": 322010,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95148,
+                "name": {
+                  "full": "Akiko Yajima"
+                },
+                "language": "JAPANESE",
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95148-JiNi79wg9ScS.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 2951,
+              "name": {
+                "full": "Shinnosuke Nohara"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/2951.jpg"
+              }
+            }
+          },
+          {
+            "id": 322013,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 96600,
+                "name": {
+                  "full": "Miki Narahashi"
+                },
+                "language": "JAPANESE",
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96600-v6elhY0JP2iR.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 7854,
+              "name": {
+                "full": "Misae Nohara"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/7854.jpg"
+              }
+            }
+          },
+          {
+            "id": 322012,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95470,
+                "name": {
+                  "full": "Satomi Koorogi"
+                },
+                "language": "JAPANESE",
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95470-xZYG14WGMlmS.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 7855,
+              "name": {
+                "full": "Himawari Nohara"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/7855.jpg"
+              }
+            }
+          },
+          {
+            "id": 322011,
+            "role": "MAIN",
+            "voiceActors": [
+              {
+                "id": 95063,
+                "name": {
+                  "full": "Keiji Fujiwara"
+                },
+                "language": "JAPANESE",
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95063-xAsEUzspuLMG.jpg"
+                }
+              }
+            ],
+            "node": {
+              "id": 33466,
+              "name": {
+                "full": "Hiroshi Nohara"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/33466.jpg"
+              }
+            }
+          }
+        ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 102979,
@@ -93,9 +237,9 @@
             "node": {
               "id": 111395,
               "name": {
-                "first": "Masakazu",
-                "last": "Hashimoto"
+                "full": "Masakazu Hashimoto"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16395.jpg"
               }
@@ -107,9 +251,9 @@
             "node": {
               "id": 111395,
               "name": {
-                "first": "Masakazu",
-                "last": "Hashimoto"
+                "full": "Masakazu Hashimoto"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16395.jpg"
               }
@@ -121,9 +265,9 @@
             "node": {
               "id": 111395,
               "name": {
-                "first": "Masakazu",
-                "last": "Hashimoto"
+                "full": "Masakazu Hashimoto"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/16395.jpg"
               }
@@ -135,11 +279,11 @@
             "node": {
               "id": 118513,
               "name": {
-                "first": "Wataru",
-                "last": "Takahashi"
+                "full": "Wataru Takahashi"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/23513.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118513-gybp7H53Qt4x.png"
               }
             }
           },
@@ -149,11 +293,11 @@
             "node": {
               "id": 116579,
               "name": {
-                "first": "Toshiyuki",
-                "last": "Arakawa"
+                "full": "Toshiyuki Arakawa"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n116579-1Ruaecn05EZR.jpg"
               }
             }
           },
@@ -163,9 +307,9 @@
             "node": {
               "id": 98293,
               "name": {
-                "first": "Yoshito",
-                "last": "Usui"
+                "full": "Yoshito Usui"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3293.jpg"
               }
@@ -177,11 +321,11 @@
             "node": {
               "id": 118516,
               "name": {
-                "first": "Shinji",
-                "last": "Kawaai"
+                "full": "Shinji Kawaai"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/23516.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118516-sqo39EQdLxvq.jpg"
               }
             }
           },
@@ -191,9 +335,9 @@
             "node": {
               "id": 117345,
               "name": {
-                "first": "Akira",
-                "last": "Ookuma"
+                "full": "Akira Ookuma"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
@@ -212,7 +356,16 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
+        "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
       },
       "externalLinks": [
@@ -225,8 +378,18 @@
       "trailer": null,
       "rankings": [
         {
-          "id": 14221,
-          "rank": 71,
+          "id": 15924,
+          "rank": 54,
+          "type": "RATED",
+          "format": "MOVIE",
+          "year": 2017,
+          "season": null,
+          "allTime": false,
+          "context": "highest rated"
+        },
+        {
+          "id": 16015,
+          "rank": 68,
           "type": "POPULAR",
           "format": "MOVIE",
           "year": 2017,
@@ -241,26 +404,67 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 2
+            "amount": 13
           },
           {
             "status": "PLANNING",
-            "amount": 62
+            "amount": 145
           },
           {
             "status": "COMPLETED",
-            "amount": 62
+            "amount": 306
           },
           {
             "status": "DROPPED",
-            "amount": 5
+            "amount": 20
           },
           {
             "status": "PAUSED",
-            "amount": 3
+            "amount": 12
           }
         ],
-        "scoreDistribution": []
+        "scoreDistribution": [
+          {
+            "score": 10,
+            "amount": 3
+          },
+          {
+            "score": 20,
+            "amount": 2
+          },
+          {
+            "score": 30,
+            "amount": 1
+          },
+          {
+            "score": 40,
+            "amount": 6
+          },
+          {
+            "score": 50,
+            "amount": 16
+          },
+          {
+            "score": 60,
+            "amount": 36
+          },
+          {
+            "score": 70,
+            "amount": 53
+          },
+          {
+            "score": 80,
+            "amount": 29
+          },
+          {
+            "score": 90,
+            "amount": 17
+          },
+          {
+            "score": 100,
+            "amount": 13
+          }
+        ]
       }
     }
   }

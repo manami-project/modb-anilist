@@ -9,9 +9,10 @@
         "native": "\u8072\u306e\u5f62"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/nx20954-RYEF5mWglzV8.png",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx20954-RYEF5mWglzV8.png"
       },
-      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20954-nxoAsLl8Iwya.jpg",
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20954-f30bHMXa5Qoe.jpg",
       "startDate": {
         "year": 2016,
         "month": 9,
@@ -22,38 +23,50 @@
         "month": 9,
         "day": 17
       },
-      "description": "I wish we had never met. I wish we could meet once again. A boy who can hear, Shoya Ishida, and a transfer student who can't, Shoko Nishimiya. One fateful day, the two meet, and Shoya leads the class in bullying Shoko. But before long, the class shifts its target from Shoko to Shoya. Years later, Shoya feels strongly that he must see Shoko once again.<br>\r\n<br>\r\n(Source: Crunchyroll)",
+      "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n<br><br>\n(Source: Eleven Arts)",
       "season": "SUMMER",
+      "seasonYear": 2016,
       "type": "ANIME",
       "format": "MOVIE",
       "status": "FINISHED",
       "episodes": 1,
-      "duration": 131,
+      "duration": 130,
       "chapters": null,
       "volumes": null,
       "genres": [
         "Drama",
-        "Romance"
+        "Romance",
+        "Slice of Life"
       ],
       "synonyms": [
-        "the shape of voice"
+        "The Shape of Voice",
+        "A Voz do Sil\u00eancio",
+        "A Forma da Voz",
+        "La Forma della Voce",
+        "\u05e6\u05d5\u05e8\u05ea\u05d5 \u05e9\u05dc \u05e7\u05d5\u05dc",
+        "\u58f0\u4e4b\u5f62",
+        "\u0627\u0644\u062d\u0632\u0646 \u0627\u0644\u0635\u0627\u0645\u062a",
+        "Una voz silenciosa",
+        "La Forme de la voix"
       ],
       "source": "MANGA",
       "isAdult": false,
-      "meanScore": 89,
-      "averageScore": 89,
-      "popularity": 72991,
-      "favourites": 6568,
+      "isLocked": false,
+      "meanScore": 88,
+      "averageScore": 88,
+      "popularity": 301430,
+      "favourites": 29157,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 25770,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 85135,
               "title": {
@@ -62,6 +75,7 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/85135-4YxrA800kBiZ.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx85135-11OOnyaqV71k.png"
               }
@@ -78,6 +92,7 @@
               "format": "MUSIC",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/107764-1qi026kn3jw0.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx107764-AOA6o9Pukejl.jpg"
               }
@@ -85,7 +100,7 @@
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 101166,
@@ -94,22 +109,21 @@
               {
                 "id": 95869,
                 "name": {
-                  "first": "Saori",
-                  "last": "Hayami"
+                  "full": "Saori Hayami"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95869-ywVBREdfbVHW.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95869-GhaqnZtJRAUj.png"
                 }
               }
             ],
             "node": {
               "id": 80243,
               "name": {
-                "first": "Shouko",
-                "last": "Nishimiya"
+                "full": "Shouko Nishimiya"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b80243-IulaT2p4MrKw.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b80243-RzxE51iUU5eq.png"
               }
             }
           },
@@ -120,22 +134,21 @@
               {
                 "id": 95088,
                 "name": {
-                  "first": "Miyu",
-                  "last": "Irino"
+                  "full": "Miyu Irino"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-kuBf7BA7I78P.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95088-dYaM22FZHCS2.png"
                 }
               }
             ],
             "node": {
               "id": 80491,
               "name": {
-                "first": "Shouya",
-                "last": "Ishida"
+                "full": "Shouya Ishida"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b80491-jYhoexGTPwT2.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b80491-NK6pxb6oH61P.png"
               }
             }
           },
@@ -146,19 +159,18 @@
               {
                 "id": 101686,
                 "name": {
-                  "first": "Aoi",
-                  "last": "Yuuki"
+                  "full": "Aoi Yuuki"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/101686-sJfpvFltMBlK.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101686-XqCSS8dHVEgQ.png"
                 }
               }
             ],
             "node": {
               "id": 89335,
               "name": {
-                "first": "Yuzuru",
-                "last": "Nishimiya"
+                "full": "Yuzuru Nishimiya"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b89335-3fy5a7Qa9h9J.jpg"
@@ -172,19 +184,18 @@
               {
                 "id": 114854,
                 "name": {
-                  "first": "Yuuki",
-                  "last": "Kaneko"
+                  "full": "Yuuki Kaneko"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/19854.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n114854-a7BtWf3b77U2.png"
                 }
               }
             ],
             "node": {
               "id": 124026,
               "name": {
-                "first": "Naoka",
-                "last": "Ueno"
+                "full": "Naoka Ueno"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/124026-KcQmX7heg7im.jpg"
@@ -198,19 +209,18 @@
               {
                 "id": 95003,
                 "name": {
-                  "first": "Satsuki",
-                  "last": "Yukino"
+                  "full": "Satsuki Yukino"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95003-RvHYI2ZWRjpk.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95003-Du7wb5JJzb8P.png"
                 }
               }
             ],
             "node": {
               "id": 124030,
               "name": {
-                "first": "Miyako",
-                "last": "Ishida"
+                "full": "Miyako Ishida"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/124030-YoZ0Drg5cHXX.jpg"
@@ -224,9 +234,9 @@
               {
                 "id": 124032,
                 "name": {
-                  "first": "Erena",
-                  "last": "Kamata"
+                  "full": "Erena Kamata"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/124032-qsEy6ekPVuS4.jpg"
                 }
@@ -235,8 +245,7 @@
             "node": {
               "id": 124031,
               "name": {
-                "first": "Maria",
-                "last": "Ishida"
+                "full": "Maria Ishida"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/124031-ErVGKjxFH56V.jpg"
@@ -245,7 +254,7 @@
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 53948,
@@ -253,11 +262,11 @@
             "node": {
               "id": 105951,
               "name": {
-                "first": "Yoshitoki",
-                "last": "Ooima"
+                "full": "Yoshitoki Ooima"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/10951.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105951-s6fagS5CkUWZ.png"
               }
             }
           },
@@ -267,11 +276,11 @@
             "node": {
               "id": 102498,
               "name": {
-                "first": "Naoko",
-                "last": "Yamada"
+                "full": "Naoko Yamada"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/102498-yyYRk73kvkTD.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n102498-Z57gPeSRJGar.png"
               }
             }
           },
@@ -281,9 +290,9 @@
             "node": {
               "id": 97076,
               "name": {
-                "first": "Reiko",
-                "last": "Yoshida"
+                "full": "Reiko Yoshida"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2076.jpg"
               }
@@ -295,11 +304,11 @@
             "node": {
               "id": 102729,
               "name": {
-                "first": "Futoshi",
-                "last": "Nishiya"
+                "full": "Futoshi Nishiya"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/7729.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n102729-jgRPcFd9knnL.jpg"
               }
             }
           },
@@ -309,9 +318,9 @@
             "node": {
               "id": 103091,
               "name": {
-                "first": "Mutsuo",
-                "last": "Shinohara"
+                "full": "Mutsuo Shinohara"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/103091-M6s8WhROlsyU.png"
               }
@@ -323,11 +332,11 @@
             "node": {
               "id": 102194,
               "name": {
-                "first": "Youta",
-                "last": "Tsuruoka"
+                "full": "Youta Tsuruoka"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/7194.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n102194-sNl1LjAzgxNe.png"
               }
             }
           },
@@ -337,11 +346,11 @@
             "node": {
               "id": 119254,
               "name": {
-                "first": "Kensuke",
-                "last": "Ushio"
+                "full": "Kensuke Ushio"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119254-eTuigYQ0wYuf.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119254-hhZUx62zZGlY.png"
               }
             }
           },
@@ -351,11 +360,11 @@
             "node": {
               "id": 125597,
               "name": {
-                "first": "Tatsuya",
-                "last": "Satou"
+                "full": "Tatsuya Satou"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n125597-DCFtuU61FsTp.png"
               }
             }
           }
@@ -369,34 +378,233 @@
               "id": 2,
               "name": "Kyoto Animation"
             }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6377,
+              "name": "ABC Animation"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 159,
+              "name": "Kodansha"
+            }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 39
+        },
         "nodes": [
           {
             "id": 3342,
             "summary": "The Shouya Ishida's redemption.",
-            "rating": 47,
-            "ratingAmount": 54,
+            "rating": 201,
+            "ratingAmount": 229,
             "user": {
               "id": 113175,
               "name": "BrianStorm",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b113175-1N4IjO64ndRS.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b113175-V7Yf5BSGxnBK.png"
               }
             }
           },
           {
-            "id": 2220,
-            "summary": "A heartfelt exploration of bullying, guilt, and isolation",
-            "rating": 30,
-            "ratingAmount": 67,
+            "id": 10562,
+            "summary": "\"We live in a world in which judgement is more important than getting to know that person\"",
+            "rating": 154,
+            "ratingAmount": 170,
             "user": {
-              "id": 30949,
-              "name": "Peng",
+              "id": 830051,
+              "name": "Deftera",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n30949-ajmzQkLu2UeS.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b830051-TnYmT5yvlyfb.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 55
+        },
+        "nodes": [
+          {
+            "id": 1370,
+            "rating": 2608,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21519,
+              "title": {
+                "userPreferred": "Kimi no Na wa."
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21519-1ayMXgNlmByb.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21519-XIr3PeczUjjF.png"
+              }
+            },
+            "user": {
+              "id": 3,
+              "name": "Removed",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/3.jpg"
+              }
+            }
+          },
+          {
+            "id": 1813,
+            "rating": 1016,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 99750,
+              "title": {
+                "userPreferred": "Kimi no Suizou wo Tabetai"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/99750-KPFW2Jv03b2B.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx99750-zadlgc0NMR46.jpg"
+              }
+            },
+            "user": {
+              "id": 251302,
+              "name": "TintouTenshi",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b251302-hf4vywzK38QG.png"
+              }
+            }
+          },
+          {
+            "id": 5221,
+            "rating": 565,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21827,
+              "title": {
+                "userPreferred": "Violet Evergarden"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21827-ROucgYiiiSpR.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx21827-10F6m50H4GJK.png"
+              }
+            },
+            "user": {
+              "id": 292585,
+              "name": "scrawny",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b292585-ejLceU430Deq.jpg"
+              }
+            }
+          },
+          {
+            "id": 10479,
+            "rating": 290,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20665,
+              "title": {
+                "userPreferred": "Shigatsu wa Kimi no Uso"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20665-j4kSsfhfkM24.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20665-CnzR2zVpdxtR.png"
+              }
+            },
+            "user": {
+              "id": 3,
+              "name": "Removed",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/3.jpg"
+              }
+            }
+          },
+          {
+            "id": 53599,
+            "rating": 174,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 113596,
+              "title": {
+                "userPreferred": "Josee to Tora to Sakanatachi"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/113596-8r3fCSFgQHIY.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx113596-LKA0bYJGjLnB.jpg"
+              }
+            },
+            "user": {
+              "id": 449691,
+              "name": "ElOtaku29",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b449691-kuo4mKiTJzkb.png"
+              }
+            }
+          },
+          {
+            "id": 2374,
+            "rating": 160,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21366,
+              "title": {
+                "userPreferred": "3-gatsu no Lion"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21366-0oGI0V0ouXxi.png",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21366-u3ksu16pivGg.png"
+              }
+            },
+            "user": {
+              "id": 149161,
+              "name": "Pascelle",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b149161-2BcByqfjdeWu.png"
+              }
+            }
+          },
+          {
+            "id": 2304,
+            "rating": 154,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20968,
+              "title": {
+                "userPreferred": "Kokoro ga Sakebitagatterun da."
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20968-1ChkqEXgFAmf.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20968-0zFVsoFUYjeh.jpg"
+              }
+            },
+            "user": {
+              "id": 151580,
+              "name": "Devil",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b151580-em3MbXNiH5y3.png"
               }
             }
           }
@@ -423,8 +631,8 @@
       },
       "rankings": [
         {
-          "id": 11216,
-          "rank": 1,
+          "id": 12648,
+          "rank": 2,
           "type": "RATED",
           "format": "MOVIE",
           "year": null,
@@ -433,7 +641,7 @@
           "context": "highest rated all time"
         },
         {
-          "id": 11517,
+          "id": 12948,
           "rank": 2,
           "type": "POPULAR",
           "format": "MOVIE",
@@ -443,7 +651,7 @@
           "context": "most popular all time"
         },
         {
-          "id": 13926,
+          "id": 15691,
           "rank": 1,
           "type": "RATED",
           "format": "MOVIE",
@@ -453,7 +661,7 @@
           "context": "highest rated"
         },
         {
-          "id": 13991,
+          "id": 15772,
           "rank": 2,
           "type": "POPULAR",
           "format": "MOVIE",
@@ -465,18 +673,18 @@
       ],
       "tags": [
         {
-          "id": 311,
-          "name": "Rehabilitation",
-          "description": "Prominently features the recovery of a character who became incapable of social life or work.",
-          "rank": 95,
+          "id": 171,
+          "name": "Bullying",
+          "description": "Prominently features the use of force for intimidation, often in a school setting.",
+          "rank": 94,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 171,
-          "name": "Bullying",
-          "description": "Prominently features the use of force for intimidation, often in a school setting.",
-          "rank": 93,
+          "id": 311,
+          "name": "Rehabilitation",
+          "description": "Prominently features the recovery of a character who became incapable of social life or work.",
+          "rank": 91,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -484,31 +692,7 @@
           "id": 516,
           "name": "Language Barrier",
           "description": "A barrier to communication between people who are unable to speak a common language.",
-          "rank": 85,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 46,
-          "name": "School",
-          "description": "Partly or completely set in a primary or secondary educational institution.",
-          "rank": 75,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 56,
-          "name": "Shounen",
-          "description": "Target demographic is teenage and young adult males.",
-          "rank": 75,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 82,
-          "name": "Male Protagonist",
-          "description": "Main character is male.",
-          "rank": 72,
+          "rank": 90,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -516,30 +700,102 @@
           "id": 102,
           "name": "Coming of Age",
           "description": "Centers around a character's transition from childhood to adulthood.",
-          "rank": 71,
+          "rank": 84,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 153,
-          "name": "Time Skip",
-          "description": "Features a gap in time used to advance the story.",
-          "rank": 57,
+          "id": 1046,
+          "name": "Suicide",
+          "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+          "rank": 81,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 391,
+          "name": "Philosophy",
+          "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+          "rank": 78,
           "isMediaSpoiler": false,
-          "isGeneralSpoiler": true
+          "isGeneralSpoiler": false
         },
         {
           "id": 85,
           "name": "Tragedy",
           "description": "Centers around tragic events and unhappy endings.",
-          "rank": 20,
+          "rank": 75,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": true
+        },
+        {
+          "id": 153,
+          "name": "Time Skip",
+          "description": "Features a gap in time used to advance the story.",
+          "rank": 75,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 74,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 46,
+          "name": "School",
+          "description": "Partly or completely set in a primary or secondary educational institution.",
+          "rank": 71,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 1045,
+          "name": "Heterosexual",
+          "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 98,
+          "name": "Female Protagonist",
+          "description": "Main character is female.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
         },
         {
           "id": 595,
           "name": "Urban",
           "description": "Partly or completely set in a city.",
+          "rank": 43,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 165,
+          "name": "Teacher",
+          "description": "Protagonist is an educator, usually in a school setting.",
+          "rank": 32,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 649,
+          "name": "Teens' Love",
+          "description": "Sexually explicit love-story between individuals of the opposite sex, specifically targeting females of teens and young adult age.",
+          "rank": 20,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 931,
+          "name": "Tomboy",
+          "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
           "rank": 20,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
@@ -550,65 +806,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 894
+            "amount": 3393
           },
           {
             "status": "PLANNING",
-            "amount": 12663
+            "amount": 36356
           },
           {
             "status": "COMPLETED",
-            "amount": 59082
+            "amount": 260560
           },
           {
             "status": "DROPPED",
-            "amount": 101
+            "amount": 413
           },
           {
             "status": "PAUSED",
-            "amount": 251
+            "amount": 708
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 125
+            "amount": 530
           },
           {
             "score": 20,
-            "amount": 50
+            "amount": 214
           },
           {
             "score": 30,
-            "amount": 105
+            "amount": 416
           },
           {
             "score": 40,
-            "amount": 211
+            "amount": 778
           },
           {
             "score": 50,
-            "amount": 495
+            "amount": 1862
           },
           {
             "score": 60,
-            "amount": 976
+            "amount": 4081
           },
           {
             "score": 70,
-            "amount": 2940
+            "amount": 11451
           },
           {
             "score": 80,
-            "amount": 6976
+            "amount": 28138
           },
           {
             "score": 90,
-            "amount": 14873
+            "amount": 58243
           },
           {
             "score": 100,
-            "amount": 18219
+            "amount": 68967
           }
         ]
       }

@@ -1,161 +1,194 @@
 {
   "data": {
     "Media": {
-      "id": 10323,
+      "id": 109731,
       "title": {
-        "userPreferred": "Golden Kids",
-        "romaji": "Golden Kids",
+        "userPreferred": "Hibike! Euphonium: Kumiko 3 Nensei-hen",
+        "romaji": "Hibike! Euphonium: Kumiko 3 Nensei-hen",
         "english": null,
-        "native": "\u30b4\u30fc\u30eb\u30c7\u30f3\u2605\u30ad\u30c3\u30ba"
+        "native": "\u97ff\u3051! \u30e6\u30fc\u30d5\u30a9\u30cb\u30a2\u30e0 \u4e45\u7f8e\u5b503\u5e74\u751f\u7de8"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10323.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx109731-D5mHKvbsmUvm.jpg",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx109731-D5mHKvbsmUvm.jpg"
       },
       "bannerImage": null,
       "startDate": {
-        "year": 2011,
-        "month": 1,
-        "day": 21
+        "year": null,
+        "month": null,
+        "day": null
       },
       "endDate": {
-        "year": 2011,
-        "month": 1,
-        "day": 21
+        "year": null,
+        "month": null,
+        "day": null
       },
-      "description": "The Koganedai Downtown FC Golden Kids haven't won a single game since they formed. The captain and goal keeper, Goal Kitagawa is determined to win a game with the current members before he moves away next month. However, even after all the determination to win the next game they lose terribly, extending their losing streak to 22 games. Even the adults in the community who support the team begin to get fed up with all the losses.<br><br>\nAt school, the constantly losing Golden Kids members start to get picked on and bullied, and the adults worry that the bullying will only get worse. When the team members become depressed and lose their will to play, they see Goal practicing outside, silently and as hard as he can. Once again, the Golden Kids start to practice intensely to get that one win. The next game for the Golden Kids will be against the second best team in the Jonan League, the Wild Tigers.<br><br>\nWill the Golden Kids finally get their first win ever? What will the adults decide to do with the team?<br><br>\n(Source: Official Website)",
-      "season": "WINTER",
+      "description": null,
+      "season": null,
+      "seasonYear": null,
       "type": "ANIME",
       "format": null,
-      "status": "FINISHED",
-      "episodes": 2,
-      "duration": 11,
+      "status": "NOT_YET_RELEASED",
+      "episodes": null,
+      "duration": null,
       "chapters": null,
       "volumes": null,
       "genres": [
-        "Sports"
+        "Drama",
+        "Music",
+        "Slice of Life"
       ],
-      "synonyms": [],
-      "source": null,
+      "synonyms": [
+        "Sound! Euphonium 3"
+      ],
+      "source": "NOVEL",
       "isAdult": false,
-      "meanScore": 33,
+      "isLocked": false,
+      "meanScore": null,
       "averageScore": null,
-      "popularity": 45,
-      "favourites": 0,
-      "hashtag": null,
+      "popularity": 4030,
+      "favourites": 15,
+      "hashtag": "#anime_eupho",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
-        "edges": []
-      },
-      "characters": {
-        "edges": []
-      },
-      "staff": {
         "edges": [
           {
-            "id": 4025,
-            "role": "Series Composition",
+            "id": 32835,
+            "relationType": "PREQUEL",
             "node": {
-              "id": 97076,
-              "name": {
-                "first": "Reiko",
-                "last": "Yoshida"
+              "id": 101992,
+              "title": {
+                "userPreferred": "Hibike! Euphonium: Chikai no Finale"
               },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2076.jpg"
-              }
-            }
-          },
-          {
-            "id": 7082,
-            "role": "Original Creator",
-            "node": {
-              "id": 98927,
-              "name": {
-                "first": "Yoichi",
-                "last": "Takahashi"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/3927.jpg"
-              }
-            }
-          },
-          {
-            "id": 18715,
-            "role": "Director",
-            "node": {
-              "id": 101952,
-              "name": {
-                "first": "Takayuki",
-                "last": "Hamana"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6952.jpg"
-              }
-            }
-          },
-          {
-            "id": 24272,
-            "role": "Character Design",
-            "node": {
-              "id": 103337,
-              "name": {
-                "first": "Jouji",
-                "last": "Sawada"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
-              }
-            }
-          },
-          {
-            "id": 40099,
-            "role": "Music",
-            "node": {
-              "id": 109739,
-              "name": {
-                "first": "Seikou",
-                "last": "Nagaoka"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/14739.jpg"
-              }
-            }
-          },
-          {
-            "id": 42457,
-            "role": "Sound Director",
-            "node": {
-              "id": 110943,
-              "name": {
-                "first": "Takuya",
-                "last": "Hiramitsu"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/15943.jpg"
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101992-ymVmRVjQC1hd.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101992-VZSoKfiRXscs.jpg"
               }
             }
           }
         ]
       },
-      "studios": {
+      "characterPreview": {
+        "edges": [
+          {
+            "id": 283788,
+            "role": "MAIN",
+            "voiceActors": [],
+            "node": {
+              "id": 88708,
+              "name": {
+                "full": "Kumiko Oumae"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b88708-FjmupOtpOZ2m.png"
+              }
+            }
+          }
+        ]
+      },
+      "staffPreview": {
         "edges": []
       },
-      "reviews": {
+      "studios": {
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 2,
+              "name": "Kyoto Animation"
+            }
+          }
+        ]
+      },
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
       },
-      "externalLinks": [],
+      "recommendations": {
+        "pageInfo": {
+          "total": 0
+        },
+        "nodes": []
+      },
+      "externalLinks": [
+        {
+          "site": "Twitter",
+          "url": "https:\/\/twitter.com\/anime_eupho"
+        },
+        {
+          "site": "Official Site",
+          "url": "http:\/\/www.anime-eupho.com\/"
+        }
+      ],
       "streamingEpisodes": [],
-      "trailer": null,
+      "trailer": {
+        "id": "w8Kyfk9Ff58",
+        "site": "youtube"
+      },
       "rankings": [],
       "tags": [
         {
-          "id": 46,
-          "name": "School",
-          "description": "Partly or completely set in a primary or secondary educational institution.",
-          "rank": 50,
+          "id": 110,
+          "name": "Band",
+          "description": "Main cast is a group of musicians.",
+          "rank": 97,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 265,
+          "name": "Musical",
+          "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
+          "rank": 96,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "description": "Centers around a character's transition from childhood to adulthood.",
+          "rank": 80,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 98,
+          "name": "Female Protagonist",
+          "description": "Main character is female.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 86,
+          "name": "Primarily Female Cast",
+          "description": "Main cast is mostly composed of female characters.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 84,
+          "name": "School Club",
+          "description": "Partly or completely set in a school club scene.",
+          "rank": 79,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 404,
+          "name": "College",
+          "description": "Partly or completely set in a college or university.",
+          "rank": 30,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -165,11 +198,11 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 3
+            "amount": 26
           },
           {
             "status": "PLANNING",
-            "amount": 23
+            "amount": 3972
           },
           {
             "status": "COMPLETED",
@@ -177,23 +210,14 @@
           },
           {
             "status": "DROPPED",
-            "amount": 6
+            "amount": 3
           },
           {
             "status": "PAUSED",
-            "amount": 0
+            "amount": 16
           }
         ],
-        "scoreDistribution": [
-          {
-            "score": 70,
-            "amount": 1
-          },
-          {
-            "score": 80,
-            "amount": 1
-          }
-        ]
+        "scoreDistribution": []
       }
     }
   }

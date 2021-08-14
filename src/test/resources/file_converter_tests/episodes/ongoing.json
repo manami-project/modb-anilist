@@ -9,9 +9,10 @@
         "native": "\u540d\u63a2\u5075\u30b3\u30ca\u30f3"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx235-1DSGhkPis9DU.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b235-ri5NBXkOBNq5.png",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b235-ri5NBXkOBNq5.png"
       },
-      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/235-N1aT5AObW56h.jpg",
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/235-MTmiz0uB0fMd.jpg",
       "startDate": {
         "year": 1996,
         "month": 1,
@@ -22,8 +23,9 @@
         "month": null,
         "day": null
       },
-      "description": "Kudo Shinichi is a seventeen year-old high school detective whom people call the \"Modern Sherlock Holmes.\" However, one night after a date with his childhood sweetheart, Ran, Shinichi witnessed an illegal trade and, caught off his guard, was knocked unconscious and fed a drug that was supposed to kill him... but he woke up and found himself shrunken to a seven year-old. In order to track down the men who did this to him, Shinichi hid his identity and lived with Ran, whose father happened to be a hopeless detective, and with that came a series of murders and mysteries that he must solve. <br><br>\r\n(Source: ANN)",
+      "description": "Kudo Shinichi is a seventeen year-old high school detective whom people call the \"Modern Sherlock Holmes.\" However, one night after a date with his childhood sweetheart, Ran, Shinichi witnessed an illegal trade and, caught off his guard, was knocked unconscious and fed a drug that was supposed to kill him... but he woke up and found himself shrunken to a seven year-old. In order to track down the men who did this to him, Shinichi hid his identity and lived with Ran, whose father happened to be a hopeless detective, and with that came a series of murders and mysteries that he must solve. <br><br>\n(Source: Anime News Network)",
       "season": "WINTER",
+      "seasonYear": 1996,
       "type": "ANIME",
       "format": "TV",
       "status": "RELEASING",
@@ -39,28 +41,34 @@
       ],
       "synonyms": [
         "Detective Conan",
-        "Detectiu Conan"
+        "Detectiu Conan",
+        "\u05d4\u05d1\u05dc\u05e9 \u05e7\u05d5\u05e0\u05d0\u05df",
+        "Detektyw Conan",
+        "\u0627\u0644\u0645\u062d\u0642\u0642 \u0643\u0648\u0646\u0627\u0646",
+        "\u540d\u4fa6\u63a2\u67ef\u5357"
       ],
       "source": "MANGA",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 81,
-      "averageScore": 80,
-      "popularity": 14435,
-      "favourites": 806,
+      "averageScore": 81,
+      "popularity": 36575,
+      "favourites": 2409,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": {
-        "airingAt": 1570838400,
-        "timeUntilAiring": 27674,
-        "episode": 957
+        "airingAt": 1629536400,
+        "timeUntilAiring": 603789,
+        "episode": 1016
       },
       "relations": {
         "edges": [
           {
             "id": 552,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 31061,
               "title": {
@@ -69,8 +77,9 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "RELEASING",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/31061-8B0bkCBwJ27O.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/1061.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx31061-SJQb7931MG7m.jpg"
               }
             }
           },
@@ -80,13 +89,14 @@
             "node": {
               "id": 779,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 01: Tokei Jikake no Matenrou"
+                "userPreferred": "Meitantei Conan: Tokei Jikake no Matenrou"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n779-6gM60BQ03PQZ.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/779-djFFvPQ7WPSU.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx779-xc5cHSos8DKn.png"
               }
             }
           },
@@ -96,13 +106,14 @@
             "node": {
               "id": 780,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 02: Juuyonbanme no Target"
+                "userPreferred": "Meitantei Conan: Juuyonbanme no Target"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n780-QYieD3ITbwFE.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b780-pV425CT2foRb.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b780-pQjcPV4CTyu9.png"
               }
             }
           },
@@ -112,13 +123,14 @@
             "node": {
               "id": 781,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 03: Seikimatsu no Majutsushi"
+                "userPreferred": "Meitantei Conan: Seikimatsu no Majutsushi"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n781-p47e6Uf1RG6d.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b781-8DYtzZ19pTGl.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx781-eL66Osy1ayd4.png"
               }
             }
           },
@@ -128,13 +140,14 @@
             "node": {
               "id": 1363,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 04: Hitomi no Naka no Ansatsusha"
+                "userPreferred": "Meitantei Conan: Hitomi no Naka no Ansatsusha"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1363-hxnw2eaaPdm9.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1363-KeaIofC3kYaZ.png"
               }
             }
           },
@@ -144,13 +157,14 @@
             "node": {
               "id": 1364,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 05: Tengoku e no Count Down"
+                "userPreferred": "Meitantei Conan: Tengoku e no Count Down"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1364-o3fX41WnE9Di.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1364-tlZLDeDo8W0z.jpg"
               }
             }
           },
@@ -160,13 +174,14 @@
             "node": {
               "id": 1365,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 06: Baker Street no Bourei"
+                "userPreferred": "Meitantei Conan: Baker Street no Bourei"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1365-tGC9j3DyXC1y.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1365-FLEpMCC8Ghhk.jpg"
               }
             }
           },
@@ -176,13 +191,14 @@
             "node": {
               "id": 1366,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 07: Meikyuu no Crossroad"
+                "userPreferred": "Meitantei Conan: Meikyuu no Crossroad"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1366-HagxGRQPfiHk.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1366-76LNoYLEqaxv.jpg"
               }
             }
           },
@@ -192,13 +208,14 @@
             "node": {
               "id": 1367,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 08: Ginyoku no Magician"
+                "userPreferred": "Meitantei Conan: Ginyoku no Magician"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1367.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1367-cJLBjSfqBmRY.jpg"
               }
             }
           },
@@ -208,13 +225,14 @@
             "node": {
               "id": 1505,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 09: Suihei Senjou no Sutoratejii"
+                "userPreferred": "Meitantei Conan: Suihei Senjou no Sutoratejii"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1505.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1505-mPnLTIuwpG4l.jpg"
               }
             }
           },
@@ -224,13 +242,14 @@
             "node": {
               "id": 1506,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 10: Tantei-tachi no Requiem"
+                "userPreferred": "Meitantei Conan: Tantei-tachi no Requiem"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1506.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b1506-EHhN6loLBaau.jpg"
               }
             }
           },
@@ -240,13 +259,14 @@
             "node": {
               "id": 2171,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 11: Konpeki no Hitsugi (Jolly Roger)"
+                "userPreferred": "Meitantei Conan: Konpeki no Hitsugi (Jolly Roger)"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b2171-59aWkHifA148.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx2171-WiAcCpinTRvs.jpg"
               }
             }
           },
@@ -256,11 +276,12 @@
             "node": {
               "id": 2512,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 02: 16 Nin no Yougisha"
+                "userPreferred": "Meitantei Conan: 16 Nin no Yougisha"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/2512.jpg"
               }
@@ -272,11 +293,12 @@
             "node": {
               "id": 2515,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 05: Hyouteki wa Kogoro! Shounen Tanteidan Maruchichousa"
+                "userPreferred": "Meitantei Conan: Hyouteki wa Kogoro! Shounen Tanteidan Maruchichousa"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/2515.jpg"
               }
@@ -288,11 +310,12 @@
             "node": {
               "id": 2597,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 07: Agasa-sensei no Chousenjou! Agasa vs Conan & Shounen Tanteidan"
+                "userPreferred": "Meitantei Conan: Agasa-sensei no Chousenjou! Agasa vs Conan & Shounen Tanteidan"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/2597.jpg"
               }
@@ -304,13 +327,14 @@
             "node": {
               "id": 4447,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 12: Senritsu no Gakufu (Full Score)"
+                "userPreferred": "Meitantei Conan: Senritsu no Gakufu (Full Score)"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b4447-eBKdhcP0SiDY.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx4447-aztQrCRbw1OK.jpg"
               }
             }
           },
@@ -325,8 +349,9 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/5348.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b5348-tE3vO3tcPVcR.jpg"
               }
             }
           },
@@ -336,13 +361,14 @@
             "node": {
               "id": 5460,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 13: Shikkoku no Chaser"
+                "userPreferred": "Meitantei Conan: Shikkoku no Chaser"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5460-kiCIYOCQzDRj.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5460-z2qeEVBe01dW.jpg"
               }
             }
           },
@@ -354,9 +380,10 @@
               "title": {
                 "userPreferred": "Lupin III vs. Meitantei Conan"
               },
-              "format": "MOVIE",
+              "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6115.jpg"
               }
@@ -368,11 +395,12 @@
             "node": {
               "id": 6198,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 08: Joshi Kousein Tantei Suzuki Sonoko no Jikenbo"
+                "userPreferred": "Meitantei Conan: Joshi Kousein Tantei Suzuki Sonoko no Jikenbo"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6198.jpg"
               }
@@ -389,6 +417,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6231.jpg"
               }
@@ -400,11 +429,12 @@
             "node": {
               "id": 6438,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 09: 10 Nengo no Stranger"
+                "userPreferred": "Meitantei Conan: 10 Nengo no Stranger"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6438.jpg"
               }
@@ -416,13 +446,14 @@
             "node": {
               "id": 6467,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 14: Tenkuu no Lost Ship"
+                "userPreferred": "Meitantei Conan: Tenkuu no Lost Ship"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6467.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx6467-P24FJYtNRpyE.jpg"
               }
             }
           },
@@ -437,6 +468,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/8331.jpg"
               }
@@ -448,11 +480,12 @@
             "node": {
               "id": 8609,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 10: Kid in Trap Island"
+                "userPreferred": "Meitantei Conan: Kid in Trap Island"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/8609.jpg"
               }
@@ -464,13 +497,14 @@
             "node": {
               "id": 9963,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 15: Chinmoku no Quarter"
+                "userPreferred": "Meitantei Conan: Chinmoku no Quarter"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/9963.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx9963-U5oy6aGrpTch.jpg"
               }
             }
           },
@@ -485,6 +519,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10531.jpg"
               }
@@ -496,11 +531,12 @@
             "node": {
               "id": 7303,
               "title": {
-                "userPreferred": "Meitantei Conan: Kuro no Soshiki Tono Sesshoku"
+                "userPreferred": "Meitantei Conan: Kuro no Soshiki to Taiketsu no Rekishi"
               },
               "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/7303.jpg"
               }
@@ -512,13 +548,14 @@
             "node": {
               "id": 12117,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 16: 11 Nin-me no Striker"
+                "userPreferred": "Meitantei Conan: 11 Nin-me no Striker"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/12117.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx12117-wCtSIeqrMhTZ.jpg"
               }
             }
           },
@@ -528,13 +565,14 @@
             "node": {
               "id": 14735,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 17: Sekkai no Private Eye"
+                "userPreferred": "Meitantei Conan: Sekkai no Private Eye"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/14735.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx14735-RIyq7XzIIzcc.jpg"
               }
             }
           },
@@ -544,13 +582,14 @@
             "node": {
               "id": 20546,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 18: Ijigen no Sniper"
+                "userPreferred": "Meitantei Conan: Ijigen no Sniper"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20546-Wj4XuvzvuBRa.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20546-3etnJUBqpEdJ.jpg"
               }
             }
           },
@@ -565,6 +604,7 @@
               "format": "ONA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/20859.jpg"
               }
@@ -581,8 +621,9 @@
               "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/20878.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20878-p6VBv7uw1QFV.jpg"
               }
             }
           },
@@ -592,13 +633,14 @@
             "node": {
               "id": 21470,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 20: Junkoku no Nightmare"
+                "userPreferred": "Meitantei Conan: Junkoku no Nightmare"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21470-rL2cM130DLfc.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b21470-pwVGqO8K536I.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21470-huY2vyX3Ej2z.jpg"
               }
             }
           },
@@ -608,13 +650,14 @@
             "node": {
               "id": 21646,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 19: Gouka no Himawari"
+                "userPreferred": "Meitantei Conan: Gouka no Himawari"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n21646-5OEYC0jBD6n2.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b21646-lGfKGmb7Q3rT.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx21646-N6cVkCIx9KsP.jpg"
               }
             }
           },
@@ -624,13 +667,14 @@
             "node": {
               "id": 98222,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 21: Kara Kurenai Love Letter"
+                "userPreferred": "Meitantei Conan: Kara Kurenai Love Letter"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/98222-ZpgGg9E0KK8l.png",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b98222-azE72gzirW8F.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx98222-PT0Ob1qkGDUW.jpg"
               }
             }
           },
@@ -645,6 +689,7 @@
               "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/98604-5B3gvbsNmbf6.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx98604-rf0L8MoJ8FJB.jpg"
               }
@@ -656,11 +701,12 @@
             "node": {
               "id": 1368,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 06: Kieta Daiya wo Oe! Conan & Heiji VS Kid!"
+                "userPreferred": "Meitantei Conan: Kieta Daiya wo Oe! Conan & Heiji VS Kid!"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1368.jpg"
               }
@@ -672,13 +718,14 @@
             "node": {
               "id": 100653,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 22: Zero no Shikkounin"
+                "userPreferred": "Meitantei Conan: Zero no Shikkounin"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n100653-zxyI1eDBJjJz.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b100653-xPsgKNB4geOQ.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx100653-keuPmvVKDkhx.jpg"
               }
             }
           },
@@ -693,6 +740,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10828.jpg"
               }
@@ -709,6 +757,7 @@
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/13837.jpg"
               }
@@ -720,11 +769,12 @@
             "node": {
               "id": 10703,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 11: London kara no Maru Hi Shirei"
+                "userPreferred": "Meitantei Conan: London kara no Maru Hi Shirei"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10703.jpg"
               }
@@ -736,13 +786,14 @@
             "node": {
               "id": 13839,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 12: Excalibur no Kiseki"
+                "userPreferred": "Meitantei Conan: Excalibur no Kiseki"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/13839.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx13839-uYl1cuYtRZ8l.png"
               }
             }
           },
@@ -752,13 +803,14 @@
             "node": {
               "id": 106206,
               "title": {
-                "userPreferred": "Meitantei Conan Movie 23: Konjou no Fist "
+                "userPreferred": "Meitantei Conan: Konjou no Fist"
               },
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/106206-w7kU9ojcV3ls.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b106206-rg5b4EgfCoNw.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx106206-OPpExaXYKUAD.jpg"
               }
             }
           },
@@ -768,11 +820,12 @@
             "node": {
               "id": 2514,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 04: Conan to Kid to Crystal Mother"
+                "userPreferred": "Meitantei Conan: Conan to Kid to Crystal Mother"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/2514.jpg"
               }
@@ -784,11 +837,12 @@
             "node": {
               "id": 2513,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 03: Conan to Heiji to Kieta Shounen"
+                "userPreferred": "Meitantei Conan: Conan to Heiji to Kieta Shounen"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/2513.jpg"
               }
@@ -800,11 +854,12 @@
             "node": {
               "id": 1369,
               "title": {
-                "userPreferred": "Meitantei Conan OVA 01: Conan VS KID VS Yaiba"
+                "userPreferred": "Meitantei Conan: Conan VS KID VS Yaiba"
               },
               "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/1369.jpg"
               }
@@ -816,11 +871,12 @@
             "node": {
               "id": 9839,
               "title": {
-                "userPreferred": "Meitantei Conan: Kuro no Soshiki Tono Sesshoku"
+                "userPreferred": "Meitantei Conan: Kuro no Soshiki to no Sesshoku"
               },
               "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/9839.jpg"
               }
@@ -837,14 +893,100 @@
               "format": "ONA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10766.jpg"
+              }
+            }
+          },
+          {
+            "id": 37015,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 113653,
+              "title": {
+                "userPreferred": "Meitantei Conan: Hiiro no Dangan"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/113653-fBVZxVTxxNHv.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx113653-HY0suLnhIlA6.png"
+              }
+            }
+          },
+          {
+            "id": 39384,
+            "relationType": "CHARACTER",
+            "node": {
+              "id": 20790,
+              "title": {
+                "userPreferred": "Magic Kaito 1412"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20790-sOvsLAJ6x53e.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20790-yR5kJrai3zPg.jpg"
+              }
+            }
+          },
+          {
+            "id": 41727,
+            "relationType": "CHARACTER",
+            "node": {
+              "id": 8310,
+              "title": {
+                "userPreferred": "Magic Kaito"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/8310-FTCEpjqUw8Ao.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx8310-FfunDT6K2wZb.jpg"
+              }
+            }
+          },
+          {
+            "id": 55181,
+            "relationType": "SUMMARY",
+            "node": {
+              "id": 131770,
+              "title": {
+                "userPreferred": "Meitantei Conan: Hiiro no Fuzai Shoumei"
+              },
+              "format": "MOVIE",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx131770-thmn0mH6eDS7.jpg"
+              }
+            }
+          },
+          {
+            "id": 56508,
+            "relationType": "CHARACTER",
+            "node": {
+              "id": 31804,
+              "title": {
+                "userPreferred": "Magic Kaito"
+              },
+              "format": "MANGA",
+              "type": "MANGA",
+              "status": "RELEASING",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/31804-1WhK51E2pC6C.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx31804-5HYYxbsk3LWQ.jpg"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 4531,
@@ -853,58 +995,31 @@
               {
                 "id": 95024,
                 "name": {
-                  "first": "Minami",
-                  "last": "Takayama"
+                  "full": "Minami Takayama"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95024-u0dGs3Mv9tjS.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95024-qsZgGp8VHqMP.png"
                 }
               },
               {
                 "id": 95067,
                 "name": {
-                  "first": "Kappei",
-                  "last": "Yamaguchi"
+                  "full": "Kappei Yamaguchi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95067-xTpqEXiq2cqx.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95067-2bCjTVrnoOKT.png"
                 }
               }
             ],
             "node": {
               "id": 1742,
               "name": {
-                "first": "Conan",
-                "last": "Edogawa"
+                "full": "Conan Edogawa"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/1742-8MvUOg1bFXCR.png"
-              }
-            }
-          },
-          {
-            "id": 3016,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 95014,
-                "name": {
-                  "first": "Megumi",
-                  "last": "Hayashibara"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95014-VqxNuufY94V3.png"
-                }
-              }
-            ],
-            "node": {
-              "id": 1743,
-              "name": {
-                "first": "Ai",
-                "last": "Haibara"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/1743-hLxyOXW7vz88.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b1742-NiV278NBFOvZ.png"
               }
             }
           },
@@ -915,32 +1030,31 @@
               {
                 "id": 95113,
                 "name": {
-                  "first": "Rikiya",
-                  "last": "Koyama"
+                  "full": "Rikiya Koyama"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95113-GY6P0kJctxJi.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95113-z9eyYjTKSTX4.png"
                 }
               },
               {
                 "id": 95416,
                 "name": {
-                  "first": "Akira",
-                  "last": "Kamiya"
+                  "full": "Akira Kamiya"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95416-sSrOZQ2LihAD.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95416-8rk0Oq3ZXYjt.png"
                 }
               }
             ],
             "node": {
               "id": 1746,
               "name": {
-                "first": "Kogoro",
-                "last": "Mouri"
+                "full": "Kogoro Mouri"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/1746.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b1746-5I4sBSeXvCKP.png"
               }
             }
           },
@@ -951,9 +1065,9 @@
               {
                 "id": 95496,
                 "name": {
-                  "first": "Wakana",
-                  "last": "Yamazaki"
+                  "full": "Wakana Yamazaki"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95496-PAwWafRnHtEf.png"
                 }
@@ -962,79 +1076,101 @@
             "node": {
               "id": 1748,
               "name": {
-                "first": "Ran",
-                "last": "Mouri"
+                "full": "Ran Mouri"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b1748-0xY64sJJZNLt.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b1748-j3PdfbQruuOV.png"
               }
             }
           },
           {
-            "id": 37388,
-            "role": "MAIN",
+            "id": 3016,
+            "role": "SUPPORTING",
             "voiceActors": [
               {
-                "id": 95481,
+                "id": 95014,
                 "name": {
-                  "first": "Kenichi",
-                  "last": "Ogata"
+                  "full": "Megumi Hayashibara"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95481-Cct5FXkEsrcT.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95014-VqxNuufY94V3.png"
                 }
               }
             ],
             "node": {
-              "id": 4162,
+              "id": 1743,
               "name": {
-                "first": "Hiroshi",
-                "last": "Agasa"
+                "full": "Ai Haibara"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/4162.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b1743-yw1FloPUI7jO.png"
               }
             }
           },
           {
-            "id": 18674,
-            "role": "MAIN",
+            "id": 38091,
+            "role": "SUPPORTING",
             "voiceActors": [
               {
-                "id": 95517,
+                "id": 95497,
                 "name": {
-                  "first": "Yukiko",
-                  "last": "Iwai"
+                  "full": "Gara Takashima"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/517.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95497-PvyXyFS7vfXZ.jpg"
                 }
               }
             ],
             "node": {
-              "id": 4228,
+              "id": 1744,
               "name": {
-                "first": "Ayumi",
-                "last": "Yoshida"
+                "full": "Eri Kisaki"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/4228.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n1744-zyF9oTpV4bV6.jpg"
+              }
+            }
+          },
+          {
+            "id": 38925,
+            "role": "SUPPORTING",
+            "voiceActors": [
+              {
+                "id": 95518,
+                "name": {
+                  "full": "Ryou Horikawa"
+                },
+                "language": "JAPANESE",
+                "image": {
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95518-6VFuLBDEPjTa.png"
+                }
+              }
+            ],
+            "node": {
+              "id": 1745,
+              "name": {
+                "full": "Heiji Hattori"
+              },
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b1745-EleoviDvO7qh.jpg"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 1199,
-            "role": "ADR Director",
+            "role": "ADR Director (English)",
             "node": {
               "id": 95202,
               "name": {
-                "first": "Mike",
-                "last": "McFarland"
+                "full": "Mike McFarland"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/202.jpg"
               }
@@ -1042,13 +1178,13 @@
           },
           {
             "id": 1249,
-            "role": "Producer",
+            "role": "Producer (English)",
             "node": {
               "id": 95203,
               "name": {
-                "first": "Justin",
-                "last": "Cook"
+                "full": "Justin Cook"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95203-pLacWJ09D59h.png"
               }
@@ -1056,55 +1192,55 @@
           },
           {
             "id": 1444,
-            "role": "ADR Director",
+            "role": "ADR Director (English)",
             "node": {
               "id": 95253,
               "name": {
-                "first": "Christopher",
-                "last": "Sabat"
+                "full": "Christopher Sabat"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95253-1BIZru6ZnEQv.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95253-Z7Yqog73M7E8.png"
               }
             }
           },
           {
             "id": 1568,
-            "role": "ADR Director",
+            "role": "ADR Director (English)",
             "node": {
               "id": 95312,
               "name": {
-                "first": "Eric",
-                "last": "Vale"
+                "full": "Eric Vale"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95312-aP7iwH97sqpT.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95312-lixmVhwE8AXE.png"
               }
             }
           },
           {
             "id": 1871,
-            "role": "ADR Director",
+            "role": "ADR Director (English)",
             "node": {
               "id": 95472,
               "name": {
-                "first": "Colleen",
-                "last": "Clinkenbeard"
+                "full": "Colleen Clinkenbeard"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95472-F2i3kYUO0KbL.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95472-fznpewUW95vm.jpg"
               }
             }
           },
           {
             "id": 2734,
-            "role": "ADR Director",
+            "role": "ADR Director (English)",
             "node": {
               "id": 96138,
               "name": {
-                "first": "Chris",
-                "last": "Cason"
+                "full": "Chris Cason"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1138.jpg"
               }
@@ -1116,23 +1252,23 @@
             "node": {
               "id": 97804,
               "name": {
-                "first": "Gosho",
-                "last": "Aoyama"
+                "full": "Gosho Aoyama"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/2804.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n97804-eJvgBBsH8mdM.jpg"
               }
             }
           },
           {
             "id": 9689,
-            "role": "Executive Producer",
+            "role": "Executive Producer (English)",
             "node": {
               "id": 100316,
               "name": {
-                "first": "Gen",
-                "last": "Fukunaga"
+                "full": "Gen Fukunaga"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/5316.jpg"
               }
@@ -1153,7 +1289,7 @@
             "isMain": false,
             "node": {
               "id": 76,
-              "name": "Yomiuri Telecasting Corporation"
+              "name": "Yomiuri TV"
             }
           },
           {
@@ -1186,18 +1322,216 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 4
+        },
         "nodes": [
+          {
+            "id": 6109,
+            "summary": "Probably my favorite anime ever ",
+            "rating": 81,
+            "ratingAmount": 86,
+            "user": {
+              "id": 137721,
+              "name": "Holo",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b137721-JfvSoMrwMoLU.png"
+              }
+            }
+          },
           {
             "id": 4620,
             "summary": "Great story with great characters.",
-            "rating": 22,
-            "ratingAmount": 24,
+            "rating": 53,
+            "ratingAmount": 57,
             "user": {
               "id": 289650,
               "name": "Muke",
               "avatar": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b289650-ENuaSYkNLHUp.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 22
+        },
+        "nodes": [
+          {
+            "id": 1303,
+            "rating": 65,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 20790,
+              "title": {
+                "userPreferred": "Magic Kaito 1412"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/20790-sOvsLAJ6x53e.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx20790-yR5kJrai3zPg.jpg"
+              }
+            },
+            "user": {
+              "id": 145044,
+              "name": "Xemnas",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b145044-YDkRjsK3vcaN.jpg"
+              }
+            }
+          },
+          {
+            "id": 3212,
+            "rating": 40,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 8310,
+              "title": {
+                "userPreferred": "Magic Kaito"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/8310-FTCEpjqUw8Ao.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx8310-FfunDT6K2wZb.jpg"
+              }
+            },
+            "user": {
+              "id": 87028,
+              "name": "Mochizou",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b87028-BPLxcIJTmUKR.png"
+              }
+            }
+          },
+          {
+            "id": 9050,
+            "rating": 21,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 2076,
+              "title": {
+                "userPreferred": "Kindaichi Shounen no Jikenbo (TV)"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/2076-KnWNSODMRuVM.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx2076-GF5xATDcmvLC.png"
+              }
+            },
+            "user": {
+              "id": 175361,
+              "name": "DarknessLord",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b175361-WzFtYUDo5tPP.jpg"
+              }
+            }
+          },
+          {
+            "id": 12792,
+            "rating": 20,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1535,
+              "title": {
+                "userPreferred": "Death Note"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1535.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1535-lawCwhzhi96X.jpg"
+              }
+            },
+            "user": {
+              "id": 133944,
+              "name": "Kurosenkaku",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b133944-VBvtSY94Xztt.jpg"
+              }
+            }
+          },
+          {
+            "id": 47921,
+            "rating": 14,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1412,
+              "title": {
+                "userPreferred": "Lupin III"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1412-awKlaxacsLwL.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx1412-70kA9bzDoleV.jpg"
+              }
+            },
+            "user": {
+              "id": 395498,
+              "name": "Daphung",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b395498-DUFHAtZbLL7s.jpg"
+              }
+            }
+          },
+          {
+            "id": 55708,
+            "rating": 14,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 114124,
+              "title": {
+                "userPreferred": "Yuukoku no Moriarty"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/114124-44utnIatIX16.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx114124-def92qPuIVeK.jpg"
+              }
+            },
+            "user": {
+              "id": 526661,
+              "name": "CamTheCritic",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b526661-Tonlj0dGtrwj.jpg"
+              }
+            }
+          },
+          {
+            "id": 9010,
+            "rating": 12,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 407,
+              "title": {
+                "userPreferred": "Tantei Gakuen Q"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/407-OfInblist1dh.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx407-W9afaUJfEsoR.png"
+              }
+            },
+            "user": {
+              "id": 97630,
+              "name": "Morimasa",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n97630-8OyBpklMuZf2.png"
               }
             }
           }
@@ -1209,19 +1543,365 @@
           "url": "http:\/\/www.crunchyroll.com\/case-closed"
         },
         {
-          "site": "Funimation",
-          "url": "http:\/\/www.funimation.com\/shows\/case-closed\/videos\/episodes"
-        },
-        {
           "site": "Hulu",
           "url": "http:\/\/www.hulu.com\/case-closed"
         },
         {
           "site": "Netflix",
           "url": "http:\/\/www.netflix.com\/title\/80090370"
+        },
+        {
+          "site": "Official Site",
+          "url": "https:\/\/www.ytv.co.jp\/conan\/"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/G6JQVM3ER\/Case-Closed"
         }
       ],
       "streamingEpisodes": [
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1012 - Picking Wild Plants and Clovers (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/5153b924a46b1d9b8211f7fa61897b9a1626485635_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1012-picking-wild-plants-and-clovers-part-two-812416"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1011 - Picking Wild Plants and Clovers (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/c5aef59c3f97538a4a81ab4e325abf111625899742_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1011-picking-wild-plants-and-clovers-part-one-812415"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1010 - The Idol Whose Smile Disappeared",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/080d6da9346d5b3631cdf01ba720bcb61624670135_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1010-the-idol-whose-smile-disappeared-812414"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1009 - The Lost Article That Smells Like a Case",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/c04dca8d618ad0a743c77a1a0a95f2161624066186_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1009-the-lost-article-that-smells-like-a-case-812413"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1008 - Out For Revenge (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/264baed8016d80d496070dea6c33c1491623460219_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1008-out-for-revenge-part-two-812412"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1007 - Out For Revenge (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/ce3581a15401435fe5ab08c0976574de1622858871_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1007-out-for-revenge-part-one-812411"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1006 - Who Poisoned the Victim?",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/82ab79e00a79b9e6185d8a887e83d4301621044425_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1006-who-poisoned-the-victim-811251"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1005 - The 36-Cell Perfect Game (Part Three)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/0417f1183bd2bc02cf53494a185f2ed31620435921_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1005-the-36-cell-perfect-game-part-three-811250"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1004 - The 36-Cell Perfect Game (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/7c2e4213a30f1d777d44575ff3005fd71619823123_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1004-the-36-cell-perfect-game-part-two-811249"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1003 - The 36-Cell Perfect Game (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/bdfaadf7421f6169e85d887d159da0551619218330_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1003-the-36-cell-perfect-game-part-one-811248"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1002 - The Beika City Shopping Center Garbage Bin Mystery",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/1ab1e7e0175273959d542de1876138441618615707_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1002-the-beika-city-shopping-center-garbage-bin-mystery-811247"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1001 - The Moonlight Sonata Murder (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/dbcfb394bf91dcb5f29f1f68ad7ed1601615626102_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1001-the-moonlight-sonata-murder-part-two-806909"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 1000 - The Moonlight Sonata Murder (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/95f635189baece1d350d4cfcb1314d611615024891_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-1000-the-moonlight-sonata-murder-part-one-806908"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 999 - Troublesome Kindness",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/9c1bb2089fbc8b472dac5aabc0680d481614409707_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-999-troublesome-kindness-806907"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 998 - The Frying Pan of Hatred",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/4cf77434782053a2f25a72afcc5054a01613806801_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-998-the-frying-pan-of-hatred-806906"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 997 - Intrigue at Smile Village",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/df8efeebc60b7abd51948d054d3689211613189565_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-997-intrigue-at-smile-village-806905"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 996 - The Skilled Hawk Hides His Crimes",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/308e53042cdfdb4faf70b0a4fee158601611969411_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-996-the-skilled-hawk-hides-his-crimes-801456"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 995 - Kyogoku Makoto the Understudy (Part Three)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/0c0b2936c9a5adfa05dfd24f1a0ea7db1611364409_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-995-kyogoku-makoto-the-understudy-part-three-801455"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 994 - Kyogoku Makoto the Understudy (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/9827009e695e1a871243ec7d8881dca81610757763_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-994-kyogoku-makoto-the-understudy-part-two-801454"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 993 - Kyogoku Makoto the Understudy (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/7a65047a3f487a21a04e448ea5de1c281610154600_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-993-kyogoku-makoto-the-understudy-part-one-801453"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 992 - Murder at the Townhouse Caf\u00e9",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/05f9260f06882f3b835606cfc3cd259c1608967698_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-992-murder-at-the-townhouse-caf-799659"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 991 - The Automatic Tragedy (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/7f530240562448bd2518e4779237f6991608371708_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-991-the-automatic-tragedy-part-two-799658"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 990 - The Automatic Tragedy (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/3e88faa4d222f9998dc7c89c344200201607721098_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-990-the-automatic-tragedy-part-one-799657"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 989 - The Case of Ayumi's Illustrated Diary",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/5e051bf1696b09328f64710e841a14f31607159450_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-989-the-case-of-ayumis-illustrated-diary-799656"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 988 - The Feuding Girls",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/13e995176757cc20e5683daac327f1531605326621_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-988-the-feuding-girls-798175"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 987 - The Company Dissolution Party",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/99ac5341bc6456c801172fde7eb77a571604740057_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-987-the-company-dissolution-party-798174"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 986 - The Two Faces (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/0efc8e945f67652bd42898044b519b161604135059_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-986-the-two-faces-part-two-798173"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 985 - The Two Faces (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/26d636c513c586a2c7d50c1aeea75df41603531829_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-985-the-two-faces-part-one-798172"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 984 - Kid vs. Komei: The Targeted Lips (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/62ee754d56397376cdb6c887c28478f21602315749_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-984-kid-vs-komei-the-targeted-lips-part-two-797808"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 983 - Kid vs. Komei the Targeted Lips (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/273c383bda399dc75cdf994a155792441601710238_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-983-kid-vs-komei-the-targeted-lips-part-one-797807"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 982 - Welcome to Bocchan Restaurant (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/b51f5c5020ca3c17307a0fcf63c44bb11601116314_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-982-welcome-to-bocchan-restaurant-part-two-797387"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 981 - Welcome to Bocchan Restaurant (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/445b39abd0f1d8e513fcb8f6a23bb4ec1600506971_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-981-welcome-to-bocchan-restaurant-part-one-797386"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 980 - An Encouragement of the Perfect Crime",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/422fc7c30f4aa2ac3a0872db456696431599294797_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-980-an-encouragement-of-the-perfect-crime-797385"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 979 - Leading a Detective Around By the Nose",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/5e54875e0e9d2275ac9dae501e76a4f51598695677_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-979-leading-a-detective-around-by-the-nose-795915"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 978 - The Case On the Opposite Shore",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/996450e685ea8bf562256a9b22f1c3891597462884_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-978-the-case-on-the-opposite-shore-795914"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 977 - The Broken Fishbowl",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/92c235a5ae72beed5a3c612a30b351ec1596261643_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-977-the-broken-fishbowl-795913"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 976 - Follow Them! Detective Taxi",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/7312a95bad1683c8d52ea8c94ecc0a441595068223_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-976-follow-them-detective-taxi-795912"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 975 - The Secret of the Search for His Wife",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/b01bc43300118e3734bd61dc97e4ac211593845476_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-975-the-secret-of-the-search-for-his-wife-795911"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 974 - MPD Transportation Department (Part Four)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/b5f49f62ce4c088ee9573e30253c818e1585381493_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-974-mpd-transportation-department-part-four-792566"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 973 - MPD Transportation Department (Part Three)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/ab0dc96498963f9a2a4822f58b2324d91584771017_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-973-mpd-transportation-department-part-three-792565"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 972 - MPD Transportation Department (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/16aa782cbd0a101ec9e72193b18136cc1584167228_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-972-mpd-transportation-department-part-two-792564"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 971 - MPD Transportation Department (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/1260634ba370683f6e85adccbb678ad31583549422_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-971-mpd-transportation-department-part-one-792563"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 970 - The Young Kaga Lady's Mystery Tour (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/16ea461493cc90f637334498e7dda0281582355166_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-970-the-young-kaga-ladys-mystery-tour-part-two-792562"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 969 - The Young Kaga Lady's Mystery Tour (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/1095997512f0c7ca9aad85c10d641a541581734329_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-969-the-young-kaga-ladys-mystery-tour-part-one-792561"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 968 - Kaiju Gomera VS Kamen Yaiba (Finale)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/d4e455bfca45a2a579461743a0f9d6ee1579941083_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-968-kaiju-gomera-vs-kamen-yaiba-finale-792560"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 967 - Kaiju Gomera VS Kamen Yaiba (Climax)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/fb6b7d6dd73cb651e27acafd2cea66801579332633_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-967-kaiju-gomera-vs-kamen-yaiba-climax-792559"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 966 - Kaiju Gomera VS Kamen Yaiba (Interlude)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/307554516d29f8682f4d9cce891e6d421578720252_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-966-kaiju-gomera-vs-kamen-yaiba-interlude-792558"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 965 - Kaiju Gomera VS Kamen Yaiba (Prologue)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/64fdeef561c8911b45713e78f6315f361578116597_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-965-kaiju-gomera-vs-kamen-yaiba-prologue-790030"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 964 - Mori Kogoro's Grand Lecture (Part Three)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/ffee8f568fbddbc93542a617d8d5467c1576923405_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-964-mori-kogoros-grand-lecture-part-three-790029"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 963 - Mori Kogoro's Grand Lecture (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/5475201265630ea106215645030e37281576305206_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-963-mori-kogoros-grand-lecture-part-two-790028"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 962 - Mori Kogoro's Grand Lecture (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/e138f04d5dec328feb561aace14231df1575699301_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-962-mori-kogoros-grand-lecture-part-one-790027"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 961 - The Glamping Mystery",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/d2519870994706904a89c7cd2dc604a01575104294_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-961-the-glamping-mystery-790026"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 960 - Miss Lonely and the Detective Boys",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/b1708929099b81ae7113cd7744c1ccf11574503818_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-960-miss-lonely-and-the-detective-boys-790025"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 959 - The Poodle and the Shotgun (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/b1fa657c1f21d5083f19e8cea528d8081573882300_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-959-the-poodle-and-the-shotgun-part-two-790024"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 958 - The Poodle and the Shotgun (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/8e212e81bf8e955013514b68e7a018621573282815_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-958-the-poodle-and-the-shotgun-part-one-790023"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 957 - The Mystery-Solving Water Taxi (Part Two)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/ac78f800547156a60a2b7b4844ac7b051571478633_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-957-the-mystery-solving-water-taxi-part-two-788590"
+        },
+        {
+          "site": "Crunchyroll",
+          "title": "Episode 956 - The Mystery-Solving Water Taxi (Part One)",
+          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/464e8b990bbf8fb46db24cf15794b1961570256358_full.jpg",
+          "url": "http:\/\/www.crunchyroll.com\/case-closed\/episode-956-the-mystery-solving-water-taxi-part-one-788589"
+        },
         {
           "site": "Crunchyroll",
           "title": "Episode 955 - The Secret of the Insect Man",
@@ -2438,8 +3118,8 @@
       "trailer": null,
       "rankings": [
         {
-          "id": 153,
-          "rank": 153,
+          "id": 157,
+          "rank": 157,
           "type": "RATED",
           "format": "TV",
           "year": null,
@@ -2448,7 +3128,7 @@
           "context": "highest rated all time"
         },
         {
-          "id": 1263,
+          "id": 1297,
           "rank": 1,
           "type": "RATED",
           "format": "TV",
@@ -2458,7 +3138,7 @@
           "context": "highest rated"
         },
         {
-          "id": 1292,
+          "id": 1331,
           "rank": 3,
           "type": "POPULAR",
           "format": "TV",
@@ -2470,18 +3150,26 @@
       ],
       "tags": [
         {
-          "id": 40,
-          "name": "Police",
-          "description": "Centers around the life and activities of law enforcement officers.",
-          "rank": 96,
+          "id": 694,
+          "name": "Detective",
+          "description": "Features a character who investigates and solves crimes.",
+          "rank": 100,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 82,
-          "name": "Male Protagonist",
-          "description": "Main character is male.",
-          "rank": 82,
+          "id": 310,
+          "name": "Espionage",
+          "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
+          "rank": 96,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 648,
+          "name": "Crime",
+          "description": "Centers around unlawful activities punishable by the state or other authority.",
+          "rank": 94,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -2489,31 +3177,23 @@
           "id": 456,
           "name": "Conspiracy",
           "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
-          "rank": 79,
+          "rank": 92,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
         {
-          "id": 310,
-          "name": "Espionage",
-          "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
-          "rank": 79,
-          "isMediaSpoiler": true,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 56,
-          "name": "Shounen",
-          "description": "Target demographic is teenage and young adult males.",
-          "rank": 77,
+          "id": 40,
+          "name": "Police",
+          "description": "Centers around the life and activities of law enforcement officers.",
+          "rank": 90,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 193,
-          "name": "Episodic",
-          "description": "Features story arcs that are loosely tied or lack an overarching plot.",
-          "rank": 77,
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 89,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -2521,7 +3201,47 @@
           "id": 488,
           "name": "Age Regression",
           "description": "Prominently features a character who was returned to a younger state.",
-          "rank": 68,
+          "rank": 86,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 193,
+          "name": "Episodic",
+          "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+          "rank": 76,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 72,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 140,
+          "name": "Educational",
+          "description": "Primary aim is to educate the audience.",
+          "rank": 55,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 105,
+          "name": "Ensemble Cast",
+          "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+          "rank": 53,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 1045,
+          "name": "Heterosexual",
+          "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+          "rank": 46,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -2529,15 +3249,39 @@
           "id": 158,
           "name": "Crossover",
           "description": "Centers around the placement of two or more otherwise discrete fictional characters, settings, or universes into the context of a single story.",
-          "rank": 57,
+          "rank": 43,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
         {
-          "id": 140,
-          "name": "Educational",
-          "description": "Primary aim is to educate the audience.",
-          "rank": 44,
+          "id": 30,
+          "name": "Martial Arts",
+          "description": "Centers around the use of traditional hand-to-hand combat.",
+          "rank": 33,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 335,
+          "name": "Tanned Skin",
+          "description": "Prominently features characters with tanned skin.",
+          "rank": 32,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 23,
+          "name": "Female Harem",
+          "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+          "rank": 30,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 115,
+          "name": "Idol",
+          "description": "Centers around the life and activities of an idol.",
+          "rank": 16,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -2547,65 +3291,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 5311
+            "amount": 12957
           },
           {
             "status": "PLANNING",
-            "amount": 2971
+            "amount": 9035
           },
           {
             "status": "COMPLETED",
-            "amount": 309
+            "amount": 1620
           },
           {
             "status": "DROPPED",
-            "amount": 2060
+            "amount": 4661
           },
           {
             "status": "PAUSED",
-            "amount": 3784
+            "amount": 8302
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 28
+            "amount": 83
           },
           {
             "score": 20,
-            "amount": 13
+            "amount": 32
           },
           {
             "score": 30,
-            "amount": 30
+            "amount": 69
           },
           {
             "score": 40,
-            "amount": 59
+            "amount": 131
           },
           {
             "score": 50,
-            "amount": 212
+            "amount": 402
           },
           {
             "score": 60,
-            "amount": 338
+            "amount": 709
           },
           {
             "score": 70,
-            "amount": 978
+            "amount": 1999
           },
           {
             "score": 80,
-            "amount": 1423
+            "amount": 3163
           },
           {
             "score": 90,
-            "amount": 1270
+            "amount": 2864
           },
           {
             "score": 100,
-            "amount": 1210
+            "amount": 2914
           }
         ]
       }

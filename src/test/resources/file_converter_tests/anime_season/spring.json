@@ -9,6 +9,7 @@
         "native": "\u9b3c\u6ec5\u306e\u5203"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx101922-PEn1CTc93blC.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101922-PEn1CTc93blC.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101922-YfZhKBUDDS6L.jpg",
@@ -22,8 +23,9 @@
         "month": 9,
         "day": 28
       },
-      "description": "Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjoy a relatively peaceful and happy life. One day, Tanjirou decides to go down to the local village to make a little money selling charcoal. On his way back, night falls, forcing Tanjirou to take shelter in the house of a strange man, who warns him of the existence of flesh-eating demons that lurk in the woods at night.\n<br><br>\nWhen he finally arrives back home the next day, he is met with a horrifying sight\u2014his whole family has been slaughtered. Worse still, the sole survivor is his sister Nezuko, who has been turned into a bloodthirsty demon. Consumed by rage and hatred, Tanjirou swears to avenge his family and stay by his only remaining sibling. Alongside the mysterious group calling themselves the Demon Slayer Corps, Tanjirou will do whatever it takes to slay the demons and protect the remnants of his beloved sister's humanity.\n<br><br>\n[Written by MAL Rewrite]",
+      "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a \u201cdemon slayer\u201d so that he can turn his sister back into a human, and kill the demon that massacred his family.<br>\n<br>\n(Source: Crunchyroll)",
       "season": "SPRING",
+      "seasonYear": 2019,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
@@ -34,32 +36,37 @@
       "genres": [
         "Action",
         "Adventure",
-        "Supernatural",
         "Drama",
         "Fantasy",
-        "Mystery"
+        "Supernatural"
       ],
       "synonyms": [
+        "KnY",
         "Kimetsu no Yaiba: Kyoudai no Kizuna",
         "Demon Slayer: Kimetsu no Yaiba: Bonds of Siblings",
-        "\u9b3c\u6ec5\u306e\u5203-\u5144\u59b9\u306e\u7d46-"
+        "\u9b3c\u6ec5\u306e\u5203-\u5144\u59b9\u306e\u7d46-",
+        "\u9b3c\u706d\u4e4b\u5203",
+        "\u05d4\u05dc\u05d4\u05d1 \u05e7\u05d5\u05d8\u05dc \u05d4\u05e9\u05d3\u05d9\u05dd",
+        "\u0642\u0627\u062a\u0644 \u0627\u0644\u0634\u064a\u0627\u0637\u064a\u0646"
       ],
       "source": "MANGA",
       "isAdult": false,
-      "meanScore": 86,
-      "averageScore": 86,
-      "popularity": 129546,
-      "favourites": 11357,
-      "hashtag": "#\u9b3c\u6ec5 #DemonSlayer",
+      "isLocked": false,
+      "meanScore": 85,
+      "averageScore": 85,
+      "popularity": 408212,
+      "favourites": 36253,
+      "hashtag": "#\u9b3c\u6ec5\u306e\u5203",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 23106,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 87216,
               "title": {
@@ -68,8 +75,9 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/87216-TVKEGfSxAqKs.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx87216-VN3Jo4AFR6e5.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx87216-c9bSNVD10UuD.png"
               }
             }
           },
@@ -83,15 +91,33 @@
               },
               "format": "MOVIE",
               "type": "ANIME",
-              "status": "NOT_YET_RELEASED",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/112151-eHCBz19nf2yC.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx112151-EQ2GdCpOLKCo.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx112151-1qlQwPB1RrJe.png"
+              }
+            }
+          },
+          {
+            "id": 52746,
+            "relationType": "CHARACTER",
+            "node": {
+              "id": 129627,
+              "title": {
+                "userPreferred": "Kimetsu Gakuen: Valentine-hen"
+              },
+              "format": "ONA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx129627-GiVeOqDUAqUC.png"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 171550,
@@ -100,9 +126,9 @@
               {
                 "id": 111635,
                 "name": {
-                  "first": "Natsuki",
-                  "last": "Hanae"
+                  "full": "Natsuki Hanae"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n111635-jL1n6ao0vMVq.png"
                 }
@@ -110,9 +136,9 @@
               {
                 "id": 101560,
                 "name": {
-                  "first": "Satomi",
-                  "last": "Satou"
+                  "full": "Satomi Satou"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101560-AEvjR7VjDMTI.png"
                 }
@@ -121,11 +147,10 @@
             "node": {
               "id": 126071,
               "name": {
-                "first": "Tanjirou",
-                "last": "Kamado"
+                "full": "Tanjirou Kamado"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126071-DEPUfKs1oWsp.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126071-BTNEc1nRIv68.png"
               }
             }
           },
@@ -136,9 +161,9 @@
               {
                 "id": 119722,
                 "name": {
-                  "first": "Akari",
-                  "last": "Kitou"
+                  "full": "Akari Kitou"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119722-WfAIkZZEZROB.png"
                 }
@@ -147,11 +172,10 @@
             "node": {
               "id": 127518,
               "name": {
-                "first": "Nezuko",
-                "last": "Kamado"
+                "full": "Nezuko Kamado"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127518-7b4XKjasQE29.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127518-NRlq1CQ1v1ro.png"
               }
             }
           },
@@ -162,9 +186,9 @@
               {
                 "id": 106817,
                 "name": {
-                  "first": "Yoshitsugu",
-                  "last": "Matsuoka"
+                  "full": "Yoshitsugu Matsuoka"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n106817-n8MHe49QJU3s.png"
                 }
@@ -173,8 +197,7 @@
             "node": {
               "id": 129130,
               "name": {
-                "first": "Inosuke",
-                "last": "Hashibira"
+                "full": "Inosuke Hashibira"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n129130-SJC0Kn1DU39E.jpg"
@@ -188,9 +211,9 @@
               {
                 "id": 95356,
                 "name": {
-                  "first": "Hiro",
-                  "last": "Shimono"
+                  "full": "Hiro Shimono"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95356-PFaZRlI9oJ56.png"
                 }
@@ -199,11 +222,10 @@
             "node": {
               "id": 129131,
               "name": {
-                "first": "Zenitsu",
-                "last": "Agatsuma"
+                "full": "Zenitsu Agatsuma"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129131-oSy6b121Hetw.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129131-FZrQ7lSlxmEr.png"
               }
             }
           },
@@ -214,9 +236,9 @@
               {
                 "id": 95129,
                 "name": {
-                  "first": "Toshihiko",
-                  "last": "Seki"
+                  "full": "Toshihiko Seki"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95129-AAL7kfwAPpgR.jpg"
                 }
@@ -225,11 +247,10 @@
             "node": {
               "id": 129132,
               "name": {
-                "first": "Muzan",
-                "last": "Kibutsuji"
+                "full": "Muzan Kibutsuji"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129132-rijE8icKGFr3.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129132-4nIZakUZ1o8W.jpg"
               }
             }
           },
@@ -240,9 +261,9 @@
               {
                 "id": 95245,
                 "name": {
-                  "first": "Satoshi",
-                  "last": "Hino"
+                  "full": "Satoshi Hino"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95245-BD9Y8rfAr8Cs.jpg"
                 }
@@ -251,8 +272,7 @@
             "node": {
               "id": 129133,
               "name": {
-                "first": "Kyoujurou",
-                "last": "Rengoku"
+                "full": "Kyoujurou Rengoku"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b129133-VlTPowwt68rJ.png"
@@ -261,7 +281,7 @@
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 108735,
@@ -269,9 +289,9 @@
             "node": {
               "id": 119973,
               "name": {
-                "first": "Koyoharu",
-                "last": "Gotouge"
+                "full": "Koyoharu Gotouge"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119973-pzMtyCVGBWNt.jpg"
               }
@@ -283,11 +303,11 @@
             "node": {
               "id": 109341,
               "name": {
-                "first": "Go",
-                "last": "Shiina"
+                "full": "Gou Shiina"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/14341.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n109341-q5Wmz53sbNsO.png"
               }
             }
           },
@@ -297,11 +317,11 @@
             "node": {
               "id": 119808,
               "name": {
-                "first": "Akira",
-                "last": "Matsushima"
+                "full": "Akira Matsushima"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119808-61yB4qZ8gvPf.png"
               }
             }
           },
@@ -311,9 +331,9 @@
             "node": {
               "id": 100077,
               "name": {
-                "first": "Yuki",
-                "last": "Kajiura"
+                "full": "Yuki Kajiura"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100077-EQO5m2lkmUQk.jpg"
               }
@@ -325,9 +345,9 @@
             "node": {
               "id": 99006,
               "name": {
-                "first": "Haruo",
-                "last": "Sotozaki"
+                "full": "Haruo Sotozaki"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/4006.jpg"
               }
@@ -339,37 +359,37 @@
             "node": {
               "id": 130063,
               "name": {
-                "first": "Yuuichi",
-                "last": "Terao"
+                "full": "Yuuichi Terao"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n130063-gAHigd0d68EO.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n130063-cgVRghewBqvV.jpg"
               }
             }
           },
           {
             "id": 125206,
-            "role": "Theme Song Performance (OP, ED)",
+            "role": "Theme Song Performance (OP, ED1)",
             "node": {
               "id": 105561,
               "name": {
-                "first": "LiSA",
-                "last": ""
+                "full": "LiSA"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105561-GwH4Nze0xMu0.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105561-bluE1C2NqCrV.png"
               }
             }
           },
           {
             "id": 126117,
-            "role": "Theme Song Performance (ED)",
+            "role": "Theme Song Performance (ED1)",
             "node": {
               "id": 103691,
               "name": {
-                "first": "FictionJunction",
-                "last": ""
+                "full": "FictionJunction"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/8691.jpg"
               }
@@ -399,44 +419,239 @@
               "id": 493,
               "name": "Aniplex of America"
             }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6454,
+              "name": "Madman Entertainment"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6570,
+              "name": "Shueisha"
+            }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 39
+        },
         "nodes": [
           {
-            "id": 5251,
-            "summary": "Atrocious story, horrible writing, boring characters, pointlessly graced with amazing animation.",
-            "rating": 277,
-            "ratingAmount": 752,
+            "id": 6054,
+            "summary": "A Mediocre Story with Nothing New that Would be Glossed if Ufotable with their Unlimited Budget Works didn't Touch it",
+            "rating": 663,
+            "ratingAmount": 1024,
             "user": {
-              "id": 328724,
-              "name": "Jimbionicles",
+              "id": 39336,
+              "name": "KayiZokuOtaku",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b328724-vv6GLLtGTaYn.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b39336-IIDd5aSfknaV.gif"
               }
             }
           },
           {
-            "id": 6054,
-            "summary": "One of the most overrated Shounen of all time, which is highly praised for the wrong reasons because of Ufotable",
-            "rating": 165,
-            "ratingAmount": 219,
+            "id": 5206,
+            "summary": "The weak have no rights or choices. Their only fate is to be relentlessly crushed by the strong.",
+            "rating": 187,
+            "ratingAmount": 327,
             "user": {
-              "id": 39336,
-              "name": "KaizokuOtaku",
+              "id": 109697,
+              "name": "Scientiiaa",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b39336-a5uEc8brVFlv.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b109697-ZAvRDxPqjHz6.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 56
+        },
+        "nodes": [
+          {
+            "id": 45037,
+            "rating": 1190,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 113415,
+              "title": {
+                "userPreferred": "Jujutsu Kaisen"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/113415-jQBSkxWAAk83.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx113415-979nF8TZP2xC.jpg"
+              }
+            },
+            "user": {
+              "id": 516348,
+              "name": "highfuelreal",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b516348-41YbjZMAK3HD.jpg"
+              }
+            }
+          },
+          {
+            "id": 1763,
+            "rating": 1167,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 101347,
+              "title": {
+                "userPreferred": "Dororo"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/n101347-tHurKfTlhtFl.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx101347-2J2p8qJpxpfZ.jpg"
+              }
+            },
+            "user": {
+              "id": 3,
+              "name": "Removed",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/3.jpg"
+              }
+            }
+          },
+          {
+            "id": 4675,
+            "rating": 311,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 104276,
+              "title": {
+                "userPreferred": "Boku no Hero Academia 4"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/104276-PQO1pcNzzWT0.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx104276-15QaWk5qbBku.jpg"
+              }
+            },
+            "user": {
+              "id": 228214,
+              "name": "alenawhim",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b228214-QLbxXJmSqDE5.png"
+              }
+            }
+          },
+          {
+            "id": 8316,
+            "rating": 188,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 269,
+              "title": {
+                "userPreferred": "Bleach"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/269.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx269-KxkqTIuQgJ6v.png"
+              }
+            },
+            "user": {
+              "id": 165010,
+              "name": "Fredobert",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b165010-FWr5YqGbgEo2.png"
+              }
+            }
+          },
+          {
+            "id": 16569,
+            "rating": 143,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 5114,
+              "title": {
+                "userPreferred": "Hagane no Renkinjutsushi: Fullmetal Alchemist"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/5114-q0V5URebphSG.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5114-4CpuT7iWcZ37.png"
+              }
+            },
+            "user": {
+              "id": 189959,
+              "name": "faygocupcakes",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b189959-JzTen0yNFtzW.jpg"
+              }
+            }
+          },
+          {
+            "id": 5540,
+            "rating": 130,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 97940,
+              "title": {
+                "userPreferred": "Black Clover"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/97940-1URQdQ4U1a0b.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx97940-bPydLjny8PUw.png"
+              }
+            },
+            "user": {
+              "id": 195601,
+              "name": "hazz",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b195601-JraiK203pI0B.jpg"
+              }
+            }
+          },
+          {
+            "id": 7245,
+            "rating": 86,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 249,
+              "title": {
+                "userPreferred": "InuYasha"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/249-9ufXhmXxncry.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx249-YN54jZrItGgZ.png"
+              }
+            },
+            "user": {
+              "id": 69738,
+              "name": "spacebro",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n69738-v5bwgLWjpjqC.png"
               }
             }
           }
         ]
       },
       "externalLinks": [
-        {
-          "site": "Official Site",
-          "url": "http:\/\/kimetsu.com\/"
-        },
         {
           "site": "Twitter",
           "url": "https:\/\/twitter.com\/kimetsu_off"
@@ -462,12 +677,20 @@
           "url": "https:\/\/vrv.co\/series\/GY5P48XEY\/Demon-Slayer-Kimetsu-no-Yaiba"
         },
         {
-          "site": "Official Site",
+          "site": "Adult Swim",
           "url": "https:\/\/www.adultswim.com\/videos\/demon-slayer"
         },
         {
           "site": "Twitter",
           "url": "https:\/\/twitter.com\/DemonSlayerUSA"
+        },
+        {
+          "site": "Netflix",
+          "url": "https:\/\/www.netflix.com\/title\/81091393"
+        },
+        {
+          "site": "Official Site",
+          "url": "https:\/\/kimetsu.com\/anime\/risshihen\/"
         }
       ],
       "streamingEpisodes": [
@@ -634,8 +857,8 @@
       },
       "rankings": [
         {
-          "id": 20,
-          "rank": 20,
+          "id": 41,
+          "rank": 41,
           "type": "RATED",
           "format": "TV",
           "year": null,
@@ -644,8 +867,8 @@
           "context": "highest rated all time"
         },
         {
-          "id": 513,
-          "rank": 13,
+          "id": 504,
+          "rank": 4,
           "type": "POPULAR",
           "format": "TV",
           "year": null,
@@ -654,8 +877,8 @@
           "context": "most popular all time"
         },
         {
-          "id": 8771,
-          "rank": 3,
+          "id": 8852,
+          "rank": 5,
           "type": "RATED",
           "format": "TV",
           "year": 2019,
@@ -664,7 +887,7 @@
           "context": "highest rated"
         },
         {
-          "id": 8869,
+          "id": 8948,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -674,7 +897,7 @@
           "context": "most popular"
         },
         {
-          "id": 9030,
+          "id": 9109,
           "rank": 2,
           "type": "RATED",
           "format": "TV",
@@ -684,7 +907,7 @@
           "context": "highest rated"
         },
         {
-          "id": 9059,
+          "id": 9138,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -707,7 +930,7 @@
           "id": 56,
           "name": "Shounen",
           "description": "Target demographic is teenage and young adult males.",
-          "rank": 90,
+          "rank": 91,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -715,7 +938,7 @@
           "id": 43,
           "name": "Swordplay",
           "description": "Prominently features the use of swords in combat.",
-          "rank": 86,
+          "rank": 88,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -723,15 +946,7 @@
           "id": 82,
           "name": "Male Protagonist",
           "description": "Main character is male.",
-          "rank": 80,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 208,
-          "name": "Mythology",
-          "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
-          "rank": 79,
+          "rank": 82,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -739,23 +954,23 @@
           "id": 85,
           "name": "Tragedy",
           "description": "Centers around tragic events and unhappy endings.",
-          "rank": 78,
-          "isMediaSpoiler": true,
+          "rank": 81,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": true
+        },
+        {
+          "id": 259,
+          "name": "Monster Girl",
+          "description": "Prominently features a female character who is part-monster.",
+          "rank": 76,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
         },
         {
           "id": 94,
           "name": "Gore",
           "description": "Prominently features graphic bloodshed and violence.",
-          "rank": 64,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 88,
-          "name": "Primarily Male Cast",
-          "description": "Main cast is mostly composed of male characters.",
-          "rank": 63,
+          "rank": 71,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -763,7 +978,39 @@
           "id": 90,
           "name": "CGI",
           "description": "Prominently features scenes created with computer-generated imagery.",
-          "rank": 63,
+          "rank": 69,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 208,
+          "name": "Mythology",
+          "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
+          "rank": 65,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 88,
+          "name": "Primarily Male Cast",
+          "description": "Main cast is mostly composed of male characters.",
+          "rank": 64,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 252,
+          "name": "Revenge",
+          "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
+          "rank": 62,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 683,
+          "name": "Rotoscoping",
+          "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
+          "rank": 61,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -771,15 +1018,23 @@
           "id": 250,
           "name": "Rural",
           "description": "Partly or completely set in the countryside.",
-          "rank": 57,
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "description": "Centers around a character's transition from childhood to adulthood.",
+          "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
           "id": 639,
           "name": "Body Horror",
-          "description": "Features characters who undergo horrific transformations and\/or disfigurement, often to their own detriment.",
-          "rank": 56,
+          "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+          "rank": 58,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -787,23 +1042,39 @@
           "id": 25,
           "name": "Historical",
           "description": "Partly or completely set during a real period of world history.",
-          "rank": 48,
+          "rank": 56,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 536,
-          "name": "Dissociative Identities",
-          "description": "A case where one or more people share the same body.",
-          "rank": 33,
-          "isMediaSpoiler": true,
+          "id": 66,
+          "name": "Super Power",
+          "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+          "rank": 56,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 683,
-          "name": "Rotoscoping",
-          "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
-          "rank": 23,
+          "id": 83,
+          "name": "Slapstick",
+          "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+          "rank": 55,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 153,
+          "name": "Time Skip",
+          "description": "Features a gap in time used to advance the story.",
+          "rank": 44,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 324,
+          "name": "Chibi",
+          "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+          "rank": 37,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -813,65 +1084,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 19726
+            "amount": 37893
           },
           {
             "status": "PLANNING",
-            "amount": 17624
+            "amount": 46873
           },
           {
             "status": "COMPLETED",
-            "amount": 87028
+            "amount": 308465
           },
           {
             "status": "DROPPED",
-            "amount": 2252
+            "amount": 5880
           },
           {
             "status": "PAUSED",
-            "amount": 2916
+            "amount": 9101
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 322
+            "amount": 745
           },
           {
             "score": 20,
-            "amount": 81
+            "amount": 230
           },
           {
             "score": 30,
-            "amount": 175
+            "amount": 509
           },
           {
             "score": 40,
-            "amount": 338
+            "amount": 1009
           },
           {
             "score": 50,
-            "amount": 862
+            "amount": 2851
           },
           {
             "score": 60,
-            "amount": 1546
+            "amount": 5371
           },
           {
             "score": 70,
-            "amount": 4798
+            "amount": 16999
           },
           {
             "score": 80,
-            "amount": 12901
+            "amount": 42239
           },
           {
             "score": 90,
-            "amount": 21996
+            "amount": 63531
           },
           {
             "score": 100,
-            "amount": 19288
+            "amount": 52029
           }
         ]
       }

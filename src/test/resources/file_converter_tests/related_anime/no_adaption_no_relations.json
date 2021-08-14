@@ -9,6 +9,7 @@
         "native": "\u99d5\u7c60\u771f\u592a\u90ce\u30a2\u30cb\u30e1\u4f5c\u54c1\u96c6"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10003.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/10003.jpg"
       },
       "bannerImage": null,
@@ -24,6 +25,7 @@
       },
       "description": "In these jokey short films, many of them crudely animated, Kago's sick sense of humor reaches its full heights of absurdity. There's a playful surrealist sensibility to Kago's work, as well as a tendency to revel in the ridiculous, the crude and the disturbing. His work straddles a weird boundary between avant-garde experimentation and low-brow fart jokes &mdash; the punchline of one of these films is literally an oozing torrent of shit &mdash; although, admittedly, his videos seem to lean a bit more heavily towards the fart jokes than his comics. But hey, who doesn't appreciate a good fart joke once in a while?<br><br>\n(Source: 'Only the Cinema' blog)",
       "season": null,
+      "seasonYear": null,
       "type": "ANIME",
       "format": "OVA",
       "status": "FINISHED",
@@ -38,24 +40,26 @@
       "synonyms": [
         "Short Animation of Shintaro Kago"
       ],
-      "source": null,
+      "source": "ORIGINAL",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 45,
-      "averageScore": 44,
-      "popularity": 561,
-      "favourites": 1,
+      "averageScore": 45,
+      "popularity": 1075,
+      "favourites": 4,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": []
       },
-      "characters": {
+      "characterPreview": {
         "edges": []
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 10753,
@@ -63,9 +67,9 @@
             "node": {
               "id": 100547,
               "name": {
-                "first": "Shintarou",
-                "last": "Kago"
+                "full": "Shintarou Kago"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100547-NHl2rfLZgziu.png"
               }
@@ -76,8 +80,43 @@
       "studios": {
         "edges": []
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 1
+        },
+        "nodes": [
+          {
+            "id": 63685,
+            "rating": 2,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 5554,
+              "title": {
+                "userPreferred": "Eguchi Hisashi no Nantoka Narudesho!"
+              },
+              "format": "OVA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b5554-G18t8njcL2iC.jpg"
+              }
+            },
+            "user": {
+              "id": 785468,
+              "name": "GionMeccartnei",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b785468-Urrik6YZiJuF.png"
+              }
+            }
+          }
+        ]
       },
       "externalLinks": [],
       "streamingEpisodes": [],
@@ -91,6 +130,54 @@
           "rank": 50,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
+        },
+        {
+          "id": 94,
+          "name": "Gore",
+          "description": "Prominently features graphic bloodshed and violence.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 100,
+          "name": "Nudity",
+          "description": "Features a character wearing no clothing or exposing intimate body parts.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 639,
+          "name": "Body Horror",
+          "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 636,
+          "name": "Cosmic Horror",
+          "description": "A type of horror that emphasizes human insignificance in the grand scope of cosmic reality; fearing the unknown and being powerless to fight it.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 111,
+          "name": "War",
+          "description": "Partly or completely set during wartime.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 175,
+          "name": "Robots",
+          "description": "Prominently features humanoid machines.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
         }
       ],
       "mediaListEntry": null,
@@ -98,65 +185,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 8
+            "amount": 14
           },
           {
             "status": "PLANNING",
-            "amount": 245
+            "amount": 476
           },
           {
             "status": "COMPLETED",
-            "amount": 292
+            "amount": 555
           },
           {
             "status": "DROPPED",
-            "amount": 10
+            "amount": 19
           },
           {
             "status": "PAUSED",
-            "amount": 6
+            "amount": 11
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 35
+            "amount": 66
           },
           {
             "score": 20,
-            "amount": 29
+            "amount": 43
           },
           {
             "score": 30,
-            "amount": 18
+            "amount": 35
           },
           {
             "score": 40,
-            "amount": 27
+            "amount": 37
           },
           {
             "score": 50,
-            "amount": 39
+            "amount": 76
           },
           {
             "score": 60,
-            "amount": 33
+            "amount": 59
           },
           {
             "score": 70,
-            "amount": 23
+            "amount": 44
           },
           {
             "score": 80,
-            "amount": 15
+            "amount": 31
           },
           {
             "score": 90,
-            "amount": 7
+            "amount": 12
           },
           {
             "score": 100,
-            "amount": 6
+            "amount": 11
           }
         ]
       }

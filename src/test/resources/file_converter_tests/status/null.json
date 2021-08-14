@@ -1,381 +1,151 @@
 {
   "data": {
     "Media": {
-      "id": 101777,
+      "id": 135643,
       "title": {
-        "userPreferred": "Shampoo no Nioi ga Shita",
-        "romaji": "Shampoo no Nioi ga Shita",
-        "english": "Shampoo no Nioi ga Shita",
-        "native": "\u30b7\u30e3\u30f3\u30d7\u30fc\u306e\u5302\u3044\u304c\u3057\u305f"
+        "userPreferred": "Grimm (Provisional Title)",
+        "romaji": "Grimm (Provisional Title)",
+        "english": null,
+        "native": "\u30b0\u30ea\u30e0 (\u4eee)"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx101777-1qr6ZdFfFqRA.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx135643-XTcv5p69BQwX.jpg",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx135643-XTcv5p69BQwX.jpg"
       },
       "bannerImage": null,
       "startDate": {
-        "year": 2018,
-        "month": 3,
-        "day": 14
+        "year": null,
+        "month": null,
+        "day": null
       },
       "endDate": {
-        "year": 2018,
-        "month": 3,
-        "day": 14
+        "year": null,
+        "month": null,
+        "day": null
       },
-      "description": "Music video by digital idol group 22.7",
+      "description": "Based on Grimm Brothers' Fairy Tales",
       "season": null,
+      "seasonYear": null,
       "type": "ANIME",
-      "format": "MUSIC",
+      "format": null,
       "status": null,
-      "episodes": 1,
-      "duration": 5,
+      "episodes": null,
+      "duration": null,
       "chapters": null,
       "volumes": null,
       "genres": [],
       "synonyms": [],
-      "source": "OTHER",
+      "source": null,
       "isAdult": false,
-      "meanScore": 58,
-      "averageScore": 51,
-      "popularity": 156,
-      "favourites": 1,
+      "isLocked": false,
+      "meanScore": 90,
+      "averageScore": null,
+      "popularity": 473,
+      "favourites": 0,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
-        "edges": [
-          {
-            "id": 22949,
-            "relationType": "OTHER",
-            "node": {
-              "id": 101775,
-              "title": {
-                "userPreferred": "Ano Hi no Kanojo-tachi"
-              },
-              "format": "ONA",
-              "type": "ANIME",
-              "status": "RELEASING",
-              "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b101775-TC4GnE12zv63.jpg"
-              }
-            }
-          },
-          {
-            "id": 22950,
-            "relationType": "OTHER",
-            "node": {
-              "id": 101776,
-              "title": {
-                "userPreferred": "Boku wa Sonzai Shiteinakatta"
-              },
-              "format": "MUSIC",
-              "type": "ANIME",
-              "status": "FINISHED",
-              "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx101776-L36iXSiiZ5a8.jpg"
-              }
-            }
-          },
-          {
-            "id": 33983,
-            "relationType": "CHARACTER",
-            "node": {
-              "id": 99807,
-              "title": {
-                "userPreferred": "22\/7"
-              },
-              "format": "TV",
-              "type": "ANIME",
-              "status": "NOT_YET_RELEASED",
-              "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b99807-oYi7UJvHv6Hm.jpg"
-              }
-            }
-          }
-        ]
-      },
-      "characters": {
-        "edges": [
-          {
-            "id": 180746,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 127759,
-                "name": {
-                  "first": "Sally",
-                  "last": "Amaki"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n127759-Lmx80V2tDDBg.jpg"
-                }
-              }
-            ],
-            "node": {
-              "id": 127760,
-              "name": {
-                "first": "Sakura",
-                "last": "Fujima"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n127760-m970Ul7ZYjkO.png"
-              }
-            }
-          },
-          {
-            "id": 180744,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 142668,
-                "name": {
-                  "first": "Kanae",
-                  "last": "Shirosawa"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n142668-P8ydzd2644X4.jpg"
-                }
-              }
-            ],
-            "node": {
-              "id": 142656,
-              "name": {
-                "first": "Akane",
-                "last": "Maruyama"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b142656-s91K5eFiY9Zu.png"
-              }
-            }
-          },
-          {
-            "id": 180751,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 142669,
-                "name": {
-                  "first": "Chiharu",
-                  "last": "Hokaze"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n142669-pbAvyVMD5XmS.jpg"
-                }
-              }
-            ],
-            "node": {
-              "id": 142657,
-              "name": {
-                "first": "Reika",
-                "last": "Sato"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b142657-0DzU7Sfl3BIT.png"
-              }
-            }
-          },
-          {
-            "id": 180749,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 142672,
-                "name": {
-                  "first": "Mizuha",
-                  "last": "Kuraoka"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n142672-r27019wTRS7f.png"
-                }
-              }
-            ],
-            "node": {
-              "id": 142659,
-              "name": {
-                "first": "Miyako",
-                "last": "Kono"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b142659-n6l5W3kGdNbb.png"
-              }
-            }
-          },
-          {
-            "id": 180750,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 142673,
-                "name": {
-                  "first": "Mei",
-                  "last": "Hanakawa"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n142673-xFWozBeXAlwJ.jpg"
-                }
-              }
-            ],
-            "node": {
-              "id": 142661,
-              "name": {
-                "first": "Nicole",
-                "last": "Saito"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b142661-GjGjjuiuzpF0.png"
-              }
-            }
-          },
-          {
-            "id": 180747,
-            "role": "MAIN",
-            "voiceActors": [
-              {
-                "id": 142674,
-                "name": {
-                  "first": "Nagomi",
-                  "last": "Saijo"
-                },
-                "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n142674-kOoQ7PCWqg3x.jpg"
-                }
-              }
-            ],
-            "node": {
-              "id": 142662,
-              "name": {
-                "first": "Miu",
-                "last": "Takigawa"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b142662-FRecSoFcuN0S.png"
-              }
-            }
-          }
-        ]
-      },
-      "staff": {
         "edges": []
+      },
+      "characterPreview": {
+        "edges": []
+      },
+      "staffPreview": {
+        "edges": [
+          {
+            "id": 360007,
+            "role": "Original Character Design",
+            "node": {
+              "id": 96877,
+              "name": {
+                "full": "CLAMP"
+              },
+              "language": "JAPANESE",
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96877-DZl7R4Zr0iFx.jpg"
+              }
+            }
+          },
+          {
+            "id": 360698,
+            "role": "Script",
+            "node": {
+              "id": 97096,
+              "name": {
+                "full": "Michiko Yokote"
+              },
+              "language": "JAPANESE",
+              "image": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n97096-j44QglsuY3kx.png"
+              }
+            }
+          }
+        ]
       },
       "studios": {
         "edges": [
           {
+            "isMain": false,
+            "node": {
+              "id": 6787,
+              "name": "Netflix"
+            }
+          },
+          {
             "isMain": true,
             "node": {
-              "id": 103,
-              "name": "Tatsunoko Production"
+              "id": 858,
+              "name": "Wit Studio"
             }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
+        "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
       },
       "externalLinks": [],
       "streamingEpisodes": [],
-      "trailer": {
-        "id": "aRKYPY1orHo",
-        "site": "youtube"
-      },
+      "trailer": null,
       "rankings": [],
-      "tags": [
-        {
-          "id": 115,
-          "name": "Idol",
-          "description": "Centers around the life and activities of an idol.",
-          "rank": 79,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 46,
-          "name": "School",
-          "description": "Partly or completely set in a primary or secondary educational institution.",
-          "rank": 79,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 209,
-          "name": "Dancing",
-          "description": "Centers around the art of dance.",
-          "rank": 60,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 89,
-          "name": "Full CGI",
-          "description": "Almost entirely created with computer-generated imagery.",
-          "rank": 20,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        }
-      ],
+      "tags": [],
       "mediaListEntry": null,
       "stats": {
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 3
+            "amount": 0
           },
           {
             "status": "PLANNING",
-            "amount": 36
+            "amount": 472
           },
           {
             "status": "COMPLETED",
-            "amount": 113
+            "amount": 0
           },
           {
             "status": "DROPPED",
-            "amount": 2
+            "amount": 0
           },
           {
             "status": "PAUSED",
-            "amount": 2
+            "amount": 1
           }
         ],
-        "scoreDistribution": [
-          {
-            "score": 10,
-            "amount": 1
-          },
-          {
-            "score": 20,
-            "amount": 3
-          },
-          {
-            "score": 40,
-            "amount": 8
-          },
-          {
-            "score": 50,
-            "amount": 21
-          },
-          {
-            "score": 60,
-            "amount": 19
-          },
-          {
-            "score": 70,
-            "amount": 11
-          },
-          {
-            "score": 80,
-            "amount": 8
-          },
-          {
-            "score": 90,
-            "amount": 3
-          },
-          {
-            "score": 100,
-            "amount": 2
-          }
-        ]
+        "scoreDistribution": []
       }
     }
   }

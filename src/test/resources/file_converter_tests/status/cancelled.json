@@ -9,6 +9,7 @@
         "native": "\u30ad\u30b9\u30fb\u30a2\u30f3\u30c9\u30fb\u30af\u30e9\u30a4"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/101704-S5F2UynzSOHy.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/101704-S5F2UynzSOHy.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101704-kALJEE4TlScj.jpg",
@@ -22,8 +23,9 @@
         "month": null,
         "day": null
       },
-      "description": "A Japanese, Korean and American co-production.<br>\n<br>\n(Source: ANN)",
+      "description": "A Japanese, Korean and American co-production.\n<br><br>\n(Source: Anime News Network)",
       "season": null,
+      "seasonYear": null,
       "type": "ANIME",
       "format": "MOVIE",
       "status": "CANCELLED",
@@ -37,22 +39,24 @@
       "synonyms": [],
       "source": "ORIGINAL",
       "isAdult": false,
-      "meanScore": 41,
+      "isLocked": false,
+      "meanScore": 51,
       "averageScore": null,
-      "popularity": 31,
+      "popularity": 60,
       "favourites": 1,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": []
       },
-      "characters": {
+      "characterPreview": {
         "edges": []
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 108354,
@@ -60,11 +64,11 @@
             "node": {
               "id": 101583,
               "name": {
-                "first": "Yasuomi",
-                "last": "Umetsu"
+                "full": "Yasuomi Umetsu"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6583.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101583-EUI5NHeKsMIC.png"
               }
             }
           }
@@ -81,7 +85,16 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
+        "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
       },
       "externalLinks": [
@@ -94,8 +107,8 @@
       "trailer": null,
       "rankings": [
         {
-          "id": 13138,
-          "rank": 68,
+          "id": 14701,
+          "rank": 70,
           "type": "POPULAR",
           "format": "MOVIE",
           "year": 2009,
@@ -114,11 +127,11 @@
           },
           {
             "status": "PLANNING",
-            "amount": 22
+            "amount": 50
           },
           {
             "status": "COMPLETED",
-            "amount": 5
+            "amount": 6
           },
           {
             "status": "DROPPED",

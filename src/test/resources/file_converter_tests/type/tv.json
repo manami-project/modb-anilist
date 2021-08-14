@@ -9,9 +9,10 @@
         "native": "\u92fc\u306e\u932c\u91d1\u8853\u5e2b FULLMETAL ALCHEMIST"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5114-OqQOY03Fc4Ni.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx5114-4CpuT7iWcZ37.png",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx5114-4CpuT7iWcZ37.png"
       },
-      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/5114-7SftH58z5UXy.jpg",
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/5114-q0V5URebphSG.jpg",
       "startDate": {
         "year": 2009,
         "month": 4,
@@ -22,43 +23,47 @@
         "month": 7,
         "day": 4
       },
-      "description": "In this world, alchemists are those who study and perform the art of alchemical transmutation\u2014the science of manipulating and transforming matter. They are bounded by the Law of Equivalent Exchange: in order to gain something, one must sacrifice something of equal value.<br><br>\nYoung Edward Elric, nicknamed the \"Fullmetal Alchemist\", is a State Alchemist working for the government of Amestris. As a child, Edward and his little brother Alphonse attempted the forbidden art of human transmutation to revive their late mother. In the accident that ensued, Edward lost his left leg and right arm, and Alphonse's soul was sealed in a large suit of armor. To reclaim their original bodies, the Elric brothers embark on a journey to find the Philosopher's Stone, a mythical object said to allow its user to perform alchemical miracles.<br><br>\nFullmetal Alchemist: Brotherhood is a re-adaptation of the original manga that follows the source material closer than its predecessor, the 2003 Fullmetal Alchemist anime.",
+      "description": "\"In order for something to be obtained, something of equal value must be lost.\"\n<br><br>\nAlchemy is bound by this Law of Equivalent Exchange\u2014something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression\u2014Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.\n<br><br>\nThree years of searching later, the brothers seek the Philosopher's Stone, a mythical relic that allows an alchemist to overcome the Law of Equivalent Exchange. Even with military allies Colonel Roy Mustang, Lieutenant Riza Hawkeye, and Lieutenant Colonel Maes Hughes on their side, the brothers find themselves caught up in a nationwide conspiracy that leads them not only to the true nature of the elusive Philosopher's Stone, but their country's murky history as well. In between finding a serial killer and racing against time, Edward and Alphonse must ask themselves if what they are doing will make them human again... or take away their humanity.\n<br><br>\n(Source: MAL Rewrite)",
       "season": "SPRING",
+      "seasonYear": 2009,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
       "episodes": 64,
-      "duration": 24,
+      "duration": 25,
       "chapters": null,
       "volumes": null,
       "genres": [
         "Action",
         "Adventure",
         "Drama",
-        "Fantasy",
-        "Comedy"
+        "Fantasy"
       ],
       "synonyms": [
         "FMA",
         "FMAB",
-        "Hagaren"
+        "Hagaren",
+        "\u0627\u0644\u062e\u064a\u0645\u064a\u0627\u0626\u064a \u0627\u0644\u0641\u0648\u0644\u0627\u0630\u064a",
+        "\u05d0\u05dc\u05db\u05d9\u05de\u05d0\u05d9 \u05d4\u05de\u05ea\u05db\u05ea: \u05d0\u05d7\u05d5\u05d5\u05ea \u05d0\u05d7\u05d9\u05dd"
       ],
       "source": "MANGA",
       "isAdult": false,
-      "meanScore": 91,
-      "averageScore": 91,
-      "popularity": 101669,
-      "favourites": 10746,
+      "isLocked": false,
+      "meanScore": 90,
+      "averageScore": 90,
+      "popularity": 338911,
+      "favourites": 37483,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 5146,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 30025,
               "title": {
@@ -67,6 +72,7 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/30025-IaxAxX9hIGx0.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx30025-H2Es0tn49tir.png"
               }
@@ -78,11 +84,12 @@
             "node": {
               "id": 6421,
               "title": {
-                "userPreferred": "Hagane no Renkinjutsushi: Fullmetal Alchemist Specials"
+                "userPreferred": "Hagane no Renkinjutsushi: Fullmetal Alchemist OVA"
               },
-              "format": "SPECIAL",
+              "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/6421-yqShxVmGNtd0.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/6421.jpg"
               }
@@ -99,8 +106,9 @@
               "format": "MOVIE",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/9135-Ffg7j7Rd641G.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx9135-VRYqW2Hjjtng.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx9135-nPvbvO7QCx7L.jpg"
               }
             }
           },
@@ -115,8 +123,9 @@
               "format": "TV",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/121-t5K7c8WRuPWl.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx121-lcStiEjYkFuH.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx121-JUlbsyhTUNkk.png"
               }
             }
           },
@@ -131,6 +140,7 @@
               "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/7902.jpg"
               }
@@ -138,7 +148,7 @@
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 6625,
@@ -147,22 +157,21 @@
               {
                 "id": 95082,
                 "name": {
-                  "first": "Romi",
-                  "last": "Park"
+                  "full": "Romi Park"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95082-nGwB1pPlLDs0.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95082-pNGbnYv4cHAK.png"
                 }
               }
             ],
             "node": {
               "id": 11,
               "name": {
-                "first": "Edward",
-                "last": "Elric"
+                "full": "Edward Elric"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n11-k3dR0ZXPTwLd.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b11-TA5Nuk7EDUZG.jpg"
               }
             }
           },
@@ -173,22 +182,21 @@
               {
                 "id": 95008,
                 "name": {
-                  "first": "Rie",
-                  "last": "Kugimiya"
+                  "full": "Rie Kugimiya"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95008-pZsjXbQKVySl.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95008-2y0EeuSTHIri.png"
                 }
               }
             ],
             "node": {
               "id": 12,
               "name": {
-                "first": "Alphonse",
-                "last": "Elric"
+                "full": "Alphonse Elric"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n12-IsVPL3Fh1XM8.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b12-tCKu8yK5kFL5.jpg"
               }
             }
           },
@@ -199,19 +207,18 @@
               {
                 "id": 95046,
                 "name": {
-                  "first": "Megumi",
-                  "last": "Takamoto"
+                  "full": "Megumi Takamoto"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/46.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95046-3vW0I3zKOpfW.jpg"
                 }
               }
             ],
             "node": {
               "id": 63,
               "name": {
-                "first": "Winry",
-                "last": "Rockbell"
+                "full": "Winry Rockbell"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/63-xloedtYxiJ2E.jpg"
@@ -225,29 +232,28 @@
               {
                 "id": 95571,
                 "name": {
-                  "first": "Mami",
-                  "last": "Koyama"
+                  "full": "Mami Koyama"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95571-PFdygvrWicTN.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95571-lBAnbjb40vi9.jpg"
                 }
               },
               {
                 "id": 96542,
                 "name": {
-                  "first": "Miyoko",
-                  "last": "Asou"
+                  "full": "Miyoko Asou"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1542.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96542-nUqFdwzo1FEX.jpg"
                 }
               }
             ],
             "node": {
               "id": 65,
               "name": {
-                "first": "Pinako",
-                "last": "Rockbell"
+                "full": "Pinako Rockbell"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/65.jpg"
@@ -261,9 +267,9 @@
               {
                 "id": 95720,
                 "name": {
-                  "first": "Kenta",
-                  "last": "Miyake"
+                  "full": "Kenta Miyake"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95720-enxx6kZKuwGi.jpg"
                 }
@@ -272,11 +278,10 @@
             "node": {
               "id": 66,
               "name": {
-                "first": "Scar",
-                "last": null
+                "full": "Scar"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/66.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b66-bLbGWXrmDqfV.png"
               }
             }
           },
@@ -287,19 +292,18 @@
               {
                 "id": 96664,
                 "name": {
-                  "first": "Shouko",
-                  "last": "Tsuda"
+                  "full": "Shouko Tsuda"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/1664.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96664-ct3IoFBmnyoJ.jpg"
                 }
               }
             ],
             "node": {
               "id": 67,
               "name": {
-                "first": "Izumi",
-                "last": "Curtis"
+                "full": "Izumi Curtis"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b67-ggB3aC6DzQqB.png"
@@ -308,7 +312,7 @@
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 1209,
@@ -316,9 +320,9 @@
             "node": {
               "id": 95202,
               "name": {
-                "first": "Mike",
-                "last": "McFarland"
+                "full": "Mike McFarland"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/202.jpg"
               }
@@ -330,9 +334,9 @@
             "node": {
               "id": 95203,
               "name": {
-                "first": "Justin",
-                "last": "Cook"
+                "full": "Justin Cook"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95203-pLacWJ09D59h.png"
               }
@@ -344,11 +348,11 @@
             "node": {
               "id": 95251,
               "name": {
-                "first": "John",
-                "last": "Burgmeier"
+                "full": "John Burgmeier"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/251.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95251-XG6OaR9iU39R.png"
               }
             }
           },
@@ -358,11 +362,11 @@
             "node": {
               "id": 95313,
               "name": {
-                "first": "Caitlin",
-                "last": "Glass"
+                "full": "Caitlin Glass"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95313-C9X9AT0e4TIZ.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95313-zK3WpeNtACvm.jpg"
               }
             }
           },
@@ -372,51 +376,51 @@
             "node": {
               "id": 96874,
               "name": {
-                "first": "Hiromu",
-                "last": "Arakawa"
+                "full": "Hiromu Arakawa"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96874-d9h1JB9uPa8L.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96874-afKcZQmOlrJL.png"
               }
             }
           },
           {
             "id": 5835,
-            "role": "Script",
+            "role": "Script (eps 1-3, 7-9, 12, 14, 17, 19, 30, 32, 40, 46, 53, 55, 56, 58-64)",
             "node": {
               "id": 97701,
               "name": {
-                "first": "Hiroshi",
-                "last": "Ohnogi"
+                "full": "Hiroshi Oonogi"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n97701-oGeu7FcW1RMb.png"
               }
             }
           },
           {
             "id": 8696,
-            "role": "Theme Song Performance",
+            "role": "Theme Song Performance (ED5)",
             "node": {
               "id": 100110,
               "name": {
-                "first": "Shoko",
-                "last": "Nakagawa"
+                "full": "Shouko Nakagawa"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100110-egDwRWF59beo.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100110-9XwHUPKpNC3d.jpg"
               }
             }
           },
           {
             "id": 9479,
-            "role": "Theme Song Composition (OP 1)",
+            "role": "Theme Song Composition (OP1)",
             "node": {
               "id": 100287,
               "name": {
-                "first": "",
-                "last": "Yui"
+                "full": "Yui"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n100287-PJcFoYvW8wZT.png"
               }
@@ -430,7 +434,7 @@
             "isMain": true,
             "node": {
               "id": 4,
-              "name": "BONES"
+              "name": "bones"
             }
           },
           {
@@ -451,18 +455,41 @@
             "isMain": false,
             "node": {
               "id": 143,
-              "name": "Mainichi Broadcasting"
+              "name": "Mainichi Broadcasting System"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 493,
+              "name": "Aniplex of America"
             }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 20
+        },
         "nodes": [
+          {
+            "id": 2672,
+            "summary": "Do not watch this if you're new to anime.",
+            "rating": 369,
+            "ratingAmount": 536,
+            "user": {
+              "id": 114393,
+              "name": "taven",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b114393-bnCVE0rDhOPv.png"
+              }
+            }
+          },
           {
             "id": 2435,
             "summary": "Watch this show like really it's a must watch. Everything here was just flawless.",
-            "rating": 63,
-            "ratingAmount": 94,
+            "rating": 167,
+            "ratingAmount": 242,
             "user": {
               "id": 118296,
               "name": "PARADOX101",
@@ -470,17 +497,186 @@
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/118296-Q7GSKwx5NsdM.jpg"
               }
             }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 31
+        },
+        "nodes": [
+          {
+            "id": 1964,
+            "rating": 1597,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 11061,
+              "title": {
+                "userPreferred": "Hunter x Hunter (2011)"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/11061-8WkkTZ6duKpq.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx11061-sIpBprNRfzCe.png"
+              }
+            },
+            "user": {
+              "id": 120802,
+              "name": "Troy121",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b120802-tPgcf6LPM7JY.png"
+              }
+            }
           },
           {
-            "id": 2672,
-            "summary": "Do not watch this if you're new to anime.",
-            "rating": 56,
-            "ratingAmount": 107,
+            "id": 9039,
+            "rating": 249,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 104578,
+              "title": {
+                "userPreferred": "Shingeki no Kyojin 3 Part 2"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/104578-z7SadpYEuAsy.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx104578-LaZYFkmhinfB.jpg"
+              }
+            },
             "user": {
-              "id": 114393,
-              "name": "taven",
+              "id": 175361,
+              "name": "DarknessLord",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n114393-wlKCY02xLzXd.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b175361-WzFtYUDo5tPP.jpg"
+              }
+            }
+          },
+          {
+            "id": 16570,
+            "rating": 143,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 101922,
+              "title": {
+                "userPreferred": "Kimetsu no Yaiba"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101922-YfZhKBUDDS6L.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101922-PEn1CTc93blC.jpg"
+              }
+            },
+            "user": {
+              "id": 189959,
+              "name": "faygocupcakes",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b189959-JzTen0yNFtzW.jpg"
+              }
+            }
+          },
+          {
+            "id": 18140,
+            "rating": 122,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 3588,
+              "title": {
+                "userPreferred": "Soul Eater"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/3588.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx3588-CA8LE5gjm9Qx.png"
+              }
+            },
+            "user": {
+              "id": 315670,
+              "name": "Deedo",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b315670-FMrMJb7XJbER.png"
+              }
+            }
+          },
+          {
+            "id": 2370,
+            "rating": 83,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1482,
+              "title": {
+                "userPreferred": "D.Gray-man"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1482-nmGoqdGfaKEt.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1482-fGNzAamFusSQ.png"
+              }
+            },
+            "user": {
+              "id": 3,
+              "name": "Removed",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/3.jpg"
+              }
+            }
+          },
+          {
+            "id": 18329,
+            "rating": 42,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 11741,
+              "title": {
+                "userPreferred": "Fate\/Zero 2nd Season"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/11741-TWwZCgsK5aXh.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx11741-Twb6iJx77FFV.jpg"
+              }
+            },
+            "user": {
+              "id": 238613,
+              "name": "Memerino",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b238613-p68SQ2WGeUYP.gif"
+              }
+            }
+          },
+          {
+            "id": 38727,
+            "rating": 35,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1735,
+              "title": {
+                "userPreferred": "Naruto: Shippuuden"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1735.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1735-80JNLAlnxrKj.png"
+              }
+            },
+            "user": {
+              "id": 313657,
+              "name": "Dadzie",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b313657-Jrywax00AG5o.png"
               }
             }
           }
@@ -488,11 +684,7 @@
       },
       "externalLinks": [
         {
-          "site": "Netflix",
-          "url": "http:\/\/movies.netflix.com\/WiMovie\/Fullmetal_Alchemist_Brotherhood\/70204981"
-        },
-        {
-          "site": "Animelab",
+          "site": "AnimeLab",
           "url": "https:\/\/www.animelab.com\/shows\/fullmetal-alchemist-brotherhood"
         },
         {
@@ -506,6 +698,26 @@
         {
           "site": "Amazon",
           "url": "https:\/\/www.amazon.com\/One-All\/dp\/B002T8C202\/ref=sr_1_52\/146-1307517-0174061?s=instant-video&rps=1&ie=UTF8&qid=1528858933&sr=1-52&refinements=p_n_theme_browse-bin%3A2650364011%2Cp_85%3A2470955011%2Cp_n_entity_type%3A14069184011%7C14069185011"
+        },
+        {
+          "site": "Funimation",
+          "url": "https:\/\/www.funimation.com\/shows\/fullmetal-alchemist-brotherhood\/"
+        },
+        {
+          "site": "Netflix",
+          "url": "https:\/\/www.netflix.com\/title\/70204981"
+        },
+        {
+          "site": "HBO Max",
+          "url": "https:\/\/play.hbomax.com\/series\/urn:hbo:series:GXp8rfQSwbbq4SAEAAASS"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/GRGGPG93R\/Fullmetal-Alchemist-Brotherhood"
+        },
+        {
+          "site": "Official Site",
+          "url": "https:\/\/www.iq.com\/album\/s8lu95if3p"
         }
       ],
       "streamingEpisodes": [
@@ -897,8 +1109,8 @@
       "trailer": null,
       "rankings": [
         {
-          "id": 1,
-          "rank": 1,
+          "id": 3,
+          "rank": 3,
           "type": "RATED",
           "format": "TV",
           "year": null,
@@ -907,8 +1119,8 @@
           "context": "highest rated all time"
         },
         {
-          "id": 505,
-          "rank": 5,
+          "id": 509,
+          "rank": 9,
           "type": "POPULAR",
           "format": "TV",
           "year": null,
@@ -917,7 +1129,7 @@
           "context": "most popular all time"
         },
         {
-          "id": 4494,
+          "id": 4606,
           "rank": 1,
           "type": "RATED",
           "format": "TV",
@@ -927,7 +1139,7 @@
           "context": "highest rated"
         },
         {
-          "id": 4594,
+          "id": 4706,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -937,7 +1149,7 @@
           "context": "most popular"
         },
         {
-          "id": 4739,
+          "id": 4853,
           "rank": 1,
           "type": "RATED",
           "format": "TV",
@@ -947,7 +1159,7 @@
           "context": "highest rated"
         },
         {
-          "id": 4769,
+          "id": 4883,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -959,18 +1171,10 @@
       ],
       "tags": [
         {
-          "id": 111,
-          "name": "War",
-          "description": "Partly or completely set during wartime.",
-          "rank": 92,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
           "id": 456,
           "name": "Conspiracy",
           "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
-          "rank": 90,
+          "rank": 94,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
@@ -978,15 +1182,23 @@
           "id": 34,
           "name": "Military",
           "description": "Centered around the life and activities of military personnel.",
-          "rank": 89,
+          "rank": 91,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 29,
-          "name": "Magic",
-          "description": "Prominently features magical elements or the use of magic.",
-          "rank": 85,
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 91,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": true
+        },
+        {
+          "id": 111,
+          "name": "War",
+          "description": "Partly or completely set during wartime.",
+          "rank": 90,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -994,14 +1206,30 @@
           "id": 103,
           "name": "Politics",
           "description": "Centers around politics, politicians, or government activities.",
-          "rank": 80,
+          "rank": 84,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 56,
-          "name": "Shounen",
-          "description": "Target demographic is teenage and young adult males.",
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 82,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 536,
+          "name": "Dissociative Identities",
+          "description": "A case where one or more people share the same body.",
+          "rank": 79,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "description": "Centers around a character's transition from childhood to adulthood.",
           "rank": 79,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
@@ -1010,63 +1238,111 @@
           "id": 391,
           "name": "Philosophy",
           "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+          "rank": 78,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 77,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 253,
+          "name": "Gods",
+          "description": "Prominently features a character of divine or religious nature.",
+          "rank": 76,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 105,
+          "name": "Ensemble Cast",
+          "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
           "rank": 74,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 82,
-          "name": "Male Protagonist",
-          "description": "Main character is male.",
-          "rank": 74,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 95,
-          "name": "Steampunk",
-          "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
-          "rank": 68,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 324,
-          "name": "Chibi",
-          "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
-          "rank": 65,
+          "id": 66,
+          "name": "Super Power",
+          "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+          "rank": 72,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
           "id": 198,
           "name": "Foreign",
-          "description": "Partly or completely set in a country outside of Japan.",
-          "rank": 62,
+          "description": "Partly or completely set in a country outside the country of origin. ",
+          "rank": 71,
           "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 226,
+          "name": "Fugitive",
+          "description": "Prominently features a character evading capture by an individual or organization.",
+          "rank": 70,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 801,
+          "name": "Cyborg",
+          "description": "Prominently features a human character whose physiological functions are aided or enhanced by artificial means.",
+          "rank": 67,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 88,
+          "name": "Primarily Male Cast",
+          "description": "Main cast is mostly composed of male characters.",
+          "rank": 67,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
           "id": 466,
           "name": "Lost Civilization",
           "description": "Featuring a civilization with few ruins or records that exist in present day knowledge.",
-          "rank": 54,
+          "rank": 66,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
         {
-          "id": 157,
-          "name": "Guns",
-          "description": "Prominently features the use of guns in combat.",
-          "rank": 52,
+          "id": 490,
+          "name": "Anachronism",
+          "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
+          "rank": 66,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 25,
-          "name": "Historical",
-          "description": "Partly or completely set during a real period of world history.",
-          "rank": 47,
+          "id": 774,
+          "name": "Chimera",
+          "description": "Features a beast made by combining animals, usually with humans",
+          "rank": 65,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 83,
+          "name": "Slapstick",
+          "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+          "rank": 60,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 779,
+          "name": "Kuudere",
+          "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+          "rank": 58,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -1074,7 +1350,39 @@
           "id": 94,
           "name": "Gore",
           "description": "Prominently features graphic bloodshed and violence.",
-          "rank": 46,
+          "rank": 57,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 639,
+          "name": "Body Horror",
+          "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+          "rank": 54,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 335,
+          "name": "Tanned Skin",
+          "description": "Prominently features characters with tanned skin.",
+          "rank": 53,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 324,
+          "name": "Chibi",
+          "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+          "rank": 48,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 157,
+          "name": "Guns",
+          "description": "Prominently features the use of guns in combat.",
+          "rank": 48,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -1082,39 +1390,47 @@
           "id": 43,
           "name": "Swordplay",
           "description": "Prominently features the use of swords in combat.",
-          "rank": 43,
+          "rank": 46,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 152,
-          "name": "Zombie",
-          "description": "Prominently features reanimated corpses which often prey on live humans and turn them into zombies.",
-          "rank": 21,
-          "isMediaSpoiler": true,
+          "id": 931,
+          "name": "Tomboy",
+          "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
+          "rank": 45,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 85,
-          "name": "Tragedy",
-          "description": "Centers around tragic events and unhappy endings.",
-          "rank": 20,
-          "isMediaSpoiler": true,
-          "isGeneralSpoiler": true
+          "id": 1045,
+          "name": "Heterosexual",
+          "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+          "rank": 30,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
         },
         {
-          "id": 639,
-          "name": "Body Horror",
-          "description": "Features characters who undergo horrific transformations and\/or disfigurement, often to their own detriment.",
+          "id": 244,
+          "name": "Isekai",
+          "description": "Features characters being transported into an alternate world setting and having to adapt to their new surroundings.",
+          "rank": 30,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 1052,
+          "name": "Adoption",
+          "description": "Features a character who has been adopted by someone who is neither of their biological parents.",
           "rank": 20,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 174,
-          "name": "Tanks",
-          "description": "Prominently features the use of tanks or other armoured vehicles.",
-          "rank": 18,
+          "id": 15,
+          "name": "Demons",
+          "description": "Prominently features malevolent otherworldly creatures.",
+          "rank": 20,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         }
@@ -1124,65 +1440,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 5136
+            "amount": 21492
           },
           {
             "status": "PLANNING",
-            "amount": 14552
+            "amount": 73644
           },
           {
             "status": "COMPLETED",
-            "amount": 76469
+            "amount": 224131
           },
           {
             "status": "DROPPED",
-            "amount": 1375
+            "amount": 5425
           },
           {
             "status": "PAUSED",
-            "amount": 4137
+            "amount": 14219
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 146
+            "amount": 769
           },
           {
             "score": 20,
-            "amount": 23
+            "amount": 155
           },
           {
             "score": 30,
-            "amount": 57
+            "amount": 244
           },
           {
             "score": 40,
-            "amount": 93
+            "amount": 439
           },
           {
             "score": 50,
-            "amount": 303
+            "amount": 1257
           },
           {
             "score": 60,
-            "amount": 534
+            "amount": 2323
           },
           {
             "score": 70,
-            "amount": 1934
+            "amount": 7591
           },
           {
             "score": 80,
-            "amount": 5275
+            "amount": 20715
           },
           {
             "score": 90,
-            "amount": 12615
+            "amount": 52603
           },
           {
             "score": 100,
-            "amount": 20479
+            "amount": 80556
           }
         ]
       }

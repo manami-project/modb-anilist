@@ -10,7 +10,6 @@ import io.github.manamiproject.modb.test.loadTestResource
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
 import java.net.URI
 
 internal class AnilistConverterTest {
@@ -147,29 +146,13 @@ internal class AnilistConverterTest {
             // then
             assertThat(result.type).isEqualTo(Anime.Type.UNKNOWN)
         }
-
-        @Test
-        fun `throws an exception, because the type is UNKNOWN`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/unknown.json")
-
-            val converter = AnilistConverter()
-
-            // when
-            val result = assertThrows<IllegalStateException> {
-                converter.convert(testFileContent)
-            }
-
-            // then
-            assertThat(result).hasMessage("Unknown type [UNKNOWN]")
-        }
     }
 
     @Nested
     inner class EpisodesTests {
 
         @Test
-        fun `37 episodes`() {
+        fun `fixed number of episodes`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/episodes/39.json")
 
@@ -183,9 +166,9 @@ internal class AnilistConverterTest {
         }
 
         @Test
-        fun `neither episodes nor nextairingepisode are set`() {
+        fun `neither episodes nor nextairingepisode is set`() {
             // given
-            val testFileContent = loadTestResource("file_converter_tests/episodes/null.json")
+            val testFileContent = loadTestResource("file_converter_tests/episodes/neither_episodes_nor_nextairingepisode_is_set.json")
 
             val converter = AnilistConverter()
 
@@ -207,7 +190,7 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.episodes).isEqualTo(957)
+            assertThat(result.episodes).isEqualTo(1016)
         }
     }
 
@@ -225,8 +208,8 @@ internal class AnilistConverterTest {
             val result = converter.convert(testFileContent)
 
             // then
-            assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2167-EgfXVBt6MztP.png"))
-            assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2167-EgfXVBt6MztP.png"))
+            assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
+            assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
         }
 
         @Test
@@ -316,7 +299,8 @@ internal class AnilistConverterTest {
             // then
             assertThat(result.relatedAnime).containsExactly(
                 URI("https://anilist.co/anime/107298"),
-                URI("https://anilist.co/anime/97857")
+                URI("https://anilist.co/anime/116147"),
+                URI("https://anilist.co/anime/97857"),
             )
         }
 
@@ -355,10 +339,11 @@ internal class AnilistConverterTest {
                 URI("https://anilist.co/anime/1491"),
                 URI("https://anilist.co/anime/1645"),
                 URI("https://anilist.co/anime/1676"),
+                URI("https://anilist.co/anime/1706"),
                 URI("https://anilist.co/anime/17269"),
                 URI("https://anilist.co/anime/2202"),
                 URI("https://anilist.co/anime/2203"),
-                URI("https://anilist.co/anime/2470")
+                URI("https://anilist.co/anime/2470"),
             )
         }
 
@@ -381,7 +366,7 @@ internal class AnilistConverterTest {
     inner class StatusTests {
 
         @Test
-        fun `'FINISHED' is mapped to 'FINISHED_AIRING'`() {
+        fun `'FINISHED' is mapped to 'FINISHED'`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/status/finished.json")
 
@@ -395,7 +380,7 @@ internal class AnilistConverterTest {
         }
 
         @Test
-        fun `'RELEASING' is mapped to 'CURRENTLY_AIRING'`() {
+        fun `'RELEASING' is mapped to 'ONGOING'`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/status/releasing.json")
 
@@ -409,7 +394,7 @@ internal class AnilistConverterTest {
         }
 
         @Test
-        fun `'NOT_YET_RELEASED' is mapped to 'NOT_YET_AIRED'`() {
+        fun `'NOT_YET_RELEASED' is mapped to 'UPCOMING'`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/status/not_yet_released.json")
 
@@ -470,24 +455,26 @@ internal class AnilistConverterTest {
                 "adventure",
                 "amnesia",
                 "anti-hero",
-                "comedy",
                 "crime",
                 "cyberpunk",
+                "cyborg",
                 "drama",
                 "drugs",
                 "ensemble cast",
                 "episodic",
+                "gambling",
                 "guns",
                 "male protagonist",
                 "martial arts",
                 "noir",
+                "nudity",
                 "philosophy",
                 "primarily adult cast",
                 "sci-fi",
-                "seinen",
                 "space",
+                "tanned skin",
                 "tragedy",
-                "yakuza"
+                "yakuza",
             )
         }
     }
@@ -510,7 +497,7 @@ internal class AnilistConverterTest {
         }
 
         @Test
-        fun `anilist only uses minutes for duration - 0 implies a duration of less than a minute`() {
+        fun `duration is set to 0`() {
             // given
             val testFileContent = loadTestResource("file_converter_tests/duration/0.json")
 
@@ -521,6 +508,20 @@ internal class AnilistConverterTest {
 
             // then
             assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
+        }
+
+        @Test
+        fun `anilist only uses minutes for duration - so this entry although 15 seconds long is set to 1 min`() {
+            // given
+            val testFileContent = loadTestResource("file_converter_tests/duration/min_duration.json")
+
+            val converter = AnilistConverter()
+
+            // when
+            val result = converter.convert(testFileContent)
+
+            // then
+            assertThat(result.duration).isEqualTo(Duration(1, MINUTES))
         }
 
         @Test
@@ -647,9 +648,9 @@ internal class AnilistConverterTest {
             }
 
             @Test
-            fun `year is 2020`() {
+            fun `year is 2021 - season is null but start date is set`() {
                 // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_2020.json")
+                val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_2021.json")
 
                 val converter = AnilistConverter()
 
@@ -657,7 +658,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.animeSeason.year).isEqualTo(2020)
+                assertThat(result.animeSeason.year).isEqualTo(2021)
             }
         }
     }

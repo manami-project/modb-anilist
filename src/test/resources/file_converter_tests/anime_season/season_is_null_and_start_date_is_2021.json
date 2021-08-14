@@ -1,20 +1,20 @@
 {
   "data": {
     "Media": {
-      "id": 100050,
+      "id": 126434,
       "title": {
-        "userPreferred": "LibraryCross\u221e",
-        "romaji": "LibraryCross\u221e",
-        "english": "Library Cross Infinite",
-        "native": "LibraryCross\u221e"
+        "userPreferred": "Wushu",
+        "romaji": "Wushu",
+        "english": null,
+        "native": "\u6b66\u587e"
       },
       "coverImage": {
-        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100050-iyLeXYqEh6V5.jpg",
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/100050-iyLeXYqEh6V5.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx126434-uC82lXrJRbcz.png",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx126434-uC82lXrJRbcz.png"
       },
       "bannerImage": null,
       "startDate": {
-        "year": null,
+        "year": 2021,
         "month": null,
         "day": null
       },
@@ -23,27 +23,29 @@
         "month": null,
         "day": null
       },
-      "description": "Based on Otomate's puzzle role-playing game.\n<br><br>\nA medical student named Shiina and nine male partners are trapped in a certain dimensional realm with many ancient texts and an enormous mysterious clock. Together, they must find a way to escape by uncovering clues before the clock strikes \"13.\"\n<br><br>\n(Source: Anime News Network)",
+      "description": null,
       "season": null,
       "seasonYear": null,
       "type": "ANIME",
-      "format": "TV",
+      "format": "ONA",
       "status": "NOT_YET_RELEASED",
       "episodes": null,
       "duration": null,
       "chapters": null,
       "volumes": null,
-      "genres": [],
+      "genres": [
+        "Comedy"
+      ],
       "synonyms": [],
-      "source": "VIDEO_GAME",
+      "source": "ORIGINAL",
       "isAdult": false,
       "isLocked": false,
       "meanScore": null,
       "averageScore": null,
-      "popularity": 287,
+      "popularity": 32,
       "favourites": 0,
-      "hashtag": "",
-      "countryOfOrigin": "JP",
+      "hashtag": null,
+      "countryOfOrigin": "CN",
       "isLicensed": true,
       "isFavourite": false,
       "isRecommendationBlocked": false,
@@ -58,7 +60,22 @@
         "edges": []
       },
       "studios": {
-        "edges": []
+        "edges": [
+          {
+            "isMain": true,
+            "node": {
+              "id": 6386,
+              "name": "Green Monster Team"
+            }
+          },
+          {
+            "isMain": false,
+            "node": {
+              "id": 6389,
+              "name": "bilibili"
+            }
+          }
+        ]
       },
       "reviewPreview": {
         "pageInfo": {
@@ -72,34 +89,23 @@
         },
         "nodes": []
       },
-      "externalLinks": [],
+      "externalLinks": [
+        {
+          "site": "Bilibili",
+          "url": "https:\/\/www.bilibili.com\/bangumi\/media\/md28230746\/"
+        }
+      ],
       "streamingEpisodes": [],
       "trailer": {
-        "id": "8tA8kfppUWU",
+        "id": "vinT6LYNvoI",
         "site": "youtube"
       },
       "rankings": [],
       "tags": [
         {
-          "id": 123,
-          "name": "Male Harem",
-          "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
-          "rank": 20,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 98,
-          "name": "Female Protagonist",
-          "description": "Main character is female.",
-          "rank": 20,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 88,
-          "name": "Primarily Male Cast",
-          "description": "Main cast is mostly composed of male characters.",
+          "id": 89,
+          "name": "Full CGI",
+          "description": "Almost entirely created with computer-generated imagery.",
           "rank": 20,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
@@ -110,23 +116,23 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 4
+            "amount": 0
           },
           {
             "status": "PLANNING",
-            "amount": 274
+            "amount": 32
           },
           {
             "status": "COMPLETED",
-            "amount": 6
+            "amount": 0
           },
           {
             "status": "DROPPED",
-            "amount": 2
+            "amount": 0
           },
           {
             "status": "PAUSED",
-            "amount": 1
+            "amount": 0
           }
         ],
         "scoreDistribution": []

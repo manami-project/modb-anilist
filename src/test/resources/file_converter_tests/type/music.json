@@ -9,6 +9,7 @@
         "native": "\u30b7\u30a7\u30eb\u30bf\u30fc"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/nx97731-gYxm0WorfNPM.png",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx97731-gYxm0WorfNPM.png"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/97731-4M6wls7IOoQA.jpg",
@@ -24,6 +25,7 @@
       },
       "description": "Rin, a 17-year-old girl, lives inside a futuristic simulator in infinite, beautiful loneliness. Each day, she awakens in virtual reality to create a world for herself, yet in real life, Rin\u2019s comatose body floats through the universe, forever trapped inside a virtual simulation she will never wake up from...<br>\n<br>\n(Source: Official Site)",
       "season": null,
+      "seasonYear": null,
       "type": "ANIME",
       "format": "MUSIC",
       "status": "FINISHED",
@@ -32,27 +34,29 @@
       "chapters": null,
       "volumes": null,
       "genres": [
-        "Sci-Fi",
-        "Music"
+        "Music",
+        "Sci-Fi"
       ],
       "synonyms": [
         "Shelter The Animation"
       ],
       "source": "ORIGINAL",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 80,
       "averageScore": 80,
-      "popularity": 24089,
-      "favourites": 429,
+      "popularity": 49376,
+      "favourites": 1014,
       "hashtag": null,
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": []
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 146902,
@@ -61,9 +65,9 @@
               {
                 "id": 102337,
                 "name": {
-                  "first": "Sachika",
-                  "last": "Misawa"
+                  "full": "Sachika Misawa"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n102337-iHJMCOTE1eVT.jpg"
                 }
@@ -72,11 +76,10 @@
             "node": {
               "id": 120607,
               "name": {
-                "first": "Rin",
-                "last": null
+                "full": "Rin"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n120607-egSyypZmZ4CF.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b120607-1eJ77vmIfssy.jpg"
               }
             }
           },
@@ -87,8 +90,7 @@
             "node": {
               "id": 133566,
               "name": {
-                "first": "Shigeru",
-                "last": null
+                "full": "Shigeru"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/n133566-M57kWxqmgEZx.jpg"
@@ -97,7 +99,7 @@
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 87437,
@@ -105,9 +107,9 @@
             "node": {
               "id": 110949,
               "name": {
-                "first": "Toshifumi",
-                "last": "Akai"
+                "full": "Toshifumi Akai"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/110949-DaCi5Jg9XFg0.jpg"
               }
@@ -119,11 +121,11 @@
             "node": {
               "id": 120602,
               "name": {
-                "first": "Megumi",
-                "last": "Kouno"
+                "full": "Megumi Kouno"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120602-UEc0VzppHzA6.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120602-EetpXg902GLL.jpg"
               }
             }
           },
@@ -133,11 +135,11 @@
             "node": {
               "id": 120603,
               "name": {
-                "first": "Porter",
-                "last": "Robinson"
+                "full": "Porter Robinson"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120603-5GSp4sbq0ZVR.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120603-oXqOcpnwtRRq.jpg"
               }
             }
           },
@@ -147,11 +149,11 @@
             "node": {
               "id": 120603,
               "name": {
-                "first": "Porter",
-                "last": "Robinson"
+                "full": "Porter Robinson"
               },
+              "language": "ENGLISH",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120603-5GSp4sbq0ZVR.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120603-oXqOcpnwtRRq.jpg"
               }
             }
           },
@@ -161,11 +163,11 @@
             "node": {
               "id": 103102,
               "name": {
-                "first": "Yusuke",
-                "last": "Takeda"
+                "full": "Yuusuke Takeda"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n103102-Jno4cad2IDqX.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n103102-aEjIrYuaUaVn.png"
               }
             }
           },
@@ -175,11 +177,11 @@
             "node": {
               "id": 120602,
               "name": {
-                "first": "Megumi",
-                "last": "Kouno"
+                "full": "Megumi Kouno"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120602-UEc0VzppHzA6.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120602-EetpXg902GLL.jpg"
               }
             }
           },
@@ -189,23 +191,23 @@
             "node": {
               "id": 120602,
               "name": {
-                "first": "Megumi",
-                "last": "Kouno"
+                "full": "Megumi Kouno"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120602-UEc0VzppHzA6.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120602-EetpXg902GLL.jpg"
               }
             }
           },
           {
             "id": 118309,
-            "role": "Music",
+            "role": "Music Performance",
             "node": {
               "id": 132282,
               "name": {
-                "first": "Madeon",
-                "last": null
+                "full": "Madeon"
               },
+              "language": "ENGLISH",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n132282-ihaOykiwxO4a.jpg"
               }
@@ -224,18 +226,216 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 3
+        },
         "nodes": [
           {
             "id": 4090,
             "summary": "A simple yet touching narrative, gorgeous stylized visuals, and a beautiful electronic song to guide you through it all",
-            "rating": 40,
-            "ratingAmount": 42,
+            "rating": 90,
+            "ratingAmount": 93,
             "user": {
               "id": 134935,
               "name": "mochiko",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b134935-pNVdvZ6kRss6.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b134935-wTdQeyzFIWdo.jpg"
+              }
+            }
+          },
+          {
+            "id": 6312,
+            "summary": "An irony of \"I am not alone\" only to realize there's so much more to this weighted meaningful echo.",
+            "rating": 30,
+            "ratingAmount": 34,
+            "user": {
+              "id": 458764,
+              "name": "kathelynn",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b458764-vYbnAJi6NQrD.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 14
+        },
+        "nodes": [
+          {
+            "id": 12534,
+            "rating": 35,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 107704,
+              "title": {
+                "userPreferred": "Kawaki wo Ameku"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/107704-NcO3XKg0iixN.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx107704-3Noksvj7wah5.png"
+              }
+            },
+            "user": {
+              "id": 286701,
+              "name": "St3faN",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b286701-sCDjgkrU52Ib.png"
+              }
+            }
+          },
+          {
+            "id": 66925,
+            "rating": 15,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 131053,
+              "title": {
+                "userPreferred": "Musician"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/131053-vaD0huX2HgKU.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx131053-LkWA50YeeEjo.png"
+              }
+            },
+            "user": {
+              "id": 683581,
+              "name": "hoshino",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b683581-9yoTo4gWKRFp.png"
+              }
+            }
+          },
+          {
+            "id": 18683,
+            "rating": 12,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 107873,
+              "title": {
+                "userPreferred": "main actor"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/107873-QawnnFua2lZp.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx107873-hzengTp1uj51.png"
+              }
+            },
+            "user": {
+              "id": 14982,
+              "name": "Toranaado",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/14982-YtASwmsZcVWE.png"
+              }
+            }
+          },
+          {
+            "id": 31908,
+            "rating": 5,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 106919,
+              "title": {
+                "userPreferred": "sister"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx106919-ByvR9NyoEyHH.png"
+              }
+            },
+            "user": {
+              "id": 490879,
+              "name": "beethobeans2",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b490879-jkGJ4obtqDjB.png"
+              }
+            }
+          },
+          {
+            "id": 47321,
+            "rating": 4,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 108818,
+              "title": {
+                "userPreferred": "YELLOW"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/108818-UhY5ub13Kk6J.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx108818-iVdG0QEIALUZ.jpg"
+              }
+            },
+            "user": {
+              "id": 608148,
+              "name": "DeadWeeb",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b608148-ejJScwWQ7YEm.png"
+              }
+            }
+          },
+          {
+            "id": 42991,
+            "rating": 3,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 123997,
+              "title": {
+                "userPreferred": "Annie"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b123997-XmiUfPlcTa1B.png"
+              }
+            },
+            "user": {
+              "id": 518402,
+              "name": "MarKHP",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b518402-jYYkTyCUIwsR.png"
+              }
+            }
+          },
+          {
+            "id": 68659,
+            "rating": 3,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 103939,
+              "title": {
+                "userPreferred": "Out Of My Head"
+              },
+              "format": "MUSIC",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/103939-WMJdMdFoJk5N.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx103939-TfkaByZGtOIK.png"
+              }
+            },
+            "user": {
+              "id": 683581,
+              "name": "hoshino",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b683581-9yoTo4gWKRFp.png"
               }
             }
           }
@@ -253,6 +453,10 @@
         {
           "site": "Crunchyroll",
           "url": "http:\/\/www.crunchyroll.com\/shelter"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/GYGG09WWY\/SHELTER"
         }
       ],
       "streamingEpisodes": [
@@ -270,34 +474,26 @@
       "rankings": [],
       "tags": [
         {
-          "id": 112,
-          "name": "Virtual World",
-          "description": "Partly or completely set in the world inside a video game.",
-          "rank": 92,
-          "isMediaSpoiler": true,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 265,
-          "name": "Musical",
-          "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
-          "rank": 91,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
           "id": 85,
           "name": "Tragedy",
           "description": "Centers around tragic events and unhappy endings.",
-          "rank": 90,
+          "rank": 96,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": true
+        },
+        {
+          "id": 112,
+          "name": "Virtual World",
+          "description": "Partly or completely set in the world inside a video game.",
+          "rank": 93,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
         },
         {
           "id": 93,
           "name": "Post-Apocalyptic",
           "description": "Partly or completely set in a world or civilization after a global disaster.",
-          "rank": 82,
+          "rank": 84,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
@@ -305,7 +501,7 @@
           "id": 98,
           "name": "Female Protagonist",
           "description": "Main character is female.",
-          "rank": 81,
+          "rank": 83,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -313,7 +509,7 @@
           "id": 240,
           "name": "Amnesia",
           "description": "Prominently features a character(s) with memory loss.",
-          "rank": 71,
+          "rank": 72,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
@@ -321,7 +517,7 @@
           "id": 63,
           "name": "Space",
           "description": "Partly or completely set in outer space.",
-          "rank": 60,
+          "rank": 65,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         }
@@ -331,65 +527,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 116
+            "amount": 332
           },
           {
             "status": "PLANNING",
-            "amount": 1442
+            "amount": 3925
           },
           {
             "status": "COMPLETED",
-            "amount": 22470
+            "amount": 44995
           },
           {
             "status": "DROPPED",
-            "amount": 31
+            "amount": 58
           },
           {
             "status": "PAUSED",
-            "amount": 30
+            "amount": 66
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 88
+            "amount": 174
           },
           {
             "score": 20,
-            "amount": 69
+            "amount": 121
           },
           {
             "score": 30,
-            "amount": 116
+            "amount": 184
           },
           {
             "score": 40,
-            "amount": 271
+            "amount": 442
           },
           {
             "score": 50,
-            "amount": 708
+            "amount": 1239
           },
           {
             "score": 60,
-            "amount": 1152
+            "amount": 2081
           },
           {
             "score": 70,
-            "amount": 2479
+            "amount": 4887
           },
           {
             "score": 80,
-            "amount": 4255
+            "amount": 8587
           },
           {
             "score": 90,
-            "amount": 3854
+            "amount": 7571
           },
           {
             "score": 100,
-            "amount": 3168
+            "amount": 5836
           }
         ]
       }

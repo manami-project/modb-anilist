@@ -1,363 +1,293 @@
 {
   "data": {
     "Media": {
-      "id": 98635,
+      "id": 106169,
       "title": {
-        "userPreferred": "ReLIFE Kanketsu-hen",
-        "romaji": "ReLIFE Kanketsu-hen",
-        "english": "ReLIFE OVA",
-        "native": "ReLIFE \u5b8c\u7d50\u7de8"
+        "userPreferred": "Persona 5 the Animation: Dark Sun...",
+        "romaji": "Persona 5 the Animation: Dark Sun...",
+        "english": "PERSONA5 the Animation: Dark Sun...",
+        "native": "PERSONA5 the Animation: Dark Sun\u2026"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx98635-FyHK34rRXrcN.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx106169-rEwOrZZvg48z.png",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx106169-rEwOrZZvg48z.png"
       },
-      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/98635-NoUpOE940WyV.jpg",
+      "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/106169-RvHesPgSyVC1.jpg",
       "startDate": {
         "year": 2018,
-        "month": 3,
-        "day": 21
+        "month": 12,
+        "day": 31
       },
       "endDate": {
         "year": 2018,
-        "month": 3,
-        "day": 21
+        "month": 12,
+        "day": 31
       },
-      "description": "The conclusion to the ReLife TV series.",
-      "season": "WINTER",
+      "description": "In the wake of Ren Amamiya's apparent suicide, the other members of the Phantom Thieves are heartbroken and without purpose. As Sae Niijima rushes over to Cafe Leblanc, she brings the team a shocking revelation that spurs them to pull off one more spectacular heist. The hardened warriors of the metaverse make one last attempt to prove to the world that they fight for justice, and to bring down their teammate turned traitor, Gorou Akechi. Watch them closely, or they might just steal your heart.<br>\n<br>\n(Source: MAL Rewrite)",
+      "season": "FALL",
+      "seasonYear": 2018,
       "type": "ANIME",
       "format": "SPECIAL",
       "status": "FINISHED",
-      "episodes": 4,
-      "duration": 24,
+      "episodes": 1,
+      "duration": 51,
       "chapters": null,
       "volumes": null,
       "genres": [
-        "Comedy",
-        "Drama",
-        "Romance",
-        "Slice of Life"
+        "Action",
+        "Fantasy",
+        "Supernatural"
       ],
       "synonyms": [],
-      "source": "MANGA",
+      "source": "VIDEO_GAME",
       "isAdult": false,
-      "meanScore": 80,
-      "averageScore": 80,
-      "popularity": 18856,
-      "favourites": 317,
-      "hashtag": "#ReLIFE",
+      "isLocked": false,
+      "meanScore": 67,
+      "averageScore": 66,
+      "popularity": 7050,
+      "favourites": 59,
+      "hashtag": "#\u30da\u30eb\u30bd\u30ca\uff15",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
-            "id": 18787,
-            "relationType": "ADAPTATION",
-            "node": {
-              "id": 85849,
-              "title": {
-                "userPreferred": "ReLife"
-              },
-              "format": "MANGA",
-              "type": "MANGA",
-              "status": "FINISHED",
-              "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/nx85849-TYAa7nhwSvbx.jpg"
-              }
-            }
-          },
-          {
-            "id": 18789,
+            "id": 27739,
             "relationType": "PREQUEL",
             "node": {
-              "id": 21049,
+              "id": 99693,
               "title": {
-                "userPreferred": "ReLife"
+                "userPreferred": "Persona 5 the Animation"
               },
               "format": "TV",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/99693-b3wrYly0eEa6.png",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b21049-Og9VboJRRSi5.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx99693-KxVe3PacdREH.jpg"
               }
             }
           },
           {
-            "id": 31869,
-            "relationType": "SIDE_STORY",
+            "id": 28600,
+            "relationType": "SEQUEL",
             "node": {
-              "id": 108939,
+              "id": 106896,
               "title": {
-                "userPreferred": "Shagahai ReLIFE Kenkyuujo Support-ka"
+                "userPreferred": "Persona 5 the Animation: Stars and Ours"
               },
-              "format": "ONA",
+              "format": "SPECIAL",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/106896-l5jROAzC3obd.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/b108939-t99SwYtxtBuR.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx106896-hNj8pUGTdTcD.png"
+              }
+            }
+          },
+          {
+            "id": 32393,
+            "relationType": "SIDE_STORY",
+            "node": {
+              "id": 109418,
+              "title": {
+                "userPreferred": "Persona 5 the Animation: Proof of Justice"
+              },
+              "format": "OVA",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/109418-UArzq5aJsR0V.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx109418-TTNzz5VO7uoJ.png"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
-            "id": 150596,
+            "id": 180255,
             "role": "MAIN",
             "voiceActors": [
               {
-                "id": 95819,
+                "id": 95081,
                 "name": {
-                  "first": "Kensho",
-                  "last": "Ono"
+                  "full": "Nana Mizuki"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/819.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95081-qto4UanYkpQT.png"
                 }
               }
             ],
             "node": {
-              "id": 89425,
+              "id": 120335,
               "name": {
-                "first": "Arata",
-                "last": "Kaizaki"
+                "full": "Ann Takamaki"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89425-QAefxSLf5puB.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b120335-122Vh3RaM4ZK.png"
               }
             }
           },
           {
-            "id": 150597,
+            "id": 180250,
             "role": "MAIN",
             "voiceActors": [
               {
-                "id": 105765,
+                "id": 95086,
                 "name": {
-                  "first": "Ai",
-                  "last": "Kayano"
+                  "full": "Jun Fukuyama"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n105765-SanVMpfIwSFM.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95086-kFidWVaw1LpB.png"
                 }
               }
             ],
             "node": {
-              "id": 89426,
+              "id": 121590,
               "name": {
-                "first": "Chizuru",
-                "last": "Hishiro"
+                "full": "Ren Amamiya"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b89426-u8HAl1H5jIRX.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121590-gMevxi4Q6VoI.png"
               }
             }
           },
           {
-            "id": 150598,
-            "role": "SUPPORTING",
+            "id": 180253,
+            "role": "MAIN",
             "voiceActors": [
               {
-                "id": 96762,
+                "id": 101686,
                 "name": {
-                  "first": "Ryouhei",
-                  "last": "Kimura"
+                  "full": "Aoi Yuuki"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n96762-vxLbfg9Ysg20.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101686-XqCSS8dHVEgQ.png"
                 }
               }
             ],
             "node": {
-              "id": 89427,
+              "id": 121635,
               "name": {
-                "first": "Ryou",
-                "last": "Yoake"
+                "full": "Futaba Sakura"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89427-qqKKmpyubabB.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121635-x3rT0I5xKaDu.png"
               }
             }
           },
           {
-            "id": 150599,
-            "role": "SUPPORTING",
+            "id": 180256,
+            "role": "MAIN",
             "voiceActors": [
               {
-                "id": 118602,
+                "id": 95030,
                 "name": {
-                  "first": "Reina\r\n",
-                  "last": "Ueda"
+                  "full": "Souichirou Hoshi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118602-nkBhINBtNYRW.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95030-kj64Uy6Zr3bq.png"
                 }
               }
             ],
             "node": {
-              "id": 89428,
+              "id": 121782,
               "name": {
-                "first": "An",
-                "last": "Onoya"
+                "full": "Gorou Akechi"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89428-NcqBkBGSw0y2.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/121782-Sc54PpsZ7grV.jpg"
               }
             }
           },
           {
-            "id": 150600,
-            "role": "SUPPORTING",
+            "id": 180251,
+            "role": "MAIN",
             "voiceActors": [
               {
-                "id": 95890,
+                "id": 95065,
                 "name": {
-                  "first": "Haruka",
-                  "last": "Tomatsu"
+                  "full": "Mamoru Miyano"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95890-wJpIh2qz9agR.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95065-buGDJJG6rGGu.png"
                 }
               }
             ],
             "node": {
-              "id": 89632,
+              "id": 122974,
               "name": {
-                "first": "Rena",
-                "last": "Kariu"
+                "full": "Ryuuji Sakamoto"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89632-sP88VkpJGIIx.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b122974-i5CTdJd6ae27.png"
               }
             }
           },
           {
-            "id": 150601,
-            "role": "SUPPORTING",
+            "id": 180252,
+            "role": "MAIN",
             "voiceActors": [
               {
-                "id": 119617,
+                "id": 95002,
                 "name": {
-                  "first": "Yuuma",
-                  "last": "Uchida"
+                  "full": "Tomokazu Sugita"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119617-xfQmuKjxVBAL.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95002-nDIvHaynicEg.png"
                 }
               }
             ],
             "node": {
-              "id": 89633,
+              "id": 122975,
               "name": {
-                "first": "Kazuomi",
-                "last": "Ooga"
+                "full": "Yuusuke Kitagawa"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/89633-kEDyJFjodViI.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b122975-2R5JywKMTFOg.png"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
-            "id": 93637,
+            "id": 117123,
             "role": "Original Creator",
             "node": {
-              "id": 119025,
+              "id": 116211,
               "name": {
-                "first": "Yayoiso",
-                "last": ""
+                "full": "Atlus"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/119025-RNLBrPwTcYJB.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n116211-2CahhHyiVvAW.png"
               }
             }
           },
           {
-            "id": 105790,
-            "role": "Director",
+            "id": 117124,
+            "role": "Original Character Design",
             "node": {
-              "id": 120091,
+              "id": 107279,
               "name": {
-                "first": "Tomo",
-                "last": "Kosaka"
+                "full": "Shigenori Soejima"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120091-l4Fa79a0ogOd.jpg"
-              }
-            }
-          },
-          {
-            "id": 105791,
-            "role": "Series Composition",
-            "node": {
-              "id": 112681,
-              "name": {
-                "first": "Kazuho",
-                "last": "Hyodo"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
-              }
-            }
-          },
-          {
-            "id": 105792,
-            "role": "Character Design",
-            "node": {
-              "id": 119349,
-              "name": {
-                "first": "Junko",
-                "last": "Yamanaka"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
-              }
-            }
-          },
-          {
-            "id": 105793,
-            "role": "Music",
-            "node": {
-              "id": 120092,
-              "name": {
-                "first": "Masayasu",
-                "last": "Tsuboguchi"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120092-RwJzHRWL6Lgg.jpg"
-              }
-            }
-          },
-          {
-            "id": 105794,
-            "role": "Art Director",
-            "node": {
-              "id": 107601,
-              "name": {
-                "first": "Kentaro",
-                "last": "Akiyama"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
-              }
-            }
-          },
-          {
-            "id": 105795,
-            "role": "Sound Director",
-            "node": {
-              "id": 120066,
-              "name": {
-                "first": "Shouji",
-                "last": "Hata"
-              },
-              "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120066-2VOeki0B1ygY.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/12279.jpg"
               }
             }
           }
@@ -368,24 +298,59 @@
           {
             "isMain": true,
             "node": {
-              "id": 73,
-              "name": "TMS Entertainment"
+              "id": 6222,
+              "name": "CloverWorks"
             }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 1
+        },
         "nodes": [
           {
-            "id": 2403,
-            "summary": "RELife and comparison of reality of two stages of life",
-            "rating": 23,
-            "ratingAmount": 25,
+            "id": 3991,
+            "summary": "[Review] Persona 5A Dark Sun The OVA that was already doomed by its predecessor",
+            "rating": 12,
+            "ratingAmount": 13,
             "user": {
-              "id": 88528,
-              "name": "Animelover33",
+              "id": 173756,
+              "name": "Kal",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n88528-dl0QiYsd4PG3.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n173756-U4TpWQWvUoY6.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 1
+        },
+        "nodes": [
+          {
+            "id": 81879,
+            "rating": 2,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21432,
+              "title": {
+                "userPreferred": "Persona 5 the Animation: The Day Breakers"
+              },
+              "format": "SPECIAL",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21432-FddasbpBL9o4.png",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/21432-Cedi86Cv5hOS.jpg"
+              }
+            },
+            "user": {
+              "id": 5276337,
+              "name": "Gint0ki",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b5276337-l4MMG18Oh2Pt.png"
               }
             }
           }
@@ -394,119 +359,37 @@
       "externalLinks": [
         {
           "site": "Official Site",
-          "url": "http:\/\/relife-anime.com\/"
+          "url": "https:\/\/p5a.jp\/"
         },
         {
           "site": "Twitter",
-          "url": "https:\/\/twitter.com\/ReLIFE_anime"
+          "url": "https:\/\/twitter.com\/P5_anime"
         },
         {
           "site": "Crunchyroll",
-          "url": "http:\/\/www.crunchyroll.com\/relife"
+          "url": "https:\/\/www.crunchyroll.com\/persona5-the-animation\/persona5-the-animation-dark-sun-780776"
+        },
+        {
+          "site": "AnimeLab",
+          "url": "https:\/\/www.animelab.com\/shows\/persona-5-the-animation"
+        },
+        {
+          "site": "Funimation",
+          "url": "https:\/\/www.funimation.com\/shows\/persona5-the-animation\/"
         }
       ],
-      "streamingEpisodes": [
-        {
-          "site": "Crunchyroll",
-          "title": "PV",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/0b2343f4f65763beb35e777760562f3e1465594231_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/relife-pv-714665"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 1 - Kaizaki Arata (27), Unemployed",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/a3b6b1d99a0f528ac78feab63e7722d91467311690_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-1-kaizaki-arata-27-unemployed-714853"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 2 - Communication Skills: Zero",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/f4733dce1deedf5d927d9e35e450afc61467311788_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-2-communication-skills-zero-714855"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 3 - You're Old Now",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/8260bb1022269b4d49edc570b48179c81467311799_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-3-youre-old-now-714857"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 4 - Fall",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire2-tmb\/6778ee4b95dbf9c25bfd44803a79d1b61467311823_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-4-fall-714859"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 5 - Overlap",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/3ea2d1258b74a24b9d209a8a3d97389b1467311811_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-5-overlap-714861"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 6 - This Isn't the First Time",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/dfe86375f533d79901d707263cd71eec1467311871_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-6-this-isnt-the-first-time-714863"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 7 - Test Subject 001 -> 002",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/23a4a26e17c67de376e4ba2cf39fdf791467311885_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-7-test-subject-001-002-714865"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 8 - Rift",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/f847fa6460f8cdea1359a0ed6758ce8a1467091469_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-8-rift-714867"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 9 - Revenge",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/389fa3c76238605a411611d82d157b321467161098_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-9-revenge-714869"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 10 - Everyone's Selfish Desires",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/599b0189f46a6646f91e3ad6d2f7b8581467160159_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-10-everyones-selfish-desires-714871"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 11 - A Trip to the Past",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire4-tmb\/c63291fcfd207a628efbd0ed82d5f4e41467311907_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-11-a-trip-to-the-past-714873"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 12 - Double Panic",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire3-tmb\/51f11e1d68d6f14b4b7e40ec917a8dc21467311949_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-12-double-panic-714875"
-        },
-        {
-          "site": "Crunchyroll",
-          "title": "Episode 13 - Confession",
-          "thumbnail": "https:\/\/img1.ak.crunchyroll.com\/i\/spire1-tmb\/7844792436df0ee8b4209de354d3838d1467311923_full.jpg",
-          "url": "http:\/\/www.crunchyroll.com\/relife\/episode-13-confession-714877"
-        }
-      ],
-      "trailer": null,
+      "streamingEpisodes": [],
+      "trailer": {
+        "id": "iNZoho9r1EY",
+        "site": "youtube"
+      },
       "rankings": [],
       "tags": [
         {
-          "id": 488,
-          "name": "Age Regression",
-          "description": "Prominently features a character who was returned to a younger state.",
-          "rank": 96,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
-        },
-        {
-          "id": 311,
-          "name": "Rehabilitation",
-          "description": "Prominently features the recovery of a character who became incapable of social life or work.",
-          "rank": 95,
+          "id": 99,
+          "name": "Henshin",
+          "description": "Prominently features character or costume transformations which often grant special abilities.",
+          "rank": 79,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -514,15 +397,15 @@
           "id": 46,
           "name": "School",
           "description": "Partly or completely set in a primary or secondary educational institution.",
-          "rank": 85,
+          "rank": 66,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 365,
-          "name": "Memory Manipulation",
-          "description": "Prominently features a character(s) who has had their memories altered.",
-          "rank": 83,
+          "id": 66,
+          "name": "Super Power",
+          "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+          "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -530,17 +413,49 @@
           "id": 82,
           "name": "Male Protagonist",
           "description": "Main character is male.",
-          "rank": 53,
+          "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 96,
-          "name": "Time Manipulation",
-          "description": "Prominently features time-traveling or other time-warping phenomena.",
-          "rank": 51,
+          "id": 252,
+          "name": "Revenge",
+          "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
+          "rank": 60,
           "isMediaSpoiler": false,
-          "isGeneralSpoiler": true
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 118,
+          "name": "Drawing",
+          "description": "Centers around the art of drawing, including manga and doujinshi.",
+          "rank": 46,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 595,
+          "name": "Urban",
+          "description": "Partly or completely set in a city.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 208,
+          "name": "Mythology",
+          "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
+          "rank": 20,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 102,
+          "name": "Coming of Age",
+          "description": "Centers around a character's transition from childhood to adulthood.",
+          "rank": 20,
+          "isMediaSpoiler": true,
+          "isGeneralSpoiler": false
         }
       ],
       "mediaListEntry": null,
@@ -548,65 +463,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 430
+            "amount": 205
           },
           {
             "status": "PLANNING",
-            "amount": 4779
+            "amount": 1830
           },
           {
             "status": "COMPLETED",
-            "amount": 13407
+            "amount": 4868
           },
           {
             "status": "DROPPED",
-            "amount": 82
+            "amount": 51
           },
           {
             "status": "PAUSED",
-            "amount": 158
+            "amount": 96
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 20
-          },
-          {
-            "score": 20,
-            "amount": 17
-          },
-          {
-            "score": 30,
             "amount": 36
           },
           {
+            "score": 20,
+            "amount": 39
+          },
+          {
+            "score": 30,
+            "amount": 67
+          },
+          {
             "score": 40,
-            "amount": 104
+            "amount": 135
           },
           {
             "score": 50,
-            "amount": 241
+            "amount": 326
           },
           {
             "score": 60,
-            "amount": 579
+            "amount": 607
           },
           {
             "score": 70,
-            "amount": 1523
+            "amount": 941
           },
           {
             "score": 80,
-            "amount": 2930
+            "amount": 548
           },
           {
             "score": 90,
-            "amount": 2481
+            "amount": 298
           },
           {
             "score": 100,
-            "amount": 1383
+            "amount": 171
           }
         ]
       }

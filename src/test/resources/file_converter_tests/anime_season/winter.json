@@ -9,7 +9,8 @@
         "native": "\u7d04\u675f\u306e\u30cd\u30d0\u30fc\u30e9\u30f3\u30c9"
       },
       "coverImage": {
-        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx101759-ONAwIKCFiNtE.jpg"
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/bx101759-NhSwxv7HY9y9.jpg",
+        "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx101759-NhSwxv7HY9y9.jpg"
       },
       "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/101759-MhlCoeqnODso.jpg",
       "startDate": {
@@ -22,8 +23,9 @@
         "month": 3,
         "day": 29
       },
-      "description": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as \u201cMom,\u201d all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn\u2014what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.<br>\n<br>(Source: VIZ)",
+      "description": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as \u201cMom,\u201d all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn\u2014what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.\n<br><br>\n(Source: Viz Media)",
       "season": "WINTER",
+      "seasonYear": 2019,
       "type": "ANIME",
       "format": "TV",
       "status": "FINISHED",
@@ -32,32 +34,37 @@
       "chapters": null,
       "volumes": null,
       "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror",
         "Mystery",
         "Psychological",
-        "Thriller",
-        "Fantasy",
-        "Drama",
-        "Horror"
+        "Thriller"
       ],
       "synonyms": [
-        "YakuNeba"
+        "YakuNeba",
+        "TPN",
+        "\u0646\u064a\u0641\u0631\u0644\u0627\u0646\u062f \u0627\u0644\u0645\u0648\u0639\u0648\u062f\u0629",
+        "\u7ea6\u5b9a\u7684\u68a6\u5e7b\u5c9b"
       ],
       "source": "MANGA",
       "isAdult": false,
+      "isLocked": false,
       "meanScore": 85,
       "averageScore": 85,
-      "popularity": 101054,
-      "favourites": 6570,
+      "popularity": 315863,
+      "favourites": 20062,
       "hashtag": "#\u7d04\u675f\u306e\u30cd\u30d0\u30fc\u30e9\u30f3\u30c9 #\u7d04\u30cd\u30d0",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
           {
             "id": 22920,
-            "relationType": "ADAPTATION",
+            "relationType": "SOURCE",
             "node": {
               "id": 87423,
               "title": {
@@ -66,6 +73,7 @@
               "format": "MANGA",
               "type": "MANGA",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/banner\/n87423-n5n0LZu9Gs5H.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/manga\/cover\/medium\/bx87423-gPNtu8QbGped.jpg"
               }
@@ -77,19 +85,20 @@
             "node": {
               "id": 108725,
               "title": {
-                "userPreferred": "Yakusoku no Neverland 2nd Season"
+                "userPreferred": "Yakusoku no Neverland 2"
               },
               "format": "TV",
               "type": "ANIME",
-              "status": "NOT_YET_RELEASED",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/108725-lg940Urvxzfu.jpg",
               "coverImage": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx108725-tYIKj07a441L.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx108725-KM8SqUyaUd1o.jpg"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 153192,
@@ -98,22 +107,21 @@
               {
                 "id": 108639,
                 "name": {
-                  "first": "Maaya",
-                  "last": "Uchida"
+                  "full": "Maaya Uchida"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n108639-JVSMcD60G4rO.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n108639-m9WoSBBJFph5.jpg"
                 }
               }
             ],
             "node": {
               "id": 121700,
               "name": {
-                "first": "Norman",
-                "last": ""
+                "full": "Norman"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121700-0QhyLdihQxrT.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121700-CRwKIlcBcjbv.jpg"
               }
             }
           },
@@ -124,9 +132,9 @@
               {
                 "id": 95655,
                 "name": {
-                  "first": "Mariya",
-                  "last": "Ise"
+                  "full": "Mariya Ise"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95655-gGcbPtimqtA6.png"
                 }
@@ -135,8 +143,7 @@
             "node": {
               "id": 121724,
               "name": {
-                "first": "Ray",
-                "last": ""
+                "full": "Ray"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121724-SJTdODjeO7e6.jpg"
@@ -150,9 +157,9 @@
               {
                 "id": 106404,
                 "name": {
-                  "first": "Sumire",
-                  "last": "Morohoshi"
+                  "full": "Sumire Morohoshi"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n106404-uodatsBbsnJh.png"
                 }
@@ -161,11 +168,10 @@
             "node": {
               "id": 121725,
               "name": {
-                "first": "Emma",
-                "last": ""
+                "full": "Emma"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121725-QBcYa5EKQgJ9.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121725-LQciVJOjnMVh.png"
               }
             }
           },
@@ -176,9 +182,9 @@
               {
                 "id": 95428,
                 "name": {
-                  "first": "Yuko",
-                  "last": "Kaida"
+                  "full": "Yuuko Kaida"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n95428-HyjTuUnEboan.png"
                 }
@@ -187,11 +193,10 @@
             "node": {
               "id": 121701,
               "name": {
-                "first": "Isabella",
-                "last": ""
+                "full": "Isabella"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121701-AU6DioIiWbmB.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121701-hP5hanKRUH9u.png"
               }
             }
           },
@@ -202,9 +207,9 @@
               {
                 "id": 125129,
                 "name": {
-                  "first": "Nao",
-                  "last": "Fujita"
+                  "full": "Nao Fujita"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/125129-9Oci2U6RhdPm.jpg"
                 }
@@ -213,11 +218,10 @@
             "node": {
               "id": 121702,
               "name": {
-                "first": "Krone",
-                "last": ""
+                "full": "Krone"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121702-AtJJQaf7HcVI.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b121702-yOmK9dyvOvVL.png"
               }
             }
           },
@@ -228,9 +232,9 @@
               {
                 "id": 129782,
                 "name": {
-                  "first": "Shinei",
-                  "last": "Ueki"
+                  "full": "Shinei Ueki"
                 },
+                "language": "JAPANESE",
                 "image": {
                   "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n129782-LdJsbA91ehfe.jpg"
                 }
@@ -239,17 +243,16 @@
             "node": {
               "id": 126454,
               "name": {
-                "first": "Don",
-                "last": null
+                "full": "Don"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126454-lqHzjU6lfi6k.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b126454-TI3LXk2oN7WV.jpg"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": [
           {
             "id": 108493,
@@ -257,9 +260,9 @@
             "node": {
               "id": 120216,
               "name": {
-                "first": "Posuka",
-                "last": "Demizu"
+                "full": "Posuka Demizu"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/120216-d7zvAXJy9KjD.jpg"
               }
@@ -271,9 +274,9 @@
             "node": {
               "id": 120217,
               "name": {
-                "first": "Kaiu",
-                "last": "Shirai"
+                "full": "Kaiu Shirai"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n120217-EAIvgpShdrpD.jpg"
               }
@@ -285,11 +288,11 @@
             "node": {
               "id": 101759,
               "name": {
-                "first": "Mamoru",
-                "last": "Kanbe"
+                "full": "Mamoru Kanbe"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/6759.jpg"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101759-zc2fa66azUQF.jpg"
               }
             }
           },
@@ -299,9 +302,9 @@
             "node": {
               "id": 110745,
               "name": {
-                "first": "Toshiya",
-                "last": "Oono"
+                "full": "Toshiya Oono"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n110745-zD6fBkeW9DjR.png"
               }
@@ -313,9 +316,9 @@
             "node": {
               "id": 126735,
               "name": {
-                "first": "Kazuaki",
-                "last": "Shimada"
+                "full": "Kazuaki Shimada"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/default.jpg"
               }
@@ -327,9 +330,9 @@
             "node": {
               "id": 126736,
               "name": {
-                "first": "Takahiro",
-                "last": "Obata"
+                "full": "Takahiro Obata"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/126736-DnxvbhafgGZY.png"
               }
@@ -341,9 +344,9 @@
             "node": {
               "id": 101608,
               "name": {
-                "first": "UVERworld",
-                "last": ""
+                "full": "UVERworld"
               },
+              "language": "JAPANESE",
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n101608-vNTgp1uh9oZK.png"
               }
@@ -355,11 +358,11 @@
             "node": {
               "id": 130502,
               "name": {
-                "first": "Co shu Nie",
-                "last": null
+                "full": "C\u00f6 shu Nie"
               },
+              "language": "JAPANESE",
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n130502-sLDv5uZ9HYFm.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n130502-hmKxUZQBxinW.png"
               }
             }
           }
@@ -391,13 +394,6 @@
           {
             "isMain": false,
             "node": {
-              "id": 561,
-              "name": "A-1 Pictures"
-            }
-          },
-          {
-            "isMain": false,
-            "node": {
               "id": 169,
               "name": "Fuji TV"
             }
@@ -405,37 +401,222 @@
           {
             "isMain": false,
             "node": {
-              "id": 493,
-              "name": "Aniplex of America"
+              "id": 6570,
+              "name": "Shueisha"
             }
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 16
+        },
         "nodes": [
           {
             "id": 4290,
             "summary": "A thrilling roller-coaster ride of emotions that leaves you wanting more. ",
-            "rating": 59,
-            "ratingAmount": 79,
+            "rating": 119,
+            "ratingAmount": 140,
             "user": {
               "id": 214740,
               "name": "codyashi",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b214740-mcfi25kEl3hp.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b214740-zk7w2RmLpX1T.png"
               }
             }
           },
           {
-            "id": 6794,
-            "summary": "It fumbles a few times, but there is still much to love about this anime",
-            "rating": 32,
-            "ratingAmount": 37,
+            "id": 4426,
+            "summary": "A coming-of-age thriller where a group of kids thread the dangers of a reality they might've not been ready to discover",
+            "rating": 57,
+            "ratingAmount": 72,
             "user": {
-              "id": 517358,
-              "name": "Miposky",
+              "id": 267698,
+              "name": "pseudolemon",
               "avatar": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b517358-vkdoPpOJVKdT.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b267698-WR6hAH8S5GMM.jpg"
+              }
+            }
+          }
+        ]
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 37
+        },
+        "nodes": [
+          {
+            "id": 2410,
+            "rating": 1267,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 97986,
+              "title": {
+                "userPreferred": "Made in Abyss"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/97986-mXXqF2jR0ywU.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx97986-fzJBML9qecb4.jpg"
+              }
+            },
+            "user": {
+              "id": 128865,
+              "name": "Shcrotum",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n128865-eUWlofSv0jYr.jpg"
+              }
+            }
+          },
+          {
+            "id": 4841,
+            "rating": 431,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 16498,
+              "title": {
+                "userPreferred": "Shingeki no Kyojin"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/16498-8jpFCOcDmneX.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx16498-m5ZMNtFioc7j.png"
+              }
+            },
+            "user": {
+              "id": 187511,
+              "name": "Yousef",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b187511-YjG2JcCULavD.png"
+              }
+            }
+          },
+          {
+            "id": 2412,
+            "rating": 317,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 1535,
+              "title": {
+                "userPreferred": "Death Note"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/1535.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx1535-lawCwhzhi96X.jpg"
+              }
+            },
+            "user": {
+              "id": 128865,
+              "name": "Shcrotum",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/n128865-eUWlofSv0jYr.jpg"
+              }
+            }
+          },
+          {
+            "id": 12419,
+            "rating": 216,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 21234,
+              "title": {
+                "userPreferred": "Boku dake ga Inai Machi"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/21234-7lfSSPoMmwr2.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx21234-v2NMgPyoVRoM.jpg"
+              }
+            },
+            "user": {
+              "id": 3,
+              "name": "Removed",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/3.jpg"
+              }
+            }
+          },
+          {
+            "id": 71305,
+            "rating": 168,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 125038,
+              "title": {
+                "userPreferred": "Shadows House"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/125038-Gy0IC8sqR8e4.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx125038-EDYVfZUMnCBg.png"
+              }
+            },
+            "user": {
+              "id": 256059,
+              "name": "SoulKing",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b256059-Cr0YF5xeHJUM.png"
+              }
+            }
+          },
+          {
+            "id": 11897,
+            "rating": 135,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 13125,
+              "title": {
+                "userPreferred": "Shinsekai yori"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/13125.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx13125-NdLjbmyHmoAD.png"
+              }
+            },
+            "user": {
+              "id": 133256,
+              "name": "maxster541",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b133256-mLNykMiv6yxn.jpg"
+              }
+            }
+          },
+          {
+            "id": 45411,
+            "rating": 83,
+            "userRating": "NO_RATING",
+            "mediaRecommendation": {
+              "id": 117343,
+              "title": {
+                "userPreferred": "Munou na Nana"
+              },
+              "format": "TV",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/117343-w0m2gfOlQphZ.jpg",
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx117343-NgCLZTaxallv.jpg"
+              }
+            },
+            "user": {
+              "id": 212541,
+              "name": "Spring76",
+              "avatar": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/user\/avatar\/large\/b212541-4Cck3pFqvY5f.png"
               }
             }
           }
@@ -453,10 +634,6 @@
         {
           "site": "Crunchyroll",
           "url": "https:\/\/www.crunchyroll.com\/the-promised-neverland"
-        },
-        {
-          "site": "Official Site",
-          "url": "https:\/\/www.wakanim.tv\/de\/v2\/catalogue\/show\/435\/the-promised-neverland-omu"
         },
         {
           "site": "AnimeLab",
@@ -477,6 +654,18 @@
         {
           "site": "Netflix",
           "url": "https:\/\/www.netflix.com\/title\/81145640"
+        },
+        {
+          "site": "HBO Max",
+          "url": "https:\/\/play.hbomax.com\/series\/urn:hbo:series:GXyLyegb-9Y6vcwEAAAIX"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/GYVD2K1WY\/THE-PROMISED-NEVERLAND"
+        },
+        {
+          "site": "Official Site",
+          "url": "https:\/\/www.iq.com\/album\/fqzoj5ytxt"
         }
       ],
       "streamingEpisodes": [
@@ -559,8 +748,8 @@
       },
       "rankings": [
         {
-          "id": 33,
-          "rank": 33,
+          "id": 37,
+          "rank": 37,
           "type": "RATED",
           "format": "TV",
           "year": null,
@@ -569,8 +758,8 @@
           "context": "highest rated all time"
         },
         {
-          "id": 540,
-          "rank": 40,
+          "id": 514,
+          "rank": 14,
           "type": "POPULAR",
           "format": "TV",
           "year": null,
@@ -579,8 +768,8 @@
           "context": "most popular all time"
         },
         {
-          "id": 8773,
-          "rank": 5,
+          "id": 8851,
+          "rank": 4,
           "type": "RATED",
           "format": "TV",
           "year": 2019,
@@ -589,7 +778,7 @@
           "context": "highest rated"
         },
         {
-          "id": 8870,
+          "id": 8949,
           "rank": 2,
           "type": "POPULAR",
           "format": "TV",
@@ -599,7 +788,7 @@
           "context": "most popular"
         },
         {
-          "id": 8970,
+          "id": 9049,
           "rank": 2,
           "type": "RATED",
           "format": "TV",
@@ -609,7 +798,7 @@
           "context": "highest rated"
         },
         {
-          "id": 8999,
+          "id": 9078,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV",
@@ -632,7 +821,7 @@
           "id": 143,
           "name": "Survival",
           "description": "Centers around the struggle to live in spite of extreme obstacles.",
-          "rank": 92,
+          "rank": 94,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
@@ -640,17 +829,17 @@
           "id": 446,
           "name": "Primarily Child Cast",
           "description": "Main cast is mostly composed of characters below a high school age.",
-          "rank": 91,
+          "rank": 92,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
-          "id": 56,
-          "name": "Shounen",
-          "description": "Target demographic is teenage and young adult males.",
-          "rank": 74,
+          "id": 85,
+          "name": "Tragedy",
+          "description": "Centers around tragic events and unhappy endings.",
+          "rank": 79,
           "isMediaSpoiler": false,
-          "isGeneralSpoiler": false
+          "isGeneralSpoiler": true
         },
         {
           "id": 15,
@@ -661,26 +850,10 @@
           "isGeneralSpoiler": false
         },
         {
-          "id": 85,
-          "name": "Tragedy",
-          "description": "Centers around tragic events and unhappy endings.",
-          "rank": 73,
-          "isMediaSpoiler": false,
-          "isGeneralSpoiler": true
-        },
-        {
-          "id": 142,
-          "name": "Food",
-          "description": "Centers around cooking or food appraisal.",
-          "rank": 70,
-          "isMediaSpoiler": true,
-          "isGeneralSpoiler": false
-        },
-        {
           "id": 98,
           "name": "Female Protagonist",
           "description": "Main character is female.",
-          "rank": 68,
+          "rank": 73,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
@@ -696,16 +869,32 @@
           "id": 636,
           "name": "Cosmic Horror",
           "description": "A type of horror that emphasizes human insignificance in the grand scope of cosmic reality; fearing the unknown and being powerless to fight it.",
-          "rank": 60,
+          "rank": 68,
           "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
         {
-          "id": 191,
-          "name": "Aliens",
-          "description": "Prominently features extraterrestrial lifeforms.",
-          "rank": 45,
-          "isMediaSpoiler": true,
+          "id": 105,
+          "name": "Ensemble Cast",
+          "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+          "rank": 57,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 55,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 56,
+          "name": "Shounen",
+          "description": "Target demographic is teenage and young adult males.",
+          "rank": 55,
+          "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
       ],
@@ -714,65 +903,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 8503
+            "amount": 16141
           },
           {
             "status": "PLANNING",
-            "amount": 18035
+            "amount": 49267
           },
           {
             "status": "COMPLETED",
-            "amount": 70467
+            "amount": 239960
           },
           {
             "status": "DROPPED",
-            "amount": 1739
+            "amount": 4684
           },
           {
             "status": "PAUSED",
-            "amount": 2310
+            "amount": 5811
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 322
+            "amount": 644
           },
           {
             "score": 20,
-            "amount": 42
+            "amount": 134
           },
           {
             "score": 30,
-            "amount": 127
+            "amount": 362
           },
           {
             "score": 40,
-            "amount": 284
+            "amount": 756
           },
           {
             "score": 50,
-            "amount": 623
+            "amount": 1915
           },
           {
             "score": 60,
-            "amount": 1390
+            "amount": 4178
           },
           {
             "score": 70,
-            "amount": 4627
+            "amount": 14412
           },
           {
             "score": 80,
-            "amount": 12425
+            "amount": 40147
           },
           {
             "score": 90,
-            "amount": 19684
+            "amount": 62639
           },
           {
             "score": 100,
-            "amount": 12895
+            "amount": 43968
           }
         ]
       }

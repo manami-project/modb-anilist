@@ -3,12 +3,13 @@
     "Media": {
       "id": 100133,
       "title": {
-        "userPreferred": "One Room 2",
-        "romaji": "One Room 2",
+        "userPreferred": "One Room: Second Season",
+        "romaji": "One Room: Second Season",
         "english": "One Room SECOND SEASON",
-        "native": "One Room 2"
+        "native": "One Room \u30bb\u30ab\u30f3\u30c9\u30b7\u30fc\u30ba\u30f3"
       },
       "coverImage": {
+        "extraLarge": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/large\/nx100133-ON96W9oFFvZL.jpg",
         "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx100133-ON96W9oFFvZL.jpg"
       },
       "bannerImage": null,
@@ -22,31 +23,37 @@
         "month": 9,
         "day": 25
       },
-      "description": "The second season of <i>One Room<\/i>.<br><br>\n\n<i>Excludes episode 0, Hanasaka Yui's Prologue.<\/i>",
+      "description": "The second season of <i>One Room<\/i>.<br><br>\n\n<i>Note: Excludes recap episode 0, Hanasaka Yui's Prologue.<\/i>",
       "season": "SUMMER",
+      "seasonYear": 2018,
       "type": "ANIME",
       "format": "TV_SHORT",
       "status": "FINISHED",
       "episodes": 12,
-      "duration": 5,
+      "duration": 4,
       "chapters": null,
       "volumes": null,
       "genres": [
+        "Romance",
         "Slice of Life"
       ],
       "synonyms": [
-        "\u30ef\u30f3\u30eb\u30fc\u30e0"
+        "\u30ef\u30f3\u30eb\u30fc\u30e0",
+        "One Room 2nd Season",
+        "One Room 2"
       ],
       "source": "ORIGINAL",
       "isAdult": false,
-      "meanScore": 60,
-      "averageScore": 59,
-      "popularity": 4416,
-      "favourites": 33,
+      "isLocked": false,
+      "meanScore": 58,
+      "averageScore": 58,
+      "popularity": 10106,
+      "favourites": 75,
       "hashtag": "#OneRoom",
       "countryOfOrigin": "JP",
       "isLicensed": true,
       "isFavourite": false,
+      "isRecommendationBlocked": false,
       "nextAiringEpisode": null,
       "relations": {
         "edges": [
@@ -61,6 +68,7 @@
               "format": "TV_SHORT",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/banner\/97857-8eTgqUEOBStP.jpg",
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx97857-ICKs86L2ymjU.jpg"
               }
@@ -72,19 +80,37 @@
             "node": {
               "id": 107298,
               "title": {
-                "userPreferred": "One Room: Extra"
+                "userPreferred": "One Room: Second Season -extra-"
               },
-              "format": "SPECIAL",
+              "format": "OVA",
               "type": "ANIME",
               "status": "FINISHED",
+              "bannerImage": null,
               "coverImage": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/nx107298-Y8h5Sd3lRBtM.jpg"
+              }
+            }
+          },
+          {
+            "id": 39626,
+            "relationType": "SEQUEL",
+            "node": {
+              "id": 116147,
+              "title": {
+                "userPreferred": "One Room: Third Season"
+              },
+              "format": "TV_SHORT",
+              "type": "ANIME",
+              "status": "FINISHED",
+              "bannerImage": null,
+              "coverImage": {
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/media\/anime\/cover\/medium\/bx116147-ihwpyRJMuFKx.png"
               }
             }
           }
         ]
       },
-      "characters": {
+      "characterPreview": {
         "edges": [
           {
             "id": 154325,
@@ -93,19 +119,18 @@
               {
                 "id": 118510,
                 "name": {
-                  "first": "Mao",
-                  "last": "Ichimichi"
+                  "full": "Mao Ichimichi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118510-LOJDMU9uvuU6.png"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n118510-iMUv5D7W99C1.png"
                 }
               }
             ],
             "node": {
               "id": 127267,
               "name": {
-                "first": "Hanasaka",
-                "last": "Yui"
+                "full": "Yui Hanasaka"
               },
               "image": {
                 "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/127267-C7XFtpIkFOBj.jpg"
@@ -119,22 +144,21 @@
               {
                 "id": 119331,
                 "name": {
-                  "first": "Rie",
-                  "last": "Takahashi"
+                  "full": "Rie Takahashi"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119331-FJnrKPINpcAt.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n119331-0CYDTh2mwy62.png"
                 }
               }
             ],
             "node": {
               "id": 127410,
               "name": {
-                "first": "Minori",
-                "last": "Nanahashi"
+                "full": "Minori Nanahashi"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/127410-nSSnyQYZYOly.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127410-EiwYX7Xh1LTZ.jpg"
               }
             }
           },
@@ -145,28 +169,27 @@
               {
                 "id": 106297,
                 "name": {
-                  "first": "Inori",
-                  "last": "Minase"
+                  "full": "Inori Minase"
                 },
+                "language": "JAPANESE",
                 "image": {
-                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/106297-ysFPeWJPnrhq.jpg"
+                  "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/staff\/large\/n106297-r8EV5GYXf8q6.png"
                 }
               }
             ],
             "node": {
               "id": 127479,
               "name": {
-                "first": "Mashiro",
-                "last": "Amatsuki"
+                "full": "Mashiro Amatsuki"
               },
               "image": {
-                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/127479-rjIaTTmZAo5O.png"
+                "large": "https:\/\/s4.anilist.co\/file\/anilistcdn\/character\/large\/b127479-O4Bl9UiVCR4p.jpg"
               }
             }
           }
         ]
       },
-      "staff": {
+      "staffPreview": {
         "edges": []
       },
       "studios": {
@@ -180,7 +203,16 @@
           }
         ]
       },
-      "reviews": {
+      "reviewPreview": {
+        "pageInfo": {
+          "total": 0
+        },
+        "nodes": []
+      },
+      "recommendations": {
+        "pageInfo": {
+          "total": 0
+        },
         "nodes": []
       },
       "externalLinks": [
@@ -195,6 +227,10 @@
         {
           "site": "Crunchyroll",
           "url": "http:\/\/www.crunchyroll.com\/oneroom"
+        },
+        {
+          "site": "VRV",
+          "url": "https:\/\/vrv.co\/series\/G6K5JGZ1Y\/OneRoom"
         }
       ],
       "streamingEpisodes": [
@@ -277,8 +313,8 @@
       },
       "rankings": [
         {
-          "id": 10976,
-          "rank": 17,
+          "id": 12154,
+          "rank": 22,
           "type": "RATED",
           "format": "TV_SHORT",
           "year": 2018,
@@ -287,8 +323,8 @@
           "context": "highest rated"
         },
         {
-          "id": 10997,
-          "rank": 8,
+          "id": 12167,
+          "rank": 5,
           "type": "POPULAR",
           "format": "TV_SHORT",
           "year": 2018,
@@ -297,7 +333,7 @@
           "context": "most popular"
         },
         {
-          "id": 11072,
+          "id": 12251,
           "rank": 5,
           "type": "RATED",
           "format": "TV_SHORT",
@@ -307,7 +343,7 @@
           "context": "highest rated"
         },
         {
-          "id": 11075,
+          "id": 12253,
           "rank": 1,
           "type": "POPULAR",
           "format": "TV_SHORT",
@@ -319,26 +355,50 @@
       ],
       "tags": [
         {
+          "id": 86,
+          "name": "Primarily Female Cast",
+          "description": "Main cast is mostly composed of female characters.",
+          "rank": 88,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 215,
+          "name": "POV",
+          "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
+          "rank": 88,
+          "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
           "id": 92,
           "name": "Cute Girls Doing Cute Things",
-          "description": "Centers around, well, cute girls doing cute things.",
-          "rank": 79,
+          "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
+          "rank": 60,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         },
         {
           "id": 23,
-          "name": "Harem",
-          "description": "Main cast features one male character plus several female characters who are romantically interested in him.",
-          "rank": 46,
+          "name": "Female Harem",
+          "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+          "rank": 56,
           "isMediaSpoiler": false,
+          "isGeneralSpoiler": false
+        },
+        {
+          "id": 82,
+          "name": "Male Protagonist",
+          "description": "Main character is male.",
+          "rank": 40,
+          "isMediaSpoiler": true,
           "isGeneralSpoiler": false
         },
         {
           "id": 262,
           "name": "Outdoor",
           "description": "Centers around hiking, camping or other outdoor activities.",
-          "rank": 20,
+          "rank": 36,
           "isMediaSpoiler": false,
           "isGeneralSpoiler": false
         }
@@ -348,65 +408,65 @@
         "statusDistribution": [
           {
             "status": "CURRENT",
-            "amount": 395
+            "amount": 507
           },
           {
             "status": "PLANNING",
-            "amount": 1427
+            "amount": 3233
           },
           {
             "status": "COMPLETED",
-            "amount": 2318
+            "amount": 5858
           },
           {
             "status": "DROPPED",
-            "amount": 168
+            "amount": 327
           },
           {
             "status": "PAUSED",
-            "amount": 108
+            "amount": 181
           }
         ],
         "scoreDistribution": [
           {
             "score": 10,
-            "amount": 55
+            "amount": 169
           },
           {
             "score": 20,
-            "amount": 52
+            "amount": 159
           },
           {
             "score": 30,
-            "amount": 103
+            "amount": 271
           },
           {
             "score": 40,
-            "amount": 135
+            "amount": 373
           },
           {
             "score": 50,
-            "amount": 284
+            "amount": 687
           },
           {
             "score": 60,
-            "amount": 391
+            "amount": 991
           },
           {
             "score": 70,
-            "amount": 359
+            "amount": 841
           },
           {
             "score": 80,
-            "amount": 195
+            "amount": 445
           },
           {
             "score": 90,
-            "amount": 99
+            "amount": 227
           },
           {
             "score": 100,
-            "amount": 94
+            "amount": 191
           }
         ]
       }
