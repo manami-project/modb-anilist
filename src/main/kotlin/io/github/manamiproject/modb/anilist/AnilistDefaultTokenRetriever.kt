@@ -71,9 +71,9 @@ public class AnilistDefaultTokenRetriever(
             retryOnResponsePredicate = { httpResponse -> httpResponse.code in listOf(403, 500, 502, 520) }
         ).apply {
             addExecuteBeforeRetryPredicate(403) {
-                log.warn("Anilist responds with 403. Refreshing token.")
+                log.warn { "Anilist responds with 403. Refreshing token." }
                 anilistTokenRepository.token = retrieveToken()
-                log.info("Token has been renewed")
+                log.info { "Token has been renewed" }
             }
         }
 

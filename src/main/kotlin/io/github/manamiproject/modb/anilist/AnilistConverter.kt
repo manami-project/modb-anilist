@@ -73,6 +73,7 @@ public class AnilistConverter(
         return document.data.Media.title.filterKeys { it != "userPreferred" }
             .map { it.value }
             .union(document.data.Media.synonyms)
+            .filterNotNull()
             .toMutableList()
     }
 
@@ -139,7 +140,7 @@ private data class AnilistDataMedia(
     val episodes: Int?,
     val duration: Int?,
     val format: String?,
-    val synonyms: List<String>,
+    val synonyms: List<String?>,
     val relations: AnilistRelations,
     val nextAiringEpisode: AnilistNextAiringEpisode?,
     val status: String?,
