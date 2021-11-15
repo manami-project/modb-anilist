@@ -1,4 +1,4 @@
-![Build](https://github.com/manami-project/modb-anilist/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/manami-project/modb-anilist/badge.svg)](https://coveralls.io/github/manami-project/modb-anilist)
+![Build](https://github.com/manami-project/modb-anilist/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/manami-project/modb-anilist/badge.svg)](https://coveralls.io/github/manami-project/modb-anilist) ![jdk17](https://img.shields.io/badge/jdk-17-informational)
 # modb-anilist
 _[modb](https://github.com/manami-project?tab=repositories&q=modb&type=source)_ stands for _**M**anami **O**ffline **D**ata**B**ase_. Repositories prefixed with this acronym are used to create the [manami-project/anime-offline-database](https://github.com/manami-project/anime-offline-database).
 

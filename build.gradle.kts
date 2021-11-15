@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.6.0"
     `maven-publish`
     `java-library`
     jacoco
@@ -128,7 +128,7 @@ tasks.jacocoTestReport {
 }
 
 object Versions {
-    const val JVM_TARGET = "11"
+    const val JVM_TARGET = "17"
 }
 
 fun parameter(name: String, default: String = ""): String {
