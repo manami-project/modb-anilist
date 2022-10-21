@@ -40,7 +40,7 @@ dependencies {
     implementation("org.jsoup:jsoup:1.15.3")
 
     testImplementation("ch.qos.logback:logback-classic:1.4.4")
-    testImplementation("io.github.manamiproject:modb-test:1.3.10")
+    testImplementation("io.github.manamiproject:modb-test:1.4.0c")
 }
 
 kotlin {
