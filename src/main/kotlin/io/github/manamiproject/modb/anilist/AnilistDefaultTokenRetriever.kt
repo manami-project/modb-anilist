@@ -83,6 +83,7 @@ public class AnilistDefaultTokenRetriever(
     private suspend fun registerRetryBehavior() {
         val retryBehaviorConfig = RetryBehavior(
             waitDuration = { random(4000, 8000).toDuration(MILLISECONDS) },
+            isTestContext = config.isTestContext(),
         ).apply {
             addCase {
                 it.code in setOf(500, 502, 520)
