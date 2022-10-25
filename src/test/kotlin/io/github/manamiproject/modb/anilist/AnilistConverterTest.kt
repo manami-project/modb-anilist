@@ -7,6 +7,7 @@ import io.github.manamiproject.modb.core.models.AnimeSeason.Season.*
 import io.github.manamiproject.modb.core.models.Duration
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.*
 import io.github.manamiproject.modb.test.loadTestResource
+import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
@@ -25,7 +26,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.title).isEqualTo("Tobidasu PriPara: Mi~nna de Mezase! Idol☆Grand Prix")
@@ -43,7 +46,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(TV)
@@ -57,7 +62,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(TV)
@@ -71,7 +78,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(SPECIAL)
@@ -85,7 +94,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(OVA)
@@ -99,7 +110,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(ONA)
@@ -113,7 +126,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(MOVIE)
@@ -127,7 +142,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(SPECIAL)
@@ -141,7 +158,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.type).isEqualTo(Anime.Type.UNKNOWN)
@@ -159,7 +178,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.episodes).isEqualTo(39)
@@ -173,7 +194,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.episodes).isEqualTo(0)
@@ -187,7 +210,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.episodes).isEqualTo(1016)
@@ -205,7 +230,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
@@ -220,7 +247,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
@@ -239,7 +268,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.synonyms).containsExactly(
@@ -262,7 +293,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.sources.first()).isEqualTo(URI("https://anilist.co/anime/15689"))
@@ -280,7 +313,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.relatedAnime).isEmpty()
@@ -294,7 +329,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.relatedAnime).containsExactly(
@@ -312,7 +349,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.relatedAnime).containsExactly(
@@ -328,7 +367,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.relatedAnime).containsExactly(
@@ -355,7 +396,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.relatedAnime).isEmpty()
@@ -373,7 +416,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.status).isEqualTo(FINISHED)
@@ -387,7 +432,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.status).isEqualTo(ONGOING)
@@ -401,7 +448,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.status).isEqualTo(UPCOMING)
@@ -415,7 +464,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
@@ -429,7 +480,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
@@ -447,7 +500,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.tags).containsExactly(
@@ -490,7 +545,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
@@ -504,7 +561,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
@@ -518,7 +577,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.duration).isEqualTo(Duration(1, MINUTES))
@@ -532,7 +593,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.duration).isEqualTo(Duration(24, MINUTES))
@@ -546,7 +609,9 @@ internal class AnilistConverterTest {
             val converter = AnilistConverter()
 
             // when
-            val result = converter.convert(testFileContent)
+            val result = runBlocking {
+                converter.convertSuspendable(testFileContent)
+            }
 
             // then
             assertThat(result.duration).isEqualTo(Duration(2, HOURS))
@@ -567,7 +632,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.season).isEqualTo(UNDEFINED)
@@ -581,7 +648,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.season).isEqualTo(SPRING)
@@ -595,7 +664,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.season).isEqualTo(SUMMER)
@@ -609,7 +680,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.season).isEqualTo(FALL)
@@ -623,7 +696,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.season).isEqualTo(WINTER)
@@ -641,7 +716,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.year).isEqualTo(0)
@@ -655,7 +732,9 @@ internal class AnilistConverterTest {
                 val converter = AnilistConverter()
 
                 // when
-                val result = converter.convert(testFileContent)
+                val result = runBlocking {
+                    converter.convertSuspendable(testFileContent)
+                }
 
                 // then
                 assertThat(result.animeSeason.year).isEqualTo(2021)

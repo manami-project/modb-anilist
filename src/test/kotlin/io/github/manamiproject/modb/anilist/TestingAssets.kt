@@ -16,5 +16,9 @@ internal object MetaDataProviderTestConfig : MetaDataProviderConfig {
 }
 
 internal object TestAnilistTokenRetriever : AnilistTokenRetriever {
+    @Deprecated("Use coroutine instead",
+        ReplaceWith("shouldNotBeInvoked()", "io.github.manamiproject.modb.test.shouldNotBeInvoked")
+    )
     override fun retrieveToken(): AnilistToken = shouldNotBeInvoked()
+    override suspend fun retrieveTokenSuspendable(): AnilistToken = shouldNotBeInvoked()
 }
