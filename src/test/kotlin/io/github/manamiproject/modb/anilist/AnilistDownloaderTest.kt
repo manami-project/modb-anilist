@@ -13,6 +13,7 @@ import io.github.manamiproject.modb.core.extensions.toAnimeId
 import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
 import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.test.*
+import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
@@ -45,8 +46,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         val testToken = AnilistToken("fresh-cookies", "fresh-csrf")
         var hasBeenInvoked = false
 
-        val testAnilistTokenRetriever = object: AnilistTokenRetriever {
-            override fun retrieveToken(): AnilistToken {
+        val testAnilistTokenRetriever = object: AnilistTokenRetriever by TestAnilistTokenRetriever {
+            override suspend fun retrieveTokenSuspendable(): AnilistToken {
                 hasBeenInvoked = true
                 return testToken
             }
@@ -63,9 +64,9 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         AnilistDownloader(
-                config = MetaDataProviderTestConfig,
-                anilistTokenRetriever = testAnilistTokenRetriever,
-                anilistTokenRepository = testAnilistTokenRepository
+            config = MetaDataProviderTestConfig,
+            anilistTokenRetriever = testAnilistTokenRetriever,
+            anilistTokenRepository = testAnilistTokenRepository,
         )
 
         // then
@@ -104,13 +105,15 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         )
 
         val downloader = AnilistDownloader(
-                config = testAnilistConfig,
-                anilistTokenRetriever = TestAnilistTokenRetriever,
-                anilistTokenRepository = testAnilistTokenRepository,
+            config = testAnilistConfig,
+            anilistTokenRetriever = TestAnilistTokenRetriever,
+            anilistTokenRepository = testAnilistTokenRepository,
         )
 
         // when
-        val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+        val result = runBlocking {
+            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+        }
 
         // then
         assertThat(result).isEqualTo(responseBody)
@@ -145,14 +148,14 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         )
 
         val downloader = AnilistDownloader(
-                config = testAnilistConfig,
-                anilistTokenRetriever = TestAnilistTokenRetriever,
-                anilistTokenRepository = testAnilistTokenRepository,
+            config = testAnilistConfig,
+            anilistTokenRetriever = TestAnilistTokenRetriever,
+            anilistTokenRepository = testAnilistTokenRepository,
         )
 
         // when
-        val result = org.junit.jupiter.api.assertThrows<IllegalStateException> {
-            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+        val result = exceptionExpected<IllegalStateException> {
+            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -190,15 +193,17 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             )
 
             val downloader = AnilistDownloader(
-                    config = testAnilistConfig,
-                    anilistTokenRetriever = TestAnilistTokenRetriever,
-                    anilistTokenRepository = testAnilistTokenRepository,
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
             )
 
             var deadEntriesId = EMPTY
 
             // when
-            val result = downloader.download(id.toAnimeId()) { deadEntriesId = it }
+            val result = runBlocking {
+                downloader.downloadSuspendable(id.toAnimeId()) { deadEntriesId = it }
+            }
 
             // then
             assertThat(result).isBlank()
@@ -223,12 +228,12 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         val responseBody = "{ \"anilistId\": $id }"
 
         serverInstance.stubFor(
-                post(urlPathEqualTo("/graphql")).willReturn(
-                        aResponse()
-                                .withHeader("Content-Type", APPLICATION_JSON)
-                                .withStatus(200)
-                                .withBody(responseBody)
-                )
+            post(urlPathEqualTo("/graphql")).willReturn(
+                aResponse()
+                    .withHeader("Content-Type", APPLICATION_JSON)
+                    .withStatus(200)
+                    .withBody(responseBody)
+            )
         )
 
         val requestBody = loadTestResource("downloader_tests/anime_download_request.graphql")
@@ -236,7 +241,9 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         val downloader = AnilistDownloader(testAnilistConfig)
 
         // when
-        downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+        runBlocking {
+            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+        }
 
         // then
         serverInstance.verify(
@@ -322,7 +329,9 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         )
 
         // when
-        val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+        val result = runBlocking {
+            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+        }
 
         // then
         assertThat(result).isEqualTo(responseBody)
@@ -365,8 +374,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         )
 
         // when
-        val result = org.junit.jupiter.api.assertThrows<IllegalStateException> {
-            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+        val result = exceptionExpected<IllegalStateException> {
+            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -421,13 +430,15 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         )
 
         val downloader = AnilistDownloader(
-                config = testAnilistConfig,
-                anilistTokenRetriever = TestAnilistTokenRetriever,
-                anilistTokenRepository = testAnilistTokenRepository,
+            config = testAnilistConfig,
+            anilistTokenRetriever = TestAnilistTokenRetriever,
+            anilistTokenRepository = testAnilistTokenRepository,
         )
 
         // when
-        val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+        val result = runBlocking {
+            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+        }
 
         // then
         assertThat(result).isEqualTo(responseBody)

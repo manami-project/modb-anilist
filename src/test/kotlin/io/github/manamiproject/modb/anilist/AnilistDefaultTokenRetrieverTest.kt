@@ -10,11 +10,12 @@ import io.github.manamiproject.modb.core.httpclient.retry.RetryBehavior
 import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.test.MockServerTestCase
 import io.github.manamiproject.modb.test.WireMockServerCreator
+import io.github.manamiproject.modb.test.exceptionExpected
 import io.github.manamiproject.modb.test.loadTestResource
+import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
 import java.net.URI
 
 internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
@@ -34,7 +35,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
-        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(retryOnResponsePredicate = { false }))
+        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(isTestContext = true))
 
         val anilistTokenRetriever = AnilistDefaultTokenRetriever(testAnilistConfig)
 
@@ -51,8 +52,8 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
         )
 
         // when
-        val result = assertThrows<IllegalStateException> {
-            anilistTokenRetriever.retrieveToken()
+        val result = exceptionExpected<IllegalStateException> {
+            anilistTokenRetriever.retrieveTokenSuspendable()
         }
 
         // then
@@ -68,7 +69,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
-        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(retryOnResponsePredicate = { false }))
+        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(isTestContext = true))
 
         val anilistTokenRetriever = AnilistDefaultTokenRetriever(testAnilistConfig)
 
@@ -84,8 +85,8 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
         )
 
         // when
-        val result = assertThrows<IllegalStateException> {
-            anilistTokenRetriever.retrieveToken()
+        val result = exceptionExpected<IllegalStateException> {
+            anilistTokenRetriever.retrieveTokenSuspendable()
         }
 
         // then
@@ -101,7 +102,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
             override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
         }
 
-        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(retryOnResponsePredicate = { false }))
+        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(isTestContext = true))
 
         val anilistTokenRetriever = AnilistDefaultTokenRetriever(testAnilistConfig)
 
@@ -121,7 +122,9 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
         )
 
         // when
-        val result = anilistTokenRetriever.retrieveToken()
+        val result = runBlocking {
+            anilistTokenRetriever.retrieveTokenSuspendable()
+        }
 
         // then
         assertThat(result.cookie).isEqualTo("__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL")

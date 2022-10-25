@@ -8,7 +8,8 @@ import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.RequestBody
-import io.github.manamiproject.modb.core.loadResource
+import io.github.manamiproject.modb.core.loadResourceSuspendable
+import kotlinx.coroutines.runBlocking
 
 /**
  * Downloads anime data from anilist.co
@@ -23,15 +24,22 @@ public class AnilistDownloader(
     anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ) : Downloader {
 
-    private val requestBody: String = loadResource("anime_download_request.graphql")
+    private val requestBody: String by lazy { runBlocking { loadResourceSuspendable("anime_download_request.graphql") } }
 
     init {
-        if (anilistTokenRepository.token == AnilistToken(EMPTY, EMPTY)) {
-            anilistTokenRepository.token = anilistTokenRetriever.retrieveToken()
+        runBlocking {
+            if (anilistTokenRepository.token == AnilistToken(EMPTY, EMPTY)) {
+                anilistTokenRepository.token = anilistTokenRetriever.retrieveTokenSuspendable()
+            }
         }
     }
 
-    override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String {
+    @Deprecated("Use coroutines", ReplaceWith("runBlocking { }", "kotlinx.coroutines.runBlocking"))
+    override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String = runBlocking {
+        downloadSuspendable(id, onDeadEntry)
+    }
+
+    override suspend fun downloadSuspendable(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String {
         val requestBody =  RequestBody(
             mediaType = APPLICATION_JSON,
             body = requestBody.replace("<<ANIME_ID>>", id)
@@ -39,13 +47,13 @@ public class AnilistDownloader(
 
         val requestUri = config.buildAnimeLink(id)
 
-        val response = httpClient.executeRetryable(config.hostname()) {
+        val response = httpClient.executeRetryableSuspendable(config.hostname()) {
             val requestHeaders = AnilistHeaderCreator.createAnilistHeaders(
                 requestBody = requestBody,
                 referer = requestUri.toURL()
             )
 
-            httpClient.post(
+            httpClient.postSuspendable(
                 url = config.buildDataDownloadLink(id).toURL(),
                 headers = requestHeaders,
                 requestBody = requestBody
