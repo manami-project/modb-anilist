@@ -24,9 +24,7 @@ public class AnilistConverter(
     private val config: MetaDataProviderConfig = AnilistConfig
 ) : AnimeConverter {
 
-    @Deprecated("Use coroutines",
-        ReplaceWith("runBlocking { convertSuspendable(rawContent) }", "kotlinx.coroutines.runBlocking")
-    )
+    @Deprecated("Use coroutines", ReplaceWith(EMPTY))
     override fun convert(rawContent: String): Anime = runBlocking {
         convertSuspendable(rawContent)
     }

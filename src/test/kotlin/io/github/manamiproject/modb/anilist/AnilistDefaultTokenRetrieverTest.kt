@@ -16,6 +16,8 @@ import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.ValueSource
 import java.net.URI
 
 internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
@@ -26,8 +28,9 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
         RetryableRegistry.clear()
     }
 
-    @Test
-    fun `throw exception if the csrf token cannot be retrieved`() {
+    @ParameterizedTest
+    @ValueSource(strings = ["", "  "])
+    fun `throws exception if the response body is blank`(value: String) {
         // given
         val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
             override fun hostname(): Hostname = "localhost"
@@ -48,6 +51,42 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
                         "__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; expires=Fri, 21-Feb-20 20:56:37 GMT; path=/; domain=.anilist.co; HttpOnly; SameSite=Lax; Secure",
                         "laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL; expires=Thu, 23-Jan-2020 08:56:37 GMT; Max-Age=43200; path=/; httponly")
                     .withStatus(200)
+                    .withBody(value)
+            )
+        )
+
+        // when
+        val result = exceptionExpected<IllegalArgumentException> {
+            anilistTokenRetriever.retrieveTokenSuspendable()
+        }
+
+        // then
+        assertThat(result).hasMessage("Response body must not be empty")
+    }
+
+    @Test
+    fun `throws exception if the csrf token cannot be retrieved`() {
+        // given
+        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
+            override fun hostname(): Hostname = "localhost"
+            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/$id")
+            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+        }
+
+        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(isTestContext = true))
+
+        val anilistTokenRetriever = AnilistDefaultTokenRetriever(testAnilistConfig)
+
+        serverInstance.stubFor(
+            get(urlPathEqualTo("/")).willReturn(
+                aResponse()
+                    .withHeader("Content-Type", APPLICATION_JSON)
+                    .withHeader(
+                        "set-cookie",
+                        "__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; expires=Fri, 21-Feb-20 20:56:37 GMT; path=/; domain=.anilist.co; HttpOnly; SameSite=Lax; Secure",
+                        "laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL; expires=Thu, 23-Jan-2020 08:56:37 GMT; Max-Age=43200; path=/; httponly")
+                    .withStatus(200)
+                    .withBody("response body without token")
             )
         )
 

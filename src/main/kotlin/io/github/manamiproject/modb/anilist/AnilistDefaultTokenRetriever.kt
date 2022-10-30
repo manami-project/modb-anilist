@@ -10,10 +10,10 @@ import io.github.manamiproject.modb.core.httpclient.HttpResponse
 import io.github.manamiproject.modb.core.httpclient.retry.RetryBehavior
 import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.core.logging.LoggerDelegate
+import io.github.manamiproject.modb.core.parseHtml
 import io.github.manamiproject.modb.core.random
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import org.jsoup.Jsoup
 import kotlin.time.DurationUnit.MILLISECONDS
 import kotlin.time.toDuration
 
@@ -38,9 +38,7 @@ public class AnilistDefaultTokenRetriever(
         }
     }
 
-    @Deprecated("Use coroutine instead",
-        ReplaceWith("runBlocking { retrieveTokenSuspendable() }", "kotlinx.coroutines.runBlocking")
-    )
+    @Deprecated("Use coroutine instead", ReplaceWith(EMPTY))
     override fun retrieveToken(): AnilistToken = runBlocking {
         retrieveTokenSuspendable()
     }
@@ -48,7 +46,7 @@ public class AnilistDefaultTokenRetriever(
     override suspend fun retrieveTokenSuspendable(): AnilistToken = withContext(LIMITED_NETWORK) {
         val response = httpClient.getSuspedable(
             url = config.buildDataDownloadLink().toURL(),
-            retryWith = config.hostname()
+            retryWith = config.hostname(),
         )
 
         val cookie = extractCookie(response)
@@ -69,15 +67,17 @@ public class AnilistDefaultTokenRetriever(
     }
 
     private suspend fun extractCsrfToken(response: HttpResponse): String = withContext(LIMITED_CPU) {
-        val document = Jsoup.parse(response.body)
+        require(response.body.isNotBlank()) { "Response body must not be empty" }
 
-        val scriptElement = document.select("script")
-            .find { it.data().startsWith(CSRF_TOKEN_PREFIX) } ?: throw IllegalStateException("Unable to extract CSRF token.")
+        return@withContext parseHtml(response.body) { document ->
+            val scriptElement = document.select("script")
+                .find { it.data().startsWith(CSRF_TOKEN_PREFIX) } ?: throw IllegalStateException("Unable to extract CSRF token.")
 
-        return@withContext scriptElement.data()
-            .replace("$CSRF_TOKEN_PREFIX = \"", EMPTY)
-            .replace("\";", EMPTY)
-            .trim()
+            scriptElement.data()
+                .replace("$CSRF_TOKEN_PREFIX = \"", EMPTY)
+                .replace("\";", EMPTY)
+                .trim()
+        }
     }
 
     private suspend fun registerRetryBehavior() {
@@ -92,7 +92,7 @@ public class AnilistDefaultTokenRetriever(
                 retryIf = { httpResponse -> httpResponse.code == 403 },
                 executeBeforeRetry = {
                     log.warn { "Anilist responds with 403. Refreshing token." }
-                    anilistTokenRepository.token = runBlocking { retrieveTokenSuspendable() }
+                    anilistTokenRepository.token = retrieveTokenSuspendable()
                     log.info { "Token has been renewed" }
                 }
             )
