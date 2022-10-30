@@ -19,7 +19,7 @@ import kotlinx.coroutines.runBlocking
  */
 public class AnilistDownloader(
     private val config: MetaDataProviderConfig,
-    private val httpClient: HttpClient = DefaultHttpClient(),
+    private val httpClient: HttpClient = DefaultHttpClient(isTestContext = config.isTestContext()),
     anilistTokenRetriever: AnilistTokenRetriever = AnilistDefaultTokenRetriever(),
     anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ) : Downloader {
@@ -34,13 +34,13 @@ public class AnilistDownloader(
         }
     }
 
-    @Deprecated("Use coroutines", ReplaceWith("runBlocking { }", "kotlinx.coroutines.runBlocking"))
+    @Deprecated("Use coroutines", ReplaceWith(EMPTY))
     override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String = runBlocking {
         downloadSuspendable(id, onDeadEntry)
     }
 
-    override suspend fun downloadSuspendable(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String {
-        val requestBody =  RequestBody(
+    override suspend fun downloadSuspendable(id: AnimeId, onDeadEntry: suspend (AnimeId) -> Unit): String {
+        val requestBody = RequestBody(
             mediaType = APPLICATION_JSON,
             body = requestBody.replace("<<ANIME_ID>>", id)
         )
@@ -50,13 +50,13 @@ public class AnilistDownloader(
         val response = httpClient.executeRetryableSuspendable(config.hostname()) {
             val requestHeaders = AnilistHeaderCreator.createAnilistHeaders(
                 requestBody = requestBody,
-                referer = requestUri.toURL()
+                referer = requestUri.toURL(),
             )
 
             httpClient.postSuspendable(
                 url = config.buildDataDownloadLink(id).toURL(),
                 headers = requestHeaders,
-                requestBody = requestBody
+                requestBody = requestBody,
             )
         }
 

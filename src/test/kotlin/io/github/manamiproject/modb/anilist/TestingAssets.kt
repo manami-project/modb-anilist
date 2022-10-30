@@ -4,6 +4,7 @@ import io.github.manamiproject.modb.core.config.AnimeId
 import io.github.manamiproject.modb.core.config.FileSuffix
 import io.github.manamiproject.modb.core.config.Hostname
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
+import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.test.shouldNotBeInvoked
 import java.net.URI
 
@@ -16,9 +17,7 @@ internal object MetaDataProviderTestConfig : MetaDataProviderConfig {
 }
 
 internal object TestAnilistTokenRetriever : AnilistTokenRetriever {
-    @Deprecated("Use coroutine instead",
-        ReplaceWith("shouldNotBeInvoked()", "io.github.manamiproject.modb.test.shouldNotBeInvoked")
-    )
+    @Deprecated("Use coroutine instead", ReplaceWith(EMPTY))
     override fun retrieveToken(): AnilistToken = shouldNotBeInvoked()
     override suspend fun retrieveTokenSuspendable(): AnilistToken = shouldNotBeInvoked()
 }

@@ -29,7 +29,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         // populate RetryableRegisty
         val testConfig = object: MetaDataProviderConfig by AnilistDefaultTokenRetrieverConfig {
             override fun hostname(): Hostname = "localhost"
-            override fun buildDataDownloadLink(id: String): URI = URI("http:localhost:$port")
+            override fun buildDataDownloadLink(id: String): URI = URI("http:${hostname()}:$port")
+            override fun isTestContext(): Boolean = true
         }
         AnilistDefaultTokenRetriever(testConfig)
     }
@@ -277,7 +278,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         }
 
         val downloader = AnilistDownloader(
-            config = testAnilistConfig
+            config = testAnilistConfig,
         )
 
         AnilistDefaultTokenRepository.token = AnilistToken("my-cookie", "my-csrf-token")
