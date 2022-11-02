@@ -27,7 +27,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -47,7 +47,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -63,7 +63,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -79,7 +79,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -95,7 +95,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -111,7 +111,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -127,7 +127,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -143,7 +143,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -159,7 +159,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -179,7 +179,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -195,7 +195,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -211,7 +211,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -231,7 +231,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -248,7 +248,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -269,7 +269,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -294,7 +294,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -314,7 +314,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -330,7 +330,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -350,7 +350,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -368,7 +368,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -397,7 +397,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -417,7 +417,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -433,7 +433,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -449,7 +449,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -465,7 +465,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -481,7 +481,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -501,7 +501,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -546,7 +546,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -562,7 +562,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -578,7 +578,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -594,7 +594,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -610,7 +610,7 @@ internal class AnilistConverterTest {
 
             // when
             val result = runBlocking {
-                converter.convertSuspendable(testFileContent)
+                converter.convert(testFileContent)
             }
 
             // then
@@ -633,7 +633,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then
@@ -649,7 +649,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then
@@ -665,7 +665,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then
@@ -681,7 +681,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then
@@ -697,7 +697,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then
@@ -717,7 +717,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then
@@ -733,7 +733,7 @@ internal class AnilistConverterTest {
 
                 // when
                 val result = runBlocking {
-                    converter.convertSuspendable(testFileContent)
+                    converter.convert(testFileContent)
                 }
 
                 // then

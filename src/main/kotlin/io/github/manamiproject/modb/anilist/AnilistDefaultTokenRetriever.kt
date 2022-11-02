@@ -38,13 +38,8 @@ public class AnilistDefaultTokenRetriever(
         }
     }
 
-    @Deprecated("Use coroutine instead", ReplaceWith(EMPTY))
-    override fun retrieveToken(): AnilistToken = runBlocking {
-        retrieveTokenSuspendable()
-    }
-
-    override suspend fun retrieveTokenSuspendable(): AnilistToken = withContext(LIMITED_NETWORK) {
-        val response = httpClient.getSuspedable(
+    override suspend fun retrieveToken(): AnilistToken = withContext(LIMITED_NETWORK) {
+        val response = httpClient.get(
             url = config.buildDataDownloadLink().toURL(),
             retryWith = config.hostname(),
         )
@@ -92,7 +87,7 @@ public class AnilistDefaultTokenRetriever(
                 retryIf = { httpResponse -> httpResponse.code == 403 },
                 executeBeforeRetry = {
                     log.warn { "Anilist responds with 403. Refreshing token." }
-                    anilistTokenRepository.token = retrieveTokenSuspendable()
+                    anilistTokenRepository.token = retrieveToken()
                     log.info { "Token has been renewed" }
                 }
             )
