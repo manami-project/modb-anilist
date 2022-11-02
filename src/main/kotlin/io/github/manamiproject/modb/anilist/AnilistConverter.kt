@@ -11,7 +11,6 @@ import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type
 import io.github.manamiproject.modb.core.models.Anime.Type.*
 import io.github.manamiproject.modb.core.models.Duration.TimeUnit.MINUTES
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.net.URI
 
@@ -24,13 +23,8 @@ public class AnilistConverter(
     private val config: MetaDataProviderConfig = AnilistConfig
 ) : AnimeConverter {
 
-    @Deprecated("Use coroutines", ReplaceWith(EMPTY))
-    override fun convert(rawContent: String): Anime = runBlocking {
-        convertSuspendable(rawContent)
-    }
-
-    override suspend fun convertSuspendable(rawContent: String): Anime = withContext(LIMITED_CPU) {
-        val document = Json.parseJsonSuspendable<AnilistDocument>(rawContent)!!
+    override suspend fun convert(rawContent: String): Anime = withContext(LIMITED_CPU) {
+        val document = Json.parseJson<AnilistDocument>(rawContent)!!
 
         val picture = extractPicture(document)
 

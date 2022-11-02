@@ -57,7 +57,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
 
         // when
         val result = exceptionExpected<IllegalArgumentException> {
-            anilistTokenRetriever.retrieveTokenSuspendable()
+            anilistTokenRetriever.retrieveToken()
         }
 
         // then
@@ -92,7 +92,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
 
         // when
         val result = exceptionExpected<IllegalStateException> {
-            anilistTokenRetriever.retrieveTokenSuspendable()
+            anilistTokenRetriever.retrieveToken()
         }
 
         // then
@@ -125,7 +125,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
 
         // when
         val result = exceptionExpected<IllegalStateException> {
-            anilistTokenRetriever.retrieveTokenSuspendable()
+            anilistTokenRetriever.retrieveToken()
         }
 
         // then
@@ -162,7 +162,7 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
 
         // when
         val result = runBlocking {
-            anilistTokenRetriever.retrieveTokenSuspendable()
+            anilistTokenRetriever.retrieveToken()
         }
 
         // then

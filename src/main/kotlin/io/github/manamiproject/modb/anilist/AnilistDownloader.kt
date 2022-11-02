@@ -8,7 +8,7 @@ import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.RequestBody
-import io.github.manamiproject.modb.core.loadResourceSuspendable
+import io.github.manamiproject.modb.core.loadResource
 import kotlinx.coroutines.runBlocking
 
 /**
@@ -24,22 +24,17 @@ public class AnilistDownloader(
     anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ) : Downloader {
 
-    private val requestBody: String by lazy { runBlocking { loadResourceSuspendable("anime_download_request.graphql") } }
+    private val requestBody: String by lazy { runBlocking { loadResource("anime_download_request.graphql") } }
 
     init {
         runBlocking {
             if (anilistTokenRepository.token == AnilistToken(EMPTY, EMPTY)) {
-                anilistTokenRepository.token = anilistTokenRetriever.retrieveTokenSuspendable()
+                anilistTokenRepository.token = anilistTokenRetriever.retrieveToken()
             }
         }
     }
 
-    @Deprecated("Use coroutines", ReplaceWith(EMPTY))
-    override fun download(id: AnimeId, onDeadEntry: (AnimeId) -> Unit): String = runBlocking {
-        downloadSuspendable(id, onDeadEntry)
-    }
-
-    override suspend fun downloadSuspendable(id: AnimeId, onDeadEntry: suspend (AnimeId) -> Unit): String {
+    override suspend fun download(id: AnimeId, onDeadEntry: suspend (AnimeId) -> Unit): String {
         val requestBody = RequestBody(
             mediaType = APPLICATION_JSON,
             body = requestBody.replace("<<ANIME_ID>>", id)
@@ -47,13 +42,13 @@ public class AnilistDownloader(
 
         val requestUri = config.buildAnimeLink(id)
 
-        val response = httpClient.executeRetryableSuspendable(config.hostname()) {
+        val response = httpClient.executeRetryable(config.hostname()) {
             val requestHeaders = AnilistHeaderCreator.createAnilistHeaders(
                 requestBody = requestBody,
                 referer = requestUri.toURL(),
             )
 
-            httpClient.postSuspendable(
+            httpClient.post(
                 url = config.buildDataDownloadLink(id).toURL(),
                 headers = requestHeaders,
                 requestBody = requestBody,

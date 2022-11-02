@@ -48,7 +48,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
         var hasBeenInvoked = false
 
         val testAnilistTokenRetriever = object: AnilistTokenRetriever by TestAnilistTokenRetriever {
-            override suspend fun retrieveTokenSuspendable(): AnilistToken {
+            override suspend fun retrieveToken(): AnilistToken {
                 hasBeenInvoked = true
                 return testToken
             }
@@ -113,7 +113,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         val result = runBlocking {
-            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -156,7 +156,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         val result = exceptionExpected<IllegalStateException> {
-            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -203,7 +203,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
             // when
             val result = runBlocking {
-                downloader.downloadSuspendable(id.toAnimeId()) { deadEntriesId = it }
+                downloader.download(id.toAnimeId()) { deadEntriesId = it }
             }
 
             // then
@@ -243,7 +243,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         runBlocking {
-            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -331,7 +331,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         val result = runBlocking {
-            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -376,7 +376,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         val result = exceptionExpected<IllegalStateException> {
-            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
@@ -438,7 +438,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
         // when
         val result = runBlocking {
-            downloader.downloadSuspendable(id.toAnimeId()) { shouldNotBeInvoked() }
+            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
         }
 
         // then
