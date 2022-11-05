@@ -2,7 +2,7 @@ package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.extensions.EMPTY
 import org.assertj.core.api.Assertions.assertThat
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import org.junit.jupiter.api.assertThrows
 
 internal class AnilistDefaultTokenRepositoryTest {
