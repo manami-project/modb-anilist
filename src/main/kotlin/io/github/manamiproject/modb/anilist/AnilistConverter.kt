@@ -20,7 +20,7 @@ import java.net.URI
  * @param config Configuration for converting data.
  */
 public class AnilistConverter(
-    private val config: MetaDataProviderConfig = AnilistConfig
+    private val config: MetaDataProviderConfig = AnilistConfig,
 ) : AnimeConverter {
 
     override suspend fun convert(rawContent: String): Anime = withContext(LIMITED_CPU) {
