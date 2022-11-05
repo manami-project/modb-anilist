@@ -1,9 +1,8 @@
 package io.github.manamiproject.modb.anilist
 
 import org.assertj.core.api.Assertions.assertThat
-import kotlin.test.Test
 import java.net.URI
-import java.net.URL
+import kotlin.test.Test
 
 internal class AnilistDefaultTokenRetrieverConfigTest {
 
