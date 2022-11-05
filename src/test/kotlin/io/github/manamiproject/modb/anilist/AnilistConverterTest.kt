@@ -277,7 +277,7 @@ internal class AnilistConverterTest {
                 "Prism Paradise",
                 "Tobidasu PriPara: Minna de Mezase! Idol\u2606Grand Prix",
                 "Tobidasu PuriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
-                "とびだすプリパラ　み～んなでめざせ！アイドル☆グランプリ"
+                "とびだすプリパラ　み～んなでめざせ！アイドル☆グランプリ",
             )
         }
     }
