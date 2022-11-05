@@ -2,7 +2,7 @@ package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.httpclient.RequestBody
 import org.assertj.core.api.Assertions.assertThat
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import java.net.URL
 
 internal class AnilistHeaderCreatorTest {
