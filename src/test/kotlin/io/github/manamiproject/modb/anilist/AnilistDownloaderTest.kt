@@ -77,47 +77,49 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
     @Test
     fun `successfully load an entry`() {
-        // given
-        val id = 1535
+        runBlocking {
+            // given
+            val id = 1535
 
-        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
-            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-        }
+            val testAnilistConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
+                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
 
-        @Suppress("UNUSED_PARAMETER")
-        val testAnilistTokenRepository = object: AnilistTokenRepository {
-            override var token: AnilistToken
-                get() = AnilistToken("value", "value")
-                set(value) { shouldNotBeInvoked() }
-        }
+            @Suppress("UNUSED_PARAMETER")
+            val testAnilistTokenRepository = object : AnilistTokenRepository {
+                override var token: AnilistToken
+                    get() = AnilistToken("value", "value")
+                    set(value) {
+                        shouldNotBeInvoked()
+                    }
+            }
 
-        val responseBody = "{ \"anilistId\": $id }"
+            val responseBody = "{ \"anilistId\": $id }"
 
-        serverInstance.stubFor(
-            post(urlPathEqualTo("/graphql")).willReturn(
-                aResponse()
-                    .withHeader("Content-Type", APPLICATION_JSON)
-                    .withStatus(200)
-                    .withBody(responseBody)
+            serverInstance.stubFor(
+                post(urlPathEqualTo("/graphql")).willReturn(
+                    aResponse()
+                        .withHeader("Content-Type", APPLICATION_JSON)
+                        .withStatus(200)
+                        .withBody(responseBody)
+                )
             )
-        )
 
-        val downloader = AnilistDownloader(
-            config = testAnilistConfig,
-            anilistTokenRetriever = TestAnilistTokenRetriever,
-            anilistTokenRepository = testAnilistTokenRepository,
-        )
+            val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
+            )
 
-        // when
-        val result = runBlocking {
-            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+            // when
+            val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+
+            // then
+            assertThat(result).isEqualTo(responseBody)
         }
-
-        // then
-        assertThat(result).isEqualTo(responseBody)
     }
 
     @Test
@@ -202,9 +204,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
             var deadEntriesId = EMPTY
 
             // when
-            val result = runBlocking {
-                downloader.download(id.toAnimeId()) { deadEntriesId = it }
-            }
+            val result = downloader.download(id.toAnimeId()) { deadEntriesId = it }
 
             // then
             assertThat(result).isBlank()
@@ -214,128 +214,132 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
     @Test
     fun `verify request body and additional header`() {
-        // given
-        val id = 1535
-
-        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
-            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-        }
-
-        AnilistDefaultTokenRepository.token = AnilistToken("valid-cookie", "valid-csrf-token")
-
-        val responseBody = "{ \"anilistId\": $id }"
-
-        serverInstance.stubFor(
-            post(urlPathEqualTo("/graphql")).willReturn(
-                aResponse()
-                    .withHeader("Content-Type", APPLICATION_JSON)
-                    .withStatus(200)
-                    .withBody(responseBody)
-            )
-        )
-
-        val requestBody = loadTestResource("downloader_tests/anime_download_request.graphql")
-
-        val downloader = AnilistDownloader(testAnilistConfig)
-
-        // when
         runBlocking {
-            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
-        }
+            // given
+            val id = 1535
 
-        // then
-        serverInstance.verify(
-                postRequestedFor(urlEqualTo("/graphql"))
-                        .withHeader("authority", equalTo("https://anilist.co"))
-                        .withHeader("method", equalTo("POST"))
-                        .withHeader("path", equalTo("/graphql"))
-                        .withHeader("scheme", equalTo("https"))
-                        .withHeader("accept", equalTo("*/*"))
-                        .withHeader("accept-language", equalTo("en-US;q=0.9,en;q=0.8"))
-                        .withHeader("content-length", equalTo(requestBody.length.toString()))
-                        .withHeader("content-type", equalTo("application/json"))
-                        .withHeader("referer", equalTo("https://anilist.co/anime/$id"))
-                        .withHeader("schema", equalTo("default"))
-                        .withHeader("cookie", equalTo("valid-cookie"))
-                        .withHeader("x-csrf-token", equalTo("valid-csrf-token"))
-                        .withRequestBody(EqualToJsonPattern(requestBody, true, true))
-        )
-    }
+            val testAnilistConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
+                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
 
-    @Test
-    fun `refresh token in case anilist responds with a 403 and try to download the same entry again`() {
-        // given
-        val id = 1535
+            AnilistDefaultTokenRepository.token = AnilistToken("valid-cookie", "valid-csrf-token")
 
-        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
-            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-        }
+            val responseBody = "{ \"anilistId\": $id }"
 
-        val downloader = AnilistDownloader(
-            config = testAnilistConfig,
-        )
-
-        AnilistDefaultTokenRepository.token = AnilistToken("my-cookie", "my-csrf-token")
-
-        val refreshedTokenResponseBody = loadTestResource("downloader_tests/page_containing_token.html")
-
-        serverInstance.stubFor(
-            get(urlPathEqualTo("/")).willReturn(
-                aResponse()
-                    .withHeader("Content-Type", APPLICATION_JSON)
-                    .withHeader(
-                        "set-cookie",
-                        "__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; expires=Fri, 21-Feb-20 20:56:37 GMT; path=/; domain=.anilist.co; HttpOnly; SameSite=Lax; Secure",
-                        "laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL; expires=Thu, 23-Jan-2020 08:56:37 GMT; Max-Age=43200; path=/; httponly")
-                    .withStatus(200)
-                    .withBody(refreshedTokenResponseBody)
-            )
-        )
-
-        serverInstance.stubFor(
-            post(urlPathEqualTo("/graphql"))
-                .inScenario("refresh token and retry")
-                .whenScenarioStateIs(STARTED)
-                .willSetStateTo("token denied")
-                .withHeader("cookie", matching("my-cookie"))
-                .withHeader("x-csrf-token", matching("my-csrf-token"))
-                .willReturn(
-                    aResponse()
-                        .withHeader("Content-Type", "text/plain")
-                        .withStatus(403)
-                        .withBody("Forbidden")
-                )
-        )
-
-        val responseBody = "{ \"anilistId\": $id }"
-
-        serverInstance.stubFor(
-            post(urlPathEqualTo("/graphql"))
-                .inScenario("refresh token and retry")
-                .whenScenarioStateIs("token denied")
-                .withHeader("cookie", matching("__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL"))
-                .withHeader("x-csrf-token", matching("refreshed-csrf-token"))
-                .willReturn(
+            serverInstance.stubFor(
+                post(urlPathEqualTo("/graphql")).willReturn(
                     aResponse()
                         .withHeader("Content-Type", APPLICATION_JSON)
                         .withStatus(200)
                         .withBody(responseBody)
                 )
-        )
+            )
 
-        // when
-        val result = runBlocking {
+            val requestBody = loadTestResource("downloader_tests/anime_download_request.graphql")
+
+            val downloader = AnilistDownloader(testAnilistConfig)
+
+            // when
             downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
-        }
 
-        // then
-        assertThat(result).isEqualTo(responseBody)
+            // then
+            serverInstance.verify(
+                postRequestedFor(urlEqualTo("/graphql"))
+                    .withHeader("authority", equalTo("https://anilist.co"))
+                    .withHeader("method", equalTo("POST"))
+                    .withHeader("path", equalTo("/graphql"))
+                    .withHeader("scheme", equalTo("https"))
+                    .withHeader("accept", equalTo("*/*"))
+                    .withHeader("accept-language", equalTo("en-US;q=0.9,en;q=0.8"))
+                    .withHeader("content-length", equalTo(requestBody.length.toString()))
+                    .withHeader("content-type", equalTo("application/json"))
+                    .withHeader("referer", equalTo("https://anilist.co/anime/$id"))
+                    .withHeader("schema", equalTo("default"))
+                    .withHeader("cookie", equalTo("valid-cookie"))
+                    .withHeader("x-csrf-token", equalTo("valid-csrf-token"))
+                    .withRequestBody(EqualToJsonPattern(requestBody, true, true))
+            )
+        }
+    }
+
+    @Test
+    fun `refresh token in case anilist responds with a 403 and try to download the same entry again`() {
+        runBlocking {
+            // given
+            val id = 1535
+
+            val testAnilistConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
+                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
+
+            val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+            )
+
+            AnilistDefaultTokenRepository.token = AnilistToken("my-cookie", "my-csrf-token")
+
+            val refreshedTokenResponseBody = loadTestResource("downloader_tests/page_containing_token.html")
+
+            serverInstance.stubFor(
+                get(urlPathEqualTo("/")).willReturn(
+                    aResponse()
+                        .withHeader("Content-Type", APPLICATION_JSON)
+                        .withHeader(
+                            "set-cookie",
+                            "__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; expires=Fri, 21-Feb-20 20:56:37 GMT; path=/; domain=.anilist.co; HttpOnly; SameSite=Lax; Secure",
+                            "laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL; expires=Thu, 23-Jan-2020 08:56:37 GMT; Max-Age=43200; path=/; httponly"
+                        )
+                        .withStatus(200)
+                        .withBody(refreshedTokenResponseBody)
+                )
+            )
+
+            serverInstance.stubFor(
+                post(urlPathEqualTo("/graphql"))
+                    .inScenario("refresh token and retry")
+                    .whenScenarioStateIs(STARTED)
+                    .willSetStateTo("token denied")
+                    .withHeader("cookie", matching("my-cookie"))
+                    .withHeader("x-csrf-token", matching("my-csrf-token"))
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", "text/plain")
+                            .withStatus(403)
+                            .withBody("Forbidden")
+                    )
+            )
+
+            val responseBody = "{ \"anilistId\": $id }"
+
+            serverInstance.stubFor(
+                post(urlPathEqualTo("/graphql"))
+                    .inScenario("refresh token and retry")
+                    .whenScenarioStateIs("token denied")
+                    .withHeader(
+                        "cookie",
+                        matching("__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL")
+                    )
+                    .withHeader("x-csrf-token", matching("refreshed-csrf-token"))
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", APPLICATION_JSON)
+                            .withStatus(200)
+                            .withBody(responseBody)
+                    )
+            )
+
+            // when
+            val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+
+            // then
+            assertThat(result).isEqualTo(responseBody)
+        }
     }
 
     @Test
@@ -386,62 +390,64 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
     @ParameterizedTest
     @ValueSource(ints = [500, 502, 520])
     fun `pause and retry on response code`(responseCode: Int) {
-        // given
-        val id = 1535
+        runBlocking {
+            // given
+            val id = 1535
 
-        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
-            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
-            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-        }
+            val testAnilistConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildAnimeLink(id: AnimeId): URI = AnilistConfig.buildAnimeLink(id)
+                override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/graphql")
+                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
 
-        @Suppress("UNUSED_PARAMETER")
-        val testAnilistTokenRepository = object: AnilistTokenRepository {
-            override var token: AnilistToken
-                get() = AnilistToken("value", "value")
-                set(value) { shouldNotBeInvoked() }
-        }
+            @Suppress("UNUSED_PARAMETER")
+            val testAnilistTokenRepository = object : AnilistTokenRepository {
+                override var token: AnilistToken
+                    get() = AnilistToken("value", "value")
+                    set(value) {
+                        shouldNotBeInvoked()
+                    }
+            }
 
-        serverInstance.stubFor(
+            serverInstance.stubFor(
                 post(urlPathEqualTo("/graphql"))
-                        .inScenario("pause and retry")
-                        .whenScenarioStateIs(STARTED)
-                        .willSetStateTo("successful retrieval")
-                        .willReturn(
-                                aResponse()
-                                        .withHeader("Content-Type", "text/plain")
-                                        .withStatus(responseCode)
-                                        .withBody("Internal Server error")
-                        )
-        )
+                    .inScenario("pause and retry")
+                    .whenScenarioStateIs(STARTED)
+                    .willSetStateTo("successful retrieval")
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", "text/plain")
+                            .withStatus(responseCode)
+                            .withBody("Internal Server error")
+                    )
+            )
 
-        val responseBody = "{ \"anilistId\": $id }"
+            val responseBody = "{ \"anilistId\": $id }"
 
-        serverInstance.stubFor(
+            serverInstance.stubFor(
                 post(urlPathEqualTo("/graphql"))
-                        .inScenario("pause and retry")
-                        .whenScenarioStateIs("successful retrieval")
-                        .willReturn(
-                                aResponse()
-                                        .withHeader("Content-Type", APPLICATION_JSON)
-                                        .withStatus(200)
-                                        .withBody(responseBody)
-                        )
-        )
+                    .inScenario("pause and retry")
+                    .whenScenarioStateIs("successful retrieval")
+                    .willReturn(
+                        aResponse()
+                            .withHeader("Content-Type", APPLICATION_JSON)
+                            .withStatus(200)
+                            .withBody(responseBody)
+                    )
+            )
 
-        val downloader = AnilistDownloader(
-            config = testAnilistConfig,
-            anilistTokenRetriever = TestAnilistTokenRetriever,
-            anilistTokenRepository = testAnilistTokenRepository,
-        )
+            val downloader = AnilistDownloader(
+                config = testAnilistConfig,
+                anilistTokenRetriever = TestAnilistTokenRetriever,
+                anilistTokenRepository = testAnilistTokenRepository,
+            )
 
-        // when
-        val result = runBlocking {
-            downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+            // when
+            val result = downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
+
+            // then
+            assertThat(result).isEqualTo(responseBody)
         }
-
-        // then
-        assertThat(result).isEqualTo(responseBody)
     }
 }

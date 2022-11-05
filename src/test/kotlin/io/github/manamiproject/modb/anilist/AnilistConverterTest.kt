@@ -20,18 +20,18 @@ internal class AnilistConverterTest {
 
         @Test
         fun `title containing special chars`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/title/special_chars.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/title/special_chars.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.title).isEqualTo("Tobidasu PriPara: Mi~nna de Mezase! Idol☆Grand Prix")
             }
-
-            // then
-            assertThat(result.title).isEqualTo("Tobidasu PriPara: Mi~nna de Mezase! Idol☆Grand Prix")
         }
     }
 
@@ -40,130 +40,130 @@ internal class AnilistConverterTest {
 
         @Test
         fun `type is tv`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/tv.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/tv.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(TV)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(TV)
         }
 
         @Test
         fun `type is tv_short and is mapped to tv`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/tv_short.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/tv_short.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(TV)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(TV)
         }
 
         @Test
         fun `type is special`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/special.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/special.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(SPECIAL)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(SPECIAL)
         }
 
         @Test
         fun `type is ova`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/ova.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/ova.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(OVA)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(OVA)
         }
 
         @Test
         fun `type is ona`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/ona.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/ona.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(ONA)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(ONA)
         }
 
         @Test
         fun `type is movie`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/movie.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/movie.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(MOVIE)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(MOVIE)
         }
 
         @Test
         fun `type is music is mapped to special`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/music.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/music.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(SPECIAL)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(SPECIAL)
         }
 
         @Test
         fun `type is null and is mapped to UNKNOWN`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/type/null.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/type/null.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.type).isEqualTo(Anime.Type.UNKNOWN)
             }
-
-            // then
-            assertThat(result.type).isEqualTo(Anime.Type.UNKNOWN)
         }
     }
 
@@ -172,50 +172,51 @@ internal class AnilistConverterTest {
 
         @Test
         fun `fixed number of episodes`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/episodes/39.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/episodes/39.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.episodes).isEqualTo(39)
             }
-
-            // then
-            assertThat(result.episodes).isEqualTo(39)
         }
 
         @Test
         fun `neither episodes nor nextairingepisode is set`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/episodes/neither_episodes_nor_nextairingepisode_is_set.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/episodes/neither_episodes_nor_nextairingepisode_is_set.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.episodes).isEqualTo(0)
             }
-
-            // then
-            assertThat(result.episodes).isEqualTo(0)
         }
 
         @Test
         fun `ongoing series for which the value has to be taken from nextairingepisode`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/episodes/ongoing.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/episodes/ongoing.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.episodes).isEqualTo(1016)
             }
-
-            // then
-            assertThat(result.episodes).isEqualTo(1016)
         }
     }
 
@@ -224,36 +225,38 @@ internal class AnilistConverterTest {
 
         @Test
         fun `picture is available, but anilist never provides a thumbnail so the thumbnail is the same as the picture`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/picture_and_thumbnail/picture_available.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/picture_and_thumbnail/picture_available.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
+                assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
             }
-
-            // then
-            assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
-            assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
         }
 
         @Test
         fun `picture is unavailable`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/picture_and_thumbnail/picture_unavailable.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/picture_and_thumbnail/picture_unavailable.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
+                assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
             }
-
-            // then
-            assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
-            assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"))
         }
     }
 
@@ -262,23 +265,24 @@ internal class AnilistConverterTest {
 
         @Test
         fun `synonyms taken from titles and synonyms, ignoring null`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/synonyms/synonyms_from_titles_and_synonyms.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/synonyms/synonyms_from_titles_and_synonyms.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.synonyms).containsExactly(
+                    "Prism Paradise",
+                    "Tobidasu PriPara: Minna de Mezase! Idol\u2606Grand Prix",
+                    "Tobidasu PuriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
+                    "とびだすプリパラ　み～んなでめざせ！アイドル☆グランプリ",
+                )
             }
-
-            // then
-            assertThat(result.synonyms).containsExactly(
-                "Prism Paradise",
-                "Tobidasu PriPara: Minna de Mezase! Idol\u2606Grand Prix",
-                "Tobidasu PuriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
-                "とびだすプリパラ　み～んなでめざせ！アイドル☆グランプリ",
-            )
         }
     }
 
@@ -287,18 +291,18 @@ internal class AnilistConverterTest {
 
         @Test
         fun `extract correct id and build anime link correctly`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/sources/15689.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/sources/15689.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.sources.first()).isEqualTo(URI("https://anilist.co/anime/15689"))
             }
-
-            // then
-            assertThat(result.sources.first()).isEqualTo(URI("https://anilist.co/anime/15689"))
         }
     }
 
@@ -307,101 +311,106 @@ internal class AnilistConverterTest {
 
         @Test
         fun `no adaption, no relations`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/related_anime/no_adaption_no_relations.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/related_anime/no_adaption_no_relations.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.relatedAnime).isEmpty()
             }
-
-            // then
-            assertThat(result.relatedAnime).isEmpty()
         }
 
         @Test
         fun `no adaption, multiple relations`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/related_anime/no_adaption_multiple_relations.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/related_anime/no_adaption_multiple_relations.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.relatedAnime).containsExactly(
+                    URI("https://anilist.co/anime/107298"),
+                    URI("https://anilist.co/anime/116147"),
+                    URI("https://anilist.co/anime/97857"),
+                )
             }
-
-            // then
-            assertThat(result.relatedAnime).containsExactly(
-                URI("https://anilist.co/anime/107298"),
-                URI("https://anilist.co/anime/116147"),
-                URI("https://anilist.co/anime/97857"),
-            )
         }
 
         @Test
         fun `one adaption, one relation`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/related_anime/has_one_adaption_and_one_relation.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/related_anime/has_one_adaption_and_one_relation.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.relatedAnime).containsExactly(
+                    URI("https://anilist.co/anime/2337")
+                )
             }
-
-            // then
-            assertThat(result.relatedAnime).containsExactly(
-                URI("https://anilist.co/anime/2337")
-            )
         }
 
         @Test
         fun `has adaption, multiple relations`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/related_anime/has_adaption_and_multiple_relations.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/related_anime/has_adaption_and_multiple_relations.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.relatedAnime).containsExactly(
+                    URI("https://anilist.co/anime/100148"),
+                    URI("https://anilist.co/anime/1081"),
+                    URI("https://anilist.co/anime/1301"),
+                    URI("https://anilist.co/anime/1302"),
+                    URI("https://anilist.co/anime/1491"),
+                    URI("https://anilist.co/anime/1645"),
+                    URI("https://anilist.co/anime/1676"),
+                    URI("https://anilist.co/anime/1706"),
+                    URI("https://anilist.co/anime/17269"),
+                    URI("https://anilist.co/anime/2202"),
+                    URI("https://anilist.co/anime/2203"),
+                    URI("https://anilist.co/anime/2470"),
+                )
             }
-
-            // then
-            assertThat(result.relatedAnime).containsExactly(
-                URI("https://anilist.co/anime/100148"),
-                URI("https://anilist.co/anime/1081"),
-                URI("https://anilist.co/anime/1301"),
-                URI("https://anilist.co/anime/1302"),
-                URI("https://anilist.co/anime/1491"),
-                URI("https://anilist.co/anime/1645"),
-                URI("https://anilist.co/anime/1676"),
-                URI("https://anilist.co/anime/1706"),
-                URI("https://anilist.co/anime/17269"),
-                URI("https://anilist.co/anime/2202"),
-                URI("https://anilist.co/anime/2203"),
-                URI("https://anilist.co/anime/2470"),
-            )
         }
 
         @Test
         fun `has adaption, no relations`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/related_anime/has_adaption_but_no_relation.json")
+            runBlocking {
+                // given
+                val testFileContent =
+                    loadTestResource("file_converter_tests/related_anime/has_adaption_but_no_relation.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.relatedAnime).isEmpty()
             }
-
-            // then
-            assertThat(result.relatedAnime).isEmpty()
         }
     }
 
@@ -410,82 +419,82 @@ internal class AnilistConverterTest {
 
         @Test
         fun `'FINISHED' is mapped to 'FINISHED'`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/status/finished.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/status/finished.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.status).isEqualTo(FINISHED)
             }
-
-            // then
-            assertThat(result.status).isEqualTo(FINISHED)
         }
 
         @Test
         fun `'RELEASING' is mapped to 'ONGOING'`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/status/releasing.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/status/releasing.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.status).isEqualTo(ONGOING)
             }
-
-            // then
-            assertThat(result.status).isEqualTo(ONGOING)
         }
 
         @Test
         fun `'NOT_YET_RELEASED' is mapped to 'UPCOMING'`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/status/not_yet_released.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/status/not_yet_released.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.status).isEqualTo(UPCOMING)
             }
-
-            // then
-            assertThat(result.status).isEqualTo(UPCOMING)
         }
 
         @Test
         fun `'CANCELLED' is mapped to 'UNKNOWN'`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/status/cancelled.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/status/cancelled.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
             }
-
-            // then
-            assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
         }
 
         @Test
         fun `null is mapped to 'UNKNOWN'`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/status/null.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/status/null.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
             }
-
-            // then
-            assertThat(result.status).isEqualTo(Anime.Status.UNKNOWN)
         }
     }
 
@@ -494,43 +503,43 @@ internal class AnilistConverterTest {
 
         @Test
         fun `put names of genres and tags as distinct list into the anime's tags`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/tags/tags.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/tags/tags.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.tags).containsExactly(
+                    "action",
+                    "adventure",
+                    "amnesia",
+                    "anti-hero",
+                    "crime",
+                    "cyberpunk",
+                    "cyborg",
+                    "drama",
+                    "drugs",
+                    "ensemble cast",
+                    "episodic",
+                    "gambling",
+                    "guns",
+                    "male protagonist",
+                    "martial arts",
+                    "noir",
+                    "nudity",
+                    "philosophy",
+                    "primarily adult cast",
+                    "sci-fi",
+                    "space",
+                    "tanned skin",
+                    "tragedy",
+                    "yakuza",
+                )
             }
-
-            // then
-            assertThat(result.tags).containsExactly(
-                "action",
-                "adventure",
-                "amnesia",
-                "anti-hero",
-                "crime",
-                "cyberpunk",
-                "cyborg",
-                "drama",
-                "drugs",
-                "ensemble cast",
-                "episodic",
-                "gambling",
-                "guns",
-                "male protagonist",
-                "martial arts",
-                "noir",
-                "nudity",
-                "philosophy",
-                "primarily adult cast",
-                "sci-fi",
-                "space",
-                "tanned skin",
-                "tragedy",
-                "yakuza",
-            )
         }
     }
 
@@ -539,82 +548,82 @@ internal class AnilistConverterTest {
 
         @Test
         fun `duration is not set and therefore 0`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/duration/null.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/duration/null.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
             }
-
-            // then
-            assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
         }
 
         @Test
         fun `duration is set to 0`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/duration/0.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/duration/0.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
             }
-
-            // then
-            assertThat(result.duration).isEqualTo(Duration(0, SECONDS))
         }
 
         @Test
         fun `anilist only uses minutes for duration - so this entry although 15 seconds long is set to 1 min`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/duration/min_duration.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/duration/min_duration.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.duration).isEqualTo(Duration(1, MINUTES))
             }
-
-            // then
-            assertThat(result.duration).isEqualTo(Duration(1, MINUTES))
         }
 
         @Test
         fun `duration of 24 minutes`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/duration/24.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/duration/24.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.duration).isEqualTo(Duration(24, MINUTES))
             }
-
-            // then
-            assertThat(result.duration).isEqualTo(Duration(24, MINUTES))
         }
 
         @Test
         fun `duration of 2 hours`() {
-            // given
-            val testFileContent = loadTestResource("file_converter_tests/duration/120.json")
+            runBlocking {
+                // given
+                val testFileContent = loadTestResource("file_converter_tests/duration/120.json")
 
-            val converter = AnilistConverter()
+                val converter = AnilistConverter()
 
-            // when
-            val result = runBlocking {
-                converter.convert(testFileContent)
+                // when
+                val result = converter.convert(testFileContent)
+
+                // then
+                assertThat(result.duration).isEqualTo(Duration(2, HOURS))
             }
-
-            // then
-            assertThat(result.duration).isEqualTo(Duration(2, HOURS))
         }
     }
 
@@ -626,82 +635,83 @@ internal class AnilistConverterTest {
 
             @Test
             fun `season is 'undefined'`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json")
+                runBlocking {
+                    // given
+                    val testFileContent =
+                        loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.season).isEqualTo(UNDEFINED)
                 }
-
-                // then
-                assertThat(result.animeSeason.season).isEqualTo(UNDEFINED)
             }
 
             @Test
             fun `season is 'spring'`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/spring.json")
+                runBlocking {
+                    // given
+                    val testFileContent = loadTestResource("file_converter_tests/anime_season/spring.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.season).isEqualTo(SPRING)
                 }
-
-                // then
-                assertThat(result.animeSeason.season).isEqualTo(SPRING)
             }
 
             @Test
             fun `season is 'summer'`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/summer.json")
+                runBlocking {
+                    // given
+                    val testFileContent = loadTestResource("file_converter_tests/anime_season/summer.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.season).isEqualTo(SUMMER)
                 }
-
-                // then
-                assertThat(result.animeSeason.season).isEqualTo(SUMMER)
             }
 
             @Test
             fun `season is 'fall'`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/fall.json")
+                runBlocking {
+                    // given
+                    val testFileContent = loadTestResource("file_converter_tests/anime_season/fall.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.season).isEqualTo(FALL)
                 }
-
-                // then
-                assertThat(result.animeSeason.season).isEqualTo(FALL)
             }
 
             @Test
             fun `season is 'wimter'`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/winter.json")
+                runBlocking {
+                    // given
+                    val testFileContent = loadTestResource("file_converter_tests/anime_season/winter.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.season).isEqualTo(WINTER)
                 }
-
-                // then
-                assertThat(result.animeSeason.season).isEqualTo(WINTER)
             }
         }
 
@@ -710,34 +720,35 @@ internal class AnilistConverterTest {
 
             @Test
             fun `year is not set and default is 0`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json")
+                runBlocking {
+                    // given
+                    val testFileContent =
+                        loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.year).isEqualTo(0)
                 }
-
-                // then
-                assertThat(result.animeSeason.year).isEqualTo(0)
             }
 
             @Test
             fun `year is 2021 - season is null but start date is set`() {
-                // given
-                val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_2021.json")
+                runBlocking {
+                    // given
+                    val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_2021.json")
 
-                val converter = AnilistConverter()
+                    val converter = AnilistConverter()
 
-                // when
-                val result = runBlocking {
-                    converter.convert(testFileContent)
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.year).isEqualTo(2021)
                 }
-
-                // then
-                assertThat(result.animeSeason.year).isEqualTo(2021)
             }
         }
     }
