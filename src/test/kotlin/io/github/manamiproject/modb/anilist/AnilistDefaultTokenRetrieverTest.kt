@@ -134,39 +134,40 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
 
     @Test
     fun `correctly retrieve token`() {
-        // given
-        val testAnilistConfig = object: MetaDataProviderConfig by MetaDataProviderTestConfig {
-            override fun hostname(): Hostname = "localhost"
-            override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/$id")
-            override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
-        }
+        runBlocking {
+            // given
+            val testAnilistConfig = object : MetaDataProviderConfig by MetaDataProviderTestConfig {
+                override fun hostname(): Hostname = "localhost"
+                override fun buildDataDownloadLink(id: String): URI = URI("http://${hostname()}:$port/$id")
+                override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
+            }
 
-        RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(isTestContext = true))
+            RetryableRegistry.register(testAnilistConfig.hostname(), RetryBehavior(isTestContext = true))
 
-        val anilistTokenRetriever = AnilistDefaultTokenRetriever(testAnilistConfig)
+            val anilistTokenRetriever = AnilistDefaultTokenRetriever(testAnilistConfig)
 
-        val responseBody = loadTestResource("token_retriever_tests/page_containing_token.html")
+            val responseBody = loadTestResource("token_retriever_tests/page_containing_token.html")
 
-        serverInstance.stubFor(
-            get(urlPathEqualTo("/")).willReturn(
-                aResponse()
-                    .withHeader("Content-Type", APPLICATION_JSON)
-                    .withHeader(
-                        "set-cookie",
-                        "__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; expires=Fri, 21-Feb-20 20:56:37 GMT; path=/; domain=.anilist.co; HttpOnly; SameSite=Lax; Secure",
-                        "laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL; expires=Thu, 23-Jan-2020 08:56:37 GMT; Max-Age=43200; path=/; httponly")
-                    .withStatus(200)
-                    .withBody(responseBody)
+            serverInstance.stubFor(
+                get(urlPathEqualTo("/")).willReturn(
+                    aResponse()
+                        .withHeader("Content-Type", APPLICATION_JSON)
+                        .withHeader(
+                            "set-cookie",
+                            "__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; expires=Fri, 21-Feb-20 20:56:37 GMT; path=/; domain=.anilist.co; HttpOnly; SameSite=Lax; Secure",
+                            "laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL; expires=Thu, 23-Jan-2020 08:56:37 GMT; Max-Age=43200; path=/; httponly"
+                        )
+                        .withStatus(200)
+                        .withBody(responseBody)
+                )
             )
-        )
 
-        // when
-        val result = runBlocking {
-            anilistTokenRetriever.retrieveToken()
+            // when
+            val result = anilistTokenRetriever.retrieveToken()
+
+            // then
+            assertThat(result.cookie).isEqualTo("__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL")
+            assertThat(result.csrfToken).isEqualTo("IAasRzCsdYp2b5QWQEWtMzSvDzf8UboK0GiH907Y")
         }
-
-        // then
-        assertThat(result.cookie).isEqualTo("__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL")
-        assertThat(result.csrfToken).isEqualTo("IAasRzCsdYp2b5QWQEWtMzSvDzf8UboK0GiH907Y")
     }
 }
