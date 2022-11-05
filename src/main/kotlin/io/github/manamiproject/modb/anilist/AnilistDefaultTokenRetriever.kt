@@ -1,7 +1,6 @@
 package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
-import io.github.manamiproject.modb.core.coroutines.CoroutineManager.runCoroutine
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_NETWORK
 import io.github.manamiproject.modb.core.extensions.EMPTY
@@ -13,6 +12,7 @@ import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import io.github.manamiproject.modb.core.parseHtml
 import io.github.manamiproject.modb.core.random
+import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import kotlin.time.DurationUnit.MILLISECONDS
 import kotlin.time.toDuration
@@ -33,7 +33,7 @@ public class AnilistDefaultTokenRetriever(
 ): AnilistTokenRetriever {
 
     init {
-        runCoroutine(isTestContext = config.isTestContext()) {
+        runBlocking {
             registerRetryBehavior()
         }
     }

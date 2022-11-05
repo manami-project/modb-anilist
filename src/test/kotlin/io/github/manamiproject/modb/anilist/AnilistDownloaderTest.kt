@@ -225,10 +225,6 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
             }
 
-            val testAnilistDefaultTokenRetrieverConfig = object : MetaDataProviderConfig by AnilistDefaultTokenRetrieverConfig {
-                override fun isTestContext(): Boolean = true
-            }
-
             AnilistDefaultTokenRepository.token = AnilistToken("valid-cookie", "valid-csrf-token")
 
             val responseBody = "{ \"anilistId\": $id }"
@@ -244,12 +240,7 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
 
             val requestBody = loadTestResource("downloader_tests/anime_download_request.graphql")
 
-            val downloader = AnilistDownloader(
-                config = testAnilistConfig,
-                anilistTokenRetriever = AnilistDefaultTokenRetriever(
-                    config = testAnilistDefaultTokenRetrieverConfig,
-                ),
-            )
+            val downloader = AnilistDownloader(testAnilistConfig)
 
             // when
             downloader.download(id.toAnimeId()) { shouldNotBeInvoked() }
@@ -287,16 +278,8 @@ internal class AnilistDownloaderTest : MockServerTestCase<WireMockServer> by Wir
                 override fun fileSuffix(): FileSuffix = AnilistConfig.fileSuffix()
             }
 
-            val testAnilistDefaultTokenRetrieverConfig = object : MetaDataProviderConfig by AnilistDefaultTokenRetrieverConfig {
-                override fun isTestContext(): Boolean = true
-            }
-
-
             val downloader = AnilistDownloader(
                 config = testAnilistConfig,
-                anilistTokenRetriever = AnilistDefaultTokenRetriever(
-                    config = testAnilistDefaultTokenRetrieverConfig,
-                ),
             )
 
             AnilistDefaultTokenRepository.token = AnilistToken("my-cookie", "my-csrf-token")

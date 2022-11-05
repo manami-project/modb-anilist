@@ -2,7 +2,6 @@ package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.config.AnimeId
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
-import io.github.manamiproject.modb.core.coroutines.CoroutineManager.runCoroutine
 import io.github.manamiproject.modb.core.downloader.Downloader
 import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
@@ -10,6 +9,7 @@ import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.RequestBody
 import io.github.manamiproject.modb.core.loadResource
+import kotlinx.coroutines.runBlocking
 
 /**
  * Downloads anime data from anilist.co
@@ -24,14 +24,10 @@ public class AnilistDownloader(
     anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ) : Downloader {
 
-    private val requestBody: String by lazy {
-        runCoroutine(isTestContext = config.isTestContext()) {
-            loadResource("anime_download_request.graphql")
-        }
-    }
+    private val requestBody: String by lazy { runBlocking { loadResource("anime_download_request.graphql") } }
 
     init {
-        runCoroutine(isTestContext = config.isTestContext()) {
+        runBlocking {
             if (anilistTokenRepository.token == AnilistToken(EMPTY, EMPTY)) {
                 anilistTokenRepository.token = anilistTokenRetriever.retrieveToken()
             }
