@@ -1,15 +1,15 @@
 package io.github.manamiproject.modb.anilist
 
+import io.github.manamiproject.modb.core.coroutines.CoroutineManager.runCoroutine
 import io.github.manamiproject.modb.core.extensions.writeToFile
 import io.github.manamiproject.modb.test.testResource
-import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
 
 internal fun main() {
     val downloader = AnilistDownloader(AnilistConfig)
     
-    runBlocking { 
+    runCoroutine {
         downloader.download("104464").writeToFile(resourceFile("file_converter_tests/anime_season/fall.json"))
         downloader.download("126434").writeToFile(resourceFile("file_converter_tests/anime_season/season_is_null_and_start_date_is_2021.json"))
         downloader.download("100050").writeToFile(resourceFile("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json"))
@@ -28,7 +28,7 @@ internal fun main() {
         downloader.download("235").writeToFile(resourceFile("file_converter_tests/episodes/ongoing.json"))
     
         downloader.download("2167").writeToFile(resourceFile("file_converter_tests/picture_and_thumbnail/picture_available.json"))
-        downloader.download("133124").writeToFile(resourceFile("file_converter_tests/picture_and_thumbnail/picture_unavailable.json"))
+        downloader.download("157371").writeToFile(resourceFile("file_converter_tests/picture_and_thumbnail/picture_unavailable.json"))
     
         downloader.download("1000").writeToFile(resourceFile("file_converter_tests/related_anime/has_adaption_and_multiple_relations.json"))
         downloader.download("100").writeToFile(resourceFile("file_converter_tests/related_anime/has_adaption_but_no_relation.json"))

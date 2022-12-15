@@ -215,7 +215,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.episodes).isEqualTo(1016)
+                assertThat(result.episodes).isEqualTo(1067)
             }
         }
     }
@@ -236,8 +236,8 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
-                assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-GNYaoI8DTcx4.png"))
+                assertThat(result.picture).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-ubU2875AFRTH.jpg"))
+                assertThat(result.thumbnail).isEqualTo(URI("https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2167-ubU2875AFRTH.jpg"))
             }
         }
 
@@ -519,6 +519,7 @@ internal class AnilistConverterTest {
                     "amnesia",
                     "anti-hero",
                     "crime",
+                    "cult",
                     "cyberpunk",
                     "cyborg",
                     "drama",
@@ -526,17 +527,21 @@ internal class AnilistConverterTest {
                     "ensemble cast",
                     "episodic",
                     "gambling",
+                    "gender bending",
                     "guns",
+                    "lgbtq+ themes",
                     "male protagonist",
                     "martial arts",
                     "noir",
-                    "nudity",
                     "philosophy",
+                    "police",
                     "primarily adult cast",
                     "sci-fi",
                     "space",
                     "tanned skin",
+                    "terrorism",
                     "tragedy",
+                    "travel",
                     "yakuza",
                 )
             }
