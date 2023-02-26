@@ -44,6 +44,7 @@ dependencies {
 
 kotlin {
     explicitApi()
+    jvmToolchain(Versions.JVM_TARGET.toInt())
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
