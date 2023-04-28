@@ -11,8 +11,9 @@ internal fun main() {
     
     runCoroutine {
         downloader.download("104464").writeToFile(resourceFile("file_converter_tests/anime_season/fall.json"))
-        downloader.download("126434").writeToFile(resourceFile("file_converter_tests/anime_season/season_is_null_and_start_date_is_2021.json"))
+        downloader.download("1998").writeToFile(resourceFile("file_converter_tests/anime_season/season_is_null_and_start_date_is_2006.json"))
         downloader.download("100050").writeToFile(resourceFile("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json"))
+        downloader.download("141208").writeToFile(resourceFile("file_converter_tests/anime_season/seasonyear_set.json"))
         downloader.download("101922").writeToFile(resourceFile("file_converter_tests/anime_season/spring.json"))
         downloader.download("106286").writeToFile(resourceFile("file_converter_tests/anime_season/summer.json"))
         downloader.download("101759").writeToFile(resourceFile("file_converter_tests/anime_season/winter.json"))

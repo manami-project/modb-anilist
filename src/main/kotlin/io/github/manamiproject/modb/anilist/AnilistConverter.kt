@@ -109,7 +109,7 @@ public class AnilistConverter(
 
     private fun extractAnimeSeason(document: AnilistDocument): AnimeSeason {
         val season = AnimeSeason.Season.of(document.data.Media.season ?: EMPTY)
-        val year = document.data.Media.startDate?.year ?: 0
+        val year = document.data.Media.seasonYear ?: document.data.Media.startDate?.year ?: 0
 
         return AnimeSeason(
             season = season,
@@ -139,6 +139,7 @@ private data class AnilistDataMedia(
     val coverImage: Map<String, String>,
     val startDate: AnilistDataMediaStartDate?,
     val season: String?,
+    val seasonYear: Int?,
     val episodes: Int?,
     val duration: Int?,
     val format: String?,

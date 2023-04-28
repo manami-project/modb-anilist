@@ -215,7 +215,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.episodes).isEqualTo(1067)
+                assertThat(result.episodes).isEqualTo(1082)
             }
         }
     }
@@ -529,7 +529,6 @@ internal class AnilistConverterTest {
                     "gambling",
                     "gender bending",
                     "guns",
-                    "lgbtq+ themes",
                     "male protagonist",
                     "martial arts",
                     "noir",
@@ -540,6 +539,7 @@ internal class AnilistConverterTest {
                     "space",
                     "tanned skin",
                     "terrorism",
+                    "tomboy",
                     "tragedy",
                     "travel",
                     "yakuza",
@@ -724,6 +724,23 @@ internal class AnilistConverterTest {
         inner class YearOfPremiereTests {
 
             @Test
+            fun `seasonYear is set`() {
+                runBlocking {
+                    // given
+                    val testFileContent =
+                        loadTestResource("file_converter_tests/anime_season/seasonyear_set.json")
+
+                    val converter = AnilistConverter()
+
+                    // when
+                    val result = converter.convert(testFileContent)
+
+                    // then
+                    assertThat(result.animeSeason.year).isEqualTo(2023)
+                }
+            }
+
+            @Test
             fun `year is not set and default is 0`() {
                 runBlocking {
                     // given
@@ -741,10 +758,10 @@ internal class AnilistConverterTest {
             }
 
             @Test
-            fun `year is 2021 - season is null but start date is set`() {
+            fun `year is 2006 - seasonYear is null but start date is set`() {
                 runBlocking {
                     // given
-                    val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_2021.json")
+                    val testFileContent = loadTestResource("file_converter_tests/anime_season/season_is_null_and_start_date_is_2006.json")
 
                     val converter = AnilistConverter()
 
@@ -752,7 +769,7 @@ internal class AnilistConverterTest {
                     val result = converter.convert(testFileContent)
 
                     // then
-                    assertThat(result.animeSeason.year).isEqualTo(2021)
+                    assertThat(result.animeSeason.year).isEqualTo(2006)
                 }
             }
         }
