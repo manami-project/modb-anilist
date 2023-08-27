@@ -34,7 +34,7 @@ version = project.findProperty("release.version") as String? ?: ""
 
 dependencies {
     api(kotlin("stdlib"))
-    api("io.github.manamiproject:modb-core:8.0.7")
+    api("io.github.manamiproject:modb-core:9.0.0-m2")
 
     implementation(platform(kotlin("bom")))
 

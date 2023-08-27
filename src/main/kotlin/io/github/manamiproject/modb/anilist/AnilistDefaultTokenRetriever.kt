@@ -7,20 +7,13 @@ import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpResponse
-import io.github.manamiproject.modb.core.httpclient.retry.RetryBehavior
-import io.github.manamiproject.modb.core.httpclient.retry.RetryableRegistry
 import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import io.github.manamiproject.modb.core.parseHtml
-import io.github.manamiproject.modb.core.random
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import kotlin.time.DurationUnit.MILLISECONDS
-import kotlin.time.toDuration
 
 private const val CSRF_TOKEN_PREFIX = "window.al_token"
 
 /**
- * Registers [RetryBehavior] in the [RetryableRegistry] upon creation.
  * Retrieves a valid token.
  * @since 1.0.0
  * @param config Configuration for retrieving the token.
@@ -28,20 +21,14 @@ private const val CSRF_TOKEN_PREFIX = "window.al_token"
  */
 public class AnilistDefaultTokenRetriever(
     private val config: MetaDataProviderConfig = AnilistDefaultTokenRetrieverConfig,
-    private val httpClient: HttpClient = DefaultHttpClient(isTestContext = config.isTestContext()),
-    private val anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
+    private val httpClient: HttpClient = DefaultHttpClient(isTestContext=config.isTestContext()),
 ): AnilistTokenRetriever {
 
-    init {
-        runBlocking {
-            registerRetryBehavior()
-        }
-    }
-
     override suspend fun retrieveToken(): AnilistToken = withContext(LIMITED_NETWORK) {
+        log.info { "Fetching token for anilist." }
+
         val response = httpClient.get(
             url = config.buildDataDownloadLink().toURL(),
-            retryWith = config.hostname(),
         )
 
         val cookie = extractCookie(response)
@@ -73,27 +60,6 @@ public class AnilistDefaultTokenRetriever(
                 .replace("\";", EMPTY)
                 .trim()
         }
-    }
-
-    private suspend fun registerRetryBehavior() {
-        val retryBehaviorConfig = RetryBehavior(
-            waitDuration = { random(4000, 8000).toDuration(MILLISECONDS) },
-            isTestContext = config.isTestContext(),
-        ).apply {
-            addCase {
-                it.code in setOf(500, 502, 520)
-            }
-            addCase(
-                retryIf = { httpResponse -> httpResponse.code == 403 },
-                executeBeforeRetry = {
-                    log.warn { "Anilist responds with 403. Refreshing token." }
-                    anilistTokenRepository.token = retrieveToken()
-                    log.info { "Token has been renewed" }
-                }
-            )
-        }
-
-        RetryableRegistry.register(config.hostname(), retryBehaviorConfig)
     }
 
     private companion object {
