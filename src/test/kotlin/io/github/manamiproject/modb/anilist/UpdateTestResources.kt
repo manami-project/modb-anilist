@@ -59,6 +59,8 @@ internal fun main() {
         downloader.download("106169").writeToFile(resourceFile("file_converter_tests/type/special.json"))
         downloader.download("5114").writeToFile(resourceFile("file_converter_tests/type/tv.json"))
         downloader.download("98291").writeToFile(resourceFile("file_converter_tests/type/tv_short.json"))
+
+        println("Done")
     }
 }
 
