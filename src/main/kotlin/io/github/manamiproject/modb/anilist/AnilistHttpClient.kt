@@ -7,7 +7,7 @@ import io.github.manamiproject.modb.core.httpclient.RequestBody
 import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import java.net.URL
 
-internal class AnilistHttpClient(
+public class AnilistHttpClient(
     isTestContext: Boolean = false,
     private val delegate: HttpClient = DefaultHttpClient(isTestContext=isTestContext),
     private val anilistTokenRetriever: AnilistTokenRetriever = AnilistDefaultTokenRetriever(),
