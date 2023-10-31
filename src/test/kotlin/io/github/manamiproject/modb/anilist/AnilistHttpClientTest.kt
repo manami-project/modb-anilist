@@ -8,6 +8,7 @@ import io.github.manamiproject.modb.test.shouldNotBeInvoked
 import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Nested
+import java.net.URI
 import java.net.URL
 import kotlin.test.Test
 
@@ -67,7 +68,7 @@ internal class AnilistHttpClientTest {
                 )
 
                 // when
-                val result = client.get(url = URL("http://localhost"))
+                val result = client.get(url = URI("http://localhost").toURL())
 
                 // then
                 assertThat(tokenHasBeenRetrieved).isTrue()
@@ -127,7 +128,7 @@ internal class AnilistHttpClientTest {
                 )
 
                 // when
-                val result = client.get(url = URL("http://localhost"))
+                val result = client.get(url = URI("http://localhost").toURL())
 
                 // then
                 assertThat(tokenHasBeenRetrieved).isTrue()
@@ -176,7 +177,7 @@ internal class AnilistHttpClientTest {
                 )
 
                 // when
-                val result = client.get(url = URL("http://localhost"))
+                val result = client.get(url = URI("http://localhost").toURL())
 
                 // then
                 assertThat(delegateCallTimes).isEqualTo(1)
@@ -244,7 +245,7 @@ internal class AnilistHttpClientTest {
                 )
 
                 // when
-                val result = client.post(url = URL("http://localhost"), requestBody = RequestBody(EMPTY, EMPTY))
+                val result = client.post(url = URI("http://localhost").toURL(), requestBody = RequestBody(EMPTY, EMPTY))
 
                 // then
                 assertThat(tokenHasBeenRetrieved).isTrue()
@@ -308,7 +309,7 @@ internal class AnilistHttpClientTest {
                 )
 
                 // when
-                val result = client.post(url = URL("http://localhost"), requestBody = RequestBody(EMPTY, EMPTY))
+                val result = client.post(url = URI("http://localhost").toURL(), requestBody = RequestBody(EMPTY, EMPTY))
 
                 // then
                 assertThat(tokenHasBeenRetrieved).isTrue()
@@ -361,7 +362,7 @@ internal class AnilistHttpClientTest {
                 )
 
                 // when
-                val result = client.post(url = URL("http://localhost"), requestBody = RequestBody(EMPTY, EMPTY))
+                val result = client.post(url = URI("http://localhost").toURL(), requestBody = RequestBody(EMPTY, EMPTY))
 
                 // then
                 assertThat(delegateCallTimes).isEqualTo(1)
