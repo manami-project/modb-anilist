@@ -118,7 +118,7 @@ internal class AnilistDownloaderTest {
             var deadEntryInvocation = EMPTY
 
             // when
-            val result = downloader.download("123") {
+            downloader.download("123") {
                 deadEntryInvocation = "$it added to dead entry"
             }
 

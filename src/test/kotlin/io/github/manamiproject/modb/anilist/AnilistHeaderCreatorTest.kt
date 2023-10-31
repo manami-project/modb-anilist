@@ -2,6 +2,7 @@ package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.httpclient.RequestBody
 import org.assertj.core.api.Assertions.assertThat
+import java.net.URI
 import kotlin.test.Test
 import java.net.URL
 
@@ -14,12 +15,12 @@ internal class AnilistHeaderCreatorTest {
 
         val requestBody = RequestBody(
             mediaType = "used media type",
-            body = "payload"
+            body = "payload",
         )
 
         // when
         val result = AnilistHeaderCreator.createAnilistHeaders(
-            requestBody = requestBody
+            requestBody = requestBody,
         )
 
         // then
@@ -43,13 +44,13 @@ internal class AnilistHeaderCreatorTest {
         // given
         val requestBody = RequestBody(
             mediaType = "used media type",
-            body = "payload"
+            body = "payload",
         )
 
         // when
         val result = AnilistHeaderCreator.createAnilistHeaders(
             requestBody = requestBody,
-            referer = URL("https://anilist.co/anime/1535")
+            referer = URI("https://anilist.co/anime/1535").toURL(),
         )
 
         // then

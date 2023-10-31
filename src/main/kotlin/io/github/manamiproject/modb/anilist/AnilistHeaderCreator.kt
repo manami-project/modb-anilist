@@ -1,6 +1,7 @@
 package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.httpclient.RequestBody
+import java.net.URI
 import java.net.URL
 
 /**
@@ -16,7 +17,7 @@ public object AnilistHeaderCreator {
      * @param referer The referer [URL]. **Default**: _https://anilist.co_
      * @return A [Map] of header parameter. Key is the name of the parameter itself and value is a list of values for this specific header parameter.
      */
-    public fun createAnilistHeaders(requestBody: RequestBody, referer: URL = URL("https://anilist.co")): Map<String, List<String>> {
+    public fun createAnilistHeaders(requestBody: RequestBody, referer: URL = URI("https://anilist.co").toURL()): Map<String, List<String>> {
         val url = "https://anilist.co"
 
         return mapOf(
