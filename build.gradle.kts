@@ -1,5 +1,3 @@
-val jvmTarget = "21"
-
 plugins {
     kotlin("jvm") version "1.9.20"
     `maven-publish`
@@ -46,12 +44,12 @@ dependencies {
 
 kotlin {
     explicitApi()
-    jvmToolchain(jvmTarget.toInt())
+    jvmToolchain(JavaVersion.VERSION_21.toString().toInt())
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions {
-        jvmTarget = jvmTarget
+        jvmTarget = JavaVersion.VERSION_21.toString()
     }
 }
 
