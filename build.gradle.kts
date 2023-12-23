@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
     `java-library`
     jacoco
-    id("com.github.nbaztec.coveralls-jacoco") version "1.2.17"
+    id("com.github.nbaztec.coveralls-jacoco") version "1.2.18"
 }
 
 val projectName = "modb-anilist"
