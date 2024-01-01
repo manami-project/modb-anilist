@@ -49,9 +49,9 @@ public class AnilistDefaultTokenRetriever(
     }
 
     private suspend fun extractCsrfToken(response: HttpResponse): String = withContext(LIMITED_CPU) {
-        require(response.body.isNotBlank()) { "Response body must not be empty" }
+        require(response.bodyAsText.isNotBlank()) { "Response body must not be empty" }
 
-        return@withContext parseHtml(response.body) { document ->
+        return@withContext parseHtml(response.bodyAsText) { document ->
             val scriptElement = document.select("script")
                 .find { it.data().startsWith(CSRF_TOKEN_PREFIX) } ?: throw IllegalStateException("Unable to extract CSRF token.")
 
