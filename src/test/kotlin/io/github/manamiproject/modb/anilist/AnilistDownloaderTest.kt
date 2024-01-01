@@ -34,7 +34,7 @@ internal class AnilistDownloaderTest {
                     headers: Map<String, Collection<String>>
                 ): HttpResponse = HttpResponse(
                     code = 200,
-                    body = EMPTY,
+                    body = EMPTY.toByteArray(),
                 )
             }
 
@@ -71,7 +71,7 @@ internal class AnilistDownloaderTest {
                     headers: Map<String, Collection<String>>
                 ): HttpResponse = HttpResponse(
                     code = 200,
-                    body = "success",
+                    body = "success".toByteArray(),
                 )
             }
 
@@ -106,7 +106,7 @@ internal class AnilistDownloaderTest {
                     headers: Map<String, Collection<String>>
                 ): HttpResponse = HttpResponse(
                     code = 404,
-                    body = "not found",
+                    body = "not found".toByteArray(),
                 )
             }
 
@@ -145,7 +145,7 @@ internal class AnilistDownloaderTest {
                     headers: Map<String, Collection<String>>
                 ): HttpResponse = HttpResponse(
                     code = 400,
-                    body = "error",
+                    body = "error".toByteArray(),
                 )
             }
 

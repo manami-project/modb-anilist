@@ -40,10 +40,10 @@ public class AnilistDownloader(
             requestBody = requestBody,
         )
 
-        check(response.body.isNotBlank()) { "Response body was blank for [anilistId=$id] with response code [${response.code}]" }
+        check(response.bodyAsText.isNotBlank()) { "Response body was blank for [anilistId=$id] with response code [${response.code}]" }
 
         return when(response.code) {
-            200 -> response.body
+            200 -> response.bodyAsText
             404 -> {
                 onDeadEntry.invoke(id)
                 EMPTY

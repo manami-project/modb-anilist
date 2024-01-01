@@ -28,11 +28,11 @@ internal class AnilistHttpClientTest {
                         return when (delegateCallTimes) {
                             1 -> HttpResponse(
                                 code = 403,
-                                body = "token outdated",
+                                body = "token outdated".toByteArray(),
                             )
                             else -> HttpResponse(
                                 code = 200,
-                                body = "success",
+                                body = "success".toByteArray(),
                             )
                         }
                     }
@@ -74,7 +74,7 @@ internal class AnilistHttpClientTest {
                 assertThat(tokenHasBeenRetrieved).isTrue()
                 assertThat(tokenHasBeenSet).isTrue()
                 assertThat(delegateCallTimes).isEqualTo(2)
-                assertThat(result.body).isEqualTo("success")
+                assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
             }
         }
@@ -90,11 +90,11 @@ internal class AnilistHttpClientTest {
                         return when (delegateCallTimes) {
                             1 -> HttpResponse(
                                 code = 403,
-                                body = "token outdated",
+                                body = "token outdated".toByteArray(),
                             )
                             else -> HttpResponse(
                                 code = 200,
-                                body = "success",
+                                body = "success".toByteArray(),
                             )
                         }
                     }
@@ -133,7 +133,7 @@ internal class AnilistHttpClientTest {
                 // then
                 assertThat(tokenHasBeenRetrieved).isTrue()
                 assertThat(delegateCallTimes).isEqualTo(2)
-                assertThat(result.body).isEqualTo("success")
+                assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
                 assertThat(testAnilistDefaultTokenRepository.token.cookie).isEqualTo("updated-cookie-value")
                 assertThat(testAnilistDefaultTokenRepository.token.csrfToken).isEqualTo("updated-csrf-value")
@@ -150,7 +150,7 @@ internal class AnilistHttpClientTest {
                         delegateCallTimes++
                         return HttpResponse(
                             code = 200,
-                            body = "success",
+                            body = "success".toByteArray(),
                         )
                     }
                 }
@@ -181,7 +181,7 @@ internal class AnilistHttpClientTest {
 
                 // then
                 assertThat(delegateCallTimes).isEqualTo(1)
-                assertThat(result.body).isEqualTo("success")
+                assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
             }
         }
@@ -205,11 +205,11 @@ internal class AnilistHttpClientTest {
                         return when (delegateCallTimes) {
                             1 -> HttpResponse(
                                 code = 403,
-                                body = "token outdated",
+                                body = "token outdated".toByteArray(),
                             )
                             else -> HttpResponse(
                                 code = 200,
-                                body = "success",
+                                body = "success".toByteArray(),
                             )
                         }
                     }
@@ -251,7 +251,7 @@ internal class AnilistHttpClientTest {
                 assertThat(tokenHasBeenRetrieved).isTrue()
                 assertThat(tokenHasBeenSet).isTrue()
                 assertThat(delegateCallTimes).isEqualTo(2)
-                assertThat(result.body).isEqualTo("success")
+                assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
             }
         }
@@ -271,11 +271,11 @@ internal class AnilistHttpClientTest {
                         return when (delegateCallTimes) {
                             1 -> HttpResponse(
                                 code = 403,
-                                body = "token outdated",
+                                body = "token outdated".toByteArray(),
                             )
                             else -> HttpResponse(
                                 code = 200,
-                                body = "success",
+                                body = "success".toByteArray(),
                             )
                         }
                     }
@@ -314,7 +314,7 @@ internal class AnilistHttpClientTest {
                 // then
                 assertThat(tokenHasBeenRetrieved).isTrue()
                 assertThat(delegateCallTimes).isEqualTo(2)
-                assertThat(result.body).isEqualTo("success")
+                assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
                 assertThat(testAnilistDefaultTokenRepository.token.cookie).isEqualTo("updated-cookie-value")
                 assertThat(testAnilistDefaultTokenRepository.token.csrfToken).isEqualTo("updated-csrf-value")
@@ -335,7 +335,7 @@ internal class AnilistHttpClientTest {
                         delegateCallTimes++
                         return HttpResponse(
                             code = 200,
-                            body = "success",
+                            body = "success".toByteArray(),
                         )
                     }
                 }
@@ -366,7 +366,7 @@ internal class AnilistHttpClientTest {
 
                 // then
                 assertThat(delegateCallTimes).isEqualTo(1)
-                assertThat(result.body).isEqualTo("success")
+                assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
             }
         }
