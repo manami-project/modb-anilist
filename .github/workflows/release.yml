@@ -26,14 +26,14 @@ jobs:
           GH_PACKAGES_RELEASE_TOKEN: ${{ secrets.PACKAGES_RELEASE_TOKEN }}
         run: ./gradlew test publish -Prelease.version=$RELEASE_VERSION
       - name: 'Remove outdated pre-releases'
-        uses: actions/delete-package-versions@v4
+        uses: actions/delete-package-versions@v5
         with:
           package-name: 'io.github.manamiproject.${{ github.event.repository.name }}'
           package-type: 'maven'
           min-versions-to-keep: 1
           delete-only-pre-release-versions: 'true'
       - name: 'Remove outdated releases'
-        uses: actions/delete-package-versions@v4
+        uses: actions/delete-package-versions@v5
         with:
           package-name: 'io.github.manamiproject.${{ github.event.repository.name }}'
           package-type: 'maven'
