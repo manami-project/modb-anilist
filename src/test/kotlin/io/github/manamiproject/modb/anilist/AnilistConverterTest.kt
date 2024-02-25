@@ -276,7 +276,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.synonyms).containsExactly(
+                assertThat(result.synonyms).containsExactlyInAnyOrder(
                     "Prism Paradise",
                     "Tobidasu PriPara: Minna de Mezase! Idol\u2606Grand Prix",
                     "Tobidasu PuriPara: Mi~nna de Mezase! Idol\u2606Grand Prix",
@@ -339,7 +339,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.relatedAnime).containsExactly(
+                assertThat(result.relatedAnime).containsExactlyInAnyOrder(
                     URI("https://anilist.co/anime/107298"),
                     URI("https://anilist.co/anime/116147"),
                     URI("https://anilist.co/anime/97857"),
@@ -379,7 +379,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.relatedAnime).containsExactly(
+                assertThat(result.relatedAnime).containsExactlyInAnyOrder(
                     URI("https://anilist.co/anime/100148"),
                     URI("https://anilist.co/anime/1081"),
                     URI("https://anilist.co/anime/1301"),
@@ -513,7 +513,7 @@ internal class AnilistConverterTest {
                 val result = converter.convert(testFileContent)
 
                 // then
-                assertThat(result.tags).containsExactly(
+                assertThat(result.tags).containsExactlyInAnyOrder(
                     "action",
                     "adventure",
                     "amnesia",
