@@ -1,6 +1,6 @@
 package io.github.manamiproject.modb.anilist
 
-import io.github.manamiproject.modb.core.Json
+import io.github.manamiproject.modb.core.json.Json
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
@@ -40,7 +40,7 @@ public class AnilistConverter(
         ).apply {
             addSources(extractSourcesEntry(document))
             addSynonyms(extractSynonyms(document))
-            addRelations(extractRelatedAnime(document))
+            addRelatedAnime(extractRelatedAnime(document))
             addTags(extractTags(document))
         }
     }
