@@ -39,7 +39,7 @@ dependencies {
     implementation(platform(kotlin("bom")))
 
     testImplementation("ch.qos.logback:logback-classic:1.5.3")
-    testImplementation("io.github.manamiproject:modb-test:1.6.6")
+    testImplementation("io.github.manamiproject:modb-test:1.6.7")
 }
 
 kotlin {
