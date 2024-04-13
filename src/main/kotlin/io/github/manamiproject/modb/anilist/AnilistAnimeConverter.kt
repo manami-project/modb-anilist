@@ -15,11 +15,24 @@ import kotlinx.coroutines.withContext
 import java.net.URI
 
 /**
+ * @since 5.4.0
+ */
+@Deprecated(
+    message = "Has been renamed to AnilistAnimeConverter. AnilistConverter will be removed in the next major version.",
+    replaceWith = ReplaceWith(
+        expression = "AnilistAnimeConverter",
+        imports = ["io.github.manamiproject.modb.anilist.AnilistAnimeConverter"],
+    )
+)
+public typealias AnilistConverter = AnilistAnimeConverter
+
+
+/**
  * Converts raw data to an [Anime].
  * @since 1.0.0
  * @param config Configuration for converting data.
  */
-public class AnilistConverter(
+public class AnilistAnimeConverter(
     private val config: MetaDataProviderConfig = AnilistConfig,
 ) : AnimeConverter {
 
