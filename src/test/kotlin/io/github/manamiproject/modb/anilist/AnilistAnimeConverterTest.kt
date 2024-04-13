@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Nested
 import kotlin.test.Test
 import java.net.URI
 
-internal class AnilistConverterTest {
+internal class AnilistAnimeConverterTest {
 
     @Nested
     inner class TitleTests {
@@ -24,7 +24,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/title/special_chars.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -44,7 +44,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/tv.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -60,7 +60,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/tv_short.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -76,7 +76,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/special.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -92,7 +92,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/ova.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -108,7 +108,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/ona.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -124,7 +124,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/movie.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -140,7 +140,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/music.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -156,7 +156,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/type/null.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -176,7 +176,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/episodes/39.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -193,7 +193,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/episodes/neither_episodes_nor_nextairingepisode_is_set.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -209,7 +209,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/episodes/ongoing.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -230,7 +230,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/picture_and_thumbnail/picture_available.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -248,7 +248,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/picture_and_thumbnail/picture_unavailable.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -270,7 +270,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/synonyms/synonyms_from_titles_and_synonyms.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -295,7 +295,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/sources/15689.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -316,7 +316,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/related_anime/no_adaption_no_relations.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -333,7 +333,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/related_anime/no_adaption_multiple_relations.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -354,7 +354,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/related_anime/has_one_adaption_and_one_relation.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -373,7 +373,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/related_anime/has_adaption_and_multiple_relations.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -403,7 +403,7 @@ internal class AnilistConverterTest {
                 val testFileContent =
                     loadTestResource<String>("file_converter_tests/related_anime/has_adaption_but_no_relation.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -423,7 +423,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/status/finished.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -439,7 +439,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/status/releasing.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -455,7 +455,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/status/not_yet_released.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -471,7 +471,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/status/cancelled.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -487,7 +487,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/status/null.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -507,7 +507,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/tags/tags.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -557,7 +557,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/duration/null.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -573,7 +573,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/duration/0.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -589,7 +589,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/duration/min_duration.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -605,7 +605,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/duration/24.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -621,7 +621,7 @@ internal class AnilistConverterTest {
                 // given
                 val testFileContent = loadTestResource<String>("file_converter_tests/duration/120.json")
 
-                val converter = AnilistConverter()
+                val converter = AnilistAnimeConverter()
 
                 // when
                 val result = converter.convert(testFileContent)
@@ -645,7 +645,7 @@ internal class AnilistConverterTest {
                     val testFileContent =
                         loadTestResource<String>("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -661,7 +661,7 @@ internal class AnilistConverterTest {
                     // given
                     val testFileContent = loadTestResource<String>("file_converter_tests/anime_season/spring.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -677,7 +677,7 @@ internal class AnilistConverterTest {
                     // given
                     val testFileContent = loadTestResource<String>("file_converter_tests/anime_season/summer.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -693,7 +693,7 @@ internal class AnilistConverterTest {
                     // given
                     val testFileContent = loadTestResource<String>("file_converter_tests/anime_season/fall.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -709,7 +709,7 @@ internal class AnilistConverterTest {
                     // given
                     val testFileContent = loadTestResource<String>("file_converter_tests/anime_season/winter.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -730,7 +730,7 @@ internal class AnilistConverterTest {
                     val testFileContent =
                         loadTestResource<String>("file_converter_tests/anime_season/seasonyear_set.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -747,7 +747,7 @@ internal class AnilistConverterTest {
                     val testFileContent =
                         loadTestResource<String>("file_converter_tests/anime_season/season_is_null_and_start_date_is_null.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
@@ -763,7 +763,7 @@ internal class AnilistConverterTest {
                     // given
                     val testFileContent = loadTestResource<String>("file_converter_tests/anime_season/season_is_null_and_start_date_is_2006.json")
 
-                    val converter = AnilistConverter()
+                    val converter = AnilistAnimeConverter()
 
                     // when
                     val result = converter.convert(testFileContent)
