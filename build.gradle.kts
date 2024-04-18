@@ -40,7 +40,7 @@ dependencies {
     implementation("com.nfeld.jsonpathkt:jsonpathkt:2.0.1")
 
     testImplementation("ch.qos.logback:logback-classic:1.5.6")
-    testImplementation("io.github.manamiproject:modb-test:1.6.7")
+    testImplementation("io.github.manamiproject:modb-test:1.6.8")
 }
 
 kotlin {
