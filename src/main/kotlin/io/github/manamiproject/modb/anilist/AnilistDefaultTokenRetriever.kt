@@ -4,11 +4,12 @@ import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_NETWORK
 import io.github.manamiproject.modb.core.extensions.EMPTY
+import io.github.manamiproject.modb.core.extractor.DataExtractor
+import io.github.manamiproject.modb.core.extractor.XmlDataExtractor
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpResponse
 import io.github.manamiproject.modb.core.logging.LoggerDelegate
-import io.github.manamiproject.modb.core.parseHtml
 import kotlinx.coroutines.withContext
 
 private const val CSRF_TOKEN_PREFIX = "window.al_token"
@@ -22,6 +23,7 @@ private const val CSRF_TOKEN_PREFIX = "window.al_token"
 public class AnilistDefaultTokenRetriever(
     private val config: MetaDataProviderConfig = AnilistDefaultTokenRetrieverConfig,
     private val httpClient: HttpClient = DefaultHttpClient(isTestContext=config.isTestContext()),
+    private val extractor: DataExtractor = XmlDataExtractor,
 ): AnilistTokenRetriever {
 
     override suspend fun retrieveToken(): AnilistToken = withContext(LIMITED_NETWORK) {
@@ -51,11 +53,15 @@ public class AnilistDefaultTokenRetriever(
     private suspend fun extractCsrfToken(response: HttpResponse): String = withContext(LIMITED_CPU) {
         require(response.bodyAsText.isNotBlank()) { "Response body must not be empty" }
 
-        return@withContext parseHtml(response.bodyAsText) { document ->
-            val scriptElement = document.select("script")
-                .find { it.data().startsWith(CSRF_TOKEN_PREFIX) } ?: throw IllegalStateException("Unable to extract CSRF token.")
+        val data = extractor.extract(response.bodyAsText, selection = mapOf(
+            "script" to "//script[contains(node(), $CSRF_TOKEN_PREFIX)]/node()"
+        ))
 
-            scriptElement.data()
+        return@withContext if (data.notFound("script")) {
+            throw IllegalStateException("Unable to extract CSRF token.")
+        } else {
+            data.listNotNull<String>("script")
+                .first { it.startsWith(CSRF_TOKEN_PREFIX) }
                 .replace("$CSRF_TOKEN_PREFIX = \"", EMPTY)
                 .replace("\";", EMPTY)
                 .trim()

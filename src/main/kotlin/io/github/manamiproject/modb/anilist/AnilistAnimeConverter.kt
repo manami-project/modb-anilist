@@ -1,11 +1,15 @@
 package io.github.manamiproject.modb.anilist
 
-import io.github.manamiproject.modb.core.json.Json
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.extensions.EMPTY
+import io.github.manamiproject.modb.core.extractor.DataExtractor
+import io.github.manamiproject.modb.core.extractor.ExtractionResult
+import io.github.manamiproject.modb.core.extractor.JsonDataExtractor
 import io.github.manamiproject.modb.core.models.*
+import io.github.manamiproject.modb.core.models.Anime.Companion.NO_PICTURE
+import io.github.manamiproject.modb.core.models.Anime.Companion.NO_PICTURE_THUMBNAIL
 import io.github.manamiproject.modb.core.models.Anime.Status
 import io.github.manamiproject.modb.core.models.Anime.Status.*
 import io.github.manamiproject.modb.core.models.Anime.Type
@@ -15,176 +19,156 @@ import kotlinx.coroutines.withContext
 import java.net.URI
 
 /**
- * @since 5.4.0
- */
-@Deprecated(
-    message = "Has been renamed to AnilistAnimeConverter. AnilistConverter will be removed in the next major version.",
-    replaceWith = ReplaceWith(
-        expression = "AnilistAnimeConverter",
-        imports = ["io.github.manamiproject.modb.anilist.AnilistAnimeConverter"],
-    )
-)
-public typealias AnilistConverter = AnilistAnimeConverter
-
-
-/**
  * Converts raw data to an [Anime].
  * @since 1.0.0
  * @param config Configuration for converting data.
  */
 public class AnilistAnimeConverter(
     private val config: MetaDataProviderConfig = AnilistConfig,
+    private val extractor: DataExtractor = JsonDataExtractor,
 ) : AnimeConverter {
 
     override suspend fun convert(rawContent: String): Anime = withContext(LIMITED_CPU) {
-        val document = Json.parseJson<AnilistDocument>(rawContent)!!
 
-        val picture = extractPicture(document)
+        val data: ExtractionResult = extractor.extract(rawContent, mapOf(
+            "userPreferred" to "$.data.Media.title.userPreferred",
+            "titles" to "$.data.Media.title",
+            "episodes" to "$.data.Media.episodes",
+            "nextAiringEpisode" to "$.data.Media.nextAiringEpisode.episode",
+            "format" to "$.data.Media.format",
+            "picture" to "$.data.Media.coverImage.large",
+            "synonyms" to "$.data.Media.synonyms",
+            "duration" to "$.data.Media.duration",
+            "season" to "$.data.Media.season",
+            "year" to "$.data.Media.seasonYear",
+            "startYear" to "$.data.Media.startDate.year",
+            "genres" to "$.data.Media.genres",
+            "id" to "$.data.Media.id",
+            "status" to "$.data.Media.status",
+            "tags" to "$.data.Media.tags.*.name",
+            "relatedAnime" to "$.data.Media.relations.edges.*.node"
+        ))
 
         return@withContext Anime(
-            _title = extractTitle(document),
-            episodes = extractEpisodes(document),
-            type = extractType(document),
-            picture = picture,
-            thumbnail = picture,
-            status = extractStatus(document),
-            duration = extractDuration(document),
-            animeSeason = extractAnimeSeason(document)
-        ).apply {
-            addSources(extractSourcesEntry(document))
-            addSynonyms(extractSynonyms(document))
-            addRelatedAnime(extractRelatedAnime(document))
-            addTags(extractTags(document))
+            _title = extractTitle(data),
+            episodes = extractEpisodes(data),
+            type = extractType(data),
+            picture = extractPicture(data),
+            thumbnail = extractThumbnail(data),
+            status = extractStatus(data),
+            duration = extractDuration(data),
+            animeSeason = extractAnimeSeason(data),
+            sources = extractSourcesEntry(data),
+            synonyms = extractSynonyms(data),
+            tags = extractTags(data),
+            relatedAnime = extractRelatedAnime(data),
+        )
+    }
+
+    private fun extractTitle(data: ExtractionResult): String = data.stringOrDefault("userPreferred")
+
+    private fun extractEpisodes(data: ExtractionResult): Int {
+        if (!data.notFound("episodes")) {
+            return data.int("episodes")
         }
+
+        return data.intOrDefault("nextAiringEpisode")
     }
 
-    private fun extractTitle(document: AnilistDocument) = document.data.Media.title["userPreferred"] ?: throw IllegalStateException("Blank title for [${document.data.Media.id}]")
+    private fun extractType(data: ExtractionResult): Type {
+        if (data.notFound("format")) {
+            return Type.UNKNOWN
+        }
 
-    private fun extractEpisodes(document: AnilistDocument): Int {
-        return document.data.Media.episodes ?: document.data.Media.nextAiringEpisode?.episode ?: 0
-    }
-
-    private fun extractType(document: AnilistDocument): Type {
-        return when(document.data.Media.format) {
+        return when(data.string("format").trim().uppercase()) {
             "TV" -> TV
             "TV_SHORT" -> TV
-            null -> Type.UNKNOWN
             "MOVIE" -> MOVIE
             "ONA" -> ONA
             "OVA" -> OVA
             "SPECIAL" -> SPECIAL
             "MUSIC" -> SPECIAL
-            else -> throw IllegalStateException("Unknown type [${document.data.Media.format}]")
+            else -> throw IllegalStateException("Unknown type [${data.string("format")}]")
         }
     }
 
-    private fun extractPicture(document: AnilistDocument): URI {
-        val link = document.data.Media.coverImage["large"] ?: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/default.jpg"
-
-        return URI(link)
+    private fun extractPicture(data: ExtractionResult): URI {
+        return if (data.notFound("picture")) {
+            NO_PICTURE
+        } else {
+            URI(data.string("picture").trim())
+        }
     }
 
-    private fun extractSynonyms(document: AnilistDocument): MutableList<Title> {
-        return document.data.Media.title.filterKeys { it != "userPreferred" }
-            .map { it.value }
-            .union(document.data.Media.synonyms)
+    private fun extractThumbnail(data: ExtractionResult): URI {
+        return if (data.notFound("picture")) {
+            NO_PICTURE_THUMBNAIL
+        } else {
+            URI(data.string("picture").trim())
+        }
+    }
+
+    private fun extractSynonyms(data: ExtractionResult): HashSet<Title> {
+        return data.listNotNull<LinkedHashMap<String, Title?>>("titles")
+            .flatMap { it.values }
+            .union(data.listNotNull<Title>("synonyms"))
+            .asSequence()
+            .filterNot { it == data.string("userPreferred") }
             .filterNotNull()
-            .toMutableList()
+            .toHashSet()
     }
 
-    private fun extractSourcesEntry(document: AnilistDocument) = mutableListOf(
-        config.buildAnimeLink(document.data.Media.id.toString())
-    )
-
-    private fun extractRelatedAnime(document: AnilistDocument): MutableList<URI> {
-        return document.data.Media.relations.edges.map { it.node }
-            .filter { it.type == "ANIME" }
-            .map { config.buildAnimeLink(it.id.toString()) }
-            .toMutableList()
+    private fun extractSourcesEntry(data: ExtractionResult): HashSet<URI> {
+        return hashSetOf(config.buildAnimeLink(data.string("id").trim()))
     }
 
-    private fun extractStatus(document: AnilistDocument): Status {
-        return when(document.data.Media.status) {
+    private fun extractRelatedAnime(data: ExtractionResult): HashSet<URI> {
+        return data.listNotNull<LinkedHashMap<String, Any>>("relatedAnime")
+            .filter { it["type"] == "ANIME" }
+            .mapNotNull { it["id"] }
+            .map { config.buildAnimeLink(it.toString().trim()) }
+            .toHashSet()
+    }
+
+    private fun extractStatus(data: ExtractionResult): Status {
+        if (data.notFound("status")) {
+            return Status.UNKNOWN
+        }
+
+        return when(data.string("status").trim().uppercase()) {
             "FINISHED" -> FINISHED
             "RELEASING" -> ONGOING
             "NOT_YET_RELEASED" -> UPCOMING
             "CANCELLED" -> Status.UNKNOWN
-            null -> Status.UNKNOWN
-            else -> throw IllegalStateException("Unknown status [${document.data.Media.status}]")
+            else -> throw IllegalStateException("Unknown status [${data.string("status")}]")
         }
     }
 
-    private fun extractDuration(document: AnilistDocument): Duration {
-        val durationInMinutes = document.data.Media.duration ?: 0
-
+    private fun extractDuration(data: ExtractionResult): Duration {
+        val durationInMinutes = data.intOrDefault("duration")
         return Duration(durationInMinutes, MINUTES)
     }
 
-    private fun extractAnimeSeason(document: AnilistDocument): AnimeSeason {
-        val season = AnimeSeason.Season.of(document.data.Media.season ?: EMPTY)
-        val year = document.data.Media.seasonYear ?: document.data.Media.startDate?.year ?: 0
+    private fun extractAnimeSeason(data: ExtractionResult): AnimeSeason {
+        val seasonValue = data.stringOrDefault("season").trim()
+        val season = AnimeSeason.Season.of(seasonValue)
+
+        val year = if (data.notFound("year")) {
+            data.intOrDefault("startYear")
+        } else {
+            data.int("year")
+        }
 
         return AnimeSeason(
             season = season,
-            year = year
+            year = year,
         )
     }
 
-    private fun extractTags(document: AnilistDocument): MutableList<Tag> {
-        val genres = document.data.Media.genres
-        val tags = document.data.Media.tags.map { it.name }
+    private fun extractTags(data: ExtractionResult): HashSet<Tag> {
+        val genres = data.listNotNull<Tag>("genres")
+        val tags = data.listNotNull<Tag>("tags")
 
-        return genres.plus(tags).distinct().toMutableList()
+        return genres.plus(tags).toHashSet()
     }
 }
-
-private data class AnilistDocument(
-    val data: AnilistData
-)
-
-private data class AnilistData(
-    val Media: AnilistDataMedia
-)
-
-private data class AnilistDataMedia(
-    val id: Int,
-    val title: Map<String, String>,
-    val coverImage: Map<String, String>,
-    val startDate: AnilistDataMediaStartDate?,
-    val season: String?,
-    val seasonYear: Int?,
-    val episodes: Int?,
-    val duration: Int?,
-    val format: String?,
-    val synonyms: List<String?>,
-    val relations: AnilistRelations,
-    val nextAiringEpisode: AnilistNextAiringEpisode?,
-    val status: String?,
-    val genres: List<String>,
-    val tags: List<AnilistTagEntry>
-)
-
-private data class AnilistDataMediaStartDate(
-    val year: Int?
-)
-
-private data class AnilistRelations(
-    val edges: List<AnilistRelationsEdge>
-)
-
-private data class AnilistRelationsEdge(
-    val node: AnilistRelationsNode
-)
-
-private data class AnilistRelationsNode(
-    val id: Int,
-    val type: String
-)
-
-private data class AnilistNextAiringEpisode(
-    val episode: Int
-)
-
-private data class AnilistTagEntry(
-    val name: String
-)
