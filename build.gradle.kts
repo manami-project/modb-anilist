@@ -34,10 +34,9 @@ version = project.findProperty("release.version") as String? ?: ""
 
 dependencies {
     api(kotlin("stdlib"))
-    api("io.github.manamiproject:modb-core:11.1.0")
+    api("io.github.manamiproject:modb-core:12.0.0-rc5")
 
     implementation(platform(kotlin("bom")))
-    implementation("com.nfeld.jsonpathkt:jsonpathkt:2.0.1")
 
     testImplementation("ch.qos.logback:logback-classic:1.5.6")
     testImplementation("io.github.manamiproject:modb-test:1.6.8")
