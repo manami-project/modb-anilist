@@ -1,10 +1,13 @@
 plugins {
-    kotlin("jvm") version "1.9.23"
+    alias(libs.plugins.kotlin.jvm)
     `maven-publish`
     `java-library`
     jacoco
-    id("com.github.nbaztec.coveralls-jacoco") version "1.2.19"
+    alias(libs.plugins.coveralls.jacoco)
 }
+
+group = "io.github.manamiproject"
+version = project.findProperty("release.version") as String? ?: ""
 
 val projectName = "modb-anilist"
 val githubUsername = "manami-project"
@@ -29,17 +32,12 @@ repositories {
     }
 }
 
-group = "io.github.manamiproject"
-version = project.findProperty("release.version") as String? ?: ""
-
 dependencies {
-    api(kotlin("stdlib"))
-    api("io.github.manamiproject:modb-core:12.0.0-rc5")
+    api(libs.kotlin.stdlib)
+    api(libs.modb.core)
 
-    implementation(platform(kotlin("bom")))
-
-    testImplementation("ch.qos.logback:logback-classic:1.5.6")
-    testImplementation("io.github.manamiproject:modb-test:1.6.8")
+    testImplementation(libs.logback.classic)
+    testImplementation(libs.modb.test)
 }
 
 kotlin {
@@ -58,6 +56,19 @@ tasks.withType<Test> {
     reports.html.required.set(false)
     reports.junitXml.required.set(true)
     maxParallelForks = Runtime.getRuntime().availableProcessors()
+}
+
+tasks.jacocoTestReport {
+    reports {
+        html.required.set(false)
+        xml.required.set(true)
+        xml.outputLocation.set(file("${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"))
+    }
+    dependsOn(allprojects.map { it.tasks.named<Test>("test") })
+}
+
+coverallsJacoco {
+    reportPath = "${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"
 }
 
 val sourcesJar by tasks.registering(Jar::class) {
@@ -112,19 +123,6 @@ publishing {
             }
         }
     }
-}
-
-coverallsJacoco {
-    reportPath = "${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"
-}
-
-tasks.jacocoTestReport {
-    reports {
-        html.required.set(false)
-        xml.required.set(true)
-        xml.outputLocation.set(file("${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"))
-    }
-    dependsOn(allprojects.map { it.tasks.named<Test>("test") })
 }
 
 fun parameter(name: String, default: String = ""): String {
