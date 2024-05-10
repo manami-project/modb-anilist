@@ -1,0 +1,16 @@
+[versions]
+kotlin = "1.9.24"
+coveralls-jacoco = "1.2.20"
+logback-classic = "1.5.6"
+modb-core = "12.0.1"
+modb-test = "1.6.9"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback-classic" }
+modb-core = { module = "io.github.manamiproject:modb-core", version.ref = "modb-core" }
+modb-test = { module = "io.github.manamiproject:modb-test", version.ref = "modb-test" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+coveralls-jacoco = { id = "com.github.nbaztec.coveralls-jacoco", version.ref = "coveralls-jacoco" }
