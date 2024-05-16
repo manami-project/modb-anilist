@@ -4,6 +4,7 @@ import io.github.manamiproject.modb.core.config.AnimeId
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.downloader.Downloader
 import io.github.manamiproject.modb.core.extensions.EMPTY
+import io.github.manamiproject.modb.core.extensions.neitherNullNorBlank
 import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.RequestBody
@@ -43,7 +44,7 @@ public class AnilistDownloader(
             requestBody = requestBody,
         )
 
-        check(response.bodyAsText.isNotBlank()) { "Response body was blank for [anilistId=$id] with response code [${response.code}]" }
+        check(response.bodyAsText.neitherNullNorBlank()) { "Response body was blank for [anilistId=$id] with response code [${response.code}]" }
 
         return when(response.code) {
             200 -> response.bodyAsText

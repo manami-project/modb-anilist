@@ -1,6 +1,7 @@
 package io.github.manamiproject.modb.anilist
 
 import io.github.manamiproject.modb.core.extensions.EMPTY
+import io.github.manamiproject.modb.core.extensions.neitherNullNorBlank
 
 /**
  * Central place to store the current anilist token so that the same token is always being used.
@@ -13,8 +14,8 @@ public object AnilistDefaultTokenRepository : AnilistTokenRepository {
     override var token: AnilistToken
         get() = currentToken
         set(value) {
-            require(value.cookie.isNotBlank()) { "Cookie must not blank" }
-            require(value.csrfToken.isNotBlank()) { "CSRF token must not blank" }
+            require(value.cookie.neitherNullNorBlank()) { "Cookie must not blank" }
+            require(value.csrfToken.neitherNullNorBlank()) { "CSRF token must not blank" }
             currentToken = value
         }
 }

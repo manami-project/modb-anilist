@@ -4,6 +4,8 @@ import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_NETWORK
 import io.github.manamiproject.modb.core.extensions.EMPTY
+import io.github.manamiproject.modb.core.extensions.neitherNullNorBlank
+import io.github.manamiproject.modb.core.extensions.remove
 import io.github.manamiproject.modb.core.extractor.DataExtractor
 import io.github.manamiproject.modb.core.extractor.XmlDataExtractor
 import io.github.manamiproject.modb.core.httpclient.DefaultHttpClient
@@ -51,7 +53,7 @@ public class AnilistDefaultTokenRetriever(
     }
 
     private suspend fun extractCsrfToken(response: HttpResponse): String = withContext(LIMITED_CPU) {
-        require(response.bodyAsText.isNotBlank()) { "Response body must not be empty" }
+        require(response.bodyAsText.neitherNullNorBlank()) { "Response body must not be empty" }
 
         val data = extractor.extract(response.bodyAsText, selection = mapOf(
             "script" to "//script[contains(node(), $CSRF_TOKEN_PREFIX)]/node()"
@@ -62,8 +64,8 @@ public class AnilistDefaultTokenRetriever(
         } else {
             data.listNotNull<String>("script")
                 .first { it.startsWith(CSRF_TOKEN_PREFIX) }
-                .replace("$CSRF_TOKEN_PREFIX = \"", EMPTY)
-                .replace("\";", EMPTY)
+                .remove("$CSRF_TOKEN_PREFIX = \"")
+                .remove("\";")
                 .trim()
         }
     }
