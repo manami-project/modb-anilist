@@ -8,6 +8,7 @@ import io.github.manamiproject.modb.core.httpclient.APPLICATION_JSON
 import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.RequestBody
 import io.github.manamiproject.modb.core.loadResource
+import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import kotlinx.coroutines.runBlocking
 
 /**
@@ -24,6 +25,8 @@ public class AnilistDownloader(
     private val requestBody: String by lazy { runBlocking { loadResource("anime_download_request.graphql") } }
 
     override suspend fun download(id: AnimeId, onDeadEntry: suspend (AnimeId) -> Unit): String {
+        log.debug { "Downloading [anilistId=$id]" }
+
         val requestBody = RequestBody(
             mediaType = APPLICATION_JSON,
             body = requestBody.replace("<<ANIME_ID>>", id)
@@ -50,5 +53,9 @@ public class AnilistDownloader(
             }
             else -> throw IllegalStateException("Unable to determine the correct case for [anilistId=$id], [responseCode=${response.code}]")
         }
+    }
+
+    private companion object {
+        private val log by LoggerDelegate()
     }
 }
