@@ -3,6 +3,7 @@ kotlin = "2.0.0"
 logback-classic = "1.5.6"
 modb-core = "13.0.1"
 modb-test = "1.6.15"
+kover = "0.8.2"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
@@ -12,3 +13,4 @@ modb-test = { module = "io.github.manamiproject:modb-test", version.ref = "modb-
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
