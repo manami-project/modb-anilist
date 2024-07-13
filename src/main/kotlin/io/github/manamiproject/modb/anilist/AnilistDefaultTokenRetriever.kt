@@ -3,7 +3,6 @@ package io.github.manamiproject.modb.anilist
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_NETWORK
-import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.extensions.neitherNullNorBlank
 import io.github.manamiproject.modb.core.extensions.remove
 import io.github.manamiproject.modb.core.extractor.DataExtractor
@@ -70,7 +69,13 @@ public class AnilistDefaultTokenRetriever(
         }
     }
 
-    private companion object {
+    public companion object {
         private val log by LoggerDelegate()
+
+        /**
+         * Singleton of [AnilistDefaultTokenRetriever]
+         * @since 6.1.0
+         */
+        public val instance: AnilistDefaultTokenRetriever by lazy { AnilistDefaultTokenRetriever() }
     }
 }
