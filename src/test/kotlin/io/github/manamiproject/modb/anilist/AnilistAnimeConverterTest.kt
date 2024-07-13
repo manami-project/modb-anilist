@@ -10,8 +10,8 @@ import io.github.manamiproject.modb.test.loadTestResource
 import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Nested
-import kotlin.test.Test
 import java.net.URI
+import kotlin.test.Test
 
 internal class AnilistAnimeConverterTest {
 
@@ -772,6 +772,23 @@ internal class AnilistAnimeConverterTest {
                     assertThat(result.animeSeason.year).isEqualTo(2006)
                 }
             }
+        }
+    }
+
+    @Nested
+    inner class CompanionObjectTests {
+
+        @Test
+        fun `instance property always returns same instance`() {
+            // given
+            val previous = AnilistAnimeConverter.instance
+
+            // when
+            val result = AnilistAnimeConverter.instance
+
+            // then
+            assertThat(result).isExactlyInstanceOf(AnilistAnimeConverter::class.java)
+            assertThat(result===previous).isTrue()
         }
     }
 }

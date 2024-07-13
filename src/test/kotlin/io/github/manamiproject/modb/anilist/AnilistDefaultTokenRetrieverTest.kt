@@ -12,10 +12,11 @@ import io.github.manamiproject.modb.test.exceptionExpected
 import io.github.manamiproject.modb.test.loadTestResource
 import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
-import kotlin.test.Test
+import org.junit.jupiter.api.Nested
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 import java.net.URI
+import kotlin.test.Test
 
 internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockServer> by WireMockServerCreator() {
 
@@ -152,6 +153,23 @@ internal class AnilistDefaultTokenRetrieverTest : MockServerTestCase<WireMockSer
             // then
             assertThat(result.cookie).isEqualTo("__cfduid=db93afbdcce117dd877b809ce8b6dde941579726597; laravel_session=NOz33Vu7KGVZK4TZqSES3lmv14JmKbe9IrHN4LnL")
             assertThat(result.csrfToken).isEqualTo("IAasRzCsdYp2b5QWQEWtMzSvDzf8UboK0GiH907Y")
+        }
+    }
+
+    @Nested
+    inner class CompanionObjectTests {
+
+        @Test
+        fun `instance property always returns same instance`() {
+            // given
+            val previous = AnilistDefaultTokenRetriever.instance
+
+            // when
+            val result = AnilistDefaultTokenRetriever.instance
+
+            // then
+            assertThat(result).isExactlyInstanceOf(AnilistDefaultTokenRetriever::class.java)
+            assertThat(result===previous).isTrue()
         }
     }
 }

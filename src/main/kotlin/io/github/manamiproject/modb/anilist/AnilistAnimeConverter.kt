@@ -3,7 +3,6 @@ package io.github.manamiproject.modb.anilist
 import io.github.manamiproject.modb.core.config.MetaDataProviderConfig
 import io.github.manamiproject.modb.core.converter.AnimeConverter
 import io.github.manamiproject.modb.core.coroutines.ModbDispatchers.LIMITED_CPU
-import io.github.manamiproject.modb.core.extensions.EMPTY
 import io.github.manamiproject.modb.core.extractor.DataExtractor
 import io.github.manamiproject.modb.core.extractor.ExtractionResult
 import io.github.manamiproject.modb.core.extractor.JsonDataExtractor
@@ -170,5 +169,13 @@ public class AnilistAnimeConverter(
         val tags = data.listNotNull<Tag>("tags")
 
         return genres.plus(tags).toHashSet()
+    }
+
+    public companion object {
+        /**
+         * Singleton of [AnilistAnimeConverter]
+         * @since 6.1.0
+         */
+        public val instance: AnilistAnimeConverter by lazy { AnilistAnimeConverter() }
     }
 }
