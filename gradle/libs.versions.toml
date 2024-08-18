@@ -2,7 +2,7 @@
 kotlin = "2.0.10"
 logback-classic = "1.5.7"
 modb-core = "16.1.1"
-modb-test = "1.6.19"
+modb-test = "1.6.20"
 kover = "0.8.3"
 
 [libraries]
