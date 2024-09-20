@@ -20,7 +20,7 @@ import kotlinx.coroutines.runBlocking
  */
 public class AnilistDownloader(
     private val config: MetaDataProviderConfig,
-    private val httpClient: HttpClient = AnilistHttpClient(isTestContext = config.isTestContext()),
+    private val httpClient: HttpClient = AnilistHttpClient(),
 ) : Downloader {
 
     private val requestBody: String by lazy { runBlocking { loadResource("anime_download_request.graphql") } }

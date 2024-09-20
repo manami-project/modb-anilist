@@ -8,9 +8,8 @@ import io.github.manamiproject.modb.core.logging.LoggerDelegate
 import java.net.URL
 
 public class AnilistHttpClient(
-    isTestContext: Boolean = false,
-    private val delegate: HttpClient = DefaultHttpClient(isTestContext=isTestContext),
-    private val anilistTokenRetriever: AnilistTokenRetriever = AnilistDefaultTokenRetriever(),
+    private val delegate: HttpClient = DefaultHttpClient(),
+    private val anilistTokenRetriever: AnilistTokenRetriever = AnilistDefaultTokenRetriever.instance,
     private val anilistTokenRepository: AnilistTokenRepository = AnilistDefaultTokenRepository,
 ): HttpClient by delegate {
 
@@ -47,7 +46,13 @@ public class AnilistHttpClient(
     }
 
 
-    private companion object {
+    public companion object {
         private val log by LoggerDelegate()
+
+        /**
+         * Singleton of [AnilistHttpClient]
+         * @since 1.0.0
+         */
+        public val instance: AnilistHttpClient by lazy { AnilistHttpClient() }
     }
 }

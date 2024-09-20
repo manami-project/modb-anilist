@@ -5,6 +5,7 @@ import io.github.manamiproject.modb.core.httpclient.HttpClient
 import io.github.manamiproject.modb.core.httpclient.HttpResponse
 import io.github.manamiproject.modb.core.httpclient.RequestBody
 import io.github.manamiproject.modb.test.shouldNotBeInvoked
+import io.github.manamiproject.modb.test.tempDirectory
 import kotlinx.coroutines.runBlocking
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Nested
@@ -61,7 +62,6 @@ internal class AnilistHttpClientTest {
                 }
 
                 val client = AnilistHttpClient(
-                    isTestContext = true,
                     delegate = testHttpClient,
                     anilistTokenRetriever = testAnilistDefaultTokenRetriever,
                     anilistTokenRepository = testAnilistDefaultTokenRepository,
@@ -121,7 +121,6 @@ internal class AnilistHttpClientTest {
                 }
 
                 val client = AnilistHttpClient(
-                    isTestContext = true,
                     delegate = testHttpClient,
                     anilistTokenRetriever = testAnilistDefaultTokenRetriever,
                     anilistTokenRepository = testAnilistDefaultTokenRepository,
@@ -170,7 +169,6 @@ internal class AnilistHttpClientTest {
                 }
 
                 val client = AnilistHttpClient(
-                    isTestContext = true,
                     delegate = testHttpClient,
                     anilistTokenRetriever = testAnilistDefaultTokenRetriever,
                     anilistTokenRepository = testAnilistDefaultTokenRepository,
@@ -238,7 +236,6 @@ internal class AnilistHttpClientTest {
                 }
 
                 val client = AnilistHttpClient(
-                    isTestContext = true,
                     delegate = testHttpClient,
                     anilistTokenRetriever = testAnilistDefaultTokenRetriever,
                     anilistTokenRepository = testAnilistDefaultTokenRepository,
@@ -302,7 +299,6 @@ internal class AnilistHttpClientTest {
                 }
 
                 val client = AnilistHttpClient(
-                    isTestContext = true,
                     delegate = testHttpClient,
                     anilistTokenRetriever = testAnilistDefaultTokenRetriever,
                     anilistTokenRepository = testAnilistDefaultTokenRepository,
@@ -355,7 +351,6 @@ internal class AnilistHttpClientTest {
                 }
 
                 val client = AnilistHttpClient(
-                    isTestContext = true,
                     delegate = testHttpClient,
                     anilistTokenRetriever = testAnilistDefaultTokenRetriever,
                     anilistTokenRepository = testAnilistDefaultTokenRepository,
@@ -368,6 +363,25 @@ internal class AnilistHttpClientTest {
                 assertThat(delegateCallTimes).isEqualTo(1)
                 assertThat(result.bodyAsText).isEqualTo("success")
                 assertThat(result.code).isEqualTo(200)
+            }
+        }
+    }
+
+    @Nested
+    inner class CompanionObjectTests {
+
+        @Test
+        fun `instance property always returns same instance`() {
+            tempDirectory {
+                // given
+                val previous = AnilistHttpClient.instance
+
+                // when
+                val result = AnilistHttpClient.instance
+
+                // then
+                assertThat(result).isExactlyInstanceOf(AnilistHttpClient::class.java)
+                assertThat(result===previous).isTrue()
             }
         }
     }
