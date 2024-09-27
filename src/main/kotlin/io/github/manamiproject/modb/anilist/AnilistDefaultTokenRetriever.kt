@@ -18,12 +18,12 @@ private const val CSRF_TOKEN_PREFIX = "window.al_token"
 /**
  * Retrieves a valid token.
  * @since 1.0.0
- * @param config Configuration for retrieving the token.
+ * @param metaDataProviderConfig Configuration for retrieving the token.
  * @param httpClient To download the site from which the token will be extracted
  */
 public class AnilistDefaultTokenRetriever(
-    private val config: MetaDataProviderConfig = AnilistDefaultTokenRetrieverConfig,
-    private val httpClient: HttpClient = DefaultHttpClient(isTestContext=config.isTestContext()),
+    private val metaDataProviderConfig: MetaDataProviderConfig = AnilistDefaultTokenRetrieverConfig,
+    private val httpClient: HttpClient = DefaultHttpClient(isTestContext=metaDataProviderConfig.isTestContext()),
     private val extractor: DataExtractor = XmlDataExtractor,
 ): AnilistTokenRetriever {
 
@@ -31,7 +31,7 @@ public class AnilistDefaultTokenRetriever(
         log.info { "Fetching token for anilist." }
 
         val response = httpClient.get(
-            url = config.buildDataDownloadLink().toURL(),
+            url = metaDataProviderConfig.buildDataDownloadLink().toURL(),
         )
 
         val cookie = extractCookie(response)

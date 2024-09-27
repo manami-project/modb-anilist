@@ -15,11 +15,11 @@ import kotlinx.coroutines.runBlocking
 /**
  * Downloads anime data from anilist.co
  * @since 1.0.0
- * @param config Configuration for downloading data.
+ * @param metaDataProviderConfig Configuration for downloading data.
  * @param httpClient To actually download the anime data.
  */
 public class AnilistDownloader(
-    private val config: MetaDataProviderConfig,
+    private val metaDataProviderConfig: MetaDataProviderConfig = AnilistConfig,
     private val httpClient: HttpClient = AnilistHttpClient(),
 ) : Downloader {
 
@@ -35,11 +35,11 @@ public class AnilistDownloader(
 
         val requestHeaders = AnilistHeaderCreator.createAnilistHeaders(
             requestBody = requestBody,
-            referer = config.buildAnimeLink(id).toURL(),
+            referer = metaDataProviderConfig.buildAnimeLink(id).toURL(),
         )
 
         val response = httpClient.post(
-            url = config.buildDataDownloadLink(id).toURL(),
+            url = metaDataProviderConfig.buildDataDownloadLink(id).toURL(),
             headers = requestHeaders,
             requestBody = requestBody,
         )
@@ -56,7 +56,13 @@ public class AnilistDownloader(
         }
     }
 
-    private companion object {
+    public companion object {
         private val log by LoggerDelegate()
+
+        /**
+         * Singleton of [AnilistDownloader]
+         * @since 1.0.0
+         */
+        public val instance: AnilistDownloader by lazy { AnilistDownloader() }
     }
 }
