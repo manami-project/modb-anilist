@@ -20,10 +20,10 @@ import java.net.URI
 /**
  * Converts raw data to an [Anime].
  * @since 1.0.0
- * @param config Configuration for converting data.
+ * @param metaDataProviderConfig Configuration for converting data.
  */
 public class AnilistAnimeConverter(
-    private val config: MetaDataProviderConfig = AnilistConfig,
+    private val metaDataProviderConfig: MetaDataProviderConfig = AnilistConfig,
     private val extractor: DataExtractor = JsonDataExtractor,
 ) : AnimeConverter {
 
@@ -118,14 +118,14 @@ public class AnilistAnimeConverter(
     }
 
     private fun extractSourcesEntry(data: ExtractionResult): HashSet<URI> {
-        return hashSetOf(config.buildAnimeLink(data.string("id").trim()))
+        return hashSetOf(metaDataProviderConfig.buildAnimeLink(data.string("id").trim()))
     }
 
     private fun extractRelatedAnime(data: ExtractionResult): HashSet<URI> {
         return data.listNotNull<LinkedHashMap<String, Any>>("relatedAnime")
             .filter { it["type"] == "ANIME" }
             .mapNotNull { it["id"] }
-            .map { config.buildAnimeLink(it.toString().trim()) }
+            .map { metaDataProviderConfig.buildAnimeLink(it.toString().trim()) }
             .toHashSet()
     }
 
