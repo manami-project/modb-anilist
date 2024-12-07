@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.1.0"
 logback-classic = "1.5.12"
-modb-core = "16.4.8"
+modb-core = "16.4.9"
 modb-test = "1.6.28"
 kover = "0.8.3"
 
