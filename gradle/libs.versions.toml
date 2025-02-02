@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.1.0"
+kotlin = "2.1.10"
 logback-classic = "1.5.16"
 modb-core = "16.5.1"
 modb-test = "1.6.31"
